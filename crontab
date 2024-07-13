@@ -1,0 +1,4 @@
+*/5 * * * * pgrep -f app.py > /dev/null || (cd /Users/johnorjias/Stock_Tracker && /usr/bin/python3 app.py)
+*/5 6-18 * * * [ $(pgrep -f get_tickers.py | wc -l) -lt 4 ] && (cd /Users/johnorjias/Stock_Tracker && /usr/bin/python3 get_tickers.py)
+
+
