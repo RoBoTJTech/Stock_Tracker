@@ -1,0 +1,597 @@
+{
+    "IWM": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "phone": "1-800-474-2737",
+                "longBusinessSummary": "The fund generally invests at least 80% of its assets in the component securities of its underlying index and in investments that have economic characteristics that are substantially identical to the component securities of its underlying index (i.e., depositary receipts representing securities of the underlying index) and may invest up to 20% of its assets in certain futures, options and swap contracts, cash and cash equivalents.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "fundProfile": {
+                "maxAge": 1,
+                "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq8.gif",
+                "family": "iShares",
+                "categoryName": "Small Blend",
+                "legalType": "Exchange Traded Fund",
+                "managementInfo": {
+                    "managerName": null,
+                    "managerBio": null
+                },
+                "feesExpensesInvestment": {
+                    "annualReportExpenseRatio": 0.0019,
+                    "annualHoldingsTurnover": 0.17,
+                    "totalNetAssets": 2391.64,
+                    "projectionValues": {}
+                },
+                "feesExpensesInvestmentCat": {
+                    "annualReportExpenseRatio": 0.0098024,
+                    "annualHoldingsTurnover": 0.5306,
+                    "totalNetAssets": 2391.64,
+                    "projectionValuesCat": {}
+                },
+                "brokerages": []
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 213.14,
+                "open": 214.79,
+                "dayLow": 214.3,
+                "dayHigh": 218.16,
+                "regularMarketPreviousClose": 213.14,
+                "regularMarketOpen": 214.79,
+                "regularMarketDayLow": 214.3,
+                "regularMarketDayHigh": 218.16,
+                "trailingPE": 13.852199,
+                "volume": 22448700,
+                "regularMarketVolume": 22448700,
+                "averageVolume": 27056822,
+                "averageVolume10days": 28078220,
+                "averageDailyVolume10Day": 28078220,
+                "bid": 218.13,
+                "ask": 218.16,
+                "bidSize": 1300,
+                "askSize": 1300,
+                "yield": 0.012999999,
+                "totalAssets": 60001464320,
+                "fiftyTwoWeekLow": 161.67,
+                "fiftyTwoWeekHigh": 218.16,
+                "fiftyDayAverage": 203.5192,
+                "twoHundredDayAverage": 193.64294,
+                "trailingAnnualDividendRate": 2.017,
+                "trailingAnnualDividendYield": 0.009463264,
+                "navPrice": 213.05286,
+                "currency": "USD",
+                "fromCurrency": null,
+                "toCurrency": null,
+                "lastMarket": null,
+                "coinMarketCapLink": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "pageViews": {
+                "shortTermTrend": "DOWN",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "FREE_REALTIME",
+                "regularMarketChangePercent": 0.019264346,
+                "regularMarketChange": 4.106003,
+                "regularMarketTime": "2024-07-15 11:12:57",
+                "priceHint": 2,
+                "regularMarketPrice": 217.246,
+                "regularMarketDayHigh": 218.16,
+                "regularMarketDayLow": 214.3,
+                "regularMarketVolume": 22448700,
+                "averageDailyVolume10Day": 28078220,
+                "averageDailyVolume3Month": 27056822,
+                "regularMarketPreviousClose": 213.14,
+                "regularMarketSource": "FREE_REALTIME",
+                "regularMarketOpen": 214.79,
+                "exchange": "PCX",
+                "exchangeName": "NYSEArca",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "REGULAR",
+                "quoteType": "ETF",
+                "symbol": "IWM",
+                "underlyingSymbol": null,
+                "shortName": "iShares Russell 2000 ETF",
+                "longName": "iShares Russell 2000 ETF",
+                "currency": "USD",
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "toCurrency": null,
+                "lastMarket": null,
+                "marketCap": 61056987136
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "category": "Small Blend",
+                "ytdReturn": 0.0675797,
+                "beta3Year": 1.06,
+                "totalAssets": 60001464320,
+                "yield": 0.012999999,
+                "fundFamily": "iShares",
+                "fundInceptionDate": "2000-05-21 19:00:00",
+                "legalType": "Exchange Traded Fund",
+                "threeYearAverageReturn": -0.0067685004,
+                "fiveYearAverageReturn": 0.0782753,
+                "lastSplitFactor": null
+            },
+            "summaryProfile": {
+                "phone": "1-800-474-2737",
+                "longBusinessSummary": "The fund generally invests at least 80% of its assets in the component securities of its underlying index and in investments that have economic characteristics that are substantially identical to the component securities of its underlying index (i.e., depositary receipts representing securities of the underlying index) and may invest up to 20% of its assets in certain futures, options and swap contracts, cash and cash equivalents.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "topHoldings": {
+                "maxAge": 1,
+                "cashPosition": 0.003,
+                "stockPosition": 0.997,
+                "bondPosition": 0.0,
+                "otherPosition": 0.0,
+                "preferredPosition": 0.0,
+                "convertiblePosition": 0.0,
+                "holdings": [
+                    {
+                        "symbol": "INSM",
+                        "holdingName": "Insmed Inc",
+                        "holdingPercent": 0.0042153997
+                    },
+                    {
+                        "symbol": "FTAI",
+                        "holdingName": "FTAI Aviation Ltd",
+                        "holdingPercent": 0.0041763
+                    },
+                    {
+                        "symbol": "ANF",
+                        "holdingName": "Abercrombie & Fitch Co Class A",
+                        "holdingPercent": 0.0036258998
+                    },
+                    {
+                        "symbol": "FN",
+                        "holdingName": "Fabrinet",
+                        "holdingPercent": 0.0036175
+                    },
+                    {
+                        "symbol": "SFM",
+                        "holdingName": "Sprouts Farmers Market Inc",
+                        "holdingPercent": 0.0034235
+                    },
+                    {
+                        "symbol": "PCVX",
+                        "holdingName": "Vaxcyte Inc Ordinary Shares",
+                        "holdingPercent": 0.0033458
+                    },
+                    {
+                        "symbol": "AIT",
+                        "holdingName": "Applied Industrial Technologies Inc",
+                        "holdingPercent": 0.0030208998
+                    },
+                    {
+                        "symbol": "FLR",
+                        "holdingName": "Fluor Corp",
+                        "holdingPercent": 0.0030172
+                    },
+                    {
+                        "symbol": "HQY",
+                        "holdingName": "HealthEquity Inc",
+                        "holdingPercent": 0.002961
+                    },
+                    {
+                        "symbol": "SPSC",
+                        "holdingName": "SPS Commerce Inc",
+                        "holdingPercent": 0.0028374002
+                    }
+                ],
+                "equityHoldings": {
+                    "priceToEarnings": 0.06494,
+                    "priceToBook": 0.53811,
+                    "priceToSales": 0.80621,
+                    "priceToCashflow": 0.10468
+                },
+                "bondHoldings": {},
+                "bondRatings": [
+                    {
+                        "us_government": 0.0
+                    }
+                ],
+                "sectorWeightings": [
+                    {
+                        "realestate": 0.0715
+                    },
+                    {
+                        "consumer_cyclical": 0.099
+                    },
+                    {
+                        "basic_materials": 0.0473
+                    },
+                    {
+                        "consumer_defensive": 0.0353
+                    },
+                    {
+                        "technology": 0.1506
+                    },
+                    {
+                        "communication_services": 0.0217
+                    },
+                    {
+                        "financial_services": 0.15359999
+                    },
+                    {
+                        "utilities": 0.0279
+                    },
+                    {
+                        "industrials": 0.1571
+                    },
+                    {
+                        "energy": 0.064
+                    },
+                    {
+                        "healthcare": 0.1719
+                    }
+                ]
+            },
+            "fundPerformance": {
+                "maxAge": 1,
+                "fundCategoryName": "Small Blend",
+                "performanceOverview": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytdReturnPct": 0.0675797,
+                    "fiveYrAvgReturnPct": 0.0782753,
+                    "oneYearTotalReturn": 0.1262704,
+                    "threeYearTotalReturn": -0.0067685004
+                },
+                "performanceOverviewCat": {
+                    "ytdReturnPct": 0.0224692,
+                    "fiveYrAvgReturnPct": 0.081374906,
+                    "oneYearTotalReturn": 0.1040016,
+                    "threeYearTotalReturn": 0.0088268
+                },
+                "trailingReturns": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytd": 0.0167502,
+                    "oneMonth": -0.0092411,
+                    "threeMonth": -0.0329791,
+                    "oneYear": 0.099104,
+                    "threeYear": -0.026824702,
+                    "fiveYear": 0.0683897,
+                    "tenYear": 0.0696538,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "trailingReturnsNav": {
+                    "ytd": 0.0167502,
+                    "oneMonth": -0.0092411,
+                    "threeMonth": -0.0329791,
+                    "oneYear": 0.099104,
+                    "threeYear": -0.026824702,
+                    "fiveYear": 0.0683897,
+                    "tenYear": 0.0696538
+                },
+                "trailingReturnsCat": {
+                    "ytd": 0.0224692,
+                    "oneMonth": -0.0160028,
+                    "threeMonth": -0.0325546,
+                    "oneYear": 0.1040016,
+                    "threeYear": 0.0088268,
+                    "fiveYear": 0.081374906,
+                    "tenYear": 0.0706779,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "annualTotalReturns": {
+                    "returns": [
+                        {
+                            "year": "2023",
+                            "annualValue": 0.16838712
+                        },
+                        {
+                            "year": "2022",
+                            "annualValue": -0.2047958
+                        },
+                        {
+                            "year": "2021",
+                            "annualValue": 0.14539039
+                        },
+                        {
+                            "year": "2020",
+                            "annualValue": 0.2002988
+                        },
+                        {
+                            "year": "2019",
+                            "annualValue": 0.25393102
+                        },
+                        {
+                            "year": "2018",
+                            "annualValue": -0.1110829
+                        },
+                        {
+                            "year": "2017",
+                            "annualValue": 0.1458581
+                        },
+                        {
+                            "year": "2016",
+                            "annualValue": 0.2160043
+                        },
+                        {
+                            "year": "2015",
+                            "annualValue": -0.0446563
+                        },
+                        {
+                            "year": "2014",
+                            "annualValue": 0.0503421
+                        },
+                        {
+                            "year": "2013",
+                            "annualValue": 0.386937
+                        },
+                        {
+                            "year": "2012",
+                            "annualValue": 0.1669396
+                        },
+                        {
+                            "year": "2011",
+                            "annualValue": -0.0443658
+                        },
+                        {
+                            "year": "2010",
+                            "annualValue": 0.2693182
+                        },
+                        {
+                            "year": "2009",
+                            "annualValue": 0.2850955
+                        },
+                        {
+                            "year": "2008",
+                            "annualValue": -0.34145883
+                        },
+                        {
+                            "year": "2007",
+                            "annualValue": -0.0175547
+                        },
+                        {
+                            "year": "2006",
+                            "annualValue": 0.1826734
+                        },
+                        {
+                            "year": "2005",
+                            "annualValue": 0.0445722
+                        },
+                        {
+                            "year": "2004",
+                            "annualValue": 0.18047331
+                        },
+                        {
+                            "year": "2003",
+                            "annualValue": 0.47579238
+                        },
+                        {
+                            "year": "2002",
+                            "annualValue": -0.2036729
+                        },
+                        {
+                            "year": "2001",
+                            "annualValue": 0.017815
+                        }
+                    ],
+                    "returnsCat": [
+                        {
+                            "year": "2023",
+                            "annualValue": 0.16175319
+                        },
+                        {
+                            "year": "2022",
+                            "annualValue": -0.16237761
+                        },
+                        {
+                            "year": "2021",
+                            "annualValue": 0.24189699
+                        },
+                        {
+                            "year": "2020",
+                            "annualValue": 0.1098766
+                        },
+                        {
+                            "year": "2019",
+                            "annualValue": 0.23753019
+                        },
+                        {
+                            "year": "2018",
+                            "annualValue": -0.1271807
+                        },
+                        {
+                            "year": "2017",
+                            "annualValue": 0.1228357
+                        },
+                        {
+                            "year": "2016",
+                            "annualValue": 0.2077985
+                        },
+                        {
+                            "year": "2015",
+                            "annualValue": -0.053812698
+                        },
+                        {
+                            "year": "2014",
+                            "annualValue": 0.037941102
+                        },
+                        {
+                            "year": "2013",
+                            "annualValue": 0.37390542
+                        },
+                        {
+                            "year": "2012",
+                            "annualValue": 0.1546061
+                        },
+                        {
+                            "year": "2011",
+                            "annualValue": -0.0406856
+                        },
+                        {
+                            "year": "2010",
+                            "annualValue": 0.2560775
+                        },
+                        {
+                            "year": "2009",
+                            "annualValue": 0.31802958
+                        },
+                        {
+                            "year": "2008",
+                            "annualValue": -0.36560398
+                        },
+                        {
+                            "year": "2007",
+                            "annualValue": -0.0109676
+                        },
+                        {
+                            "year": "2006",
+                            "annualValue": 0.1502868
+                        },
+                        {
+                            "year": "2005",
+                            "annualValue": 0.0674712
+                        },
+                        {
+                            "year": "2004",
+                            "annualValue": 0.1894107
+                        },
+                        {
+                            "year": "2003",
+                            "annualValue": 0.4340929
+                        },
+                        {
+                            "year": "2002",
+                            "annualValue": -0.1622407
+                        },
+                        {
+                            "year": "2001",
+                            "annualValue": 0.089165404
+                        },
+                        {
+                            "year": "2000",
+                            "annualValue": 0.118898295
+                        },
+                        {
+                            "year": "1999",
+                            "annualValue": 0.199524
+                        },
+                        {
+                            "year": "1998",
+                            "annualValue": -0.0303446
+                        },
+                        {
+                            "year": "1997",
+                            "annualValue": 0.26357928
+                        },
+                        {
+                            "year": "1996",
+                            "annualValue": 0.2149881
+                        },
+                        {
+                            "year": "1995",
+                            "annualValue": 0.2720642
+                        },
+                        {
+                            "year": "1994",
+                            "annualValue": -0.0176118
+                        }
+                    ]
+                },
+                "pastQuarterlyReturns": {
+                    "returns": []
+                },
+                "riskOverviewStatistics": {
+                    "riskStatistics": [
+                        {
+                            "year": "5y",
+                            "alpha": -8.32,
+                            "beta": 1.15,
+                            "meanAnnualReturn": 0.79,
+                            "rSquared": 76.84,
+                            "stdDev": 23.72,
+                            "sharpeRatio": 0.3,
+                            "treynorRatio": 3.93
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": -11.99,
+                            "beta": 1.06,
+                            "meanAnnualReturn": -0.03,
+                            "rSquared": 74.11,
+                            "stdDev": 21.93,
+                            "sharpeRatio": -0.17,
+                            "treynorRatio": -5.78
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": -6.32,
+                            "beta": 1.16,
+                            "meanAnnualReturn": 0.74,
+                            "rSquared": 75.07,
+                            "stdDev": 20.4,
+                            "sharpeRatio": 0.35,
+                            "treynorRatio": 4.63
+                        }
+                    ]
+                },
+                "riskOverviewStatisticsCat": {
+                    "riskStatisticsCat": [
+                        {
+                            "year": "5y",
+                            "alpha": -6.73,
+                            "beta": 1.11,
+                            "meanAnnualReturn": 0.88,
+                            "rSquared": 76.19,
+                            "stdDev": 23.06,
+                            "sharpeRatio": 0.36,
+                            "treynorRatio": 5.24
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": -8.2,
+                            "beta": 1.0,
+                            "meanAnnualReturn": 0.24,
+                            "rSquared": 73.96,
+                            "stdDev": 20.61,
+                            "sharpeRatio": -0.02,
+                            "treynorRatio": -2.58
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": -5.86,
+                            "beta": 1.12,
+                            "meanAnnualReturn": 0.74,
+                            "rSquared": 74.16,
+                            "stdDev": 19.84,
+                            "sharpeRatio": 0.36,
+                            "treynorRatio": 4.89
+                        }
+                    ]
+                }
+            },
+            "quoteType": {
+                "exchange": "PCX",
+                "quoteType": "ETF",
+                "symbol": "IWM",
+                "underlyingSymbol": "IWM",
+                "shortName": "iShares Russell 2000 ETF",
+                "longName": "iShares Russell 2000 ETF",
+                "firstTradeDateEpochUtc": "2000-05-26 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "600ed58e-8501-353d-a7c7-902732abdc68",
+                "messageBoardId": "finmb_8797658",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            }
+        }
+    }
+}

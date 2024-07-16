@@ -2,19 +2,87 @@ import csv
 import os
 import time
 from collections import defaultdict
-from glob import glob
-from flask import Flask, render_template
-import json
+from flask import Flask, render_template, jsonify, request
 import yfinance as yf
+import json
 from datetime import datetime, timedelta
 import _app_functions
+from openai import OpenAI
+from yahooquery import Ticker
+import subprocess
+
+VERSION = "1.0.1"
 
 # Configuration
 HISTORY_FILE = "history.json"  # File to store historical data
+HOT_PICKS_FILE = "hot_picks.json"
 CACHE_DURATION = 300  # Cache duration in seconds (5 minutes)
 
 app = Flask(__name__)
 price_cache = {}
+
+def load_api_key(file_path):
+    try:
+        with open(file_path, 'r') as file:
+            # Read the file content and strip any leading/trailing whitespace
+            api_key = file.read().strip()
+            # Return the api key if it's not empty
+            if api_key:
+                return api_key
+            else:
+                raise ValueError("API key is empty")
+    except (FileNotFoundError, ValueError) as e:
+        # Handle the case where the file is not found or the API key is empty
+        print(f"Error loading API key: {e}")
+        # Return a fake key for demonstration purposes
+        return "PUT_YOUR_OPENAI_KEY_IN_openai_key.txt"
+
+client = OpenAI(api_key=load_api_key('openai_key.txt'))
+
+def fetch_stock_data(ticker):
+    stock = Ticker(ticker)
+    data = {
+        "current_price": stock.history(period="1d")["close"].iloc[-1],
+        "financials": stock.financial_data,
+        "earnings": stock.earnings,
+        "recommendations": stock.recommendations,
+        "analyst_ratings": stock.recommendation_trend,
+        "news": stock.news(),
+        "cashflow": stock.cash_flow,
+        "balance_sheet": stock.balance_sheet,
+        "income_statement": stock.income_statement,
+        "summary_detail": stock.summary_detail,
+        "summary_profile": stock.summary_profile,
+        "moving_averages": {
+            "20_day": stock.history(period="20d")["close"].mean() if not stock.history(period="20d").empty else None,
+            "50_day": stock.history(period="50d")["close"].mean() if not stock.history(period="50d").empty else None,
+            "100_day": stock.history(period="100d")["close"].mean() if not stock.history(period="100d").empty else None,
+            "200_day": stock.history(period="200d")["close"].mean() if not stock.history(period="200d").empty else None
+        }
+    }
+    return data
+
+def review_and_analyze_stock(risk_tolerance, stock_data):
+
+    prompt = (
+        f"Based on current data downloaded using yahooquery, please provide a comprehensive report "
+        f"including details on current performance, financials, valuation ratios, analyst ratings, and any news. "
+        f"Include the company's profile information to explain what the company does. "
+        f"Include technical indicators (using the data provided, provide any indicators you can), "
+        f"risk factors, and swing trading potential. Additionally, include a risk assessment "
+        f"based on a risk tolerance of {risk_tolerance}, with a final Trade Status value at the "
+        f"very bottom of the report formatted as trade_status: with the values of Trade or Don't Trade.\n\n"
+        f"{json.dumps(stock_data, indent=2, default=str)}"
+    )
+
+    response = client.chat.completions.create(model="gpt-4-turbo",
+    messages=[{"role": "user", "content": prompt}],
+    max_tokens=4096,  # Adjusted to allow for a larger response if needed
+    temperature=0.7)
+
+    return response.choices[0].message.content.strip()
+
+
 
 def get_current_mark(symbol,lookup = True):
     global price_cache
@@ -64,6 +132,7 @@ def parse_trade_data(file_path):
 
     with open(file_path, newline='') as csvfile:
         reader = csv.reader(csvfile)
+
         
         # Skip the initial lines that are not part of the CSV header and data
         header_line = next(reader)
@@ -245,8 +314,53 @@ def parse_trade_data(file_path):
 
     with open("unique_tickers.json", "w") as ticker_file:
         json.dump(list(unique_tickers), ticker_file)
-
+    
     return headers, Report, working_orders
+@app.route('/stock_data/<path:filename>')
+def stock_data(filename):
+    file_path = os.path.join('stock_data', f'{filename}.json')
+    if not os.path.exists(file_path):
+        return jsonify({"error": "File not found"}), 404
+
+    with open(file_path, 'r') as file:
+        data = json.load(file)
+    
+    return jsonify(data)
+
+@app.route('/analyze_stock', methods=['GET'])
+def analyze_stock():
+    ticker = request.args.get('ticker')
+    risk_tolerance = request.args.get('risk_tolerance', default=7, type=int)
+
+    if not ticker:
+        return jsonify({"error": "Ticker parameter is required"}), 400
+
+    cache_file_path = f'./stock_data/{ticker}_Analysis.json'
+    
+    # Check if the cache file exists and is newer than 6 hours
+    if os.path.exists(cache_file_path):
+        file_mod_time = datetime.fromtimestamp(os.path.getmtime(cache_file_path))
+        if datetime.now() - file_mod_time < timedelta(hours=6):
+            # Read the cached file and return its content with a timestamp
+            with open(cache_file_path, 'r') as cache_file:
+                cached_response = cache_file.read()
+            timestamp = file_mod_time.strftime('%Y-%m-%d %H:%M:%S')
+            return jsonify({"analysis": cached_response, "timestamp": timestamp})
+
+    try:
+        stock_data = fetch_stock_data(ticker)
+        current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        analysis = review_and_analyze_stock(risk_tolerance, stock_data)
+        
+        # Write the analysis to the cache file
+        os.makedirs(os.path.dirname(cache_file_path), exist_ok=True)
+        with open(cache_file_path, 'w') as cache_file:
+            cache_file.write(analysis)
+        
+        return jsonify({"analysis": analysis, "timestamp": current_time})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 
 @app.route('/')
 def index():
@@ -254,31 +368,42 @@ def index():
     if not csv_file_path:
         return "No CSV files found matching the pattern."
 
+    # Compare the timestamps and run the script if csv_file_path is newer
+    if os.path.getmtime(csv_file_path) > os.path.getmtime(HOT_PICKS_FILE):
+        subprocess.run(["python3", "hot_picks.py"])
+
     headers, Report, working_orders = parse_trade_data(csv_file_path)
     filename = os.path.basename(csv_file_path)
 
     # Load hot_picks.json
     with open("hot_picks.json", "r") as file:
         hot_picks = json.load(file)
+    #Load rank.json
+    with open("ranks.json", "r") as file:
+        ranks = json.load(file)
 
     # Load the details for each symbol in hot_picks
-    def load_symbol_details(symbol):
+    def load_symbol_details(symbol, ranks):
         details = {}
         try:
             with open(f'stock_data/{symbol}_Chart_1Mo_5Mi.json', 'r') as f:
                 details['1Mo_5Mi'] = json.load(f)[symbol]["totals"]
             with open(f'stock_data/{symbol}_Overall_Trend.json', 'r') as f:
                 details['Overall_Trend'] = json.load(f)[symbol]["totals"]
+            if symbol in ranks:
+                details['Rank'] = ranks[symbol]["totals"]
+            else:
+                details['Rank'] = {}
         except FileNotFoundError:
             details['1Mo_5Mi'] = {}
             details['Overall_Trend'] = {}
+            details['Rank'] = {}
         return details
+    buy_details = {symbol: load_symbol_details(symbol, ranks) for symbol in hot_picks['buy_symbols']}
+    sell_details = {symbol: load_symbol_details(symbol, ranks) for symbol in hot_picks['sell_symbols']}
+    hold_details = {symbol: load_symbol_details(symbol, ranks) for symbol in hot_picks['hold_symbols']}
 
-    buy_details = {symbol: load_symbol_details(symbol) for symbol in hot_picks['buy_symbols']}
-    sell_details = {symbol: load_symbol_details(symbol) for symbol in hot_picks['sell_symbols']}
-    hold_details = {symbol: load_symbol_details(symbol) for symbol in hot_picks['hold_symbols']}
-
-    return render_template('Report.html', headers=headers, Report=Report, working_orders=working_orders, filename=filename, hot_picks=hot_picks, buy_details=buy_details, sell_details=sell_details, hold_details=hold_details)
+    return render_template('Report.html', headers=headers, Report=Report, working_orders=working_orders, filename=filename, hot_picks=hot_picks, buy_details=buy_details, sell_details=sell_details, hold_details=hold_details, version=VERSION)
 
 
 if __name__ == '__main__':

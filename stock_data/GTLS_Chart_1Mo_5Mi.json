@@ -1,0 +1,56 @@
+{
+    "GTLS": {
+        "triggers": [
+            {
+                "high_timestamp": "2024-06-24 11:40:00-04:00",
+                "high_price": 149.4,
+                "trigger_timestamp": "2024-06-27 10:45:00-04:00",
+                "trigger_price": 138.85,
+                "percentage_drop": 7.06,
+                "bar_high": 139.12,
+                "bar_low": 138.85,
+                "bar_open": 138.85,
+                "bar_close": 138.97
+            },
+            {
+                "high_timestamp": "2024-06-28 09:45:00-04:00",
+                "high_price": 147.77,
+                "trigger_timestamp": "2024-07-09 11:50:00-04:00",
+                "trigger_price": 136.99,
+                "percentage_drop": 7.3,
+                "bar_high": 137.64,
+                "bar_low": 136.99,
+                "bar_open": 137.1,
+                "bar_close": 137.64
+            }
+        ],
+        "trades": [
+            {
+                "buy_timestamp": "2024-06-27 10:45:00-04:00",
+                "buy_price": 138.85,
+                "sell_timestamp": "2024-06-28 09:35:00-04:00",
+                "sell_price": 148.86,
+                "profit": 9.74
+            },
+            {
+                "buy_timestamp": "2024-07-09 11:50:00-04:00",
+                "buy_price": 136.99,
+                "sell_timestamp": "2024-07-11 10:40:00-04:00",
+                "sell_price": 147.27,
+                "profit": 9.63
+            }
+        ],
+        "totals": {
+            "Report": "Source: Yahoo, Period: 1Mo, Interval: 5Mi",
+            "Threshold": 7,
+            "Triggers": 2,
+            "Buy_Orders": 2,
+            "Sell_Orders": 2,
+            "Gained": 14,
+            "Working_Days": 3,
+            "Annual_Trade_Gain": 1176.0,
+            "Score": 198.71,
+            "Updated": "2024-07-15 07:13:03 PM EDT"
+        }
+    }
+}

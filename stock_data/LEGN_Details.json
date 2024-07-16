@@ -1,0 +1,1519 @@
+{
+    "LEGN": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "address1": "2101 Cottontail Lane",
+                "city": "Somerset",
+                "state": "NJ",
+                "zip": "08873",
+                "country": "United States",
+                "phone": "732 317 5050",
+                "website": "https://www.legendbiotech.com",
+                "industry": "Biotechnology",
+                "sector": "Healthcare",
+                "longBusinessSummary": "Legend Biotech Corporation, a clinical-stage biopharmaceutical company, through its subsidiaries, engages in the discovery, development, manufacturing, and commercialization of novel cell therapies for oncology and other indications in the United States, China, and internationally. Its lead product candidate, LCAR- B38M, is a chimeric antigen receptor for the treatment of multiple myeloma (MM). The company also has a portfolio of earlier-stage autologous CAR-T product candidates targeting various cancers, including Non-Hodgkins Lymphoma, acute lymphoblastic leukemia, gastric cancer, esophageal cancer, pancreatic cancer, colorectal cancer, hepatocellular carcinoma, small cell lung cancer, and non-small cell lung cancer. It has collaboration and license agreement with Janssen Biotech, Inc. for the development and commercialization of ciltacabtagene autoleucel. The company was founded in 2014 and is based in Somerset, New Jersey. Legend Biotech Corporation operates as a subsidiary of Genscript Biotech Corporation.",
+                "fullTimeEmployees": 2000,
+                "companyOfficers": [
+                    {
+                        "maxAge": 1,
+                        "name": "Dr. Ying  Huang Ph.D.",
+                        "age": 50,
+                        "title": "CEO & Director",
+                        "yearBorn": 1973,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Ms. Lori A. Macomber CPA",
+                        "age": 52,
+                        "title": "Chief Financial Officer",
+                        "yearBorn": 1971,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Doug  Wallace",
+                        "title": "Vice President of Global Operations",
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Dr. Guowei  Fang Ph.D.",
+                        "title": "Chief Scientific Officer & Head of Business Development",
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Joanne  Choi",
+                        "title": "Senior Manager of Investor Relations",
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. James  Pepin J.D.",
+                        "title": "General Counsel",
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Deborah  Wong",
+                        "title": "Executive Director of Strategic Marketing & Corporate Communications",
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Ms. Elaine  Qian",
+                        "title": "VP & Global Head of Human Resources",
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Dr. Yuhong  Qiu Ph.D.",
+                        "title": "Senior Vice President of Global Regulatory Affairs",
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Steven J. Gavel",
+                        "title": "Senior Vice President of Commercial Development, US & Europe",
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "recommendationTrend": {
+                "trend": [
+                    {
+                        "period": "0m",
+                        "strongBuy": 0,
+                        "buy": 0,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-1m",
+                        "strongBuy": 6,
+                        "buy": 13,
+                        "hold": 2,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-2m",
+                        "strongBuy": 6,
+                        "buy": 13,
+                        "hold": 2,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-3m",
+                        "strongBuy": 0,
+                        "buy": 0,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "cashflowStatementHistory": {
+                "cashflowStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "netIncome": -518254000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31",
+                        "netIncome": -446349000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-12-31",
+                        "netIncome": -386209000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2020-12-31",
+                        "netIncome": -303477000
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "indexTrend": {
+                "maxAge": 1,
+                "symbol": "SP5",
+                "peRatio": 19.8083,
+                "pegRatio": 1.63808,
+                "estimates": [
+                    {
+                        "period": "0q",
+                        "growth": 0.056999996
+                    },
+                    {
+                        "period": "+1q",
+                        "growth": 0.096
+                    },
+                    {
+                        "period": "0y",
+                        "growth": 0.036
+                    },
+                    {
+                        "period": "+1y",
+                        "growth": 0.123
+                    },
+                    {
+                        "period": "+5y",
+                        "growth": 0.114567004
+                    },
+                    {
+                        "period": "-5y"
+                    }
+                ]
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "enterpriseValue": 18853816320,
+                "forwardPE": -100.68518,
+                "profitMargins": -1.3592399,
+                "floatShares": 159534515,
+                "sharesOutstanding": 182283008,
+                "sharesShort": 11164706,
+                "sharesShortPriorMonth": 13261315,
+                "sharesShortPreviousMonthDate": "2024-05-30 19:00:00",
+                "dateShortInterest": "2024-06-27 19:00:00",
+                "sharesPercentSharesOut": 0.0612,
+                "heldPercentInsiders": 0.01317,
+                "heldPercentInstitutions": 0.49069,
+                "shortRatio": 8.58,
+                "shortPercentOfFloat": 0.1177,
+                "beta": 0.111,
+                "category": null,
+                "bookValue": 6.386,
+                "priceToBook": 8.513936,
+                "fundFamily": null,
+                "legalType": null,
+                "lastFiscalYearEnd": "2023-12-30 18:00:00",
+                "nextFiscalYearEnd": "2024-12-30 18:00:00",
+                "mostRecentQuarter": "2024-03-30 19:00:00",
+                "netIncomeToCommon": -465945984,
+                "trailingEps": -2.58,
+                "forwardEps": -0.54,
+                "lastSplitFactor": null,
+                "enterpriseToRevenue": 55.0,
+                "enterpriseToEbitda": -44.323
+            },
+            "industryTrend": {
+                "maxAge": 1,
+                "symbol": null,
+                "estimates": []
+            },
+            "quoteType": {
+                "exchange": "NMS",
+                "quoteType": "EQUITY",
+                "symbol": "LEGN",
+                "underlyingSymbol": "LEGN",
+                "shortName": "Legend Biotech Corporation",
+                "longName": "Legend Biotech Corporation",
+                "firstTradeDateEpochUtc": "2020-06-05 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "ccaf9204-94bb-3c10-bdb1-a5d800652e71",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            },
+            "incomeStatementHistory": {
+                "incomeStatementHistory": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "totalRevenue": 285143000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -518254000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31",
+                        "totalRevenue": 117005000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -446349000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-12-31",
+                        "totalRevenue": 91563000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -386209000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2020-12-31",
+                        "totalRevenue": 78748000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -303477000,
+                        "netIncomeApplicableToCommonShares": {}
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "fundOwnership": {
+                "ownershipList": [
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Smallcap World Fund",
+                        "pctHeld": 0.0191,
+                        "position": 3148299,
+                        "value": 217327079
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-08-31",
+                        "organization": "Fidelity Growth Company Fund",
+                        "pctHeld": 0.0107,
+                        "position": 1763047,
+                        "value": 122284939
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-08-31",
+                        "organization": "Fidelity Select Portfolios - Health Care",
+                        "pctHeld": 0.010299999,
+                        "position": 1700000,
+                        "value": 117912000
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Price (T.Rowe) Health Sciences Fund",
+                        "pctHeld": 0.0094,
+                        "position": 1546863,
+                        "value": 106779952
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Price (T.Rowe) Growth Stock Fund Inc.",
+                        "pctHeld": 0.0085,
+                        "position": 1410841,
+                        "value": 97390354
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-07-31",
+                        "organization": "Vanguard Specialized-Health Care Fund",
+                        "pctHeld": 0.0070999996,
+                        "position": 1169204,
+                        "value": 88298286
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-08-31",
+                        "organization": "Fidelity Advisor Health Care Fund",
+                        "pctHeld": 0.0069,
+                        "position": 1140000,
+                        "value": 79070400
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-08-31",
+                        "organization": "Fidelity Contrafund Inc",
+                        "pctHeld": 0.0068,
+                        "position": 1122005,
+                        "value": 77822266
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Price (T.Rowe) Institutional Large Cap Growth Fund",
+                        "pctHeld": 0.0067000003,
+                        "position": 1102109,
+                        "value": 76078584
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-05-31",
+                        "organization": "MFS Mid Cap Growth Fund",
+                        "pctHeld": 0.0064999997,
+                        "position": 1075458,
+                        "value": 69012139
+                    }
+                ],
+                "maxAge": 1
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 48.5,
+                "open": 49.39,
+                "dayLow": 48.215,
+                "dayHigh": 57.5,
+                "regularMarketPreviousClose": 48.5,
+                "regularMarketOpen": 49.39,
+                "regularMarketDayLow": 48.215,
+                "regularMarketDayHigh": 57.5,
+                "payoutRatio": 0.0,
+                "beta": 0.111,
+                "forwardPE": -100.68518,
+                "volume": 4891167,
+                "regularMarketVolume": 4891167,
+                "averageVolume": 1206180,
+                "averageVolume10days": 1121820,
+                "averageDailyVolume10Day": 1121820,
+                "bid": 40.69,
+                "ask": 54.46,
+                "bidSize": 200,
+                "askSize": 200,
+                "marketCap": 9910726656,
+                "fiftyTwoWeekLow": 38.6,
+                "fiftyTwoWeekHigh": 77.32,
+                "priceToSalesTrailing12Months": 28.911272,
+                "fiftyDayAverage": 44.3322,
+                "twoHundredDayAverage": 56.35705,
+                "trailingAnnualDividendRate": 0.0,
+                "trailingAnnualDividendYield": 0.0,
+                "currency": "USD",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "insiderHolders": {
+                "holders": [],
+                "maxAge": 1
+            },
+            "calendarEvents": {
+                "maxAge": 1,
+                "earnings": {
+                    "earningsDate": [
+                        "2024-05-12 19:00:S"
+                    ],
+                    "earningsAverage": -0.37,
+                    "earningsLow": -0.68,
+                    "earningsHigh": -0.15,
+                    "revenueAverage": 124750000,
+                    "revenueLow": 94000000,
+                    "revenueHigh": 153010000
+                }
+            },
+            "upgradeDowngradeHistory": {
+                "history": [
+                    {
+                        "epochGradeDate": "2023-10-17 19:00:00",
+                        "firm": "Barclays",
+                        "toGrade": "Overweight",
+                        "fromGrade": "Overweight",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-10-17 19:00:00",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-08-15 19:00:00",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-07-20 19:00:00",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-07-20 19:00:00",
+                        "firm": "Barclays",
+                        "toGrade": "Overweight",
+                        "fromGrade": "Overweight",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-07-19 19:00:00",
+                        "firm": "Morgan Stanley",
+                        "toGrade": "Overweight",
+                        "fromGrade": "Overweight",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-06-15 19:00:00",
+                        "firm": "RBC Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Outperform",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-06-12 19:00:00",
+                        "firm": "BTIG",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-06-07 19:00:00",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-06-05 19:00:00",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-05-24 19:00:00",
+                        "firm": "William Blair",
+                        "toGrade": "Market Perform",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2023-05-21 19:00:00",
+                        "firm": "Daiwa Capital",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2023-05-21 19:00:00",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-05-18 19:00:00",
+                        "firm": "RBC Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Outperform",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-05-18 19:00:00",
+                        "firm": "Barclays",
+                        "toGrade": "Overweight",
+                        "fromGrade": "Overweight",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-04-24 19:00:00",
+                        "firm": "BMO Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-04-19 19:00:00",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-04-19 19:00:00",
+                        "firm": "BTIG",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-04-18 19:00:00",
+                        "firm": "JP Morgan",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-04-17 19:00:00",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-04-11 19:00:00",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-04-02 19:00:00",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-03-28 19:00:00",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2023-03-23 19:00:00",
+                        "firm": "RBC Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2023-01-24 18:00:00",
+                        "firm": "Barclays",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-01-23 18:00:00",
+                        "firm": "Morgan Stanley",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2022-12-19 18:00:00",
+                        "firm": "Piper Sandler",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2022-12-05 18:00:00",
+                        "firm": "JP Morgan",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2022-12-05 18:00:00",
+                        "firm": "UBS",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2022-11-01 19:00:00",
+                        "firm": "Evercore ISI Group",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2022-10-31 19:00:00",
+                        "firm": "Cowen & Co.",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2022-10-30 19:00:00",
+                        "firm": "Guggenheim",
+                        "toGrade": "Neutral",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2022-10-12 19:00:00",
+                        "firm": "Morgan Stanley",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2022-07-14 19:00:00",
+                        "firm": "Morgan Stanley",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2022-06-16 19:00:00",
+                        "firm": "BMO Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2022-03-14 19:00:00",
+                        "firm": "Barclays",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2022-03-06 18:00:00",
+                        "firm": "Morgan Stanley",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2022-01-30 18:00:00",
+                        "firm": "Morgan Stanley",
+                        "toGrade": "Overweight",
+                        "fromGrade": "Equal-Weight",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2022-01-05 18:00:00",
+                        "firm": "Morgan Stanley",
+                        "toGrade": "Equal-Weight",
+                        "fromGrade": "Overweight",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2021-12-20 18:00:00",
+                        "firm": "Piper Sandler",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2021-10-11 19:00:00",
+                        "firm": "Morgan Stanley",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2021-04-18 19:00:00",
+                        "firm": "Morgan Stanley",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2020-06-30 19:00:00",
+                        "firm": "Jefferies",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2020-06-30 19:00:00",
+                        "firm": "JP Morgan",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2020-06-29 19:00:00",
+                        "firm": "Morgan Stanley",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "init"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "FREE_REALTIME",
+                "postMarketChangePercent": -0.0069891,
+                "postMarketChange": -0.379997,
+                "postMarketTime": "2024-07-12 18:59:09",
+                "postMarketPrice": 53.99,
+                "postMarketSource": "FREE_REALTIME",
+                "regularMarketChangePercent": 0.121030904,
+                "regularMarketChange": 5.869999,
+                "regularMarketTime": "2024-07-12 15:00:01",
+                "priceHint": 2,
+                "regularMarketPrice": 54.37,
+                "regularMarketDayHigh": 57.5,
+                "regularMarketDayLow": 48.215,
+                "regularMarketVolume": 4891167,
+                "averageDailyVolume10Day": 1121820,
+                "averageDailyVolume3Month": 1206180,
+                "regularMarketPreviousClose": 48.5,
+                "regularMarketSource": "FREE_REALTIME",
+                "regularMarketOpen": 49.39,
+                "exchange": "NMS",
+                "exchangeName": "NasdaqGS",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "CLOSED",
+                "quoteType": "EQUITY",
+                "symbol": "LEGN",
+                "underlyingSymbol": null,
+                "shortName": "Legend Biotech Corporation",
+                "longName": "Legend Biotech Corporation",
+                "currency": "USD",
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "marketCap": 9910726656
+            },
+            "balanceSheetHistory": {
+                "balanceSheetStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2020-12-31"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earningsTrend": {
+                "trend": [
+                    {
+                        "maxAge": 1,
+                        "period": "0q",
+                        "endDate": "2024-06-30",
+                        "growth": 0.675,
+                        "earningsEstimate": {
+                            "avg": -0.37,
+                            "low": -0.68,
+                            "high": -0.15,
+                            "yearAgoEps": -1.14,
+                            "numberOfAnalysts": 8,
+                            "growth": 0.675
+                        },
+                        "revenueEstimate": {
+                            "avg": 124750000,
+                            "low": 94000000,
+                            "high": 153010000,
+                            "numberOfAnalysts": 14,
+                            "yearAgoRevenue": 73330000,
+                            "growth": 0.701
+                        },
+                        "epsTrend": {
+                            "current": -0.37,
+                            "7daysAgo": -0.37,
+                            "30daysAgo": -0.34,
+                            "60daysAgo": -0.39,
+                            "90daysAgo": -0.46
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 1,
+                            "downLast30days": 1,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+1q",
+                        "endDate": "2024-09-30",
+                        "growth": -0.147,
+                        "earningsEstimate": {
+                            "avg": -0.39,
+                            "low": -0.61,
+                            "high": -0.19,
+                            "yearAgoEps": -0.34,
+                            "numberOfAnalysts": 8,
+                            "growth": -0.147
+                        },
+                        "revenueEstimate": {
+                            "avg": 133450000,
+                            "low": 113300000,
+                            "high": 158920000,
+                            "numberOfAnalysts": 12,
+                            "yearAgoRevenue": 96013000,
+                            "growth": 0.39
+                        },
+                        "epsTrend": {
+                            "current": -0.39,
+                            "7daysAgo": -0.39,
+                            "30daysAgo": -0.37,
+                            "60daysAgo": -0.41,
+                            "90daysAgo": -0.43
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 1,
+                            "downLast30days": 1,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "0y",
+                        "endDate": "2024-12-31",
+                        "growth": 0.548,
+                        "earningsEstimate": {
+                            "avg": -1.33,
+                            "low": -2.09,
+                            "high": -0.7,
+                            "yearAgoEps": -2.94,
+                            "numberOfAnalysts": 10,
+                            "growth": 0.548
+                        },
+                        "revenueEstimate": {
+                            "avg": 529220000,
+                            "low": 443200000,
+                            "high": 618050000,
+                            "numberOfAnalysts": 19,
+                            "yearAgoRevenue": 285143000,
+                            "growth": 0.856
+                        },
+                        "epsTrend": {
+                            "current": -1.33,
+                            "7daysAgo": -1.33,
+                            "30daysAgo": -1.25,
+                            "60daysAgo": -1.32,
+                            "90daysAgo": -1.52
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 1,
+                            "downLast30days": 1,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+1y",
+                        "endDate": "2025-12-31",
+                        "growth": 0.59400004,
+                        "earningsEstimate": {
+                            "avg": -0.54,
+                            "low": -1.58,
+                            "high": 0.6,
+                            "yearAgoEps": -1.33,
+                            "numberOfAnalysts": 10,
+                            "growth": 0.59400004
+                        },
+                        "revenueEstimate": {
+                            "avg": 1054320000,
+                            "low": 841400000,
+                            "high": 1358000000,
+                            "numberOfAnalysts": 20,
+                            "yearAgoRevenue": 529220000,
+                            "growth": 0.992
+                        },
+                        "epsTrend": {
+                            "current": -0.54,
+                            "7daysAgo": -0.54,
+                            "30daysAgo": -0.56,
+                            "60daysAgo": -0.57,
+                            "90daysAgo": -0.65
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 1,
+                            "upLast30days": 2,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+5y",
+                        "endDate": null,
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": {},
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "numberOfAnalysts": {},
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": {},
+                            "7daysAgo": {},
+                            "30daysAgo": {},
+                            "60daysAgo": {},
+                            "90daysAgo": {}
+                        },
+                        "epsRevisions": {
+                            "upLast7days": {},
+                            "upLast30days": {},
+                            "downLast30days": {},
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "-5y",
+                        "endDate": null,
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": {},
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "numberOfAnalysts": {},
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": {},
+                            "7daysAgo": {},
+                            "30daysAgo": {},
+                            "60daysAgo": {},
+                            "90daysAgo": {}
+                        },
+                        "epsRevisions": {
+                            "upLast7days": {},
+                            "upLast30days": {},
+                            "downLast30days": {},
+                            "downLast90days": {}
+                        }
+                    }
+                ],
+                "maxAge": 1
+            },
+            "institutionOwnership": {
+                "ownershipList": [
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "FMR, LLC",
+                        "pctHeld": 0.1033,
+                        "position": 17045498,
+                        "value": 1176650726
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Price (T.Rowe) Associates Inc",
+                        "pctHeld": 0.0547,
+                        "position": 9031324,
+                        "value": 623432295
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "HHLR Advisors, LTD",
+                        "pctHeld": 0.039,
+                        "position": 6436533,
+                        "value": 444313872
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "RA Capital Management, L.P.",
+                        "pctHeld": 0.038,
+                        "position": 6264707,
+                        "value": 432452724
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Blackrock Inc.",
+                        "pctHeld": 0.0287,
+                        "position": 4743594,
+                        "value": 327450293
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Capital World Investors",
+                        "pctHeld": 0.0145000005,
+                        "position": 2387975,
+                        "value": 164841914
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Federated Hermes, Inc.",
+                        "pctHeld": 0.0117999995,
+                        "position": 1941516,
+                        "value": 134022849
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Capital International Investors",
+                        "pctHeld": 0.0113,
+                        "position": 1862009,
+                        "value": 128534481
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Polar Capital Holdings Plc",
+                        "pctHeld": 0.0113,
+                        "position": 1872118,
+                        "value": 129232305
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Janus Henderson Group PLC",
+                        "pctHeld": 0.011,
+                        "position": 1814337,
+                        "value": 125243683
+                    }
+                ],
+                "maxAge": 1
+            },
+            "majorHoldersBreakdown": {
+                "maxAge": 1,
+                "insidersPercentHeld": 0.01317,
+                "institutionsPercentHeld": 0.49069,
+                "institutionsFloatPercentHeld": 0.49723,
+                "institutionsCount": 320
+            },
+            "balanceSheetHistoryQuarterly": {
+                "balanceSheetStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-09-30"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earningsHistory": {
+                "history": [
+                    {
+                        "maxAge": 1,
+                        "epsActual": -1.14,
+                        "epsEstimate": -0.6,
+                        "epsDifference": -0.54,
+                        "surprisePercent": -0.9,
+                        "quarter": "2023-06-30",
+                        "period": "-4q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": -0.34,
+                        "epsEstimate": -0.68,
+                        "epsDifference": 0.34,
+                        "surprisePercent": 0.5,
+                        "quarter": "2023-09-30",
+                        "period": "-3q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": -0.8,
+                        "epsEstimate": -0.83,
+                        "epsDifference": 0.03,
+                        "surprisePercent": 0.036,
+                        "quarter": "2023-12-31",
+                        "period": "-2q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": -0.32,
+                        "epsEstimate": -0.34,
+                        "epsDifference": 0.02,
+                        "surprisePercent": 0.059,
+                        "quarter": "2024-03-31",
+                        "period": "-1q"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "summaryProfile": {
+                "address1": "2101 Cottontail Lane",
+                "city": "Somerset",
+                "state": "NJ",
+                "zip": "08873",
+                "country": "United States",
+                "phone": "732 317 5050",
+                "website": "https://www.legendbiotech.com",
+                "industry": "Biotechnology",
+                "sector": "Healthcare",
+                "longBusinessSummary": "Legend Biotech Corporation, a clinical-stage biopharmaceutical company, through its subsidiaries, engages in the discovery, development, manufacturing, and commercialization of novel cell therapies for oncology and other indications in the United States, China, and internationally. Its lead product candidate, LCAR- B38M, is a chimeric antigen receptor for the treatment of multiple myeloma (MM). The company also has a portfolio of earlier-stage autologous CAR-T product candidates targeting various cancers, including Non-Hodgkins Lymphoma, acute lymphoblastic leukemia, gastric cancer, esophageal cancer, pancreatic cancer, colorectal cancer, hepatocellular carcinoma, small cell lung cancer, and non-small cell lung cancer. It has collaboration and license agreement with Janssen Biotech, Inc. for the development and commercialization of ciltacabtagene autoleucel. The company was founded in 2014 and is based in Somerset, New Jersey. Legend Biotech Corporation operates as a subsidiary of Genscript Biotech Corporation.",
+                "fullTimeEmployees": 2000,
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "netSharePurchaseActivity": {
+                "maxAge": 1,
+                "period": "6m",
+                "buyInfoCount": 0,
+                "buyInfoShares": 0,
+                "sellInfoCount": 0,
+                "netInfoCount": 0,
+                "netInfoShares": 0,
+                "totalInsiderShares": 4801347
+            },
+            "sectorTrend": {
+                "maxAge": 1,
+                "symbol": null,
+                "estimates": []
+            },
+            "incomeStatementHistoryQuarterly": {
+                "incomeStatementHistory": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31",
+                        "totalRevenue": 93991000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -59793000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "totalRevenue": 79464000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -144818000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-09-30",
+                        "totalRevenue": 96013000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -62207000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30",
+                        "totalRevenue": 73330000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -199128000,
+                        "netIncomeApplicableToCommonShares": {}
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "cashflowStatementHistoryQuarterly": {
+                "cashflowStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31",
+                        "netIncome": -59793000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "netIncome": -144818000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-09-30",
+                        "netIncome": -62207000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30",
+                        "netIncome": -199128000
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earnings": {
+                "maxAge": 86400,
+                "earningsChart": {
+                    "quarterly": [
+                        {
+                            "date": "2Q2023",
+                            "actual": -1.14,
+                            "estimate": -0.6
+                        },
+                        {
+                            "date": "3Q2023",
+                            "actual": -0.34,
+                            "estimate": -0.68
+                        },
+                        {
+                            "date": "4Q2023",
+                            "actual": -0.8,
+                            "estimate": -0.83
+                        },
+                        {
+                            "date": "1Q2024",
+                            "actual": -0.32,
+                            "estimate": -0.34
+                        }
+                    ],
+                    "currentQuarterEstimate": -0.37,
+                    "currentQuarterEstimateDate": "2Q",
+                    "currentQuarterEstimateYear": 2024,
+                    "earningsDate": [
+                        "2024-05-12 19:00:S"
+                    ]
+                },
+                "financialsChart": {
+                    "yearly": [
+                        {
+                            "date": 2020,
+                            "revenue": 78748000,
+                            "earnings": -303477000
+                        },
+                        {
+                            "date": 2021,
+                            "revenue": 91563000,
+                            "earnings": -386209000
+                        },
+                        {
+                            "date": 2022,
+                            "revenue": 117005000,
+                            "earnings": -446349000
+                        },
+                        {
+                            "date": 2023,
+                            "revenue": 285143000,
+                            "earnings": -518254000
+                        }
+                    ],
+                    "quarterly": [
+                        {
+                            "date": "2Q2023",
+                            "revenue": 73330000,
+                            "earnings": -199128000
+                        },
+                        {
+                            "date": "3Q2023",
+                            "revenue": 96013000,
+                            "earnings": -62207000
+                        },
+                        {
+                            "date": "4Q2023",
+                            "revenue": 79464000,
+                            "earnings": -144818000
+                        },
+                        {
+                            "date": "1Q2024",
+                            "revenue": 93991000,
+                            "earnings": -59793000
+                        }
+                    ]
+                },
+                "financialCurrency": "USD"
+            },
+            "pageViews": {
+                "shortTermTrend": "DOWN",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "financialData": {
+                "maxAge": 86400,
+                "currentPrice": 54.37,
+                "targetHighPrice": 95.0,
+                "targetLowPrice": 60.0,
+                "targetMeanPrice": 82.31,
+                "targetMedianPrice": 86.0,
+                "recommendationMean": 1.8,
+                "recommendationKey": "buy",
+                "numberOfAnalystOpinions": 21,
+                "totalCash": 1302376960,
+                "totalCashPerShare": 3.572,
+                "ebitda": -425375008,
+                "totalDebt": 334686016,
+                "quickRatio": 5.529,
+                "currentRatio": 5.663,
+                "totalRevenue": 342798016,
+                "debtToEquity": 28.752,
+                "revenuePerShare": 1.902,
+                "returnOnAssets": -0.18250999,
+                "returnOnEquity": -0.51281,
+                "freeCashflow": -264057376,
+                "operatingCashflow": -238543008,
+                "revenueGrowth": 1.587,
+                "grossMargins": -0.63838,
+                "ebitdaMargins": -1.24089,
+                "operatingMargins": -1.25399,
+                "profitMargins": -1.3592399,
+                "financialCurrency": "USD"
+            }
+        }
+    }
+}

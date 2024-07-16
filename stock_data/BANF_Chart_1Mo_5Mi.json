@@ -1,0 +1,38 @@
+{
+    "BANF": {
+        "triggers": [
+            {
+                "high_timestamp": "2024-06-24 14:40:00-04:00",
+                "high_price": 85.78,
+                "trigger_timestamp": "2024-06-25 13:05:00-04:00",
+                "trigger_price": 84.39,
+                "percentage_drop": 1.63,
+                "bar_high": 84.39,
+                "bar_low": 84.39,
+                "bar_open": 84.39,
+                "bar_close": 84.39
+            }
+        ],
+        "trades": [
+            {
+                "buy_timestamp": "2024-06-25 13:05:00-04:00",
+                "buy_price": 84.39,
+                "sell_timestamp": "2024-06-26 15:05:00-04:00",
+                "sell_price": 85.23,
+                "profit": 0.84
+            }
+        ],
+        "totals": {
+            "Report": "Source: Yahoo, Period: 1Mo, Interval: 5Mi",
+            "Threshold": 1,
+            "Triggers": 1,
+            "Buy_Orders": 1,
+            "Sell_Orders": 1,
+            "Gained": 1,
+            "Working_Days": 2,
+            "Annual_Trade_Gain": 126.0,
+            "Score": 0.61,
+            "Updated": "2024-07-15 07:19:44 PM EDT"
+        }
+    }
+}

@@ -1,0 +1,368 @@
+{
+    "DPST": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "phone": "866-476-7523",
+                "longBusinessSummary": "The fund invests at least 80% of its net assets in financial instruments, such as swap agreements, securities of the index, and ETFs that track the index, that, in combination, provide 3X daily leveraged exposure to the index, consistent with the fund's investment objective. The index is a modified equal-weighted index that is designed to measure performance of the stocks comprising the S&P Total Market Index that are classified in the GICS regional banks sub-industry. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "fundProfile": {
+                "maxAge": 1,
+                "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq7.gif",
+                "family": "Direxion Funds",
+                "categoryName": "Trading--Leveraged Equity",
+                "legalType": "Exchange Traded Fund",
+                "feesExpensesInvestment": {
+                    "annualReportExpenseRatio": 0.0095,
+                    "annualHoldingsTurnover": 0.0,
+                    "totalNetAssets": 4101.61,
+                    "projectionValues": {}
+                },
+                "feesExpensesInvestmentCat": {
+                    "annualReportExpenseRatio": 0.0,
+                    "totalNetAssets": 4101.61,
+                    "projectionValuesCat": {}
+                }
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 82.11,
+                "open": 83.86,
+                "dayLow": 81.28,
+                "dayHigh": 85.03,
+                "regularMarketPreviousClose": 82.11,
+                "regularMarketOpen": 83.86,
+                "regularMarketDayLow": 81.28,
+                "regularMarketDayHigh": 85.03,
+                "trailingPE": 117.2708,
+                "volume": 1799036,
+                "regularMarketVolume": 1799036,
+                "averageVolume": 1156267,
+                "averageVolume10days": 1642980,
+                "averageDailyVolume10Day": 1642980,
+                "bid": 82.3,
+                "ask": 82.65,
+                "bidSize": 1300,
+                "askSize": 3200,
+                "yield": 0.0271,
+                "totalAssets": 847920832,
+                "fiftyTwoWeekLow": 38.555,
+                "fiftyTwoWeekHigh": 107.86,
+                "fiftyDayAverage": 69.1922,
+                "twoHundredDayAverage": 69.8396,
+                "trailingAnnualDividendRate": 0.0,
+                "trailingAnnualDividendYield": 0.0,
+                "navPrice": 82.781,
+                "currency": "USD",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "pageViews": {
+                "shortTermTrend": "DOWN",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "FREE_REALTIME",
+                "postMarketChangePercent": 0.0,
+                "postMarketChange": 0.0,
+                "postMarketTime": "2024-07-12 18:59:12",
+                "postMarketPrice": 82.61,
+                "postMarketSource": "DELAYED",
+                "regularMarketChangePercent": 0.006089392,
+                "regularMarketChange": 0.5,
+                "regularMarketTime": "2024-07-12 15:00:00",
+                "priceHint": 2,
+                "regularMarketPrice": 82.61,
+                "regularMarketDayHigh": 85.03,
+                "regularMarketDayLow": 81.28,
+                "regularMarketVolume": 1799036,
+                "averageDailyVolume10Day": 1642980,
+                "averageDailyVolume3Month": 1156267,
+                "regularMarketPreviousClose": 82.11,
+                "regularMarketSource": "DELAYED",
+                "regularMarketOpen": 83.86,
+                "exchange": "PCX",
+                "exchangeName": "NYSEArca",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "CLOSED",
+                "quoteType": "ETF",
+                "symbol": "DPST",
+                "underlyingSymbol": null,
+                "shortName": "Direxion Daily Regional Banks B",
+                "longName": "Direxion Daily Regional Banks Bull 3X Shares",
+                "currency": "USD",
+                "quoteSourceName": "Delayed Quote",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "lastMarket": null
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "category": "Trading--Leveraged Equity",
+                "ytdReturn": -0.1372163,
+                "beta3Year": 2.48,
+                "totalAssets": 847920832,
+                "yield": 0.0271,
+                "fundFamily": "Direxion Funds",
+                "fundInceptionDate": "2015-08-18 19:00:00",
+                "legalType": "Exchange Traded Fund",
+                "threeYearAverageReturn": -0.40343922,
+                "fiveYearAverageReturn": -0.36734033,
+                "lastSplitFactor": null
+            },
+            "summaryProfile": {
+                "phone": "866-476-7523",
+                "longBusinessSummary": "The fund invests at least 80% of its net assets in financial instruments, such as swap agreements, securities of the index, and ETFs that track the index, that, in combination, provide 3X daily leveraged exposure to the index, consistent with the fund's investment objective. The index is a modified equal-weighted index that is designed to measure performance of the stocks comprising the S&P Total Market Index that are classified in the GICS regional banks sub-industry. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "topHoldings": {
+                "maxAge": 1,
+                "stockPosition": 0.7583,
+                "bondPosition": 0.0,
+                "holdings": [
+                    {
+                        "symbol": "FTIXX",
+                        "holdingName": "Goldman Sachs FS Treasury Intms Instl",
+                        "holdingPercent": 0.1090145
+                    },
+                    {
+                        "symbol": "FHN",
+                        "holdingName": "First Horizon Corp",
+                        "holdingPercent": 0.0163229
+                    },
+                    {
+                        "symbol": "WBS",
+                        "holdingName": "Webster Financial Corp",
+                        "holdingPercent": 0.0162421
+                    },
+                    {
+                        "symbol": "SNV",
+                        "holdingName": "Synovus Financial Corp",
+                        "holdingPercent": 0.0162279
+                    },
+                    {
+                        "symbol": "TFC",
+                        "holdingName": "Truist Financial Corp",
+                        "holdingPercent": 0.016205199
+                    },
+                    {
+                        "symbol": "OZK",
+                        "holdingName": "Bank OZK",
+                        "holdingPercent": 0.0159994
+                    },
+                    {
+                        "symbol": "COLB",
+                        "holdingName": "Columbia Banking System Inc",
+                        "holdingPercent": 0.0159664
+                    },
+                    {
+                        "symbol": "RF",
+                        "holdingName": "Regions Financial Corp",
+                        "holdingPercent": 0.0158712
+                    }
+                ],
+                "equityHoldings": {
+                    "priceToEarnings": 0.08835,
+                    "priceToBook": 1.00151,
+                    "priceToSales": 0.36367,
+                    "priceToCashflow": 0.0
+                },
+                "bondHoldings": {},
+                "bondRatings": [
+                    {
+                        "us_government": 0.0
+                    }
+                ],
+                "sectorWeightings": [
+                    {
+                        "realestate": 0.0
+                    },
+                    {
+                        "consumer_cyclical": 0.0
+                    },
+                    {
+                        "basic_materials": 0.0
+                    },
+                    {
+                        "consumer_defensive": 0.0
+                    },
+                    {
+                        "technology": 0.0
+                    },
+                    {
+                        "communication_services": 0.0
+                    },
+                    {
+                        "financial_services": 1.0
+                    },
+                    {
+                        "utilities": 0.0
+                    },
+                    {
+                        "industrials": 0.0
+                    },
+                    {
+                        "energy": 0.0
+                    },
+                    {
+                        "healthcare": 0.0
+                    }
+                ]
+            },
+            "fundPerformance": {
+                "maxAge": 1,
+                "performanceOverview": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytdReturnPct": -0.1372163,
+                    "oneYearTotalReturn": 0.33622608,
+                    "threeYearTotalReturn": -0.40343922
+                },
+                "performanceOverviewCat": {},
+                "trailingReturns": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytd": -0.2666164,
+                    "oneMonth": 0.0190145,
+                    "threeMonth": -0.1127149,
+                    "oneYear": 0.33538952,
+                    "threeYear": -0.4411484,
+                    "fiveYear": -0.3852512,
+                    "tenYear": 0.0,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "trailingReturnsNav": {
+                    "ytd": -0.2666164,
+                    "oneMonth": 0.0190145,
+                    "threeMonth": -0.1127149,
+                    "oneYear": 0.33538952,
+                    "threeYear": -0.4411484,
+                    "fiveYear": -0.3852512,
+                    "tenYear": 0.0
+                },
+                "trailingReturnsCat": {
+                    "ytd": 0.0,
+                    "oneMonth": 0.0,
+                    "threeMonth": 0.0,
+                    "oneYear": 0.0,
+                    "threeYear": 0.0,
+                    "fiveYear": 0.0,
+                    "tenYear": 0.0,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "annualTotalReturns": {
+                    "returns": [
+                        {
+                            "year": "2023",
+                            "annualValue": -0.55806565
+                        },
+                        {
+                            "year": "2022",
+                            "annualValue": -0.53874296
+                        },
+                        {
+                            "year": "2021",
+                            "annualValue": 1.080279
+                        },
+                        {
+                            "year": "2020",
+                            "annualValue": -0.7657553
+                        },
+                        {
+                            "year": "2019",
+                            "annualValue": 0.7073414
+                        },
+                        {
+                            "year": "2018",
+                            "annualValue": -0.567458
+                        },
+                        {
+                            "year": "2017",
+                            "annualValue": 0.0731812
+                        },
+                        {
+                            "year": "2016",
+                            "annualValue": 1.073171
+                        }
+                    ],
+                    "returnsCat": []
+                },
+                "pastQuarterlyReturns": {
+                    "returns": []
+                },
+                "riskOverviewStatistics": {
+                    "riskStatistics": [
+                        {
+                            "year": "5y",
+                            "alpha": -35.39,
+                            "beta": 2.95,
+                            "meanAnnualReturn": 0.54,
+                            "rSquared": 31.94,
+                            "stdDev": 94.37,
+                            "sharpeRatio": 0.04,
+                            "treynorRatio": -13.83
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": -37.06,
+                            "beta": 2.48,
+                            "meanAnnualReturn": -1.2,
+                            "rSquared": 24.77,
+                            "stdDev": 88.38,
+                            "sharpeRatio": -0.2,
+                            "treynorRatio": -19.18
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": 0.0,
+                            "beta": 0.0,
+                            "meanAnnualReturn": 0.0,
+                            "rSquared": 0.0,
+                            "stdDev": 0.0,
+                            "sharpeRatio": 0.0,
+                            "treynorRatio": 0.0
+                        }
+                    ]
+                },
+                "riskOverviewStatisticsCat": {
+                    "riskStatisticsCat": [
+                        {
+                            "year": "5y"
+                        },
+                        {
+                            "year": "3y"
+                        },
+                        {
+                            "year": "10y"
+                        }
+                    ]
+                }
+            },
+            "quoteType": {
+                "exchange": "PCX",
+                "quoteType": "ETF",
+                "symbol": "DPST",
+                "underlyingSymbol": "DPST",
+                "shortName": "Direxion Daily Regional Banks B",
+                "longName": "Direxion Daily Regional Banks Bull 3X Shares",
+                "firstTradeDateEpochUtc": "2015-08-20 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "1f759d6b-0c93-3023-902c-d5252ab75d68",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            }
+        }
+    }
+}

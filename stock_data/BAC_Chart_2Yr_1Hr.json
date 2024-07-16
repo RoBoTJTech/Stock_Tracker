@@ -1,0 +1,92 @@
+{
+    "BAC": {
+        "triggers": [
+            {
+                "high_timestamp": "2022-08-16 15:30:00-04:00",
+                "high_price": 36.72,
+                "trigger_timestamp": "2022-09-28 10:30:00-04:00",
+                "trigger_price": 30.98,
+                "percentage_drop": 15.63,
+                "bar_high": 31.17,
+                "bar_low": 30.98,
+                "bar_open": 31.11,
+                "bar_close": 31.04
+            },
+            {
+                "high_timestamp": "2022-11-11 16:00:00-05:00",
+                "high_price": 38.48,
+                "trigger_timestamp": "2022-12-15 16:00:00-05:00",
+                "trigger_price": 31.71,
+                "percentage_drop": 17.59,
+                "bar_high": 31.95,
+                "bar_low": 31.71,
+                "bar_open": 31.77,
+                "bar_close": 31.78
+            },
+            {
+                "high_timestamp": "2023-02-07 13:30:00-05:00",
+                "high_price": 36.78,
+                "trigger_timestamp": "2023-03-15 15:30:00-04:00",
+                "trigger_price": 28.25,
+                "percentage_drop": 23.18,
+                "bar_high": 28.51,
+                "bar_low": 28.25,
+                "bar_open": 28.49,
+                "bar_close": 28.5
+            },
+            {
+                "high_timestamp": "2023-07-24 13:30:00-04:00",
+                "high_price": 32.78,
+                "trigger_timestamp": "2023-09-28 16:00:00-04:00",
+                "trigger_price": 27.55,
+                "percentage_drop": 15.95,
+                "bar_high": 27.6,
+                "bar_low": 27.55,
+                "bar_open": 27.56,
+                "bar_close": 27.58
+            }
+        ],
+        "trades": [
+            {
+                "buy_timestamp": "2022-09-28 10:30:00-04:00",
+                "buy_price": 30.98,
+                "sell_timestamp": "2022-10-26 09:30:00-04:00",
+                "sell_price": 35.85,
+                "profit": 4.68
+            },
+            {
+                "buy_timestamp": "2022-12-15 16:00:00-05:00",
+                "buy_price": 31.71,
+                "sell_timestamp": "2023-02-03 11:30:00-05:00",
+                "sell_price": 36.74,
+                "profit": 4.79
+            },
+            {
+                "buy_timestamp": "2023-03-15 15:30:00-04:00",
+                "buy_price": 28.25,
+                "sell_timestamp": "2023-07-24 11:30:00-04:00",
+                "sell_price": 32.79,
+                "profit": 4.28
+            },
+            {
+                "buy_timestamp": "2023-09-28 16:00:00-04:00",
+                "buy_price": 27.55,
+                "sell_timestamp": "2023-12-13 14:30:00-05:00",
+                "sell_price": 31.74,
+                "profit": 4.14
+            }
+        ],
+        "totals": {
+            "Report": "Source: Yahoo, Period: 2Yr, Interval: 1Hr",
+            "Threshold": 15,
+            "Triggers": 4,
+            "Buy_Orders": 4,
+            "Sell_Orders": 4,
+            "Gained": 60,
+            "Working_Days": 203,
+            "Annual_Trade_Gain": 74.48,
+            "Score": 115.76,
+            "Updated": "2024-07-13 04:43:13 PM EDT"
+        }
+    }
+}

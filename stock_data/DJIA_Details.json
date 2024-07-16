@@ -1,0 +1,484 @@
+{
+    "DJIA": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "phone": "+1 8884938631",
+                "longBusinessSummary": "The index measures the performance of a covered call strategy that holds a theoretical portfolio of the underlying stocks of the Dow Jones Industrial Average\u00ae (the \"reference index\") and \"writes\" (or sells) a succession of one-month at-the-money (\u201cATM\u201d) covered call options on the Reference Index. The fund invests in the securities reflected in the index, and cannot invest directly in the index itself. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "fundProfile": {
+                "maxAge": 1,
+                "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq2.gif",
+                "family": "Global X Funds",
+                "categoryName": "Derivative Income",
+                "legalType": "Exchange Traded Fund",
+                "managementInfo": {
+                    "managerName": null,
+                    "managerBio": null
+                },
+                "feesExpensesInvestment": {
+                    "annualReportExpenseRatio": 0.006,
+                    "annualHoldingsTurnover": 0.066700004,
+                    "totalNetAssets": 310194.72,
+                    "projectionValues": {}
+                },
+                "feesExpensesInvestmentCat": {
+                    "annualReportExpenseRatio": 0.0093074,
+                    "annualHoldingsTurnover": 0.5118,
+                    "totalNetAssets": 310194.72,
+                    "projectionValuesCat": {}
+                },
+                "brokerages": []
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 22.43,
+                "open": 22.43,
+                "dayLow": 22.36,
+                "dayHigh": 22.4599,
+                "regularMarketPreviousClose": 22.43,
+                "regularMarketOpen": 22.43,
+                "regularMarketDayLow": 22.36,
+                "regularMarketDayHigh": 22.4599,
+                "trailingPE": 20.31168,
+                "volume": 23748,
+                "regularMarketVolume": 23748,
+                "averageVolume": 20362,
+                "averageVolume10days": 24320,
+                "averageDailyVolume10Day": 24320,
+                "bid": 22.38,
+                "ask": 22.42,
+                "bidSize": 1200,
+                "askSize": 1100,
+                "yield": 0.0652,
+                "totalAssets": 85487024,
+                "fiftyTwoWeekLow": 20.64,
+                "fiftyTwoWeekHigh": 22.99,
+                "fiftyDayAverage": 22.14316,
+                "twoHundredDayAverage": 22.00663,
+                "navPrice": 22.4,
+                "currency": "USD",
+                "fromCurrency": null,
+                "toCurrency": null,
+                "lastMarket": null,
+                "coinMarketCapLink": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "pageViews": {
+                "shortTermTrend": "DOWN",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "DELAYED",
+                "regularMarketChangePercent": -0.0012884594,
+                "regularMarketChange": -0.028900146,
+                "regularMarketTime": "2024-07-15 14:26:56",
+                "priceHint": 2,
+                "regularMarketPrice": 22.4011,
+                "regularMarketDayHigh": 22.4599,
+                "regularMarketDayLow": 22.36,
+                "regularMarketVolume": 23748,
+                "averageDailyVolume10Day": 24320,
+                "averageDailyVolume3Month": 20362,
+                "regularMarketPreviousClose": 22.43,
+                "regularMarketSource": "FREE_REALTIME",
+                "regularMarketOpen": 22.43,
+                "exchange": "PCX",
+                "exchangeName": "NYSEArca",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "REGULAR",
+                "quoteType": "ETF",
+                "symbol": "DJIA",
+                "underlyingSymbol": null,
+                "shortName": "Global X Funds Global X Dow 30 ",
+                "longName": "Global X Dow 30 Covered Call ETF",
+                "currency": "USD",
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "toCurrency": null,
+                "lastMarket": null
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "category": "Derivative Income",
+                "ytdReturn": 0.056336798,
+                "beta3Year": 0.0,
+                "totalAssets": 85487024,
+                "yield": 0.0652,
+                "fundFamily": "Global X Funds",
+                "fundInceptionDate": "2022-02-22 18:00:00",
+                "legalType": "Exchange Traded Fund",
+                "lastSplitFactor": null
+            },
+            "summaryProfile": {
+                "phone": "+1 8884938631",
+                "longBusinessSummary": "The index measures the performance of a covered call strategy that holds a theoretical portfolio of the underlying stocks of the Dow Jones Industrial Average\u00ae (the \"reference index\") and \"writes\" (or sells) a succession of one-month at-the-money (\u201cATM\u201d) covered call options on the Reference Index. The fund invests in the securities reflected in the index, and cannot invest directly in the index itself. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "topHoldings": {
+                "maxAge": 1,
+                "cashPosition": 0.006,
+                "stockPosition": 0.994,
+                "bondPosition": 0.0,
+                "otherPosition": 0.0,
+                "preferredPosition": 0.0,
+                "convertiblePosition": 0.0,
+                "holdings": [
+                    {
+                        "symbol": "UNH",
+                        "holdingName": "UnitedHealth Group Inc",
+                        "holdingPercent": 0.0855334
+                    },
+                    {
+                        "symbol": "GS",
+                        "holdingName": "The Goldman Sachs Group Inc",
+                        "holdingPercent": 0.075969905
+                    },
+                    {
+                        "symbol": "MSFT",
+                        "holdingName": "Microsoft Corp",
+                        "holdingPercent": 0.075068004
+                    },
+                    {
+                        "symbol": "HD",
+                        "holdingName": "The Home Depot Inc",
+                        "holdingPercent": 0.057817202
+                    },
+                    {
+                        "symbol": "CAT",
+                        "holdingName": "Caterpillar Inc",
+                        "holdingPercent": 0.0559462
+                    },
+                    {
+                        "symbol": "AMGN",
+                        "holdingName": "Amgen Inc",
+                        "holdingPercent": 0.0524779
+                    },
+                    {
+                        "symbol": "V",
+                        "holdingName": "Visa Inc Class A",
+                        "holdingPercent": 0.0440835
+                    },
+                    {
+                        "symbol": "CRM",
+                        "holdingName": "Salesforce Inc",
+                        "holdingPercent": 0.0431815
+                    },
+                    {
+                        "symbol": "MCD",
+                        "holdingName": "McDonald's Corp",
+                        "holdingPercent": 0.0428019
+                    },
+                    {
+                        "symbol": "AXP",
+                        "holdingName": "American Express Co",
+                        "holdingPercent": 0.038890198
+                    }
+                ],
+                "equityHoldings": {
+                    "priceToEarnings": 0.04203,
+                    "priceToBook": 0.22768,
+                    "priceToSales": 0.37202,
+                    "priceToCashflow": 0.05682
+                },
+                "bondHoldings": {},
+                "bondRatings": [
+                    {
+                        "us_government": 0.0
+                    }
+                ],
+                "sectorWeightings": [
+                    {
+                        "realestate": 0.0
+                    },
+                    {
+                        "consumer_cyclical": 0.1457
+                    },
+                    {
+                        "basic_materials": 0.0089
+                    },
+                    {
+                        "consumer_defensive": 0.0498
+                    },
+                    {
+                        "technology": 0.1958
+                    },
+                    {
+                        "communication_services": 0.023599999
+                    },
+                    {
+                        "financial_services": 0.22700001
+                    },
+                    {
+                        "utilities": 0.0
+                    },
+                    {
+                        "industrials": 0.13949999
+                    },
+                    {
+                        "energy": 0.026300002
+                    },
+                    {
+                        "healthcare": 0.1833
+                    }
+                ]
+            },
+            "fundPerformance": {
+                "maxAge": 1,
+                "fundCategoryName": "Derivative Income",
+                "performanceOverview": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytdReturnPct": 0.056336798,
+                    "fiveYrAvgReturnPct": 0.0,
+                    "oneYearTotalReturn": 0.084120706,
+                    "threeYearTotalReturn": 0.0
+                },
+                "performanceOverviewCat": {
+                    "ytdReturnPct": 0.0853172,
+                    "fiveYrAvgReturnPct": 0.0771696,
+                    "oneYearTotalReturn": 0.1341953,
+                    "threeYearTotalReturn": 0.053059302
+                },
+                "trailingReturns": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytd": 0.0417021,
+                    "oneMonth": 0.0154585,
+                    "threeMonth": -0.0091141,
+                    "oneYear": 0.0696276,
+                    "threeYear": 0.0,
+                    "fiveYear": 0.0,
+                    "tenYear": 0.0,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "trailingReturnsNav": {
+                    "ytd": 0.0417021,
+                    "oneMonth": 0.0154585,
+                    "threeMonth": -0.0091141,
+                    "oneYear": 0.0696276,
+                    "threeYear": 0.0,
+                    "fiveYear": 0.0,
+                    "tenYear": 0.0
+                },
+                "trailingReturnsCat": {
+                    "ytd": 0.0853172,
+                    "oneMonth": 0.0120323,
+                    "threeMonth": 0.0061156,
+                    "oneYear": 0.1341953,
+                    "threeYear": 0.053059302,
+                    "fiveYear": 0.0771696,
+                    "tenYear": 0.060617197,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "annualTotalReturns": {
+                    "returns": [
+                        {
+                            "year": "2023",
+                            "annualValue": 0.09162369
+                        }
+                    ],
+                    "returnsCat": [
+                        {
+                            "year": "2023",
+                            "annualValue": 0.1497203
+                        },
+                        {
+                            "year": "2022",
+                            "annualValue": -0.1023349
+                        },
+                        {
+                            "year": "2021",
+                            "annualValue": 0.18207198
+                        },
+                        {
+                            "year": "2020",
+                            "annualValue": 0.0424089
+                        },
+                        {
+                            "year": "2019",
+                            "annualValue": 0.1881494
+                        },
+                        {
+                            "year": "2018",
+                            "annualValue": -0.0581187
+                        },
+                        {
+                            "year": "2017",
+                            "annualValue": 0.1345729
+                        },
+                        {
+                            "year": "2016",
+                            "annualValue": 0.072527796
+                        },
+                        {
+                            "year": "2015",
+                            "annualValue": -0.0036591
+                        },
+                        {
+                            "year": "2014",
+                            "annualValue": 0.080099896
+                        },
+                        {
+                            "year": "2013",
+                            "annualValue": 0.1657929
+                        },
+                        {
+                            "year": "2012",
+                            "annualValue": 0.0795434
+                        },
+                        {
+                            "year": "2011",
+                            "annualValue": -0.0051468
+                        },
+                        {
+                            "year": "2010",
+                            "annualValue": 0.1262902
+                        },
+                        {
+                            "year": "2009",
+                            "annualValue": 0.3003046
+                        },
+                        {
+                            "year": "2008",
+                            "annualValue": -0.3252501
+                        },
+                        {
+                            "year": "2007",
+                            "annualValue": 0.2058482
+                        },
+                        {
+                            "year": "2006",
+                            "annualValue": 0.18012659
+                        },
+                        {
+                            "year": "2005",
+                            "annualValue": 0.13953769
+                        },
+                        {
+                            "year": "2004",
+                            "annualValue": 0.1763611
+                        },
+                        {
+                            "year": "2003",
+                            "annualValue": 0.4687561
+                        },
+                        {
+                            "year": "2002",
+                            "annualValue": -0.3913379
+                        },
+                        {
+                            "year": "2001",
+                            "annualValue": -0.1450187
+                        },
+                        {
+                            "year": "2000",
+                            "annualValue": -0.0835332
+                        },
+                        {
+                            "year": "1999",
+                            "annualValue": 2.195395
+                        }
+                    ]
+                },
+                "pastQuarterlyReturns": {
+                    "returns": []
+                },
+                "riskOverviewStatistics": {
+                    "riskStatistics": [
+                        {
+                            "year": "5y",
+                            "alpha": 0.0,
+                            "beta": 0.0,
+                            "meanAnnualReturn": 0.0,
+                            "rSquared": 0.0,
+                            "stdDev": 0.0,
+                            "sharpeRatio": 0.0,
+                            "treynorRatio": 0.0
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": 0.0,
+                            "beta": 0.0,
+                            "meanAnnualReturn": 0.0,
+                            "rSquared": 0.0,
+                            "stdDev": 0.0,
+                            "sharpeRatio": 0.0,
+                            "treynorRatio": 0.0
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": 0.0,
+                            "beta": 0.0,
+                            "meanAnnualReturn": 0.0,
+                            "rSquared": 0.0,
+                            "stdDev": 0.0,
+                            "sharpeRatio": 0.0,
+                            "treynorRatio": 0.0
+                        }
+                    ]
+                },
+                "riskOverviewStatisticsCat": {
+                    "riskStatisticsCat": [
+                        {
+                            "year": "5y",
+                            "alpha": -3.78,
+                            "beta": 0.76,
+                            "meanAnnualReturn": 0.72,
+                            "rSquared": 81.34,
+                            "stdDev": 15.15,
+                            "sharpeRatio": 0.42,
+                            "treynorRatio": 7.15
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": -2.56,
+                            "beta": 0.68,
+                            "meanAnnualReturn": 0.51,
+                            "rSquared": 79.48,
+                            "stdDev": 13.67,
+                            "sharpeRatio": 0.2,
+                            "treynorRatio": 2.88
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": -3.41,
+                            "beta": 0.72,
+                            "meanAnnualReturn": 0.55,
+                            "rSquared": 80.99,
+                            "stdDev": 12.28,
+                            "sharpeRatio": 0.41,
+                            "treynorRatio": 6.15
+                        }
+                    ]
+                }
+            },
+            "quoteType": {
+                "exchange": "PCX",
+                "quoteType": "ETF",
+                "symbol": "DJIA",
+                "underlyingSymbol": "DJIA",
+                "shortName": "Global X Funds Global X Dow 30 ",
+                "longName": "Global X Dow 30 Covered Call ETF",
+                "firstTradeDateEpochUtc": "2022-02-24 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "45df6e26-907e-38e4-b028-b4916d73a673",
+                "messageBoardId": "finmb_1765093788",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            }
+        }
+    }
+}

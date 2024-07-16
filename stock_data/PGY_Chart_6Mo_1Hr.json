@@ -1,0 +1,67 @@
+{
+    "PGY": {
+        "triggers": [
+            {
+                "high_timestamp": "2024-02-22 14:30:00-05:00",
+                "high_price": 18.72,
+                "trigger_timestamp": "2024-03-20 11:30:00-04:00",
+                "trigger_price": 10.08,
+                "percentage_drop": 46.15,
+                "bar_high": 10.32,
+                "bar_low": 10.08,
+                "bar_open": 10.16,
+                "bar_close": 10.17
+            },
+            {
+                "high_timestamp": "2024-03-21 08:00:00-04:00",
+                "high_price": 11.07,
+                "trigger_timestamp": "2024-04-02 15:30:00-04:00",
+                "trigger_price": 9.36,
+                "percentage_drop": 15.45,
+                "bar_high": 9.55,
+                "bar_low": 9.36,
+                "bar_open": 9.55,
+                "bar_close": 9.47
+            },
+            {
+                "high_timestamp": "2024-04-09 10:30:00-04:00",
+                "high_price": 11.45,
+                "trigger_timestamp": "2024-04-25 16:00:00-04:00",
+                "trigger_price": 9.5,
+                "percentage_drop": 17.03,
+                "bar_high": 9.96,
+                "bar_low": 9.5,
+                "bar_open": 9.69,
+                "bar_close": 9.5
+            }
+        ],
+        "trades": [
+            {
+                "buy_timestamp": "2024-03-20 11:30:00-04:00",
+                "buy_price": 10.08,
+                "sell_timestamp": "2024-04-09 09:30:00-04:00",
+                "sell_price": 11.87,
+                "profit": 1.55
+            },
+            {
+                "buy_timestamp": "2024-04-25 16:00:00-04:00",
+                "buy_price": 9.5,
+                "sell_timestamp": "2024-05-09 08:00:00-04:00",
+                "sell_price": 11.45,
+                "profit": 1.49
+            }
+        ],
+        "totals": {
+            "Report": "Source: Yahoo, Period: 6Mo, Interval: 1Hr",
+            "Threshold": 15,
+            "Triggers": 3,
+            "Buy_Orders": 2,
+            "Sell_Orders": 2,
+            "Gained": 30,
+            "Working_Days": 24,
+            "Annual_Trade_Gain": 315.0,
+            "Score": 95.95,
+            "Updated": "2024-07-15 04:49:08 PM EDT"
+        }
+    }
+}

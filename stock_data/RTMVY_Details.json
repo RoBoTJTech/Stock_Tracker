@@ -1,0 +1,1345 @@
+{
+    "RTMVY": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "address1": "2 Caldecotte Lake Business Park",
+                "address2": "Caldecotte Lake Drive Caldecotte",
+                "city": "Milton Keynes",
+                "zip": "MK7 8LE",
+                "country": "United Kingdom",
+                "website": "https://plc.rightmove.co.uk",
+                "industry": "Internet Content & Information",
+                "sector": "Communication Services",
+                "longBusinessSummary": "Rightmove plc, together with its subsidiaries, operates online digital property advertising and information portals in the United Kingdom and internationally. The company operates through Agency, New Homes, and Other segments. The Agency segment provides property resale and letting advertising services on its platforms. The segment also offers tenant references and rent guarantee insurance services to landlords. The New Homes segment provides property advertising services to new home developers and housing associations on its platforms. The Other segment offers overseas and commercial property advertising services; non-property advertising services that include third party advertising and data services; and mortgage services. It also provides valuation and brokerage services, as well as engages in the sale of property data. The company serves property professionals, such as estate agents, lettings agents, and new homes developers, as well as landlords, surveyors, insurers, mortgage lenders, brokers, and local authorities. Rightmove plc was founded in 2000 and is based in Milton Keynes, the United Kingdom.",
+                "fullTimeEmployees": 800,
+                "companyOfficers": [
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Johan  Svanstrom",
+                        "age": 52,
+                        "title": "CEO & Executive Director",
+                        "yearBorn": 1971,
+                        "fiscalYear": 2023,
+                        "totalPay": 1746065,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Ms. Alison Ann Dolan",
+                        "age": 54,
+                        "title": "CFO & Executive Director",
+                        "yearBorn": 1969,
+                        "fiscalYear": 2023,
+                        "totalPay": 1428786,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 2847
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Tarah  Lourens",
+                        "title": "Chief Operating Officer",
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Carolyn  Pollard",
+                        "title": "Company Secretary",
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    }
+                ],
+                "auditRisk": 2,
+                "boardRisk": 1,
+                "compensationRisk": 3,
+                "shareHolderRightsRisk": 1,
+                "overallRisk": 1,
+                "governanceEpochDate": "2024-06-30 19:00:00",
+                "compensationAsOfEpochDate": "2023-12-30 18:00:00",
+                "maxAge": 86400
+            },
+            "recommendationTrend": {
+                "trend": [
+                    {
+                        "period": "0m",
+                        "strongBuy": 0,
+                        "buy": 0,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-1m",
+                        "strongBuy": 0,
+                        "buy": 0,
+                        "hold": 0,
+                        "sell": 1,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-2m",
+                        "strongBuy": 0,
+                        "buy": 0,
+                        "hold": 0,
+                        "sell": 1,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-3m",
+                        "strongBuy": 0,
+                        "buy": 0,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "cashflowStatementHistory": {
+                "cashflowStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "netIncome": 199151000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31",
+                        "netIncome": 195681000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-12-31",
+                        "netIncome": 183094000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2020-12-31",
+                        "netIncome": 109775000
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "indexTrend": {
+                "maxAge": 1,
+                "symbol": "SP5",
+                "peRatio": 19.6637,
+                "pegRatio": 1.61152,
+                "estimates": [
+                    {
+                        "period": "0q",
+                        "growth": 0.071
+                    },
+                    {
+                        "period": "+1q",
+                        "growth": 0.115
+                    },
+                    {
+                        "period": "0y",
+                        "growth": 0.047
+                    },
+                    {
+                        "period": "+1y",
+                        "growth": 0.125
+                    },
+                    {
+                        "period": "+5y",
+                        "growth": 0.115975
+                    },
+                    {
+                        "period": "-5y"
+                    }
+                ]
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "enterpriseValue": 11993668608,
+                "forwardPE": 19.618422,
+                "profitMargins": 0.54664004,
+                "floatShares": 791843674,
+                "sharesOutstanding": 395982016,
+                "heldPercentInsiders": 0.0,
+                "heldPercentInstitutions": 0.046880003,
+                "beta": 1.04,
+                "category": null,
+                "bookValue": 0.087,
+                "priceToBook": 171.37932,
+                "fundFamily": null,
+                "legalType": null,
+                "lastFiscalYearEnd": "2023-12-30 18:00:00",
+                "nextFiscalYearEnd": "2024-12-30 18:00:00",
+                "mostRecentQuarter": "2023-12-30 18:00:00",
+                "earningsQuarterlyGrowth": 0.025,
+                "netIncomeToCommon": 199151008,
+                "trailingEps": 0.63,
+                "forwardEps": 0.76,
+                "lastSplitFactor": "1:1",
+                "lastSplitDate": "2018-09-05 19:00:00",
+                "enterpriseToRevenue": 32.921,
+                "enterpriseToEbitda": 46.195
+            },
+            "industryTrend": {
+                "maxAge": 1,
+                "symbol": null,
+                "estimates": []
+            },
+            "quoteType": {
+                "exchange": "PNK",
+                "quoteType": "EQUITY",
+                "symbol": "RTMVY",
+                "underlyingSymbol": "RTMVY",
+                "shortName": "RIGHTMOVE UNSP ADR EACH REP 2 O",
+                "longName": "Rightmove plc",
+                "firstTradeDateEpochUtc": "2012-10-17 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "349f8c48-047b-35e7-8996-59c32698906f",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            },
+            "incomeStatementHistory": {
+                "incomeStatementHistory": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "totalRevenue": 364316000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 199151000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31",
+                        "totalRevenue": 332622000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 195681000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-12-31",
+                        "totalRevenue": 304886000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 183094000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2020-12-31",
+                        "totalRevenue": 205717000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 109775000,
+                        "netIncomeApplicableToCommonShares": {}
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "fundOwnership": {
+                "ownershipList": [
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "JNL Series Trust-JNL/Multi Manager Small Cap GrowthFd",
+                        "pctHeld": 0.0011,
+                        "position": 446019,
+                        "value": 5905291
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Virtus Equity Tr-Virtus KAR Small-Mid Cap Growth Fd",
+                        "pctHeld": 0.0001,
+                        "position": 26648,
+                        "value": 352819
+                    }
+                ],
+                "maxAge": 1
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 15.04,
+                "open": 14.87,
+                "dayLow": 14.86,
+                "dayHigh": 14.91,
+                "regularMarketPreviousClose": 15.04,
+                "regularMarketOpen": 14.87,
+                "regularMarketDayLow": 14.86,
+                "regularMarketDayHigh": 14.91,
+                "dividendRate": 0.29,
+                "dividendYield": 0.019199999,
+                "exDividendDate": "2024-04-24 19:00:00",
+                "payoutRatio": 0.35650003,
+                "beta": 1.04,
+                "trailingPE": 23.666666,
+                "forwardPE": 19.618422,
+                "volume": 3850,
+                "regularMarketVolume": 3850,
+                "averageVolume": 47955,
+                "averageVolume10days": 54120,
+                "averageDailyVolume10Day": 54120,
+                "bid": 14.8,
+                "ask": 14.9,
+                "bidSize": 40000,
+                "askSize": 40000,
+                "marketCap": 5904091648,
+                "fiftyTwoWeekLow": 11.24,
+                "fiftyTwoWeekHigh": 15.11,
+                "priceToSalesTrailing12Months": 16.205963,
+                "fiftyDayAverage": 13.9856,
+                "twoHundredDayAverage": 13.7549,
+                "trailingAnnualDividendRate": 0.093,
+                "trailingAnnualDividendYield": 0.0061835106,
+                "currency": "USD",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "insiderHolders": {
+                "holders": [
+                    {
+                        "maxAge": 1,
+                        "name": "BlackRock, Inc.",
+                        "relation": "",
+                        "url": "",
+                        "transactionDescription": "Increase",
+                        "latestTransDate": "2022-09-29",
+                        "positionDirect": 106169,
+                        "positionDirectDate": "2022-09-29"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "relation": "",
+                        "url": "",
+                        "transactionDescription": "Increase",
+                        "latestTransDate": "2022-08-17",
+                        "positionDirect": 18045494,
+                        "positionDirectDate": "2022-08-17"
+                    }
+                ],
+                "maxAge": 1
+            },
+            "calendarEvents": {
+                "maxAge": 1,
+                "earnings": {
+                    "earningsDate": [
+                        "2024-07-25 19:00:S",
+                        "2024-07-29 19:00:S"
+                    ],
+                    "revenueAverage": 500230000,
+                    "revenueLow": 500230000,
+                    "revenueHigh": 500230000
+                },
+                "exDividendDate": "2024-04-24 19:00:00",
+                "dividendDate": "2024-06-09 19:00:00"
+            },
+            "upgradeDowngradeHistory": {
+                "history": [
+                    {
+                        "epochGradeDate": "2021-07-01 19:00:00",
+                        "firm": "UBS",
+                        "toGrade": "Neutral",
+                        "fromGrade": "Buy",
+                        "action": "down"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "price": {
+                "maxAge": 1,
+                "regularMarketChangePercent": -0.008643624,
+                "regularMarketChange": -0.13000011,
+                "regularMarketTime": "2024-07-15 08:54:46",
+                "priceHint": 2,
+                "regularMarketPrice": 14.91,
+                "regularMarketDayHigh": 14.91,
+                "regularMarketDayLow": 14.86,
+                "regularMarketVolume": 3850,
+                "averageDailyVolume10Day": 54120,
+                "averageDailyVolume3Month": 47955,
+                "regularMarketPreviousClose": 15.04,
+                "regularMarketSource": "DELAYED",
+                "regularMarketOpen": 14.87,
+                "exchange": "PNK",
+                "exchangeName": "OTC Markets OTCPK",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "POSTPOST",
+                "quoteType": "EQUITY",
+                "symbol": "RTMVY",
+                "underlyingSymbol": null,
+                "shortName": "RIGHTMOVE UNSP ADR EACH REP 2 O",
+                "longName": "Rightmove plc",
+                "currency": "USD",
+                "quoteSourceName": "Delayed Quote",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "marketCap": 5904091648
+            },
+            "balanceSheetHistory": {
+                "balanceSheetStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2020-12-31"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earningsTrend": {
+                "trend": [
+                    {
+                        "maxAge": 1,
+                        "period": "0q",
+                        "endDate": "2023-12-31",
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": 0.0,
+                            "low": 0.0,
+                            "high": 0.0,
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": 0,
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": 500230000,
+                            "low": 500230000,
+                            "high": 500230000,
+                            "numberOfAnalysts": 1,
+                            "yearAgoRevenue": 452915000,
+                            "growth": 0.103999995
+                        },
+                        "epsTrend": {
+                            "current": 0.0,
+                            "7daysAgo": 0.0,
+                            "30daysAgo": 0.0,
+                            "60daysAgo": 0.0,
+                            "90daysAgo": 0.0
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+1q",
+                        "endDate": "2024-03-31",
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": 0.0,
+                            "low": 0.0,
+                            "high": 0.0,
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": 0,
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": 0,
+                            "low": 0,
+                            "high": 0,
+                            "numberOfAnalysts": 0,
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": 0.0,
+                            "7daysAgo": 0.0,
+                            "30daysAgo": 0.0,
+                            "60daysAgo": 0.0,
+                            "90daysAgo": 0.0
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "0y",
+                        "endDate": "2024-12-31",
+                        "growth": 0.136,
+                        "earningsEstimate": {
+                            "avg": 0.67,
+                            "low": 0.67,
+                            "high": 0.67,
+                            "yearAgoEps": 0.59,
+                            "numberOfAnalysts": 1,
+                            "growth": 0.136
+                        },
+                        "revenueEstimate": {
+                            "avg": 500230000,
+                            "low": 500230000,
+                            "high": 500230000,
+                            "numberOfAnalysts": 1,
+                            "yearAgoRevenue": 452915000,
+                            "growth": 0.103999995
+                        },
+                        "epsTrend": {
+                            "current": 0.67,
+                            "7daysAgo": 0.66,
+                            "30daysAgo": 0.66,
+                            "60daysAgo": 0.65,
+                            "90daysAgo": 0.66
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 1,
+                            "upLast30days": 1,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+1y",
+                        "endDate": "2025-12-31",
+                        "growth": 0.134,
+                        "earningsEstimate": {
+                            "avg": 0.76,
+                            "low": 0.76,
+                            "high": 0.76,
+                            "yearAgoEps": 0.67,
+                            "numberOfAnalysts": 1,
+                            "growth": 0.134
+                        },
+                        "revenueEstimate": {
+                            "avg": 553500000,
+                            "low": 553500000,
+                            "high": 553500000,
+                            "numberOfAnalysts": 1,
+                            "yearAgoRevenue": 500230000,
+                            "growth": 0.106000006
+                        },
+                        "epsTrend": {
+                            "current": 0.76,
+                            "7daysAgo": 0.76,
+                            "30daysAgo": 0.75,
+                            "60daysAgo": 0.74,
+                            "90daysAgo": 0.74
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 1,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+5y",
+                        "endDate": null,
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": {},
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "numberOfAnalysts": {},
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": {},
+                            "7daysAgo": {},
+                            "30daysAgo": {},
+                            "60daysAgo": {},
+                            "90daysAgo": {}
+                        },
+                        "epsRevisions": {
+                            "upLast7days": {},
+                            "upLast30days": {},
+                            "downLast30days": {},
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "-5y",
+                        "endDate": null,
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": {},
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "numberOfAnalysts": {},
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": {},
+                            "7daysAgo": {},
+                            "30daysAgo": {},
+                            "60daysAgo": {},
+                            "90daysAgo": {}
+                        },
+                        "epsRevisions": {
+                            "upLast7days": {},
+                            "upLast30days": {},
+                            "downLast30days": {},
+                            "downLast90days": {}
+                        }
+                    }
+                ],
+                "maxAge": 1
+            },
+            "institutionOwnership": {
+                "ownershipList": [
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "SkyView Investment Advisors, LLC",
+                        "pctHeld": 0.0001,
+                        "position": 50390,
+                        "value": 667163
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Systm Wealth Solutions LLC",
+                        "pctHeld": 0.0001,
+                        "position": 25609,
+                        "value": 339063
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Wesbanco Bank Inc.",
+                        "pctHeld": 0.0001,
+                        "position": 33701,
+                        "value": 446201
+                    }
+                ],
+                "maxAge": 1
+            },
+            "majorHoldersBreakdown": {
+                "maxAge": 1,
+                "insidersPercentHeld": 0.0,
+                "institutionsPercentHeld": 0.046880003,
+                "institutionsFloatPercentHeld": 0.046880003,
+                "institutionsCount": 11
+            },
+            "balanceSheetHistoryQuarterly": {
+                "balanceSheetStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earningsHistory": {
+                "history": [
+                    {
+                        "maxAge": 1,
+                        "epsActual": {},
+                        "epsEstimate": {},
+                        "epsDifference": {},
+                        "surprisePercent": {},
+                        "quarter": {},
+                        "period": "-4q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": {},
+                        "epsEstimate": {},
+                        "epsDifference": {},
+                        "surprisePercent": {},
+                        "quarter": {},
+                        "period": "-3q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": {},
+                        "epsEstimate": {},
+                        "epsDifference": {},
+                        "surprisePercent": {},
+                        "quarter": {},
+                        "period": "-2q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": {},
+                        "epsEstimate": {},
+                        "epsDifference": {},
+                        "surprisePercent": {},
+                        "quarter": {},
+                        "period": "-1q"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "summaryProfile": {
+                "address1": "2 Caldecotte Lake Business Park",
+                "address2": "Caldecotte Lake Drive Caldecotte",
+                "city": "Milton Keynes",
+                "zip": "MK7 8LE",
+                "country": "United Kingdom",
+                "website": "https://plc.rightmove.co.uk",
+                "industry": "Internet Content & Information",
+                "sector": "Communication Services",
+                "longBusinessSummary": "Rightmove plc, together with its subsidiaries, operates online digital property advertising and information portals in the United Kingdom and internationally. The company operates through Agency, New Homes, and Other segments. The Agency segment provides property resale and letting advertising services on its platforms. The segment also offers tenant references and rent guarantee insurance services to landlords. The New Homes segment provides property advertising services to new home developers and housing associations on its platforms. The Other segment offers overseas and commercial property advertising services; non-property advertising services that include third party advertising and data services; and mortgage services. It also provides valuation and brokerage services, as well as engages in the sale of property data. The company serves property professionals, such as estate agents, lettings agents, and new homes developers, as well as landlords, surveyors, insurers, mortgage lenders, brokers, and local authorities. Rightmove plc was founded in 2000 and is based in Milton Keynes, the United Kingdom.",
+                "fullTimeEmployees": 800,
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "netSharePurchaseActivity": {
+                "maxAge": 1,
+                "period": "6m",
+                "buyInfoCount": 0,
+                "buyInfoShares": 0,
+                "sellInfoCount": 0,
+                "netInfoCount": 0,
+                "netInfoShares": 0,
+                "totalInsiderShares": 0
+            },
+            "insiderTransactions": {
+                "transactions": [
+                    {
+                        "maxAge": 1,
+                        "shares": 6890,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "BlackRock, Inc.",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2022-09-29",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3345,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "BlackRock, Inc.",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2022-09-02",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 13008,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2022-08-17",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 14349,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2022-08-12",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 63223,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "BlackRock, Inc.",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2022-08-09",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 200179,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2022-07-26",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 961498,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2022-06-10",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 309,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "BlackRock, Inc.",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2022-05-13",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 29441,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "BlackRock, Inc.",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2022-04-22",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 0,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "BlackRock, Inc.",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2022-04-19",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 20299,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2022-04-13",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 20582,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2022-04-12",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 464402,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2022-04-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 517197,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2021-09-08",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1854266,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2021-08-31",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 308214,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2021-07-26",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2121433,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2021-05-10",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 0,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2021-02-26",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 0,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2020-02-28",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 0,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2020-02-28",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 0,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2020-02-05",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 0,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2019-12-31",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3660,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2019-12-23",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 9172,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2019-12-20",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1123486,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2019-02-01",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3402474,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2018-09-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 116096,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2018-06-29",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 513772,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2018-06-14",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1817216,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2018-04-24",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 7335693,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2018-03-21",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 894154,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2018-02-23",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1217443,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2017-11-29",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 0,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2017-11-21",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 0,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "Kayne Anderson Rudnick Inv. mgnt. LLC",
+                        "filerRelation": "",
+                        "moneyText": "",
+                        "startDate": "2017-11-01",
+                        "ownership": "D"
+                    }
+                ],
+                "maxAge": 1
+            },
+            "sectorTrend": {
+                "maxAge": 1,
+                "symbol": null,
+                "estimates": []
+            },
+            "incomeStatementHistoryQuarterly": {
+                "incomeStatementHistory": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "totalRevenue": 92431000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 49853500,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30",
+                        "totalRevenue": 89727000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 49722000,
+                        "netIncomeApplicableToCommonShares": {}
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "cashflowStatementHistoryQuarterly": {
+                "cashflowStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "netIncome": 49853500
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30",
+                        "netIncome": 49722000
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earnings": {
+                "maxAge": 86400,
+                "earningsChart": {
+                    "quarterly": [],
+                    "earningsDate": [
+                        "2024-07-25 19:00:S",
+                        "2024-07-29 19:00:S"
+                    ]
+                },
+                "financialsChart": {
+                    "yearly": [
+                        {
+                            "date": 2020,
+                            "revenue": 205717000,
+                            "earnings": 109775000
+                        },
+                        {
+                            "date": 2021,
+                            "revenue": 304886000,
+                            "earnings": 183094000
+                        },
+                        {
+                            "date": 2022,
+                            "revenue": 332622000,
+                            "earnings": 195681000
+                        },
+                        {
+                            "date": 2023,
+                            "revenue": 364316000,
+                            "earnings": 199151000
+                        }
+                    ],
+                    "quarterly": [
+                        {
+                            "date": "2Q2023",
+                            "revenue": 89727000,
+                            "earnings": 49722000
+                        },
+                        {
+                            "date": "4Q2023",
+                            "revenue": 92431000,
+                            "earnings": 49853500
+                        }
+                    ]
+                },
+                "financialCurrency": "GBP"
+            },
+            "financialData": {
+                "maxAge": 86400,
+                "currentPrice": 14.91,
+                "targetHighPrice": 13.6,
+                "targetLowPrice": 13.6,
+                "targetMeanPrice": 13.6,
+                "targetMedianPrice": 13.6,
+                "recommendationMean": 4.0,
+                "recommendationKey": "underperform",
+                "numberOfAnalystOpinions": 1,
+                "totalCash": 38865000,
+                "totalCashPerShare": 0.049,
+                "ebitda": 259630000,
+                "totalDebt": 7403000,
+                "quickRatio": 2.199,
+                "currentRatio": 2.41,
+                "totalRevenue": 364316000,
+                "debtToEquity": 10.674,
+                "revenuePerShare": 0.896,
+                "returnOnAssets": 1.5609399,
+                "returnOnEquity": 2.8963401,
+                "freeCashflow": 168655120,
+                "operatingCashflow": 206711008,
+                "earningsGrowth": 0.051,
+                "revenueGrowth": 0.088,
+                "grossMargins": 1.0,
+                "ebitdaMargins": 0.71265,
+                "operatingMargins": 0.69524,
+                "profitMargins": 0.54664004,
+                "financialCurrency": "GBP"
+            }
+        }
+    }
+}

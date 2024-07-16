@@ -1,0 +1,114 @@
+{
+    "AGEN": {
+        "triggers": [
+            {
+                "high_timestamp": "2024-02-15 08:00:00-05:00",
+                "high_price": 18.0,
+                "trigger_timestamp": "2024-02-16 14:30:00-05:00",
+                "trigger_price": 13.07,
+                "percentage_drop": 27.38,
+                "bar_high": 13.6,
+                "bar_low": 13.07,
+                "bar_open": 13.52,
+                "bar_close": 13.25
+            },
+            {
+                "high_timestamp": "2024-02-27 16:00:00-05:00",
+                "high_price": 15.6,
+                "trigger_timestamp": "2024-03-19 11:30:00-04:00",
+                "trigger_price": 11.13,
+                "percentage_drop": 28.68,
+                "bar_high": 11.2,
+                "bar_low": 11.13,
+                "bar_open": 11.18,
+                "bar_close": 11.16
+            },
+            {
+                "high_timestamp": "2024-03-26 09:00:00-04:00",
+                "high_price": 11.6,
+                "trigger_timestamp": "2024-04-08 16:00:00-04:00",
+                "trigger_price": 9.09,
+                "percentage_drop": 21.67,
+                "bar_high": 9.31,
+                "bar_low": 9.09,
+                "bar_open": 9.31,
+                "bar_close": 9.3
+            },
+            {
+                "high_timestamp": "2024-04-09 19:00:00-04:00",
+                "high_price": 9.8,
+                "trigger_timestamp": "2024-04-22 14:30:00-04:00",
+                "trigger_price": 5.64,
+                "percentage_drop": 42.45,
+                "bar_high": 5.85,
+                "bar_low": 5.64,
+                "bar_open": 5.84,
+                "bar_close": 5.74
+            },
+            {
+                "high_timestamp": "2024-05-02 09:30:00-04:00",
+                "high_price": 14.04,
+                "trigger_timestamp": "2024-05-13 11:30:00-04:00",
+                "trigger_price": 10.86,
+                "percentage_drop": 22.65,
+                "bar_high": 11.1,
+                "bar_low": 10.86,
+                "bar_open": 10.95,
+                "bar_close": 10.98
+            },
+            {
+                "high_timestamp": "2024-06-06 12:30:00-04:00",
+                "high_price": 17.97,
+                "trigger_timestamp": "2024-06-20 14:30:00-04:00",
+                "trigger_price": 13.25,
+                "percentage_drop": 26.25,
+                "bar_high": 13.59,
+                "bar_low": 13.25,
+                "bar_open": 13.51,
+                "bar_close": 13.34
+            }
+        ],
+        "trades": [
+            {
+                "buy_timestamp": "2024-02-16 14:30:00-05:00",
+                "buy_price": 13.07,
+                "sell_timestamp": "2024-02-20 10:30:00-05:00",
+                "sell_price": 16.18,
+                "profit": 2.58
+            },
+            {
+                "buy_timestamp": "2024-03-19 11:30:00-04:00",
+                "buy_price": 11.13,
+                "sell_timestamp": "2024-04-29 09:30:00-04:00",
+                "sell_price": 13.32,
+                "profit": 2.13
+            },
+            {
+                "buy_timestamp": "2024-05-13 11:30:00-04:00",
+                "buy_price": 10.86,
+                "sell_timestamp": "2024-05-24 09:30:00-04:00",
+                "sell_price": 13.21,
+                "profit": 2.11
+            },
+            {
+                "buy_timestamp": "2024-06-20 14:30:00-04:00",
+                "buy_price": 13.25,
+                "sell_timestamp": "2024-06-28 13:30:00-04:00",
+                "sell_price": 16.17,
+                "profit": 2.58
+            }
+        ],
+        "totals": {
+            "Report": "Source: Yahoo, Period: 6Mo, Interval: 1Hr",
+            "Threshold": 19,
+            "Triggers": 6,
+            "Buy_Orders": 4,
+            "Sell_Orders": 4,
+            "Gained": 76,
+            "Working_Days": 46,
+            "Annual_Trade_Gain": 416.35,
+            "Score": 660.66,
+            "Updated": "2024-07-15 07:35:28 PM EDT"
+        }
+    }
+}

@@ -1,0 +1,591 @@
+{
+    "XLV": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "longBusinessSummary": "In seeking to track the performance of the index, the fund employs a replication strategy. It generally invests substantially all, but at least 95%, of its total assets in the securities comprising the index. The index includes companies from the following industries: pharmaceuticals; health care equipment & supplies; health care providers & services; biotechnology; life sciences tools & services; and health care technology. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "fundProfile": {
+                "maxAge": 1,
+                "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq2.gif",
+                "family": "SPDR State Street Global Advisors",
+                "categoryName": "Health",
+                "legalType": "Exchange Traded Fund",
+                "feesExpensesInvestment": {
+                    "annualReportExpenseRatio": 0.00090000004,
+                    "annualHoldingsTurnover": 0.03,
+                    "totalNetAssets": 169727.92,
+                    "projectionValues": {}
+                },
+                "feesExpensesInvestmentCat": {
+                    "annualReportExpenseRatio": 0.0100991,
+                    "annualHoldingsTurnover": 0.468,
+                    "totalNetAssets": 169727.92,
+                    "projectionValuesCat": {}
+                }
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 147.35,
+                "open": 147.85,
+                "dayLow": 147.74,
+                "dayHigh": 148.885,
+                "regularMarketPreviousClose": 147.35,
+                "regularMarketOpen": 147.85,
+                "regularMarketDayLow": 147.74,
+                "regularMarketDayHigh": 148.885,
+                "trailingPE": 25.121647,
+                "volume": 6614662,
+                "regularMarketVolume": 6614662,
+                "averageVolume": 6804004,
+                "averageVolume10days": 6624160,
+                "averageDailyVolume10Day": 6624160,
+                "bid": 148.06,
+                "ask": 148.4,
+                "bidSize": 1400,
+                "askSize": 1400,
+                "yield": 0.0153,
+                "totalAssets": 39084077056,
+                "fiftyTwoWeekLow": 122.59,
+                "fiftyTwoWeekHigh": 148.89,
+                "fiftyDayAverage": 144.8508,
+                "twoHundredDayAverage": 139.04605,
+                "trailingAnnualDividendRate": 1.81,
+                "trailingAnnualDividendYield": 0.012283677,
+                "navPrice": 148.22437,
+                "currency": "USD",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "pageViews": {
+                "shortTermTrend": "DOWN",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "FREE_REALTIME",
+                "postMarketChangePercent": -0.000741894,
+                "postMarketChange": -0.110001,
+                "postMarketTime": "2024-07-12 18:55:56",
+                "postMarketPrice": 148.16,
+                "postMarketSource": "FREE_REALTIME",
+                "regularMarketChangePercent": 0.00624362,
+                "regularMarketChange": 0.919998,
+                "regularMarketTime": "2024-07-12 15:00:03",
+                "priceHint": 2,
+                "regularMarketPrice": 148.27,
+                "regularMarketDayHigh": 148.885,
+                "regularMarketDayLow": 147.74,
+                "regularMarketVolume": 6614662,
+                "averageDailyVolume10Day": 6624160,
+                "averageDailyVolume3Month": 6804004,
+                "regularMarketPreviousClose": 147.35,
+                "regularMarketSource": "FREE_REALTIME",
+                "regularMarketOpen": 147.85,
+                "exchange": "PCX",
+                "exchangeName": "NYSEArca",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "CLOSED",
+                "quoteType": "ETF",
+                "symbol": "XLV",
+                "underlyingSymbol": null,
+                "shortName": "SPDR Select Sector Fund - Healt",
+                "longName": "The Health Care Select Sector SPDR Fund",
+                "currency": "USD",
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "marketCap": 29270724608
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "category": "Health",
+                "ytdReturn": 0.095355704,
+                "beta3Year": 0.69,
+                "totalAssets": 39084077056,
+                "yield": 0.0153,
+                "fundFamily": "SPDR State Street Global Advisors",
+                "fundInceptionDate": "1998-12-15 18:00:00",
+                "legalType": "Exchange Traded Fund",
+                "threeYearAverageReturn": 0.0640662,
+                "fiveYearAverageReturn": 0.118246205,
+                "lastSplitFactor": null
+            },
+            "summaryProfile": {
+                "longBusinessSummary": "In seeking to track the performance of the index, the fund employs a replication strategy. It generally invests substantially all, but at least 95%, of its total assets in the securities comprising the index. The index includes companies from the following industries: pharmaceuticals; health care equipment & supplies; health care providers & services; biotechnology; life sciences tools & services; and health care technology. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "topHoldings": {
+                "maxAge": 1,
+                "stockPosition": 0.9991,
+                "bondPosition": 0.0,
+                "holdings": [
+                    {
+                        "symbol": "LLY",
+                        "holdingName": "Eli Lilly and Co",
+                        "holdingPercent": 0.1344575
+                    },
+                    {
+                        "symbol": "UNH",
+                        "holdingName": "UnitedHealth Group Inc",
+                        "holdingPercent": 0.0871941
+                    },
+                    {
+                        "symbol": "JNJ",
+                        "holdingName": "Johnson & Johnson",
+                        "holdingPercent": 0.0654356
+                    },
+                    {
+                        "symbol": "MRK",
+                        "holdingName": "Merck & Co Inc",
+                        "holdingPercent": 0.0583297
+                    },
+                    {
+                        "symbol": "ABBV",
+                        "holdingName": "AbbVie Inc",
+                        "holdingPercent": 0.056343097
+                    },
+                    {
+                        "symbol": "TMO",
+                        "holdingName": "Thermo Fisher Scientific Inc",
+                        "holdingPercent": 0.0392677
+                    },
+                    {
+                        "symbol": "ABT",
+                        "holdingName": "Abbott Laboratories",
+                        "holdingPercent": 0.0336266
+                    },
+                    {
+                        "symbol": "AMGN",
+                        "holdingName": "Amgen Inc",
+                        "holdingPercent": 0.0311797
+                    },
+                    {
+                        "symbol": "DHR",
+                        "holdingName": "Danaher Corp",
+                        "holdingPercent": 0.030639
+                    },
+                    {
+                        "symbol": "PFE",
+                        "holdingName": "Pfizer Inc",
+                        "holdingPercent": 0.0294942
+                    }
+                ],
+                "equityHoldings": {
+                    "priceToEarnings": 0.02925,
+                    "priceToBook": 0.20591,
+                    "priceToSales": 0.55938,
+                    "priceToCashflow": 0.04947
+                },
+                "bondHoldings": {},
+                "bondRatings": [
+                    {
+                        "us_government": 0.0
+                    }
+                ],
+                "sectorWeightings": [
+                    {
+                        "realestate": 0.0
+                    },
+                    {
+                        "consumer_cyclical": 0.0
+                    },
+                    {
+                        "basic_materials": 0.0
+                    },
+                    {
+                        "consumer_defensive": 0.0
+                    },
+                    {
+                        "technology": 0.0
+                    },
+                    {
+                        "communication_services": 0.0
+                    },
+                    {
+                        "financial_services": 0.0
+                    },
+                    {
+                        "utilities": 0.0
+                    },
+                    {
+                        "industrials": 0.0
+                    },
+                    {
+                        "energy": 0.0
+                    },
+                    {
+                        "healthcare": 1.0
+                    }
+                ]
+            },
+            "fundPerformance": {
+                "maxAge": 1,
+                "performanceOverview": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytdReturnPct": 0.095355704,
+                    "oneYearTotalReturn": 0.16166478,
+                    "threeYearTotalReturn": 0.0640662
+                },
+                "performanceOverviewCat": {
+                    "ytdReturnPct": 0.0361114,
+                    "fiveYrAvgReturnPct": 0.064774
+                },
+                "trailingReturns": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytd": 0.0774189,
+                    "oneMonth": 0.0189572,
+                    "threeMonth": -0.0098547,
+                    "oneYear": 0.115726806,
+                    "threeYear": 0.0664554,
+                    "fiveYear": 0.1140442,
+                    "tenYear": 0.1091823,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "trailingReturnsNav": {
+                    "ytd": 0.0774189,
+                    "oneMonth": 0.0189572,
+                    "threeMonth": -0.0098547,
+                    "oneYear": 0.115726806,
+                    "threeYear": 0.0664554,
+                    "fiveYear": 0.1140442,
+                    "tenYear": 0.1091823
+                },
+                "trailingReturnsCat": {
+                    "ytd": 0.0361114,
+                    "oneMonth": 0.0142692,
+                    "threeMonth": -0.025822101,
+                    "oneYear": 0.0505718,
+                    "threeYear": -0.0358498,
+                    "fiveYear": 0.064774,
+                    "tenYear": 0.083767205,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "annualTotalReturns": {
+                    "returns": [
+                        {
+                            "year": "2023",
+                            "annualValue": 0.020618701
+                        },
+                        {
+                            "year": "2022",
+                            "annualValue": -0.0208582
+                        },
+                        {
+                            "year": "2021",
+                            "annualValue": 0.26035
+                        },
+                        {
+                            "year": "2020",
+                            "annualValue": 0.13340689
+                        },
+                        {
+                            "year": "2019",
+                            "annualValue": 0.2044477
+                        },
+                        {
+                            "year": "2018",
+                            "annualValue": 0.0628381
+                        },
+                        {
+                            "year": "2017",
+                            "annualValue": 0.217691
+                        },
+                        {
+                            "year": "2016",
+                            "annualValue": -0.0276251
+                        },
+                        {
+                            "year": "2015",
+                            "annualValue": 0.0684244
+                        },
+                        {
+                            "year": "2014",
+                            "annualValue": 0.2513764
+                        },
+                        {
+                            "year": "2013",
+                            "annualValue": 0.41401562
+                        },
+                        {
+                            "year": "2012",
+                            "annualValue": 0.1737292
+                        },
+                        {
+                            "year": "2011",
+                            "annualValue": 0.1239463
+                        },
+                        {
+                            "year": "2010",
+                            "annualValue": 0.0330328
+                        },
+                        {
+                            "year": "2009",
+                            "annualValue": 0.19514
+                        },
+                        {
+                            "year": "2008",
+                            "annualValue": -0.2330981
+                        },
+                        {
+                            "year": "2007",
+                            "annualValue": 0.0715296
+                        },
+                        {
+                            "year": "2006",
+                            "annualValue": 0.0704804
+                        },
+                        {
+                            "year": "2005",
+                            "annualValue": 0.0640697
+                        },
+                        {
+                            "year": "2004",
+                            "annualValue": 0.0128159
+                        },
+                        {
+                            "year": "2003",
+                            "annualValue": 0.14922051
+                        },
+                        {
+                            "year": "2002",
+                            "annualValue": -0.0074852
+                        },
+                        {
+                            "year": "2001",
+                            "annualValue": -0.0082374
+                        },
+                        {
+                            "year": "2000",
+                            "annualValue": -0.1144434
+                        },
+                        {
+                            "year": "1999",
+                            "annualValue": 0.1950852
+                        }
+                    ],
+                    "returnsCat": [
+                        {
+                            "year": "2023",
+                            "annualValue": 0.0322267
+                        },
+                        {
+                            "year": "2022",
+                            "annualValue": -0.15159251
+                        },
+                        {
+                            "year": "2021",
+                            "annualValue": 0.068787
+                        },
+                        {
+                            "year": "2020",
+                            "annualValue": 0.2762503
+                        },
+                        {
+                            "year": "2019",
+                            "annualValue": 0.2622505
+                        },
+                        {
+                            "year": "2018",
+                            "annualValue": -0.0040011
+                        },
+                        {
+                            "year": "2017",
+                            "annualValue": 0.24305059
+                        },
+                        {
+                            "year": "2016",
+                            "annualValue": -0.1059885
+                        },
+                        {
+                            "year": "2015",
+                            "annualValue": 0.0804727
+                        },
+                        {
+                            "year": "2014",
+                            "annualValue": 0.27249122
+                        },
+                        {
+                            "year": "2013",
+                            "annualValue": 0.4816918
+                        },
+                        {
+                            "year": "2012",
+                            "annualValue": 0.2154703
+                        },
+                        {
+                            "year": "2011",
+                            "annualValue": 0.0766234
+                        },
+                        {
+                            "year": "2010",
+                            "annualValue": 0.0837794
+                        },
+                        {
+                            "year": "2009",
+                            "annualValue": 0.2247576
+                        },
+                        {
+                            "year": "2008",
+                            "annualValue": -0.234318
+                        },
+                        {
+                            "year": "2007",
+                            "annualValue": 0.0926565
+                        },
+                        {
+                            "year": "2006",
+                            "annualValue": 0.0426705
+                        },
+                        {
+                            "year": "2005",
+                            "annualValue": 0.0964113
+                        },
+                        {
+                            "year": "2004",
+                            "annualValue": 0.0984138
+                        },
+                        {
+                            "year": "2003",
+                            "annualValue": 0.3251077
+                        },
+                        {
+                            "year": "2002",
+                            "annualValue": -0.2813414
+                        },
+                        {
+                            "year": "2001",
+                            "annualValue": -0.1125829
+                        },
+                        {
+                            "year": "2000",
+                            "annualValue": 0.5674614
+                        },
+                        {
+                            "year": "1999",
+                            "annualValue": 0.1858313
+                        },
+                        {
+                            "year": "1998",
+                            "annualValue": 0.2097431
+                        },
+                        {
+                            "year": "1997",
+                            "annualValue": 0.2211009
+                        },
+                        {
+                            "year": "1996",
+                            "annualValue": 0.1349501
+                        },
+                        {
+                            "year": "1995",
+                            "annualValue": 0.485727
+                        },
+                        {
+                            "year": "1994",
+                            "annualValue": 0.0475004
+                        }
+                    ]
+                },
+                "pastQuarterlyReturns": {
+                    "returns": []
+                },
+                "riskOverviewStatistics": {
+                    "riskStatistics": [
+                        {
+                            "year": "5y",
+                            "alpha": 3.2,
+                            "beta": 0.68,
+                            "meanAnnualReturn": 0.99,
+                            "rSquared": 62.69,
+                            "stdDev": 14.86,
+                            "sharpeRatio": 0.64,
+                            "treynorRatio": 13.39
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": 1.87,
+                            "beta": 0.69,
+                            "meanAnnualReturn": 0.63,
+                            "rSquared": 59.08,
+                            "stdDev": 14.88,
+                            "sharpeRatio": 0.28,
+                            "treynorRatio": 4.67
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": 4.2,
+                            "beta": 0.73,
+                            "meanAnnualReturn": 0.95,
+                            "rSquared": 59.45,
+                            "stdDev": 14.03,
+                            "sharpeRatio": 0.7,
+                            "treynorRatio": 12.7
+                        }
+                    ]
+                },
+                "riskOverviewStatisticsCat": {
+                    "riskStatisticsCat": [
+                        {
+                            "year": "5y",
+                            "alpha": -1.74,
+                            "beta": 0.81,
+                            "meanAnnualReturn": 0.68,
+                            "rSquared": 55.29,
+                            "stdDev": 19.48,
+                            "sharpeRatio": 0.36,
+                            "treynorRatio": 6.21
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": -8.32,
+                            "beta": 0.84,
+                            "meanAnnualReturn": -0.18,
+                            "rSquared": 56.13,
+                            "stdDev": 19.19,
+                            "sharpeRatio": -0.21,
+                            "treynorRatio": -6.82
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": 1.64,
+                            "beta": 0.85,
+                            "meanAnnualReturn": 0.81,
+                            "rSquared": 51.85,
+                            "stdDev": 17.83,
+                            "sharpeRatio": 0.48,
+                            "treynorRatio": 8.26
+                        }
+                    ]
+                }
+            },
+            "quoteType": {
+                "exchange": "PCX",
+                "quoteType": "ETF",
+                "symbol": "XLV",
+                "underlyingSymbol": "XLV",
+                "shortName": "SPDR Select Sector Fund - Healt",
+                "longName": "The Health Care Select Sector SPDR Fund",
+                "firstTradeDateEpochUtc": "1998-12-22 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "72ee34b0-f83a-34a3-bba0-c460262a0e63",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            }
+        }
+    }
+}

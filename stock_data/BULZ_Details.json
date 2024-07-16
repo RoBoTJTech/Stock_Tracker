@@ -1,0 +1,342 @@
+{
+    "BULZ": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "fundProfile": {
+                "maxAge": 1,
+                "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq3.gif",
+                "family": "BMO Capital Markets",
+                "categoryName": "Trading--Leveraged Equity",
+                "legalType": "Exchange Traded Fund",
+                "feesExpensesInvestment": {
+                    "annualReportExpenseRatio": 0.0095,
+                    "annualHoldingsTurnover": 0.0,
+                    "totalNetAssets": 336415.44,
+                    "projectionValues": {}
+                },
+                "feesExpensesInvestmentCat": {
+                    "annualReportExpenseRatio": 0.0,
+                    "totalNetAssets": 336415.44,
+                    "projectionValuesCat": {}
+                }
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 179.19,
+                "open": 177.65,
+                "dayLow": 176.75,
+                "dayHigh": 188.37,
+                "regularMarketPreviousClose": 179.19,
+                "regularMarketOpen": 177.65,
+                "regularMarketDayLow": 176.75,
+                "regularMarketDayHigh": 188.37,
+                "trailingPE": 129.19649,
+                "volume": 129003,
+                "regularMarketVolume": 129003,
+                "averageVolume": 136590,
+                "averageVolume10days": 123720,
+                "averageDailyVolume10Day": 123720,
+                "bid": 180.0,
+                "ask": 186.0,
+                "bidSize": 900,
+                "askSize": 800,
+                "yield": 0.0,
+                "totalAssets": 1374139904,
+                "fiftyTwoWeekLow": 52.22,
+                "fiftyTwoWeekHigh": 199.11,
+                "fiftyDayAverage": 145.9028,
+                "twoHundredDayAverage": 114.55795,
+                "navPrice": 182.28442,
+                "currency": "USD",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "pageViews": {
+                "shortTermTrend": "NEUTRAL",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "FREE_REALTIME",
+                "postMarketChangePercent": 0.0037800071,
+                "postMarketChange": 0.69000244,
+                "postMarketTime": "2024-07-12 18:58:14",
+                "postMarketPrice": 183.23,
+                "postMarketSource": "DELAYED",
+                "regularMarketChangePercent": 0.018695189,
+                "regularMarketChange": 3.3499908,
+                "regularMarketTime": "2024-07-12 15:00:00",
+                "priceHint": 2,
+                "regularMarketPrice": 182.54,
+                "regularMarketDayHigh": 188.37,
+                "regularMarketDayLow": 176.75,
+                "regularMarketVolume": 129003,
+                "averageDailyVolume10Day": 123720,
+                "averageDailyVolume3Month": 136590,
+                "regularMarketPreviousClose": 179.19,
+                "regularMarketSource": "DELAYED",
+                "regularMarketOpen": 177.65,
+                "exchange": "PCX",
+                "exchangeName": "NYSEArca",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "CLOSED",
+                "quoteType": "ETF",
+                "symbol": "BULZ",
+                "underlyingSymbol": null,
+                "shortName": "MicroSectors FANG & Innovation ",
+                "longName": "MicroSectors Solactive FANG Innovation 3X Leveraged ETNs",
+                "currency": "USD",
+                "quoteSourceName": "Delayed Quote",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "lastMarket": null
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "category": "Trading--Leveraged Equity",
+                "ytdReturn": 0.7348413,
+                "beta3Year": 0.0,
+                "totalAssets": 1374139904,
+                "yield": 0.0,
+                "fundFamily": "BMO Capital Markets",
+                "fundInceptionDate": "2021-08-16 19:00:00",
+                "legalType": "Exchange Traded Fund",
+                "lastSplitFactor": null
+            },
+            "summaryProfile": {
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "topHoldings": {
+                "maxAge": 1,
+                "stockPosition": 1.0,
+                "bondPosition": 0.0,
+                "holdings": [
+                    {
+                        "symbol": "AMD",
+                        "holdingName": "Advanced Micro Devices Inc",
+                        "holdingPercent": 0.0666667
+                    },
+                    {
+                        "symbol": "GOOGL",
+                        "holdingName": "Alphabet Inc Class A",
+                        "holdingPercent": 0.0666667
+                    },
+                    {
+                        "symbol": "AMZN",
+                        "holdingName": "Amazon.com Inc",
+                        "holdingPercent": 0.0666667
+                    },
+                    {
+                        "symbol": "AAPL",
+                        "holdingName": "Apple Inc",
+                        "holdingPercent": 0.0666667
+                    },
+                    {
+                        "symbol": "AVGO",
+                        "holdingName": "Broadcom Inc",
+                        "holdingPercent": 0.0666667
+                    },
+                    {
+                        "symbol": "INTC",
+                        "holdingName": "Intel Corp",
+                        "holdingPercent": 0.0666667
+                    },
+                    {
+                        "symbol": "META",
+                        "holdingName": "Meta Platforms Inc Class A",
+                        "holdingPercent": 0.0666667
+                    },
+                    {
+                        "symbol": "MU",
+                        "holdingName": "Micron Technology Inc",
+                        "holdingPercent": 0.0666667
+                    },
+                    {
+                        "symbol": "MSFT",
+                        "holdingName": "Microsoft Corp",
+                        "holdingPercent": 0.0666667
+                    },
+                    {
+                        "symbol": "CRM",
+                        "holdingName": "Salesforce.com Inc",
+                        "holdingPercent": 0.0666667
+                    }
+                ],
+                "equityHoldings": {
+                    "priceToEarnings": 0.04342,
+                    "priceToBook": 0.26117,
+                    "priceToSales": 0.24237,
+                    "priceToCashflow": 0.06638
+                },
+                "bondHoldings": {},
+                "bondRatings": [],
+                "sectorWeightings": [
+                    {
+                        "realestate": 0.0
+                    },
+                    {
+                        "consumer_cyclical": 0.1333
+                    },
+                    {
+                        "basic_materials": 0.0
+                    },
+                    {
+                        "consumer_defensive": 0.0
+                    },
+                    {
+                        "technology": 0.6667
+                    },
+                    {
+                        "communication_services": 0.2
+                    },
+                    {
+                        "financial_services": 0.0
+                    },
+                    {
+                        "utilities": 0.0
+                    },
+                    {
+                        "industrials": 0.0
+                    },
+                    {
+                        "energy": 0.0
+                    },
+                    {
+                        "healthcare": 0.0
+                    }
+                ]
+            },
+            "fundPerformance": {
+                "maxAge": 1,
+                "performanceOverview": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytdReturnPct": 0.7348413,
+                    "oneYearTotalReturn": 1.4135926,
+                    "threeYearTotalReturn": 0.0
+                },
+                "performanceOverviewCat": {},
+                "trailingReturns": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytd": 0.53473437,
+                    "oneMonth": 0.2881989,
+                    "threeMonth": 0.17174259,
+                    "oneYear": 1.2452282,
+                    "threeYear": 0.0,
+                    "fiveYear": 0.0,
+                    "tenYear": 0.0,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "trailingReturnsNav": {
+                    "ytd": 0.53473437,
+                    "oneMonth": 0.2881989,
+                    "threeMonth": 0.17174259,
+                    "oneYear": 1.2452282,
+                    "threeYear": 0.0,
+                    "fiveYear": 0.0,
+                    "tenYear": 0.0
+                },
+                "trailingReturnsCat": {
+                    "ytd": 0.0,
+                    "oneMonth": 0.0,
+                    "threeMonth": 0.0,
+                    "oneYear": 0.0,
+                    "threeYear": 0.0,
+                    "fiveYear": 0.0,
+                    "tenYear": 0.0,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "annualTotalReturns": {
+                    "returns": [
+                        {
+                            "year": "2023",
+                            "annualValue": 3.942226
+                        },
+                        {
+                            "year": "2022",
+                            "annualValue": -0.92255366
+                        }
+                    ],
+                    "returnsCat": []
+                },
+                "pastQuarterlyReturns": {
+                    "returns": []
+                },
+                "riskOverviewStatistics": {
+                    "riskStatistics": [
+                        {
+                            "year": "5y",
+                            "alpha": 0.0,
+                            "beta": 0.0,
+                            "meanAnnualReturn": 0.0,
+                            "rSquared": 0.0,
+                            "stdDev": 0.0,
+                            "sharpeRatio": 0.0,
+                            "treynorRatio": 0.0
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": 0.0,
+                            "beta": 0.0,
+                            "meanAnnualReturn": 0.0,
+                            "rSquared": 0.0,
+                            "stdDev": 0.0,
+                            "sharpeRatio": 0.0,
+                            "treynorRatio": 0.0
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": 0.0,
+                            "beta": 0.0,
+                            "meanAnnualReturn": 0.0,
+                            "rSquared": 0.0,
+                            "stdDev": 0.0,
+                            "sharpeRatio": 0.0,
+                            "treynorRatio": 0.0
+                        }
+                    ]
+                },
+                "riskOverviewStatisticsCat": {
+                    "riskStatisticsCat": [
+                        {
+                            "year": "5y"
+                        },
+                        {
+                            "year": "3y"
+                        },
+                        {
+                            "year": "10y"
+                        }
+                    ]
+                }
+            },
+            "quoteType": {
+                "exchange": "PCX",
+                "quoteType": "ETF",
+                "symbol": "BULZ",
+                "underlyingSymbol": "BULZ",
+                "shortName": "MicroSectors FANG & Innovation ",
+                "longName": "MicroSectors Solactive FANG Innovation 3X Leveraged ETNs",
+                "firstTradeDateEpochUtc": "2021-08-18 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "cb28cd93-512d-35d0-9825-ff4f2468cbf5",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            }
+        }
+    }
+}

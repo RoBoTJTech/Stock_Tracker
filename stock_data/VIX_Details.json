@@ -1,0 +1,59 @@
+{
+    "VIX": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "fundProfile": {
+                "maxAge": 1,
+                "styleBoxUrl": null,
+                "family": null,
+                "categoryName": null,
+                "legalType": null,
+                "managementInfo": {
+                    "managerName": null,
+                    "managerBio": null
+                },
+                "feesExpensesInvestment": {
+                    "projectionValues": {}
+                },
+                "feesExpensesInvestmentCat": {
+                    "projectionValuesCat": {}
+                },
+                "brokerages": []
+            },
+            "quoteType": {
+                "exchange": "YHD",
+                "quoteType": "MUTUALFUND",
+                "symbol": "VIX",
+                "underlyingSymbol": "VIX",
+                "firstTradeDateEpochUtc": "2014-12-04 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "f96d73e8-fd3a-37ab-8e2f-ea235d3d79b0",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            },
+            "price": {
+                "maxAge": 1,
+                "regularMarketTime": "2019-06-28 17:07:38",
+                "priceHint": 2,
+                "averageDailyVolume10Day": 82483,
+                "averageDailyVolume3Month": 196766,
+                "regularMarketSource": "DELAYED",
+                "exchange": "YHD",
+                "exchangeName": "YHD",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "REGULAR",
+                "quoteType": "MUTUALFUND",
+                "symbol": "VIX",
+                "underlyingSymbol": null,
+                "shortName": null,
+                "longName": null,
+                "quoteSourceName": "Delayed Quote",
+                "fromCurrency": null,
+                "toCurrency": null,
+                "lastMarket": null
+            }
+        }
+    }
+}

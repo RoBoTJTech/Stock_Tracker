@@ -1,0 +1,4141 @@
+{
+    "KGC": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "address1": "25 York Street",
+                "address2": "17th Floor",
+                "city": "Toronto",
+                "state": "ON",
+                "zip": "M5J 2V5",
+                "country": "Canada",
+                "phone": "416 365 5123",
+                "website": "https://www.kinross.com",
+                "industry": "Gold",
+                "industryKey": "gold",
+                "industryDisp": "Gold",
+                "sector": "Basic Materials",
+                "sectorKey": "basic-materials",
+                "sectorDisp": "Basic Materials",
+                "longBusinessSummary": "Kinross Gold Corporation, together with its subsidiaries, engages in the acquisition, exploration, and development of gold properties principally in the United States, Brazil, Chile, Canada, and Mauritania. The company operates the Fort Knox mine and the Manh Choh project in Alaska, as well as the Round Mountain and the Bald Mountain mines in Nevada, the United States; the Paracatu mine in Brazil; the La Coipa and the Lobo-Marte project in Chile; the Tasiast mine in Mauritania; and the Great Bear project in Canada. It is also involved in the extraction and processing of gold-containing ores; reclamation of gold mining properties; and production and sale of silver. Kinross Gold Corporation was founded in 1993 and is headquartered in Toronto, Canada.",
+                "companyOfficers": [
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. J. Paul Rollinson",
+                        "age": 61,
+                        "title": "CEO & Director",
+                        "yearBorn": 1962,
+                        "fiscalYear": 2023,
+                        "totalPay": 3569073,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Geoffrey P. Gold",
+                        "title": "President",
+                        "fiscalYear": 2023,
+                        "totalPay": 1713633,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Ms. Andrea Susan Freeborough",
+                        "title": "Executive VP & CFO",
+                        "fiscalYear": 2023,
+                        "totalPay": 999577,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Claude J. S. Schimper",
+                        "title": "Executive VP & COO",
+                        "fiscalYear": 2023,
+                        "totalPay": 1089989,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. William D. Dunford",
+                        "title": "Senior VP of Technical Services & Chief Technical Officer",
+                        "fiscalYear": 2023,
+                        "totalPay": 1219730,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Chris  Lichtenheldt",
+                        "title": "Vice President of Investor Relations",
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Victoria  Barrington",
+                        "title": "Senior Director of Corporate Communications",
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Ms. Kathleen M. Grandy J.D.",
+                        "title": "Senior Vice-President of Human Resources",
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Nathan M. Longenecker",
+                        "title": "Senior VP of Global Legal Operations & Major Permitting and General Counsel",
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mike  van Akkooi",
+                        "title": "Senior Vice-President of External Affairs",
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    }
+                ],
+                "auditRisk": 3,
+                "boardRisk": 1,
+                "compensationRisk": 3,
+                "shareHolderRightsRisk": 1,
+                "overallRisk": 1,
+                "governanceEpochDate": "2024-06-30 19:00:00",
+                "compensationAsOfEpochDate": "2023-12-30 18:00:00",
+                "irWebsite": "http://www.kinross.com/investor-centre.aspx",
+                "maxAge": 86400
+            },
+            "recommendationTrend": {
+                "trend": [
+                    {
+                        "period": "0m",
+                        "strongBuy": 3,
+                        "buy": 5,
+                        "hold": 11,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-1m",
+                        "strongBuy": 1,
+                        "buy": 9,
+                        "hold": 3,
+                        "sell": 1,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-2m",
+                        "strongBuy": 1,
+                        "buy": 9,
+                        "hold": 3,
+                        "sell": 1,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-3m",
+                        "strongBuy": 0,
+                        "buy": 0,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "cashflowStatementHistory": {
+                "cashflowStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "netIncome": 416300000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31",
+                        "netIncome": -605200000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-12-31",
+                        "netIncome": 221200000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2020-12-31",
+                        "netIncome": 1342400000
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "indexTrend": {
+                "maxAge": 1,
+                "symbol": "SP5",
+                "peRatio": 19.6637,
+                "pegRatio": 1.61152,
+                "estimates": [
+                    {
+                        "period": "0q",
+                        "growth": 0.071
+                    },
+                    {
+                        "period": "+1q",
+                        "growth": 0.115
+                    },
+                    {
+                        "period": "0y",
+                        "growth": 0.047
+                    },
+                    {
+                        "period": "+1y",
+                        "growth": 0.125
+                    },
+                    {
+                        "period": "+5y",
+                        "growth": 0.115975
+                    },
+                    {
+                        "period": "-5y"
+                    }
+                ]
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "enterpriseValue": 13274189824,
+                "forwardPE": 14.709677,
+                "profitMargins": 0.09861,
+                "floatShares": 1218578080,
+                "sharesOutstanding": 1228979968,
+                "sharesShort": 15058550,
+                "sharesShortPriorMonth": 14730820,
+                "sharesShortPreviousMonthDate": "2024-05-30 19:00:00",
+                "dateShortInterest": "2024-06-27 19:00:00",
+                "sharesPercentSharesOut": 0.0123000005,
+                "heldPercentInsiders": 0.0027,
+                "heldPercentInstitutions": 0.64242995,
+                "shortRatio": 0.92,
+                "beta": 1.224,
+                "impliedSharesOutstanding": 1229049984,
+                "category": null,
+                "bookValue": 5.006,
+                "priceToBook": 1.8218138,
+                "fundFamily": null,
+                "legalType": null,
+                "lastFiscalYearEnd": "2023-12-30 18:00:00",
+                "nextFiscalYearEnd": "2024-12-30 18:00:00",
+                "mostRecentQuarter": "2024-03-30 19:00:00",
+                "earningsQuarterlyGrowth": 0.186,
+                "netIncomeToCommon": 433100000,
+                "trailingEps": 0.36,
+                "forwardEps": 0.62,
+                "pegRatio": -0.92,
+                "lastSplitFactor": "1:3",
+                "lastSplitDate": "2003-02-02 18:00:00",
+                "enterpriseToRevenue": 3.022,
+                "enterpriseToEbitda": 7.064,
+                "52WeekChange": 0.77799225,
+                "SandP52WeekChange": 0.23279357,
+                "lastDividendValue": 0.03,
+                "lastDividendDate": 1717027200
+            },
+            "industryTrend": {
+                "maxAge": 1,
+                "symbol": null,
+                "estimates": []
+            },
+            "quoteType": {
+                "exchange": "NYQ",
+                "quoteType": "EQUITY",
+                "symbol": "KGC",
+                "underlyingSymbol": "KGC",
+                "shortName": "Kinross Gold Corporation",
+                "longName": "Kinross Gold Corporation",
+                "firstTradeDateEpochUtc": "1981-03-17 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "3c9c52f0-2c49-36bf-b0ad-77547edf848a",
+                "messageBoardId": "finmb_297179",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            },
+            "incomeStatementHistory": {
+                "incomeStatementHistory": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "totalRevenue": 4239700000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 416300000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31",
+                        "totalRevenue": 3455100000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -605200000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-12-31",
+                        "totalRevenue": 3729400000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 221200000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2020-12-31",
+                        "totalRevenue": 4213400000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 1342400000,
+                        "netIncomeApplicableToCommonShares": {}
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "fundOwnership": {
+                "maxAge": 1,
+                "ownershipList": [
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-05-31",
+                        "organization": "VanEck ETF Trust-VanEck Gold Miners ETF",
+                        "pctHeld": 0.051999997,
+                        "position": 63958309,
+                        "value": 583299770,
+                        "pctChange": -0.0189
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-05-31",
+                        "organization": "VanEck ETF Trust-VanEck Junior Gold Miners ETF",
+                        "pctHeld": 0.0437,
+                        "position": 53679378,
+                        "value": 489555921,
+                        "pctChange": -0.012999999
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-04-30",
+                        "organization": "Vanguard International Stock Index-Total Intl Stock Indx",
+                        "pctHeld": 0.0138,
+                        "position": 16944275,
+                        "value": 154531786,
+                        "pctChange": 0.0139999995
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-05-31",
+                        "organization": "John Hancock Trust-Disciplined Value International Fund",
+                        "pctHeld": 0.0088,
+                        "position": 10848626,
+                        "value": 98939467,
+                        "pctChange": 0.0047
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
+                        "pctHeld": 0.0083,
+                        "position": 10141226,
+                        "value": 92487979,
+                        "pctChange": 0.0179
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "VanEck Funds II-International Investors Gold Fund",
+                        "pctHeld": 0.0054,
+                        "position": 6677318,
+                        "value": 60897139,
+                        "pctChange": -0.1582
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-04-30",
+                        "organization": "DFA International Core Equity Portfolio",
+                        "pctHeld": 0.0050999997,
+                        "position": 6236551,
+                        "value": 56877344,
+                        "pctChange": 0.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-04-30",
+                        "organization": "Invesco Gold & Special Minerals Fund",
+                        "pctHeld": 0.0046,
+                        "position": 5645925,
+                        "value": 51490835,
+                        "pctChange": 0.0199
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-05-31",
+                        "organization": "John Hancock Mutual Fds III-Disciplined Value Fd",
+                        "pctHeld": 0.0044,
+                        "position": 5428433,
+                        "value": 49507308,
+                        "pctChange": 1.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-04-30",
+                        "organization": "DFA International Value Series",
+                        "pctHeld": 0.004,
+                        "position": 4942485,
+                        "value": 45075462,
+                        "pctChange": 0.0
+                    }
+                ]
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 9.21,
+                "open": 9.21,
+                "dayLow": 9.1,
+                "dayHigh": 9.2769,
+                "regularMarketPreviousClose": 9.21,
+                "regularMarketOpen": 9.21,
+                "regularMarketDayLow": 9.1,
+                "regularMarketDayHigh": 9.2769,
+                "dividendRate": 0.12,
+                "dividendYield": 0.012999999,
+                "exDividendDate": "2024-05-29 19:00:00",
+                "payoutRatio": 0.33330002,
+                "fiveYearAvgDividendYield": 1.24,
+                "beta": 1.224,
+                "trailingPE": 25.333332,
+                "forwardPE": 14.709677,
+                "volume": 16263794,
+                "regularMarketVolume": 16263794,
+                "averageVolume": 16362531,
+                "averageVolume10days": 16469100,
+                "averageDailyVolume10Day": 16469100,
+                "bid": 9.11,
+                "ask": 9.25,
+                "bidSize": 29200,
+                "askSize": 34100,
+                "marketCap": 11208935424,
+                "fiftyTwoWeekLow": 4.32,
+                "fiftyTwoWeekHigh": 9.29,
+                "priceToSalesTrailing12Months": 2.5521836,
+                "fiftyDayAverage": 7.8192,
+                "twoHundredDayAverage": 6.14025,
+                "trailingAnnualDividendRate": 0.12,
+                "trailingAnnualDividendYield": 0.0130293155,
+                "currency": "USD",
+                "fromCurrency": null,
+                "toCurrency": null,
+                "lastMarket": null,
+                "coinMarketCapLink": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "insiderHolders": {
+                "holders": [
+                    {
+                        "maxAge": 1,
+                        "name": "ARTHUR HARRY DITTO",
+                        "relation": "Unknown",
+                        "url": "",
+                        "transactionDescription": "Sale",
+                        "latestTransDate": "1988-10-13"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "DITTO ARTHUR H",
+                        "relation": "Affiliated Person",
+                        "url": "",
+                        "transactionDescription": "Conversion of Exercise of derivative security",
+                        "latestTransDate": "1987-07-30",
+                        "positionDirect": 393100,
+                        "positionDirectDate": "1987-07-30"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "LENTON WAYNE DOUGLAS",
+                        "relation": "Director",
+                        "url": "",
+                        "transactionDescription": "Purchase",
+                        "latestTransDate": "1987-01-09"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "PROSSER THOMAS J",
+                        "relation": "Director",
+                        "url": "",
+                        "transactionDescription": "Sale",
+                        "latestTransDate": "1987-12-29"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "ROVIG DAVID BRUCE",
+                        "relation": "Officer and Director",
+                        "url": "",
+                        "transactionDescription": "Sale",
+                        "latestTransDate": "1988-09-06"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "THOMAS CRAIG D",
+                        "relation": "Director",
+                        "url": "",
+                        "transactionDescription": "Conversion of Exercise of derivative security",
+                        "latestTransDate": "1989-09-14",
+                        "positionDirect": 48339,
+                        "positionDirectDate": "1989-09-14"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "TOWNSEND KENNETH R",
+                        "relation": "Unknown",
+                        "url": "",
+                        "transactionDescription": "Sale",
+                        "latestTransDate": "1990-03-02"
+                    }
+                ],
+                "maxAge": 1
+            },
+            "calendarEvents": {
+                "maxAge": 1,
+                "earnings": {
+                    "earningsDate": [
+                        "2024-07-31 15:00:S"
+                    ],
+                    "earningsCallDate": [
+                        1715168700
+                    ],
+                    "isEarningsDateEstimate": false,
+                    "earningsAverage": 0.12,
+                    "earningsLow": 0.05,
+                    "earningsHigh": 0.17,
+                    "revenueAverage": 1125690000,
+                    "revenueLow": 1065000000,
+                    "revenueHigh": 1186380000
+                },
+                "exDividendDate": "2024-05-29 19:00:00",
+                "dividendDate": "2024-06-12 19:00:00"
+            },
+            "upgradeDowngradeHistory": {
+                "history": [
+                    {
+                        "epochGradeDate": "2024-07-12 09:44:44",
+                        "firm": "Jefferies",
+                        "toGrade": "Hold",
+                        "fromGrade": "Hold",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2024-07-10 15:21:29",
+                        "firm": "CIBC",
+                        "toGrade": "Outperformer",
+                        "fromGrade": "Outperformer",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2024-05-23 12:48:44",
+                        "firm": "Scotiabank",
+                        "toGrade": "Sector Outperform",
+                        "fromGrade": "Sector Outperform",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2024-05-09 14:41:08",
+                        "firm": "Scotiabank",
+                        "toGrade": "Sector Outperform",
+                        "fromGrade": "Sector Outperform",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-10-04 14:16:54",
+                        "firm": "Jefferies",
+                        "toGrade": "Hold",
+                        "fromGrade": "Hold",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-05-17 11:36:22",
+                        "firm": "National Bank Financial Inc",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-04-05 08:14:36",
+                        "firm": "B of A Securities",
+                        "toGrade": "Underperform",
+                        "fromGrade": "Buy",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2023-01-30 06:18:41",
+                        "firm": "Barclays",
+                        "toGrade": "Equal-Weight",
+                        "fromGrade": "Overweight",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2022-12-06 06:55:54",
+                        "firm": "RBC Capital",
+                        "toGrade": "Sector Perform",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2022-07-28 07:15:56",
+                        "firm": "BMO Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2022-07-19 07:14:44",
+                        "firm": "Barclays",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2022-06-30 06:16:53",
+                        "firm": "BMO Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2022-04-20 05:12:11",
+                        "firm": "RBC Capital",
+                        "toGrade": "Sector Perform",
+                        "fromGrade": "Outperform",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2022-03-09 08:45:09",
+                        "firm": "Jefferies",
+                        "toGrade": "Hold",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2022-03-03 07:24:36",
+                        "firm": "Credit Suisse",
+                        "toGrade": "Neutral",
+                        "fromGrade": "Outperform",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2022-03-03 07:18:38",
+                        "firm": "Barclays",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2022-03-02 06:19:15",
+                        "firm": "RBC Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2022-01-18 08:07:54",
+                        "firm": "Raymond James",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2021-12-13 05:57:53",
+                        "firm": "RBC Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2021-06-23 05:40:47",
+                        "firm": "Credit Suisse",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Neutral",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2021-06-22 07:12:53",
+                        "firm": "CIBC",
+                        "toGrade": "Neutral",
+                        "fromGrade": "Outperformer",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2021-01-06 05:52:33",
+                        "firm": "Barclays",
+                        "toGrade": "Overweight",
+                        "fromGrade": "Equal-Weight",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2020-11-05 07:49:07",
+                        "firm": "TD Securities",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2020-10-21 06:35:50",
+                        "firm": "BMO Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2020-09-18 09:26:12",
+                        "firm": "Scotiabank",
+                        "toGrade": "Sector Outperform",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2020-09-18 09:17:57",
+                        "firm": "TD Securities",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2020-09-18 05:34:32",
+                        "firm": "BMO Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Market Perform",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2020-07-20 06:24:06",
+                        "firm": "Barclays",
+                        "toGrade": "Equal-Weight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2020-06-16 04:07:07",
+                        "firm": "RBC Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Sector Perform",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2020-05-12 09:49:15",
+                        "firm": "CIBC",
+                        "toGrade": "Outperformer",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2019-10-15 05:26:00",
+                        "firm": "Barclays",
+                        "toGrade": "Equal-Weight",
+                        "fromGrade": "Overweight",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2019-09-11 07:05:25",
+                        "firm": "Citigroup",
+                        "toGrade": "Neutral",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2019-05-30 06:48:07",
+                        "firm": "JP Morgan",
+                        "toGrade": "Underweight",
+                        "fromGrade": "Neutral",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2018-10-10 10:35:44",
+                        "firm": "Barclays",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2018-09-17 07:10:09",
+                        "firm": "JP Morgan",
+                        "toGrade": "Neutral",
+                        "fromGrade": "Neutral",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2018-08-29 06:47:10",
+                        "firm": "Citigroup",
+                        "toGrade": "Neutral",
+                        "fromGrade": "Neutral",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2018-08-20 05:46:22",
+                        "firm": "RBC Capital",
+                        "toGrade": "Sector Perform",
+                        "fromGrade": "Outperform",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2018-04-11 06:12:54",
+                        "firm": "Deutsche Bank",
+                        "toGrade": "Hold",
+                        "fromGrade": "Hold",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2018-04-10 08:11:05",
+                        "firm": "BMO Capital",
+                        "toGrade": "Market Perform",
+                        "fromGrade": "Outperform",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2017-11-10 05:58:40",
+                        "firm": "Macquarie",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Neutral",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2017-09-01 06:38:30",
+                        "firm": "Citigroup",
+                        "toGrade": "Neutral",
+                        "fromGrade": "Sell",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2017-05-03 06:40:25",
+                        "firm": "CIBC",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Sector Perform",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2016-12-19 05:30:11",
+                        "firm": "BMO Capital",
+                        "toGrade": "Market Perform",
+                        "fromGrade": "Outperform",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2016-12-05 06:39:53",
+                        "firm": "Citigroup",
+                        "toGrade": "Sell",
+                        "fromGrade": "Neutral",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2016-09-07 05:37:10",
+                        "firm": "Berenberg",
+                        "toGrade": "Hold",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2016-07-14 05:31:34",
+                        "firm": "Jefferies",
+                        "toGrade": "Hold",
+                        "fromGrade": "Underperform",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2016-07-06 05:48:02",
+                        "firm": "Deutsche Bank",
+                        "toGrade": "Hold",
+                        "fromGrade": "Sell",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2016-07-01 10:14:35",
+                        "firm": "Macquarie",
+                        "toGrade": "Neutral",
+                        "fromGrade": "Underperform",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2016-05-26 06:26:22",
+                        "firm": "Canaccord Genuity",
+                        "toGrade": "Buy",
+                        "fromGrade": "Hold",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2016-05-11 05:34:37",
+                        "firm": "Goldman Sachs",
+                        "toGrade": "Neutral",
+                        "fromGrade": "Sell",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2016-05-03 05:41:03",
+                        "firm": "Canaccord Genuity",
+                        "toGrade": "Hold",
+                        "fromGrade": "Buy",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2016-04-11 03:05:28",
+                        "firm": "RBC Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Sector Perform",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2016-04-01 07:23:10",
+                        "firm": "Barclays",
+                        "toGrade": "Equal-Weight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2016-03-31 13:00:39",
+                        "firm": "Credit Suisse",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2016-03-31 06:44:09",
+                        "firm": "Raymond James",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Market Perform",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2016-03-31 05:55:30",
+                        "firm": "TD Securities",
+                        "toGrade": "Buy",
+                        "fromGrade": "Hold",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2016-03-15 09:10:45",
+                        "firm": "Macquarie",
+                        "toGrade": "Underperform",
+                        "fromGrade": "Neutral",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2016-03-11 08:50:12",
+                        "firm": "B of A Securities",
+                        "toGrade": "Buy",
+                        "fromGrade": "Neutral",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2016-03-07 07:48:13",
+                        "firm": "BMO Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2016-02-25 05:57:07",
+                        "firm": "UBS",
+                        "toGrade": "Neutral",
+                        "fromGrade": "Buy",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2016-02-17 10:12:56",
+                        "firm": "Deutsche Bank",
+                        "toGrade": "Hold",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2016-02-12 10:48:30",
+                        "firm": "Barclays",
+                        "toGrade": "Equal-Weight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2016-02-09 05:05:04",
+                        "firm": "Credit Suisse",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Neutral",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2016-02-08 06:59:08",
+                        "firm": "BMO Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Market Perform",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2015-11-24 04:16:16",
+                        "firm": "RBC Capital",
+                        "toGrade": "Sector Perform",
+                        "fromGrade": "Underperform",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2015-11-18 08:01:31",
+                        "firm": "Raymond James",
+                        "toGrade": "Market Perform",
+                        "fromGrade": "Outperform",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2015-10-05 14:06:58",
+                        "firm": "Deutsche Bank",
+                        "toGrade": "Hold",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2015-09-24 12:35:22",
+                        "firm": "Citigroup",
+                        "toGrade": "Neutral",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2015-09-08 03:05:31",
+                        "firm": "HSBC",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2015-08-24 06:17:50",
+                        "firm": "RBC Capital",
+                        "toGrade": "Underperform",
+                        "fromGrade": "Sector Perform",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2015-07-31 12:48:03",
+                        "firm": "Citigroup",
+                        "toGrade": "Neutral",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2015-07-24 07:23:44",
+                        "firm": "CIBC",
+                        "toGrade": "Sector Perform",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2015-07-16 10:00:00",
+                        "firm": "Barclays",
+                        "toGrade": "Equal-Weight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2015-06-16 05:51:40",
+                        "firm": "BMO Capital",
+                        "toGrade": "Market Perform",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2015-05-29 05:05:53",
+                        "firm": "UBS",
+                        "toGrade": "Buy",
+                        "fromGrade": "Neutral",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2015-05-08 08:00:00",
+                        "firm": "Citigroup",
+                        "toGrade": "Neutral",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2015-04-14 08:00:00",
+                        "firm": "Citigroup",
+                        "toGrade": "Neutral",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2015-04-13 08:00:00",
+                        "firm": "Citigroup",
+                        "toGrade": "Neutral",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2015-04-06 08:00:00",
+                        "firm": "Deutsche Bank",
+                        "toGrade": "Hold",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2015-02-11 08:00:00",
+                        "firm": "Jefferies",
+                        "toGrade": "Underperform",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2015-02-09 08:00:00",
+                        "firm": "Citigroup",
+                        "toGrade": "Neutral",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2014-12-18 23:00:00",
+                        "firm": "UBS",
+                        "toGrade": "Neutral",
+                        "fromGrade": "Buy",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2014-12-01 08:00:00",
+                        "firm": "Citigroup",
+                        "toGrade": "Neutral",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2014-11-14 05:19:19",
+                        "firm": "CIBC",
+                        "toGrade": "Sector Outperform",
+                        "fromGrade": "Sector Perform",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2014-11-10 08:00:00",
+                        "firm": "Deutsche Bank",
+                        "toGrade": "Hold",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2014-11-07 08:00:00",
+                        "firm": "Citigroup",
+                        "toGrade": "Neutral",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2014-10-29 08:15:06",
+                        "firm": "Macquarie",
+                        "toGrade": "Neutral",
+                        "fromGrade": "Outperform",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2014-10-23 08:00:00",
+                        "firm": "Citigroup",
+                        "toGrade": "Neutral",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2014-10-15 08:00:00",
+                        "firm": "Jefferies",
+                        "toGrade": "Underperform",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2014-10-03 07:48:40",
+                        "firm": "RBC Capital",
+                        "toGrade": "Sector Perform",
+                        "fromGrade": "Outperform",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2014-08-01 10:00:57",
+                        "firm": "Mackie Research",
+                        "toGrade": "Buy",
+                        "fromGrade": "Hold",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2014-07-31 22:41:25",
+                        "firm": "UBS",
+                        "toGrade": "Neutral",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2014-05-08 23:47:00",
+                        "firm": "Citigroup",
+                        "toGrade": "Hold",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2014-03-28 05:52:36",
+                        "firm": "Goldman Sachs",
+                        "toGrade": "Neutral",
+                        "fromGrade": "Sell",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2014-03-03 07:00:00",
+                        "firm": "Raymond James",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2014-02-27 06:15:52",
+                        "firm": "Morgan Stanley",
+                        "toGrade": "Equal-Weight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2014-02-25 07:00:00",
+                        "firm": "Canaccord Genuity",
+                        "toGrade": "Buy",
+                        "fromGrade": "Hold",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2014-02-14 15:00:00",
+                        "firm": "Mackie Research",
+                        "toGrade": "Hold",
+                        "fromGrade": "Buy",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2014-01-09 07:30:00",
+                        "firm": "TD Securities",
+                        "toGrade": "Hold",
+                        "fromGrade": "Buy",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2013-12-18 15:00:00",
+                        "firm": "JP Morgan",
+                        "toGrade": "Neutral",
+                        "fromGrade": "Overweight",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2013-11-26 06:35:29",
+                        "firm": "Morgan Stanley",
+                        "toGrade": "Equal-weight",
+                        "fromGrade": "Overweight",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2013-08-06 08:24:15",
+                        "firm": "CIBC",
+                        "toGrade": "Sector Perform",
+                        "fromGrade": "Sector Underperform",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2013-07-15 05:57:01",
+                        "firm": "BMO Capital",
+                        "toGrade": "Market Perform",
+                        "fromGrade": "Outperform",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2013-07-02 06:33:05",
+                        "firm": "Jefferies",
+                        "toGrade": "Underperform",
+                        "fromGrade": "Hold",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2013-06-21 10:24:54",
+                        "firm": "UBS",
+                        "toGrade": "Neutral",
+                        "fromGrade": "Buy",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2013-06-21 08:29:34",
+                        "firm": "UBS",
+                        "toGrade": "Neutral",
+                        "fromGrade": "Buy",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2013-06-12 07:01:01",
+                        "firm": "Cowen & Co.",
+                        "toGrade": "Market Perform",
+                        "fromGrade": "Outperform",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2013-06-11 06:45:02",
+                        "firm": "Canaccord Genuity",
+                        "toGrade": "Hold",
+                        "fromGrade": "Buy",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2013-06-11 06:44:41",
+                        "firm": "Vertical Research",
+                        "toGrade": "Sell",
+                        "fromGrade": "Buy",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2013-05-08 07:37:34",
+                        "firm": "BMO Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2013-04-30 08:28:50",
+                        "firm": "CIBC",
+                        "toGrade": "Sector Underperform",
+                        "fromGrade": "Sector Perform",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2013-04-29 09:25:41",
+                        "firm": "UBS",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2013-04-22 05:20:12",
+                        "firm": "Deutsche Bank",
+                        "toGrade": "Hold",
+                        "fromGrade": "Buy",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2013-02-15 06:30:27",
+                        "firm": "Jefferies",
+                        "toGrade": "Hold",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2013-02-15 06:01:54",
+                        "firm": "Credit Suisse",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Neutral",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2013-02-14 14:02:01",
+                        "firm": "Cormark Securities",
+                        "toGrade": "Buy",
+                        "fromGrade": "Market Perform",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2013-02-14 07:14:47",
+                        "firm": "BMO Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2013-02-13 10:10:25",
+                        "firm": "Citigroup",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2013-02-04 12:36:25",
+                        "firm": "Barclays",
+                        "toGrade": "Equal-Weight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2013-01-15 07:45:00",
+                        "firm": "Deutsche Bank",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2012-11-09 09:25:00",
+                        "firm": "Macquarie",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Neutral",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2012-11-08 05:51:00",
+                        "firm": "Canaccord Genuity",
+                        "toGrade": "Buy",
+                        "fromGrade": "Hold",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2012-10-19 06:58:00",
+                        "firm": "Jefferies",
+                        "toGrade": "Hold",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2012-10-16 08:59:00",
+                        "firm": "Barclays",
+                        "toGrade": "Equal-Weight",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2012-10-10 05:41:00",
+                        "firm": "Morgan Stanley",
+                        "toGrade": "Underweight",
+                        "fromGrade": "Equal-Weight",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2012-10-02 05:37:00",
+                        "firm": "Deutsche Bank",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2012-10-01 13:00:00",
+                        "firm": "Dundee",
+                        "toGrade": "Buy",
+                        "fromGrade": "Neutral",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2012-09-25 06:14:00",
+                        "firm": "Citigroup",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2012-08-10 05:21:00",
+                        "firm": "Citigroup",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2012-08-09 04:40:00",
+                        "firm": "Canaccord Genuity",
+                        "toGrade": "Hold",
+                        "fromGrade": "Buy",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2012-07-16 05:46:00",
+                        "firm": "Citigroup",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2012-07-09 04:54:00",
+                        "firm": "Deutsche Bank",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2012-05-10 09:44:00",
+                        "firm": "UBS",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2012-05-10 05:34:00",
+                        "firm": "Jefferies",
+                        "toGrade": "Hold",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2012-05-09 08:36:00",
+                        "firm": "Canaccord Genuity",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "main"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "FREE_REALTIME",
+                "postMarketChangePercent": 0.0,
+                "postMarketChange": 0.0,
+                "postMarketTime": "2024-07-15 18:57:16",
+                "postMarketPrice": 9.12,
+                "postMarketSource": "FREE_REALTIME",
+                "regularMarketChangePercent": -0.009772004,
+                "regularMarketChange": -0.09000015,
+                "regularMarketTime": "2024-07-15 15:00:02",
+                "priceHint": 2,
+                "regularMarketPrice": 9.12,
+                "regularMarketDayHigh": 9.2769,
+                "regularMarketDayLow": 9.1,
+                "regularMarketVolume": 16263794,
+                "averageDailyVolume10Day": 16469100,
+                "averageDailyVolume3Month": 16362531,
+                "regularMarketPreviousClose": 9.21,
+                "regularMarketSource": "DELAYED",
+                "regularMarketOpen": 9.21,
+                "exchange": "NYQ",
+                "exchangeName": "NYSE",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "POSTPOST",
+                "quoteType": "EQUITY",
+                "symbol": "KGC",
+                "underlyingSymbol": null,
+                "shortName": "Kinross Gold Corporation",
+                "longName": "Kinross Gold Corporation",
+                "currency": "USD",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "toCurrency": null,
+                "lastMarket": null,
+                "marketCap": 11208935424
+            },
+            "balanceSheetHistory": {
+                "balanceSheetStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2020-12-31"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earningsTrend": {
+                "trend": [
+                    {
+                        "maxAge": 1,
+                        "period": "0q",
+                        "endDate": "2024-06-30",
+                        "growth": -0.143,
+                        "earningsEstimate": {
+                            "avg": 0.12,
+                            "low": 0.05,
+                            "high": 0.17,
+                            "yearAgoEps": 0.14,
+                            "numberOfAnalysts": 9,
+                            "growth": -0.143
+                        },
+                        "revenueEstimate": {
+                            "avg": 1125690000,
+                            "low": 1065000000,
+                            "high": 1186380000,
+                            "numberOfAnalysts": 2,
+                            "yearAgoRevenue": 1092300000,
+                            "growth": 0.031
+                        },
+                        "epsTrend": {
+                            "current": 0.12,
+                            "7daysAgo": 0.1,
+                            "30daysAgo": 0.1,
+                            "60daysAgo": 0.1,
+                            "90daysAgo": 0.07
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 1,
+                            "upLast30days": 4,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+1q",
+                        "endDate": "2024-09-30",
+                        "growth": 0.25,
+                        "earningsEstimate": {
+                            "avg": 0.15,
+                            "low": 0.12,
+                            "high": 0.2,
+                            "yearAgoEps": 0.12,
+                            "numberOfAnalysts": 9,
+                            "growth": 0.25
+                        },
+                        "revenueEstimate": {
+                            "avg": 1215060000,
+                            "low": 1215060000,
+                            "high": 1215060000,
+                            "numberOfAnalysts": 1,
+                            "yearAgoRevenue": 1090130000,
+                            "growth": 0.115
+                        },
+                        "epsTrend": {
+                            "current": 0.15,
+                            "7daysAgo": 0.14,
+                            "30daysAgo": 0.14,
+                            "60daysAgo": 0.13,
+                            "90daysAgo": 0.1
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 1,
+                            "upLast30days": 2,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "0y",
+                        "endDate": "2024-12-31",
+                        "growth": 0.295,
+                        "earningsEstimate": {
+                            "avg": 0.57,
+                            "low": 0.39,
+                            "high": 0.74,
+                            "yearAgoEps": 0.44,
+                            "numberOfAnalysts": 16,
+                            "growth": 0.295
+                        },
+                        "revenueEstimate": {
+                            "avg": 4704260000,
+                            "low": 4454000000,
+                            "high": 5001740000,
+                            "numberOfAnalysts": 13,
+                            "yearAgoRevenue": 4239700000,
+                            "growth": 0.11
+                        },
+                        "epsTrend": {
+                            "current": 0.57,
+                            "7daysAgo": 0.53,
+                            "30daysAgo": 0.52,
+                            "60daysAgo": 0.48,
+                            "90daysAgo": 0.36
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 1,
+                            "upLast30days": 6,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+1y",
+                        "endDate": "2025-12-31",
+                        "growth": 0.088,
+                        "earningsEstimate": {
+                            "avg": 0.62,
+                            "low": 0.41,
+                            "high": 1.2,
+                            "yearAgoEps": 0.57,
+                            "numberOfAnalysts": 16,
+                            "growth": 0.088
+                        },
+                        "revenueEstimate": {
+                            "avg": 4687040000,
+                            "low": 3862000000,
+                            "high": 5634000000,
+                            "numberOfAnalysts": 13,
+                            "yearAgoRevenue": 4704260000,
+                            "growth": -0.004
+                        },
+                        "epsTrend": {
+                            "current": 0.62,
+                            "7daysAgo": 0.6,
+                            "30daysAgo": 0.57,
+                            "60daysAgo": 0.54,
+                            "90daysAgo": 0.39
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 1,
+                            "upLast30days": 5,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+5y",
+                        "endDate": null,
+                        "growth": -0.17559999,
+                        "earningsEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": {},
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "numberOfAnalysts": {},
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": {},
+                            "7daysAgo": {},
+                            "30daysAgo": {},
+                            "60daysAgo": {},
+                            "90daysAgo": {}
+                        },
+                        "epsRevisions": {
+                            "upLast7days": {},
+                            "upLast30days": {},
+                            "downLast30days": {},
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "-5y",
+                        "endDate": null,
+                        "growth": -0.036170002,
+                        "earningsEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": {},
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "numberOfAnalysts": {},
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": {},
+                            "7daysAgo": {},
+                            "30daysAgo": {},
+                            "60daysAgo": {},
+                            "90daysAgo": {}
+                        },
+                        "epsRevisions": {
+                            "upLast7days": {},
+                            "upLast30days": {},
+                            "downLast30days": {},
+                            "downLast90days": {}
+                        }
+                    }
+                ],
+                "maxAge": 1
+            },
+            "secFilings": {
+                "filings": [
+                    {
+                        "date": "2024-06-28",
+                        "epochDate": "2024-06-27 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-24-075778_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924075778/tm2418431d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924075778/tm2418431d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-05-08",
+                        "epochDate": "2024-05-07 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-24-058188_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924058188/tm2413804d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924058188/tm2413804d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924058188/tm2413804d1_ex99-2.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-03-28",
+                        "epochDate": "2024-03-27 19:00:00",
+                        "type": "F-10/A",
+                        "title": "Offering Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-24-040555_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-FILING FEES",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924040555/tm247443d7_ex-filingfees.htm"
+                            },
+                            {
+                                "type": "EX-23.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924040555/tm247443d7_ex23-1.htm"
+                            },
+                            {
+                                "type": "F-10/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924040555/tm247443-5_f10a.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-03-27",
+                        "epochDate": "2024-03-26 19:00:00",
+                        "type": "40-F",
+                        "title": "Periodic Financial Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-24-039723_701818",
+                        "exhibits": [
+                            {
+                                "type": "40-F",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924039723/kgc-20231231x40f.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0000701818/000110465924039723/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0000701818/000110465924039723/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-97.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924039723/kgc-20231231xex97d1.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924039723/kgc-20231231xex99d1.htm"
+                            },
+                            {
+                                "type": "EX-99.10",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924039723/kgc-20231231xex99d10.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924039723/kgc-20231231xex99d2.htm"
+                            },
+                            {
+                                "type": "EX-99.3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924039723/kgc-20231231xex99d3.htm"
+                            },
+                            {
+                                "type": "EX-99.4",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924039723/kgc-20231231xex99d4.htm"
+                            },
+                            {
+                                "type": "EX-99.5",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924039723/kgc-20231231xex99d5.htm"
+                            },
+                            {
+                                "type": "EX-99.6",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924039723/kgc-20231231xex99d6.htm"
+                            },
+                            {
+                                "type": "EX-99.7",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924039723/kgc-20231231xex99d7.htm"
+                            },
+                            {
+                                "type": "EX-99.8",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924039723/kgc-20231231xex99d8.htm"
+                            },
+                            {
+                                "type": "EX-99.9",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924039723/kgc-20231231xex99d9.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-03-12",
+                        "epochDate": "2024-03-11 19:00:00",
+                        "type": "F-10",
+                        "title": "Offering Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-24-033425_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-FILING FEES",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex-filingfees.htm"
+                            },
+                            {
+                                "type": "EX-23.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex23-1.htm"
+                            },
+                            {
+                                "type": "EX-23.8",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex23-8.htm"
+                            },
+                            {
+                                "type": "EX-25.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex25-1.htm"
+                            },
+                            {
+                                "type": "EX-3.15",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex3-15.htm"
+                            },
+                            {
+                                "type": "EX-3.16",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex3-16.htm"
+                            },
+                            {
+                                "type": "EX-3.17",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex3-17.htm"
+                            },
+                            {
+                                "type": "EX-4.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex4-1.htm"
+                            },
+                            {
+                                "type": "EX-4.5",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex4-5.htm"
+                            },
+                            {
+                                "type": "EX-4.6",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex4-6.htm"
+                            },
+                            {
+                                "type": "EX-4.7",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex4-7.htm"
+                            },
+                            {
+                                "type": "EX-5.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex5-1.htm"
+                            },
+                            {
+                                "type": "EX-5.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex5-2.htm"
+                            },
+                            {
+                                "type": "EX-5.3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex5-3.htm"
+                            },
+                            {
+                                "type": "EX-5.4",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex5-4.htm"
+                            },
+                            {
+                                "type": "EX-5.5",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex5-5.htm"
+                            },
+                            {
+                                "type": "EX-5.6",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex5-6.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443d2_ex99-2.htm"
+                            },
+                            {
+                                "type": "F-10",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924033425/tm247443-1_f10.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-02-15",
+                        "epochDate": "2024-02-14 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-24-024350_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924024350/tm246349d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924024350/tm246349d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924024350/tm246349d1_ex99-2.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-02-14",
+                        "epochDate": "2024-02-13 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-24-024079_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924024079/tm245131d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924024079/tm245131d1_ex99-2.htm"
+                            },
+                            {
+                                "type": "EX-99.3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924024079/tm245131d1_ex99-3.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924024079/tm245131d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-01-25",
+                        "epochDate": "2024-01-24 18:00:00",
+                        "type": "SC 13G/A",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001086364-24-003228_701818",
+                        "exhibits": [],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-01-18",
+                        "epochDate": "2024-01-17 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-24-004730_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924004730/tm243597d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465924004730/tm243597d1_ex99-1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-11-08",
+                        "epochDate": "2023-11-07 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-23-115800_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923115800/tm2329479d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923115800/tm2329479d1_ex99-2.htm"
+                            },
+                            {
+                                "type": "EX-99.3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923115800/tm2329479d1_ex99-3.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923115800/tm2329479d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-10-05",
+                        "epochDate": "2023-10-04 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-23-106929_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923106929/tm2327755d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923106929/tm2327755d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-08-03",
+                        "epochDate": "2023-08-02 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-23-086951_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923086951/tm2322733d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923086951/tm2322733d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923086951/tm2322733d1_ex99-2.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-08-02",
+                        "epochDate": "2023-08-01 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-23-086871_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923086871/tm2318958d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923086871/tm2318958d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923086871/tm2318958d1_ex99-2.htm"
+                            },
+                            {
+                                "type": "EX-99.3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923086871/tm2318958d1_ex99-3.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-07-12",
+                        "epochDate": "2023-07-11 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-23-080274_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923080274/tm2321148d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923080274/tm2321148d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-07-06",
+                        "epochDate": "2023-07-05 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-23-078482_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923078482/tm2320702d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923078482/tm2320702d1_ex99-1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-06-27",
+                        "epochDate": "2023-06-26 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-23-075049_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923075049/tm2319779d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923075049/tm2319779d1_ex99-1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-05-12",
+                        "epochDate": "2023-05-11 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-23-059264_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923059264/tm2315594d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923059264/tm2315594d1_ex99-2.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923059264/tm2315594d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-05-09",
+                        "epochDate": "2023-05-08 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-23-057835_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923057835/tm2311861d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923057835/tm2311861d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923057835/tm2311861d1_ex99-2.htm"
+                            },
+                            {
+                                "type": "EX-99.3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923057835/tm2311861d1_ex99-3.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-04-06",
+                        "epochDate": "2023-04-05 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-23-042269_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923042269/tm2311930d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923042269/tm2311930d1_ex99-1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-04-03",
+                        "epochDate": "2023-04-02 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-23-040571_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923040571/tm237184d4_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923040571/tm237184d1_ex99-3.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923040571/tm237184d3_ex99-2.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923040571/tm237184d4_ex99-1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-03-31",
+                        "epochDate": "2023-03-30 19:00:00",
+                        "type": "40-F",
+                        "title": "Periodic Financial Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-23-040149_701818",
+                        "exhibits": [
+                            {
+                                "type": "40-F",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923040149/kgc-20221231x40f.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0000701818/000110465923040149/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0000701818/000110465923040149/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923040149/kgc-20221231xex99d1.htm"
+                            },
+                            {
+                                "type": "EX-99.10",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923040149/kgc-20221231xex99d10.htm"
+                            },
+                            {
+                                "type": "EX-99.11",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923040149/kgc-20221231xex99d11.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923040149/kgc-20221231xex99d2.htm"
+                            },
+                            {
+                                "type": "EX-99.3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923040149/kgc-20221231xex99d3.htm"
+                            },
+                            {
+                                "type": "EX-99.4",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923040149/kgc-20221231xex99d4.htm"
+                            },
+                            {
+                                "type": "EX-99.5",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923040149/kgc-20221231xex99d5.htm"
+                            },
+                            {
+                                "type": "EX-99.6",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923040149/kgc-20221231xex99d6.htm"
+                            },
+                            {
+                                "type": "EX-99.7",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923040149/kgc-20221231xex99d7.htm"
+                            },
+                            {
+                                "type": "EX-99.8",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923040149/kgc-20221231xex99d8.htm"
+                            },
+                            {
+                                "type": "EX-99.9",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923040149/kgc-20221231xex99d9.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-02-16",
+                        "epochDate": "2023-02-15 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-23-022522_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923022522/tm237059d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923022522/tm237059d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923022522/tm237059d1_ex99-2.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-02-15",
+                        "epochDate": "2023-02-14 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0000701818-23-000004_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181823000004/form6-k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181823000004/ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181823000004/ex99-2.htm"
+                            },
+                            {
+                                "type": "EX-99.3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181823000004/ex99-3.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-02-14",
+                        "epochDate": "2023-02-13 18:00:00",
+                        "type": "SC 13G/A",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0000869178-23-000041_701818",
+                        "exhibits": [
+                            {
+                                "type": "SC 13G/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000086917823000041/iamgold13ga.htm"
+                            },
+                            {
+                                "type": "SC 13G/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000869178/000086917823000041/iamgold13ga.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-02-13",
+                        "epochDate": "2023-02-12 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-23-019006_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923019006/tm236508d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923019006/tm236508d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-02-09",
+                        "epochDate": "2023-02-08 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-23-015029_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923015029/tm236105d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923015029/tm236105d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-01-25",
+                        "epochDate": "2023-01-24 18:00:00",
+                        "type": "SC 13G",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001306550-23-003400_701818",
+                        "exhibits": [],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-01-17",
+                        "epochDate": "2023-01-16 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-23-003943_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923003943/tm233587d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923003943/tm233587d1_ex99-1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-01-12",
+                        "epochDate": "2023-01-11 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-23-003290_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923003290/tm233276d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465923003290/tm233276d1_ex99-1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-11-10",
+                        "epochDate": "2022-11-09 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-116663_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922116663/tm2230205d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922116663/tm2230205d1_ex99-2.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922116663/tm2230205d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-11-09",
+                        "epochDate": "2022-11-08 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0000701818-22-000009_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181822000009/ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181822000009/ex99-2.htm"
+                            },
+                            {
+                                "type": "EX-99.3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181822000009/ex99-3.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181822000009/form6-k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-10-06",
+                        "epochDate": "2022-10-05 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-106450_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922106450/tm2227626d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922106450/tm2227626d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-10-05",
+                        "epochDate": "2022-10-04 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-106268_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922106268/tm2227597d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922106268/tm2227597d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-09-19",
+                        "epochDate": "2022-09-18 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-101084_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922101084/tm2226154d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922101084/tm2226154d1_ex99-1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-08-22",
+                        "epochDate": "2022-08-21 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-093237_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922093237/tm2224289d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922093237/tm2224289d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-08-02",
+                        "epochDate": "2022-08-01 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-085030_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922085030/tm2222364d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922085030/tm2222364d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-07-29",
+                        "epochDate": "2022-07-28 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-083937_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922083937/tm2222108d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922083937/tm2222108d1_ex99-1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-07-28",
+                        "epochDate": "2022-07-27 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-083471_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922083471/tm2222042d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922083471/tm2222042d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922083471/tm2222042d1_ex99-2.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-07-27",
+                        "epochDate": "2022-07-26 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0000701818-22-000007_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181822000007/form6-k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181822000007/ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181822000007/ex99-2.htm"
+                            },
+                            {
+                                "type": "EX-99.3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181822000007/ex99-3.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-07-05",
+                        "epochDate": "2022-07-04 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-077149_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922077149/tm2220388d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922077149/tm2220388d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-06-28",
+                        "epochDate": "2022-06-27 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-075094_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922075094/tm2219751d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922075094/tm2219751d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-06-21",
+                        "epochDate": "2022-06-20 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-072842_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922072842/tm2218986d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922072842/tm2218986d1_ex99-1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-06-15",
+                        "epochDate": "2022-06-14 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-071346_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922071346/tm2218514d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922071346/tm2218514d1_ex99-1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-05-13",
+                        "epochDate": "2022-05-12 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-059619_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922059619/tm2215460d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922059619/tm2215460d1_99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922059619/tm2215460d1_99-2.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-05-11",
+                        "epochDate": "2022-05-10 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-058445_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922058445/tm2215135d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922058445/tm2215135d1_ex99-2.htm"
+                            },
+                            {
+                                "type": "EX-99.3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922058445/tm2215135d1_ex99-3.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922058445/tm2215135d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-05-10",
+                        "epochDate": "2022-05-09 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0000701818-22-000005_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181822000005/ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181822000005/ex99-2.htm"
+                            },
+                            {
+                                "type": "EX-99.3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181822000005/ex99-3.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181822000005/form6-k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-04-25",
+                        "epochDate": "2022-04-24 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-049358_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922049358/tm2213464d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922049358/tm2213464d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-04-08",
+                        "epochDate": "2022-04-07 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-043922_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922043922/tm2212286d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922043922/tm2212286d1_ex99-1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-04-07",
+                        "epochDate": "2022-04-06 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-043507_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922043507/tm2212171d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922043507/tm2212171d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-04-05",
+                        "epochDate": "2022-04-04 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-042622_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922042622/tm2211691d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922042622/tm2211691d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-03-31",
+                        "epochDate": "2022-03-30 19:00:00",
+                        "type": "40-F",
+                        "title": "Periodic Financial Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-041156_701818",
+                        "exhibits": [
+                            {
+                                "type": "40-F",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922041156/kgc-20211231x40f.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0000701818/000110465922041156/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0000701818/000110465922041156/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922041156/kgc-20211231xex99d1.htm"
+                            },
+                            {
+                                "type": "EX-99.10",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922041156/kgc-20211231xex99d10.htm"
+                            },
+                            {
+                                "type": "EX-99.11",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922041156/kgc-20211231xex99d11.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922041156/kgc-20211231xex99d2.htm"
+                            },
+                            {
+                                "type": "EX-99.3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922041156/kgc-20211231xex99d3.htm"
+                            },
+                            {
+                                "type": "EX-99.4",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922041156/kgc-20211231xex99d4.htm"
+                            },
+                            {
+                                "type": "EX-99.5",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922041156/kgc-20211231xex99d5.htm"
+                            },
+                            {
+                                "type": "EX-99.6",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922041156/kgc-20211231xex99d6.htm"
+                            },
+                            {
+                                "type": "EX-99.7",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922041156/kgc-20211231xex99d7.htm"
+                            },
+                            {
+                                "type": "EX-99.8",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922041156/kgc-20211231xex99d8.htm"
+                            },
+                            {
+                                "type": "EX-99.9",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922041156/kgc-20211231xex99d9.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-03-30",
+                        "epochDate": "2022-03-29 19:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-039852_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922039852/tm2210865d1_6k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922039852/tm2210865d1_ex99-1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-03-09",
+                        "epochDate": "2022-03-08 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-031937_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922031937/tm228793d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922031937/tm228793d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-03-08",
+                        "epochDate": "2022-03-07 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-031182_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922031182/tm228624d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922031182/tm228624d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-03-03",
+                        "epochDate": "2022-03-02 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-029758_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922029758/tm228295d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922029758/tm228295d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-02-24",
+                        "epochDate": "2022-02-23 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-026461_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922026461/tm227619d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922026461/tm227619d1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-02-23",
+                        "epochDate": "2022-02-22 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0001104659-22-025970_701818",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922025970/tm227479d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000110465922025970/tm227479-1_6k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-02-16",
+                        "epochDate": "2022-02-15 18:00:00",
+                        "type": "6-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0000701818-22-000003_701818",
+                        "exhibits": [
+                            {
+                                "type": "6-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181822000003/form6-k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181822000003/ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000070181822000003/ex99-2.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-02-11",
+                        "epochDate": "2022-02-10 18:00:00",
+                        "type": "SC 13G/A",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0000869178-22-000044_701818",
+                        "exhibits": [
+                            {
+                                "type": "SC 13G/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000701818/000086917822000044/kinrossgold13g.htm"
+                            },
+                            {
+                                "type": "SC 13G/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000869178/000086917822000044/kinrossgold13g.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-01-27",
+                        "epochDate": "2022-01-26 18:00:00",
+                        "type": "SC 13G/A",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/KGC/0000834237-22-002086_701818",
+                        "exhibits": [],
+                        "maxAge": 1
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "institutionOwnership": {
+                "maxAge": 1,
+                "ownershipList": [
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Van Eck Associates Corporation",
+                        "pctHeld": 0.1228,
+                        "position": 150960083,
+                        "value": 1376755939,
+                        "pctChange": 0.095
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Vanguard Group Inc",
+                        "pctHeld": 0.037,
+                        "position": 45429935,
+                        "value": 414321002,
+                        "pctChange": 0.0111
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-12-31",
+                        "organization": "Norges Bank Investment Management",
+                        "pctHeld": 0.0357,
+                        "position": 43838344,
+                        "value": 399805692,
+                        "pctChange": 1.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Renaissance Technologies, LLC",
+                        "pctHeld": 0.0235,
+                        "position": 28872730,
+                        "value": 263319294,
+                        "pctChange": -0.0188
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Royal Bank of Canada",
+                        "pctHeld": 0.0218,
+                        "position": 26834811,
+                        "value": 244733473,
+                        "pctChange": 0.0746
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Ruffer LLP",
+                        "pctHeld": 0.018099999,
+                        "position": 22278134,
+                        "value": 203176579,
+                        "pctChange": 0.1157
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-12-31",
+                        "organization": "Boston Partners",
+                        "pctHeld": 0.0137,
+                        "position": 16898452,
+                        "value": 154113880,
+                        "pctChange": 0.4398
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "JP Morgan Chase & Company",
+                        "pctHeld": 0.0119,
+                        "position": 14675796,
+                        "value": 133843257,
+                        "pctChange": -0.0573
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Arrowstreet Capital, Limited Partnership",
+                        "pctHeld": 0.0101,
+                        "position": 12358109,
+                        "value": 112705952,
+                        "pctChange": 0.3245
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Bank Of Nova Scotia /",
+                        "pctHeld": 0.0093,
+                        "position": 11435022,
+                        "value": 104287399,
+                        "pctChange": -0.12529999
+                    }
+                ]
+            },
+            "majorHoldersBreakdown": {
+                "maxAge": 1,
+                "insidersPercentHeld": 0.0027,
+                "institutionsPercentHeld": 0.64242995,
+                "institutionsFloatPercentHeld": 0.64417,
+                "institutionsCount": 647
+            },
+            "balanceSheetHistoryQuarterly": {
+                "balanceSheetStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-09-30"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earningsHistory": {
+                "history": [
+                    {
+                        "maxAge": 1,
+                        "epsActual": 0.14,
+                        "epsEstimate": 0.08,
+                        "epsDifference": 0.06,
+                        "surprisePercent": 0.75,
+                        "quarter": "2023-06-30",
+                        "period": "-4q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": 0.12,
+                        "epsEstimate": 0.1,
+                        "epsDifference": 0.02,
+                        "surprisePercent": 0.2,
+                        "quarter": "2023-09-30",
+                        "period": "-3q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": 0.11,
+                        "epsEstimate": 0.1,
+                        "epsDifference": 0.01,
+                        "surprisePercent": 0.1,
+                        "quarter": "2023-12-31",
+                        "period": "-2q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": 0.1,
+                        "epsEstimate": 0.06,
+                        "epsDifference": 0.04,
+                        "surprisePercent": 0.667,
+                        "quarter": "2024-03-31",
+                        "period": "-1q"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "summaryProfile": {
+                "address1": "25 York Street",
+                "address2": "17th Floor",
+                "city": "Toronto",
+                "state": "ON",
+                "zip": "M5J 2V5",
+                "country": "Canada",
+                "phone": "416 365 5123",
+                "website": "https://www.kinross.com",
+                "industry": "Gold",
+                "industryKey": "gold",
+                "industryDisp": "Gold",
+                "sector": "Basic Materials",
+                "sectorKey": "basic-materials",
+                "sectorDisp": "Basic Materials",
+                "longBusinessSummary": "Kinross Gold Corporation, together with its subsidiaries, engages in the acquisition, exploration, and development of gold properties principally in the United States, Brazil, Chile, Canada, and Mauritania. The company operates the Fort Knox mine and the Manh Choh project in Alaska, as well as the Round Mountain and the Bald Mountain mines in Nevada, the United States; the Paracatu mine in Brazil; the La Coipa and the Lobo-Marte project in Chile; the Tasiast mine in Mauritania; and the Great Bear project in Canada. It is also involved in the extraction and processing of gold-containing ores; reclamation of gold mining properties; and production and sale of silver. Kinross Gold Corporation was founded in 1993 and is headquartered in Toronto, Canada.",
+                "companyOfficers": [],
+                "irWebsite": "http://www.kinross.com/investor-centre.aspx",
+                "maxAge": 86400
+            },
+            "netSharePurchaseActivity": {
+                "maxAge": 1,
+                "period": "6m",
+                "buyInfoCount": 0,
+                "buyInfoShares": 0,
+                "sellInfoCount": 0,
+                "netInfoCount": 0,
+                "netInfoShares": 0,
+                "totalInsiderShares": 3318300
+            },
+            "insiderTransactions": {
+                "transactions": [
+                    {
+                        "maxAge": 1,
+                        "shares": 1000,
+                        "value": 2320,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.32 per share.",
+                        "filerName": "TOWNSEND KENNETH R",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1990-03-02",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1000,
+                        "value": 2500,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.50 per share.",
+                        "filerName": "TOWNSEND KENNETH R",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1990-02-13",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1000,
+                        "value": 2380,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.38 per share.",
+                        "filerName": "TOWNSEND KENNETH R",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1990-01-25",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1000,
+                        "value": 2630,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.63 per share.",
+                        "filerName": "TOWNSEND KENNETH R",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1989-12-28",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1000,
+                        "value": 2630,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.63 per share.",
+                        "filerName": "TOWNSEND KENNETH R",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1989-11-16",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 20000,
+                        "value": 66000,
+                        "filerUrl": "",
+                        "transactionText": "Conversion of Exercise of derivative security at price 3.30 per share.",
+                        "filerName": "THOMAS CRAIG D",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "1989-09-14",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1000,
+                        "value": 1130,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 1.13 per share.",
+                        "filerName": "ARTHUR HARRY DITTO",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1988-10-13",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1000,
+                        "value": 2000,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.00 per share.",
+                        "filerName": "ARTHUR HARRY DITTO",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1988-09-07",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1000,
+                        "value": 2000,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.00 per share.",
+                        "filerName": "ROVIG DAVID BRUCE",
+                        "filerRelation": "Officer and Director",
+                        "moneyText": "",
+                        "startDate": "1988-09-06",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 4800,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.37 - 2.43 per share.",
+                        "filerName": "ARTHUR HARRY DITTO",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1988-08-15",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 4760,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.38 per share.",
+                        "filerName": "ROVIG DAVID BRUCE",
+                        "filerRelation": "Officer and Director",
+                        "moneyText": "",
+                        "startDate": "1988-08-10",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 5000,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.50 per share.",
+                        "filerName": "ROVIG DAVID BRUCE",
+                        "filerRelation": "Officer and Director",
+                        "moneyText": "",
+                        "startDate": "1988-07-08",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1000,
+                        "value": 2630,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.63 per share.",
+                        "filerName": "ARTHUR HARRY DITTO",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1988-06-06",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3000,
+                        "value": 7820,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.56 - 2.63 per share.",
+                        "filerName": "ROVIG DAVID BRUCE",
+                        "filerRelation": "Officer and Director",
+                        "moneyText": "",
+                        "startDate": "1988-04-14",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 5130,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.38 - 2.75 per share.",
+                        "filerName": "ARTHUR HARRY DITTO",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1988-04-08",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1000,
+                        "value": 2320,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.32 per share.",
+                        "filerName": "ARTHUR HARRY DITTO",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1988-03-16",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 4570,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.25 - 2.32 per share.",
+                        "filerName": "ARTHUR HARRY DITTO",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1988-02-25",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 7000,
+                        "value": 16830,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.25 - 2.50 per share.",
+                        "filerName": "ROVIG DAVID BRUCE",
+                        "filerRelation": "Vice President",
+                        "moneyText": "",
+                        "startDate": "1988-02-16",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2500,
+                        "value": 7825,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 3.13 per share.",
+                        "filerName": "PROSSER THOMAS J",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "1987-12-29",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 25000,
+                        "value": 73750,
+                        "filerUrl": "",
+                        "transactionText": "Conversion of Exercise of derivative security at price 2.95 per share.",
+                        "filerName": "TOWNSEND KENNETH R",
+                        "filerRelation": "Affiliated Person",
+                        "moneyText": "",
+                        "startDate": "1987-10-15",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1500,
+                        "value": 5160,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 3.44 per share.",
+                        "filerName": "ROVIG DAVID BRUCE",
+                        "filerRelation": "Officer and Director",
+                        "moneyText": "",
+                        "startDate": "1987-09-17",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 10000,
+                        "value": 15000,
+                        "filerUrl": "",
+                        "transactionText": "Conversion of Exercise of derivative security at price 1.50 per share.",
+                        "filerName": "DITTO ARTHUR H",
+                        "filerRelation": "Affiliated Person",
+                        "moneyText": "",
+                        "startDate": "1987-07-30",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 12000,
+                        "value": 18000,
+                        "filerUrl": "",
+                        "transactionText": "Conversion of Exercise of derivative security at price 1.50 per share.",
+                        "filerName": "ROVIG DAVID BRUCE",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "1987-07-30",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1000,
+                        "value": 4000,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 4.00 per share.",
+                        "filerName": "ARTHUR HARRY DITTO",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1987-07-23",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 6510,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 3.13 - 3.38 per share.",
+                        "filerName": "ARTHUR HARRY DITTO",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1987-06-26",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1500,
+                        "value": 4875,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 3.25 per share.",
+                        "filerName": "ROVIG DAVID BRUCE",
+                        "filerRelation": "Officer and Director",
+                        "moneyText": "",
+                        "startDate": "1987-06-11",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2500,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 0.00 per share.",
+                        "filerName": "THOMAS CRAIG D",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1987-06-11",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3000,
+                        "value": 10630,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 3.50 - 3.63 per share.",
+                        "filerName": "ARTHUR HARRY DITTO",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1987-05-27",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1000,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 0.00 per share.",
+                        "filerName": "THOMAS CRAIG D",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1987-04-21",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1000,
+                        "value": 3440,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 3.44 per share.",
+                        "filerName": "ARTHUR HARRY DITTO",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1987-04-01",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 6190,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.94 - 3.25 per share.",
+                        "filerName": "ARTHUR HARRY DITTO",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1987-03-30",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2500,
+                        "value": 7825,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 3.13 per share.",
+                        "filerName": "ROVIG DAVID BRUCE",
+                        "filerRelation": "Officer and Director",
+                        "moneyText": "",
+                        "startDate": "1987-03-12",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3500,
+                        "value": 8750,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.50 per share.",
+                        "filerName": "ROVIG DAVID BRUCE",
+                        "filerRelation": "Officer and Director",
+                        "moneyText": "",
+                        "startDate": "1987-01-20",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3000,
+                        "value": 6820,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.19 - 2.38 per share.",
+                        "filerName": "ARTHUR HARRY DITTO",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1987-01-15",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 6300,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 3.15 per share.",
+                        "filerName": "LENTON WAYNE DOUGLAS",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "1987-01-09",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 4560,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.25 - 2.31 per share.",
+                        "filerName": "ROVIG DAVID BRUCE",
+                        "filerRelation": "Officer and Director",
+                        "moneyText": "",
+                        "startDate": "1986-12-09",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 4440,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 2.19 - 2.25 per share.",
+                        "filerName": "ARTHUR HARRY DITTO",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "1986-11-28",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1400,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 0.00 per share.",
+                        "filerName": "LENTON WAYNE DOUGLAS",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "1986-10-30",
+                        "ownership": ""
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 60000,
+                        "value": 69000,
+                        "filerUrl": "",
+                        "transactionText": "Conversion of Exercise of derivative security at price 1.15 per share.",
+                        "filerName": "DITTO ARTHUR H",
+                        "filerRelation": "Affiliated Person",
+                        "moneyText": "",
+                        "startDate": "1986-09-15",
+                        "ownership": "D"
+                    }
+                ],
+                "maxAge": 1
+            },
+            "sectorTrend": {
+                "maxAge": 1,
+                "symbol": null,
+                "estimates": []
+            },
+            "incomeStatementHistoryQuarterly": {
+                "incomeStatementHistory": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31",
+                        "totalRevenue": 1081500000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 107000000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "totalRevenue": 1115700000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 65400000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-09-30",
+                        "totalRevenue": 1102400000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 109700000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30",
+                        "totalRevenue": 1092300000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 151000000,
+                        "netIncomeApplicableToCommonShares": {}
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "cashflowStatementHistoryQuarterly": {
+                "cashflowStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31",
+                        "netIncome": 107000000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "netIncome": 65400000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-09-30",
+                        "netIncome": 109700000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30",
+                        "netIncome": 151000000
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earnings": {
+                "maxAge": 86400,
+                "earningsChart": {
+                    "quarterly": [
+                        {
+                            "date": "2Q2023",
+                            "actual": 0.14,
+                            "estimate": 0.08
+                        },
+                        {
+                            "date": "3Q2023",
+                            "actual": 0.12,
+                            "estimate": 0.1
+                        },
+                        {
+                            "date": "4Q2023",
+                            "actual": 0.11,
+                            "estimate": 0.1
+                        },
+                        {
+                            "date": "1Q2024",
+                            "actual": 0.1,
+                            "estimate": 0.06
+                        }
+                    ],
+                    "currentQuarterEstimate": 0.12,
+                    "currentQuarterEstimateDate": "2Q",
+                    "currentQuarterEstimateYear": 2024,
+                    "earningsDate": [
+                        "2024-07-31 15:00:S"
+                    ],
+                    "isEarningsDateEstimate": false
+                },
+                "financialsChart": {
+                    "yearly": [
+                        {
+                            "date": 2020,
+                            "revenue": 4213400000,
+                            "earnings": 1342400000
+                        },
+                        {
+                            "date": 2021,
+                            "revenue": 3729400000,
+                            "earnings": 221200000
+                        },
+                        {
+                            "date": 2022,
+                            "revenue": 3455100000,
+                            "earnings": -605200000
+                        },
+                        {
+                            "date": 2023,
+                            "revenue": 4239700000,
+                            "earnings": 416300000
+                        }
+                    ],
+                    "quarterly": [
+                        {
+                            "date": "2Q2023",
+                            "revenue": 1092300000,
+                            "earnings": 151000000
+                        },
+                        {
+                            "date": "3Q2023",
+                            "revenue": 1102400000,
+                            "earnings": 109700000
+                        },
+                        {
+                            "date": "4Q2023",
+                            "revenue": 1115700000,
+                            "earnings": 65400000
+                        },
+                        {
+                            "date": "1Q2024",
+                            "revenue": 1081500000,
+                            "earnings": 107000000
+                        }
+                    ]
+                },
+                "financialCurrency": "USD"
+            },
+            "pageViews": {
+                "shortTermTrend": "DOWN",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "financialData": {
+                "maxAge": 86400,
+                "currentPrice": 9.12,
+                "targetHighPrice": 13.0,
+                "targetLowPrice": 6.8,
+                "targetMeanPrice": 9.71,
+                "targetMedianPrice": 9.54,
+                "recommendationMean": 2.3,
+                "recommendationKey": "buy",
+                "numberOfAnalystOpinions": 13,
+                "totalCash": 423300000,
+                "totalCashPerShare": 0.344,
+                "ebitda": 1879000064,
+                "totalDebt": 2260900096,
+                "quickRatio": 0.36,
+                "currentRatio": 1.149,
+                "totalRevenue": 4391900160,
+                "debtToEquity": 36.062,
+                "revenuePerShare": 3.577,
+                "returnOnAssets": 0.048249997,
+                "returnOnEquity": 0.07061,
+                "freeCashflow": 406487488,
+                "operatingCashflow": 1720700032,
+                "earningsGrowth": 0.244,
+                "revenueGrowth": 0.164,
+                "grossMargins": 0.51677,
+                "ebitdaMargins": 0.42783,
+                "operatingMargins": 0.16921,
+                "profitMargins": 0.09861,
+                "financialCurrency": "USD"
+            }
+        }
+    }
+}

@@ -1,0 +1,380 @@
+{
+    "UYG": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "longBusinessSummary": "The fund invests in financial instruments that ProShare Advisors believes, in combination, should produce daily returns consistent with the Daily Target. The index is one of eleven S&P Select Sector Indices, each designed to measure the performance of a sector of the S&P 500. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "fundProfile": {
+                "maxAge": 1,
+                "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq1.gif",
+                "family": "ProShares",
+                "categoryName": "Trading--Leveraged Equity",
+                "legalType": "Exchange Traded Fund",
+                "feesExpensesInvestment": {
+                    "annualReportExpenseRatio": 0.0095,
+                    "annualHoldingsTurnover": 0.5,
+                    "totalNetAssets": 171998.27,
+                    "projectionValues": {}
+                },
+                "feesExpensesInvestmentCat": {
+                    "annualReportExpenseRatio": 0.0,
+                    "totalNetAssets": 171998.27,
+                    "projectionValuesCat": {}
+                }
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 67.7821,
+                "open": 68.26,
+                "dayLow": 68.26,
+                "dayHigh": 69.95,
+                "regularMarketPreviousClose": 67.7821,
+                "regularMarketOpen": 68.26,
+                "regularMarketDayLow": 68.26,
+                "regularMarketDayHigh": 69.95,
+                "volume": 58162,
+                "regularMarketVolume": 58162,
+                "averageVolume": 13501,
+                "averageVolume10days": 13950,
+                "averageDailyVolume10Day": 13950,
+                "bid": 68.8,
+                "ask": 70.65,
+                "bidSize": 900,
+                "askSize": 900,
+                "yield": 0.006,
+                "totalAssets": 653842688,
+                "fiftyTwoWeekLow": 38.63,
+                "fiftyTwoWeekHigh": 69.95,
+                "fiftyDayAverage": 65.0288,
+                "twoHundredDayAverage": 57.32905,
+                "navPrice": 67.7917,
+                "currency": "USD",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "pageViews": {
+                "shortTermTrend": "NEUTRAL",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "DELAYED",
+                "postMarketChangePercent": 0.0032881112,
+                "postMarketChange": 0.23000336,
+                "postMarketTime": "2024-07-15 18:58:56",
+                "postMarketPrice": 70.18,
+                "postMarketSource": "DELAYED",
+                "regularMarketChangePercent": 0.03198337,
+                "regularMarketChange": 2.1679,
+                "regularMarketTime": "2024-07-15 15:00:00",
+                "priceHint": 2,
+                "regularMarketPrice": 69.95,
+                "regularMarketDayHigh": 69.95,
+                "regularMarketDayLow": 68.26,
+                "regularMarketVolume": 58162,
+                "averageDailyVolume10Day": 13950,
+                "averageDailyVolume3Month": 13501,
+                "regularMarketPreviousClose": 67.7821,
+                "regularMarketSource": "DELAYED",
+                "regularMarketOpen": 68.26,
+                "exchange": "PCX",
+                "exchangeName": "NYSEArca",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "POSTPOST",
+                "quoteType": "ETF",
+                "symbol": "UYG",
+                "underlyingSymbol": null,
+                "shortName": "ProShares Ultra Financials",
+                "longName": "ProShares Ultra Financials",
+                "currency": "USD",
+                "quoteSourceName": "Delayed Quote",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "lastMarket": null
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "category": "Trading--Leveraged Equity",
+                "ytdReturn": 0.23079969,
+                "beta3Year": 1.9,
+                "totalAssets": 653842688,
+                "yield": 0.006,
+                "fundFamily": "ProShares",
+                "fundInceptionDate": "2007-01-29 18:00:00",
+                "legalType": "Exchange Traded Fund",
+                "threeYearAverageReturn": 0.0429009,
+                "fiveYearAverageReturn": 0.0925079,
+                "lastSplitFactor": null
+            },
+            "summaryProfile": {
+                "longBusinessSummary": "The fund invests in financial instruments that ProShare Advisors believes, in combination, should produce daily returns consistent with the Daily Target. The index is one of eleven S&P Select Sector Indices, each designed to measure the performance of a sector of the S&P 500. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "topHoldings": {
+                "maxAge": 1,
+                "stockPosition": 0.8828,
+                "bondPosition": 0.0,
+                "holdings": [
+                    {
+                        "symbol": "BRK-B",
+                        "holdingName": "Berkshire Hathaway Inc Class B",
+                        "holdingPercent": 0.0794875
+                    },
+                    {
+                        "symbol": "JPM",
+                        "holdingName": "JPMorgan Chase & Co",
+                        "holdingPercent": 0.0626896
+                    },
+                    {
+                        "symbol": "V",
+                        "holdingName": "Visa Inc Class A",
+                        "holdingPercent": 0.0445941
+                    },
+                    {
+                        "symbol": "MA",
+                        "holdingName": "Mastercard Inc Class A",
+                        "holdingPercent": 0.039092198
+                    },
+                    {
+                        "symbol": "BAC",
+                        "holdingName": "Bank of America Corp",
+                        "holdingPercent": 0.0292048
+                    }
+                ],
+                "equityHoldings": {
+                    "priceToEarnings": 0.05925,
+                    "priceToBook": 0.48487,
+                    "priceToSales": 0.33393,
+                    "priceToCashflow": 0.0
+                },
+                "bondHoldings": {},
+                "bondRatings": [
+                    {
+                        "us_government": 0.091000006
+                    }
+                ],
+                "sectorWeightings": [
+                    {
+                        "realestate": 0.0
+                    },
+                    {
+                        "consumer_cyclical": 0.0
+                    },
+                    {
+                        "basic_materials": 0.0
+                    },
+                    {
+                        "consumer_defensive": 0.0
+                    },
+                    {
+                        "technology": 0.028099999
+                    },
+                    {
+                        "communication_services": 0.0
+                    },
+                    {
+                        "financial_services": 0.96760005
+                    },
+                    {
+                        "utilities": 0.0
+                    },
+                    {
+                        "industrials": 0.0043
+                    },
+                    {
+                        "energy": 0.0
+                    },
+                    {
+                        "healthcare": 0.0
+                    }
+                ]
+            },
+            "fundPerformance": {
+                "maxAge": 1,
+                "performanceOverview": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytdReturnPct": 0.23079969,
+                    "oneYearTotalReturn": 0.4438922,
+                    "threeYearTotalReturn": 0.0429009
+                },
+                "performanceOverviewCat": {},
+                "trailingReturns": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytd": 0.1641605,
+                    "oneMonth": -0.0235407,
+                    "threeMonth": -0.0599176,
+                    "oneYear": 0.41367662,
+                    "threeYear": 0.0349301,
+                    "fiveYear": 0.0909341,
+                    "tenYear": 0.1313985,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "trailingReturnsNav": {
+                    "ytd": 0.1641605,
+                    "oneMonth": -0.0235407,
+                    "threeMonth": -0.0599176,
+                    "oneYear": 0.41367662,
+                    "threeYear": 0.0349301,
+                    "fiveYear": 0.0909341,
+                    "tenYear": 0.1313985
+                },
+                "trailingReturnsCat": {
+                    "ytd": 0.0,
+                    "oneMonth": 0.0,
+                    "threeMonth": 0.0,
+                    "oneYear": 0.0,
+                    "threeYear": 0.0,
+                    "fiveYear": 0.0,
+                    "tenYear": 0.0,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "annualTotalReturns": {
+                    "returns": [
+                        {
+                            "year": "2023",
+                            "annualValue": 0.2216893
+                        },
+                        {
+                            "year": "2022",
+                            "annualValue": -0.32099602
+                        },
+                        {
+                            "year": "2021",
+                            "annualValue": 0.6789019
+                        },
+                        {
+                            "year": "2020",
+                            "annualValue": -0.20341669
+                        },
+                        {
+                            "year": "2019",
+                            "annualValue": 0.6615644
+                        },
+                        {
+                            "year": "2018",
+                            "annualValue": -0.2264387
+                        },
+                        {
+                            "year": "2017",
+                            "annualValue": 0.39282188
+                        },
+                        {
+                            "year": "2016",
+                            "annualValue": 0.3135821
+                        },
+                        {
+                            "year": "2015",
+                            "annualValue": -0.040769503
+                        },
+                        {
+                            "year": "2014",
+                            "annualValue": 0.2741699
+                        },
+                        {
+                            "year": "2013",
+                            "annualValue": 0.7422667
+                        },
+                        {
+                            "year": "2012",
+                            "annualValue": 0.5424733
+                        },
+                        {
+                            "year": "2011",
+                            "annualValue": -0.3293298
+                        },
+                        {
+                            "year": "2010",
+                            "annualValue": 0.1804191
+                        },
+                        {
+                            "year": "2009",
+                            "annualValue": -0.054275397
+                        },
+                        {
+                            "year": "2008",
+                            "annualValue": -0.85138476
+                        }
+                    ],
+                    "returnsCat": []
+                },
+                "pastQuarterlyReturns": {
+                    "returns": []
+                },
+                "riskOverviewStatistics": {
+                    "riskStatistics": [
+                        {
+                            "year": "5y",
+                            "alpha": -12.14,
+                            "beta": 2.1,
+                            "meanAnnualReturn": 1.53,
+                            "rSquared": 79.41,
+                            "stdDev": 42.66,
+                            "sharpeRatio": 0.38,
+                            "treynorRatio": 3.22
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": -7.55,
+                            "beta": 1.9,
+                            "meanAnnualReturn": 0.88,
+                            "rSquared": 77.65,
+                            "stdDev": 38.44,
+                            "sharpeRatio": 0.19,
+                            "treynorRatio": 0.03
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": -6.9,
+                            "beta": 2.08,
+                            "meanAnnualReturn": 1.59,
+                            "rSquared": 79.39,
+                            "stdDev": 35.76,
+                            "sharpeRatio": 0.49,
+                            "treynorRatio": 5.53
+                        }
+                    ]
+                },
+                "riskOverviewStatisticsCat": {
+                    "riskStatisticsCat": [
+                        {
+                            "year": "5y"
+                        },
+                        {
+                            "year": "3y"
+                        },
+                        {
+                            "year": "10y"
+                        }
+                    ]
+                }
+            },
+            "quoteType": {
+                "exchange": "PCX",
+                "quoteType": "ETF",
+                "symbol": "UYG",
+                "underlyingSymbol": "UYG",
+                "shortName": "ProShares Ultra Financials",
+                "longName": "ProShares Ultra Financials",
+                "firstTradeDateEpochUtc": "2007-02-01 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "cebe3cbf-6b82-3c47-8eb6-995bab9419a7",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            }
+        }
+    }
+}

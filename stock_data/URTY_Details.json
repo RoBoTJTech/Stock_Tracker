@@ -1,0 +1,348 @@
+{
+    "URTY": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "longBusinessSummary": "The fund invests in financial instruments that ProShare Advisors believes, in combination, should produce daily returns consistent with the Daily Target. The index is a measure of small-cap U.S. stock market performance. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "fundProfile": {
+                "maxAge": 1,
+                "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq8.gif",
+                "family": "ProShares",
+                "categoryName": "Trading--Leveraged Equity",
+                "legalType": "Exchange Traded Fund",
+                "feesExpensesInvestment": {
+                    "annualReportExpenseRatio": 0.0095,
+                    "annualHoldingsTurnover": 0.85,
+                    "totalNetAssets": 2857.06,
+                    "projectionValues": {}
+                },
+                "feesExpensesInvestmentCat": {
+                    "annualReportExpenseRatio": 0.0,
+                    "totalNetAssets": 2857.06,
+                    "projectionValuesCat": {}
+                }
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 48.06,
+                "open": 49.6,
+                "dayLow": 49.37,
+                "dayHigh": 50.93,
+                "regularMarketPreviousClose": 48.06,
+                "regularMarketOpen": 49.6,
+                "regularMarketDayLow": 49.37,
+                "regularMarketDayHigh": 50.93,
+                "volume": 2566810,
+                "regularMarketVolume": 2566810,
+                "averageVolume": 998847,
+                "averageVolume10days": 1373220,
+                "averageDailyVolume10Day": 1373220,
+                "bid": 50.0,
+                "ask": 51.0,
+                "bidSize": 1000,
+                "askSize": 1400,
+                "yield": 0.0061000003,
+                "totalAssets": 327221056,
+                "fiftyTwoWeekLow": 25.36,
+                "fiftyTwoWeekHigh": 51.63,
+                "fiftyDayAverage": 44.114,
+                "twoHundredDayAverage": 40.6922,
+                "navPrice": 49.6339,
+                "currency": "USD",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "pageViews": {
+                "shortTermTrend": "DOWN",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "FREE_REALTIME",
+                "postMarketChangePercent": 0.0104565,
+                "postMarketChange": 0.52,
+                "postMarketTime": "2024-07-12 18:59:43",
+                "postMarketPrice": 50.25,
+                "postMarketSource": "FREE_REALTIME",
+                "regularMarketChangePercent": 0.0347482,
+                "regularMarketChange": 1.67,
+                "regularMarketTime": "2024-07-12 15:00:00",
+                "priceHint": 2,
+                "regularMarketPrice": 49.73,
+                "regularMarketDayHigh": 50.93,
+                "regularMarketDayLow": 49.37,
+                "regularMarketVolume": 2566810,
+                "averageDailyVolume10Day": 1373220,
+                "averageDailyVolume3Month": 998847,
+                "regularMarketPreviousClose": 48.06,
+                "regularMarketSource": "FREE_REALTIME",
+                "regularMarketOpen": 49.6,
+                "exchange": "PCX",
+                "exchangeName": "NYSEArca",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "CLOSED",
+                "quoteType": "ETF",
+                "symbol": "URTY",
+                "underlyingSymbol": null,
+                "shortName": "ProShares UltraPro Russell2000",
+                "longName": "ProShares UltraPro Russell2000",
+                "currency": "USD",
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "lastMarket": null
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "category": "Trading--Leveraged Equity",
+                "ytdReturn": 0.0759932,
+                "beta3Year": 3.14,
+                "totalAssets": 327221056,
+                "yield": 0.0061000003,
+                "fundFamily": "ProShares",
+                "fundInceptionDate": "2010-02-08 18:00:00",
+                "legalType": "Exchange Traded Fund",
+                "threeYearAverageReturn": -0.23364559,
+                "fiveYearAverageReturn": -0.0743137,
+                "lastSplitFactor": null
+            },
+            "summaryProfile": {
+                "longBusinessSummary": "The fund invests in financial instruments that ProShare Advisors believes, in combination, should produce daily returns consistent with the Daily Target. The index is a measure of small-cap U.S. stock market performance. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "topHoldings": {
+                "maxAge": 1,
+                "stockPosition": 0.69339997,
+                "bondPosition": 0.0,
+                "holdings": [
+                    {
+                        "symbol": "SMCI",
+                        "holdingName": "Super Micro Computer Inc",
+                        "holdingPercent": 0.0091307005
+                    }
+                ],
+                "equityHoldings": {
+                    "priceToEarnings": 0.06198,
+                    "priceToBook": 0.50631,
+                    "priceToSales": 0.77441,
+                    "priceToCashflow": 0.10255
+                },
+                "bondHoldings": {},
+                "bondRatings": [
+                    {
+                        "us_government": 0.1667
+                    }
+                ],
+                "sectorWeightings": [
+                    {
+                        "realestate": 0.0668
+                    },
+                    {
+                        "consumer_cyclical": 0.101
+                    },
+                    {
+                        "basic_materials": 0.0468
+                    },
+                    {
+                        "consumer_defensive": 0.0423
+                    },
+                    {
+                        "technology": 0.1715
+                    },
+                    {
+                        "communication_services": 0.019
+                    },
+                    {
+                        "financial_services": 0.1437
+                    },
+                    {
+                        "utilities": 0.026300002
+                    },
+                    {
+                        "industrials": 0.1587
+                    },
+                    {
+                        "energy": 0.0719
+                    },
+                    {
+                        "healthcare": 0.152
+                    }
+                ]
+            },
+            "fundPerformance": {
+                "maxAge": 1,
+                "performanceOverview": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytdReturnPct": 0.0759932,
+                    "oneYearTotalReturn": 0.124698,
+                    "threeYearTotalReturn": -0.23364559
+                },
+                "performanceOverviewCat": {},
+                "trailingReturns": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytd": -0.0631379,
+                    "oneMonth": -0.0415525,
+                    "threeMonth": -0.1423742,
+                    "oneYear": 0.0463762,
+                    "threeYear": -0.27800038,
+                    "fiveYear": -0.0986225,
+                    "tenYear": -0.0054992004,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "trailingReturnsNav": {
+                    "ytd": -0.0631379,
+                    "oneMonth": -0.0415525,
+                    "threeMonth": -0.1423742,
+                    "oneYear": 0.0463762,
+                    "threeYear": -0.27800038,
+                    "fiveYear": -0.0986225,
+                    "tenYear": -0.0054992004
+                },
+                "trailingReturnsCat": {
+                    "ytd": 0.0,
+                    "oneMonth": 0.0,
+                    "threeMonth": 0.0,
+                    "oneYear": 0.0,
+                    "threeYear": 0.0,
+                    "fiveYear": 0.0,
+                    "tenYear": 0.0,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "annualTotalReturns": {
+                    "returns": [
+                        {
+                            "year": "2023",
+                            "annualValue": 0.2446651
+                        },
+                        {
+                            "year": "2022",
+                            "annualValue": -0.62810534
+                        },
+                        {
+                            "year": "2021",
+                            "annualValue": 0.2847161
+                        },
+                        {
+                            "year": "2020",
+                            "annualValue": -0.0772261
+                        },
+                        {
+                            "year": "2019",
+                            "annualValue": 0.7236742
+                        },
+                        {
+                            "year": "2018",
+                            "annualValue": -0.39613682
+                        },
+                        {
+                            "year": "2017",
+                            "annualValue": 0.3885329
+                        },
+                        {
+                            "year": "2016",
+                            "annualValue": 0.600518
+                        },
+                        {
+                            "year": "2015",
+                            "annualValue": -0.20963961
+                        },
+                        {
+                            "year": "2014",
+                            "annualValue": 0.0590627
+                        },
+                        {
+                            "year": "2013",
+                            "annualValue": 1.478656
+                        },
+                        {
+                            "year": "2012",
+                            "annualValue": 0.4458121
+                        },
+                        {
+                            "year": "2011",
+                            "annualValue": -0.3756079
+                        }
+                    ],
+                    "returnsCat": []
+                },
+                "pastQuarterlyReturns": {
+                    "returns": []
+                },
+                "riskOverviewStatistics": {
+                    "riskStatistics": [
+                        {
+                            "year": "5y",
+                            "alpha": -30.56,
+                            "beta": 3.43,
+                            "meanAnnualReturn": 1.48,
+                            "rSquared": 74.34,
+                            "stdDev": 71.81,
+                            "sharpeRatio": 0.22,
+                            "treynorRatio": -3.55
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": -39.25,
+                            "beta": 3.14,
+                            "meanAnnualReturn": -0.96,
+                            "rSquared": 72.16,
+                            "stdDev": 65.66,
+                            "sharpeRatio": -0.23,
+                            "treynorRatio": -9.95
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": -22.15,
+                            "beta": 3.44,
+                            "meanAnnualReturn": 1.65,
+                            "rSquared": 73.09,
+                            "stdDev": 61.58,
+                            "sharpeRatio": 0.3,
+                            "treynorRatio": -0.63
+                        }
+                    ]
+                },
+                "riskOverviewStatisticsCat": {
+                    "riskStatisticsCat": [
+                        {
+                            "year": "5y"
+                        },
+                        {
+                            "year": "3y"
+                        },
+                        {
+                            "year": "10y"
+                        }
+                    ]
+                }
+            },
+            "quoteType": {
+                "exchange": "PCX",
+                "quoteType": "ETF",
+                "symbol": "URTY",
+                "underlyingSymbol": "URTY",
+                "shortName": "ProShares UltraPro Russell2000",
+                "longName": "ProShares UltraPro Russell2000",
+                "firstTradeDateEpochUtc": "2010-02-11 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "19929aff-6ee0-3583-a89b-a6ffeca2f703",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            }
+        }
+    }
+}

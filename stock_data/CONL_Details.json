@@ -1,0 +1,288 @@
+{
+    "CONL": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "longBusinessSummary": "The fund is an actively managed exchange traded fund that attempts to replicate 2 times (200%) the daily percentage change the underlying stock by entering into a swap agreement on the underlying stock. The fund aims to generate 2 times the daily performance of the underlying stock for a single day. It is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "fundProfile": {
+                "maxAge": 1,
+                "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq.gif",
+                "family": "Graniteshares",
+                "categoryName": "Trading--Leveraged Equity",
+                "legalType": "Exchange Traded Fund",
+                "feesExpensesInvestment": {
+                    "annualReportExpenseRatio": 0.0115,
+                    "annualHoldingsTurnover": 0.0,
+                    "totalNetAssets": 0.0,
+                    "projectionValues": {}
+                },
+                "feesExpensesInvestmentCat": {
+                    "annualReportExpenseRatio": 0.0,
+                    "totalNetAssets": 0.0,
+                    "projectionValuesCat": {}
+                }
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 41.89,
+                "open": 42.21,
+                "dayLow": 41.94,
+                "dayHigh": 44.8,
+                "regularMarketPreviousClose": 41.89,
+                "regularMarketOpen": 42.21,
+                "regularMarketDayLow": 41.94,
+                "regularMarketDayHigh": 44.8,
+                "volume": 1626001,
+                "regularMarketVolume": 1626001,
+                "averageVolume": 2477900,
+                "averageVolume10days": 2156270,
+                "averageDailyVolume10Day": 2156270,
+                "bid": 43.05,
+                "ask": 43.3,
+                "bidSize": 100,
+                "askSize": 100,
+                "yield": 0.0023999999,
+                "totalAssets": 487480448,
+                "fiftyTwoWeekLow": 9.14,
+                "fiftyTwoWeekHigh": 87.368,
+                "fiftyDayAverage": 49.2028,
+                "twoHundredDayAverage": 37.0237,
+                "trailingAnnualDividendRate": 0.0,
+                "trailingAnnualDividendYield": 0.0,
+                "navPrice": 43.25,
+                "currency": "USD",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "FREE_REALTIME",
+                "postMarketChangePercent": 0.0071730297,
+                "postMarketChange": 0.309803,
+                "postMarketTime": "2024-07-12 18:58:47",
+                "postMarketPrice": 43.4998,
+                "postMarketSource": "FREE_REALTIME",
+                "regularMarketChangePercent": 0.031272415,
+                "regularMarketChange": 1.3100014,
+                "regularMarketTime": "2024-07-12 15:00:04",
+                "priceHint": 2,
+                "regularMarketPrice": 43.2,
+                "regularMarketDayHigh": 44.8,
+                "regularMarketDayLow": 41.94,
+                "regularMarketVolume": 1626001,
+                "averageDailyVolume10Day": 2156270,
+                "averageDailyVolume3Month": 2477900,
+                "regularMarketPreviousClose": 41.89,
+                "regularMarketSource": "FREE_REALTIME",
+                "regularMarketOpen": 42.21,
+                "exchange": "NGM",
+                "exchangeName": "NasdaqGM",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "CLOSED",
+                "quoteType": "ETF",
+                "symbol": "CONL",
+                "underlyingSymbol": null,
+                "shortName": "GraniteShares 2x Long COIN Dail",
+                "longName": "GraniteShares 2x Long COIN Daily ETF",
+                "currency": "USD",
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "lastMarket": null
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "category": "Trading--Leveraged Equity",
+                "ytdReturn": 0.2754004,
+                "beta3Year": 0.0,
+                "totalAssets": 487480448,
+                "yield": 0.0023999999,
+                "fundFamily": "Graniteshares",
+                "fundInceptionDate": "2022-08-07 19:00:00",
+                "legalType": "Exchange Traded Fund",
+                "lastSplitFactor": null
+            },
+            "summaryProfile": {
+                "longBusinessSummary": "The fund is an actively managed exchange traded fund that attempts to replicate 2 times (200%) the daily percentage change the underlying stock by entering into a swap agreement on the underlying stock. The fund aims to generate 2 times the daily performance of the underlying stock for a single day. It is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "topHoldings": {
+                "maxAge": 1,
+                "stockPosition": 0.2219,
+                "bondPosition": 0.0,
+                "holdings": [],
+                "equityHoldings": {
+                    "priceToEarnings": 0.0,
+                    "priceToBook": 0.0,
+                    "priceToSales": 0.0,
+                    "priceToCashflow": 0.0
+                },
+                "bondHoldings": {},
+                "bondRatings": [
+                    {
+                        "us_government": 0.2564
+                    }
+                ],
+                "sectorWeightings": [
+                    {
+                        "realestate": 0.0
+                    },
+                    {
+                        "consumer_cyclical": 0.0
+                    },
+                    {
+                        "basic_materials": 0.0
+                    },
+                    {
+                        "consumer_defensive": 0.0
+                    },
+                    {
+                        "technology": 0.0
+                    },
+                    {
+                        "communication_services": 0.0
+                    },
+                    {
+                        "financial_services": 1.0
+                    },
+                    {
+                        "utilities": 0.0
+                    },
+                    {
+                        "industrials": 0.0
+                    },
+                    {
+                        "energy": 0.0
+                    },
+                    {
+                        "healthcare": 0.0
+                    }
+                ]
+            },
+            "fundPerformance": {
+                "maxAge": 1,
+                "performanceOverview": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytdReturnPct": 0.2754004,
+                    "oneYearTotalReturn": 2.2400515,
+                    "threeYearTotalReturn": 0.0
+                },
+                "performanceOverviewCat": {},
+                "trailingReturns": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytd": 0.340359,
+                    "oneMonth": -0.0667625,
+                    "threeMonth": -0.40567768,
+                    "oneYear": 3.442146,
+                    "threeYear": 0.0,
+                    "fiveYear": 0.0,
+                    "tenYear": 0.0,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "trailingReturnsNav": {
+                    "ytd": 0.340359,
+                    "oneMonth": -0.0667625,
+                    "threeMonth": -0.40567768,
+                    "oneYear": 3.442146,
+                    "threeYear": 0.0,
+                    "fiveYear": 0.0,
+                    "tenYear": 0.0
+                },
+                "trailingReturnsCat": {
+                    "ytd": 0.0,
+                    "oneMonth": 0.0,
+                    "threeMonth": 0.0,
+                    "oneYear": 0.0,
+                    "threeYear": 0.0,
+                    "fiveYear": 0.0,
+                    "tenYear": 0.0,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "annualTotalReturns": {
+                    "returns": [
+                        {
+                            "year": "2023",
+                            "annualValue": 6.41631
+                        }
+                    ],
+                    "returnsCat": []
+                },
+                "pastQuarterlyReturns": {
+                    "returns": []
+                },
+                "riskOverviewStatistics": {
+                    "riskStatistics": [
+                        {
+                            "year": "5y",
+                            "alpha": 0.0,
+                            "beta": 0.0,
+                            "meanAnnualReturn": 0.0,
+                            "rSquared": 0.0,
+                            "stdDev": 0.0,
+                            "sharpeRatio": 0.0,
+                            "treynorRatio": 0.0
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": 0.0,
+                            "beta": 0.0,
+                            "meanAnnualReturn": 0.0,
+                            "rSquared": 0.0,
+                            "stdDev": 0.0,
+                            "sharpeRatio": 0.0,
+                            "treynorRatio": 0.0
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": 0.0,
+                            "beta": 0.0,
+                            "meanAnnualReturn": 0.0,
+                            "rSquared": 0.0,
+                            "stdDev": 0.0,
+                            "sharpeRatio": 0.0,
+                            "treynorRatio": 0.0
+                        }
+                    ]
+                },
+                "riskOverviewStatisticsCat": {
+                    "riskStatisticsCat": [
+                        {
+                            "year": "5y"
+                        },
+                        {
+                            "year": "3y"
+                        },
+                        {
+                            "year": "10y"
+                        }
+                    ]
+                }
+            },
+            "quoteType": {
+                "exchange": "NGM",
+                "quoteType": "ETF",
+                "symbol": "CONL",
+                "underlyingSymbol": "CONL",
+                "shortName": "GraniteShares 2x Long COIN Dail",
+                "longName": "GraniteShares 2x Long COIN Daily ETF",
+                "firstTradeDateEpochUtc": "2022-08-10 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "72fe967f-186a-3af7-9328-4196e6cac8fd",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            }
+        }
+    }
+}

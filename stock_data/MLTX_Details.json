@@ -1,0 +1,3359 @@
+{
+    "MLTX": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "address1": "Dorfstrasse 29",
+                "city": "Zug",
+                "zip": "6300",
+                "country": "Switzerland",
+                "phone": "41 415108022",
+                "website": "https://www.moonlaketx.com",
+                "industry": "Biotechnology",
+                "industryKey": "biotechnology",
+                "industryDisp": "Biotechnology",
+                "sector": "Healthcare",
+                "sectorKey": "healthcare",
+                "sectorDisp": "Healthcare",
+                "longBusinessSummary": "MoonLake Immunotherapeutics, a clinical-stage biopharmaceutical company, engages in developing therapies. It develops Sonelokimab, a novel investigational Nanobody for the treatment of inflammation diseases; and hidradenitis suppurativa, psoriatic arthritis, axial spondyloarthritis, and psoriasis. MoonLake Immunotherapeutics was founded in 2021 and is headquartered in Zug, Switzerland.",
+                "fullTimeEmployees": 50,
+                "companyOfficers": [
+                    {
+                        "maxAge": 1,
+                        "name": "Dr. Jorge Santos da Silva",
+                        "age": 45,
+                        "title": "Co-Founder, CEO & Director",
+                        "yearBorn": 1978,
+                        "fiscalYear": 2023,
+                        "totalPay": 1198215,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Dr. Kristian  Reich",
+                        "age": 57,
+                        "title": "Co-Founder & Chief Scientific Officer",
+                        "yearBorn": 1966,
+                        "fiscalYear": 2023,
+                        "totalPay": 1230904,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Matthias  Bodenstedt",
+                        "age": 35,
+                        "title": "Chief Financial Officer",
+                        "yearBorn": 1988,
+                        "fiscalYear": 2023,
+                        "totalPay": 891597,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Nicolas  Mosimann",
+                        "title": "General Counsel",
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Luciana  Marques",
+                        "title": "Director of HR, People & Culture",
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Ms. Nuala  Brennan",
+                        "title": "Chief Clinical Development Officer",
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    }
+                ],
+                "compensationAsOfEpochDate": "2023-12-30 18:00:00",
+                "maxAge": 86400
+            },
+            "recommendationTrend": {
+                "trend": [
+                    {
+                        "period": "0m",
+                        "strongBuy": 0,
+                        "buy": 0,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-1m",
+                        "strongBuy": 8,
+                        "buy": 5,
+                        "hold": 3,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-2m",
+                        "strongBuy": 8,
+                        "buy": 5,
+                        "hold": 3,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-3m",
+                        "strongBuy": 0,
+                        "buy": 0,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "cashflowStatementHistory": {
+                "cashflowStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "netIncome": -36007260
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31",
+                        "netIncome": -49973249
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-12-31",
+                        "netIncome": -64372338
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "indexTrend": {
+                "maxAge": 1,
+                "symbol": "SP5",
+                "peRatio": 19.6637,
+                "pegRatio": 1.61152,
+                "estimates": [
+                    {
+                        "period": "0q",
+                        "growth": 0.071
+                    },
+                    {
+                        "period": "+1q",
+                        "growth": 0.115
+                    },
+                    {
+                        "period": "0y",
+                        "growth": 0.047
+                    },
+                    {
+                        "period": "+1y",
+                        "growth": 0.125
+                    },
+                    {
+                        "period": "+5y",
+                        "growth": 0.115975
+                    },
+                    {
+                        "period": "-5y"
+                    }
+                ]
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "enterpriseValue": 2383823104,
+                "forwardPE": -24.647207,
+                "profitMargins": 0.0,
+                "floatShares": 23526432,
+                "sharesOutstanding": 62874600,
+                "sharesShort": 7832977,
+                "sharesShortPriorMonth": 7884226,
+                "sharesShortPreviousMonthDate": "2024-05-30 19:00:00",
+                "dateShortInterest": "2024-06-27 19:00:00",
+                "sharesPercentSharesOut": 0.1246,
+                "heldPercentInsiders": 0.15271,
+                "heldPercentInstitutions": 0.97361,
+                "shortRatio": 22.84,
+                "shortPercentOfFloat": 0.3034,
+                "beta": 1.248,
+                "impliedSharesOutstanding": 62874600,
+                "category": null,
+                "bookValue": 8.629,
+                "priceToBook": 5.626956,
+                "fundFamily": null,
+                "legalType": null,
+                "lastFiscalYearEnd": "2023-12-30 18:00:00",
+                "nextFiscalYearEnd": "2024-12-30 18:00:00",
+                "mostRecentQuarter": "2024-03-30 19:00:00",
+                "netIncomeToCommon": -40676060,
+                "trailingEps": -0.72,
+                "forwardEps": -1.97,
+                "lastSplitFactor": null,
+                "enterpriseToEbitda": -39.092,
+                "52WeekChange": -0.19444442,
+                "SandP52WeekChange": 0.24156773
+            },
+            "industryTrend": {
+                "maxAge": 1,
+                "symbol": null,
+                "estimates": []
+            },
+            "quoteType": {
+                "exchange": "NCM",
+                "quoteType": "EQUITY",
+                "symbol": "MLTX",
+                "underlyingSymbol": "MLTX",
+                "shortName": "MoonLake Immunotherapeutics",
+                "longName": "MoonLake Immunotherapeutics",
+                "firstTradeDateEpochUtc": "2020-10-20 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "e27878d5-f881-3e1b-8a06-8dc9330a65f3",
+                "messageBoardId": "finmb_713684532",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            },
+            "incomeStatementHistory": {
+                "incomeStatementHistory": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "totalRevenue": 0,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -36007260,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31",
+                        "totalRevenue": 0,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -49973249,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-12-31",
+                        "totalRevenue": 0,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -64372338,
+                        "netIncomeApplicableToCommonShares": {}
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "fundOwnership": {
+                "maxAge": 1,
+                "ownershipList": [
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Price (T.Rowe) Health Sciences Fund",
+                        "pctHeld": 0.0167,
+                        "position": 1051348,
+                        "value": 51048202,
+                        "pctChange": -0.0156
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-04-30",
+                        "organization": "Federated Hermes Kaufmann Fund",
+                        "pctHeld": 0.0088,
+                        "position": 555000,
+                        "value": 26948025,
+                        "pctChange": 0.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Price (T.Rowe) New Horizons Fund",
+                        "pctHeld": 0.0083,
+                        "position": 522634,
+                        "value": 25376494,
+                        "pctChange": -0.22559999
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-04-30",
+                        "organization": "Alger Small Cap Focus Fund",
+                        "pctHeld": 0.0077,
+                        "position": 483565,
+                        "value": 23479498,
+                        "pctChange": -0.0998
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-04-30",
+                        "organization": "Federated Hermes Kaufmann Small Cap Fund",
+                        "pctHeld": 0.0075,
+                        "position": 471276,
+                        "value": 22882806,
+                        "pctChange": 0.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Price (T.Rowe) Small Cap Stock Fund",
+                        "pctHeld": 0.0067000003,
+                        "position": 421422,
+                        "value": 20462145,
+                        "pctChange": 0.0808
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-04-30",
+                        "organization": "Harbor Small Cap Growth Fund",
+                        "pctHeld": 0.0064999997,
+                        "position": 409599,
+                        "value": 19888079,
+                        "pctChange": 0.52900004
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-05-31",
+                        "organization": "Fidelity Blue Chip Growth Fund",
+                        "pctHeld": 0.0063,
+                        "position": 396524,
+                        "value": 19253222,
+                        "pctChange": 0.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-05-31",
+                        "organization": "Fidelity Growth Company Fund",
+                        "pctHeld": 0.0049,
+                        "position": 310974,
+                        "value": 15099342,
+                        "pctChange": -0.0018000001
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-05-31",
+                        "organization": "AB Cap Fd.-AB Small Cap Growth Port",
+                        "pctHeld": 0.0046,
+                        "position": 290049,
+                        "value": 14083329,
+                        "pctChange": -0.0049
+                    }
+                ]
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 46.4,
+                "open": 47.0,
+                "dayLow": 46.54,
+                "dayHigh": 48.85,
+                "regularMarketPreviousClose": 46.4,
+                "regularMarketOpen": 47.0,
+                "regularMarketDayLow": 46.54,
+                "regularMarketDayHigh": 48.85,
+                "payoutRatio": 0.0,
+                "beta": 1.248,
+                "forwardPE": -24.647207,
+                "volume": 239651,
+                "regularMarketVolume": 239651,
+                "averageVolume": 346103,
+                "averageVolume10days": 482710,
+                "averageDailyVolume10Day": 482710,
+                "bid": 48.26,
+                "ask": 48.83,
+                "bidSize": 600,
+                "askSize": 500,
+                "marketCap": 3052876288,
+                "fiftyTwoWeekLow": 35.11,
+                "fiftyTwoWeekHigh": 64.98,
+                "fiftyDayAverage": 41.7628,
+                "twoHundredDayAverage": 49.20845,
+                "trailingAnnualDividendRate": 0.0,
+                "trailingAnnualDividendYield": 0.0,
+                "currency": "USD",
+                "fromCurrency": null,
+                "toCurrency": null,
+                "lastMarket": null,
+                "coinMarketCapLink": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "insiderHolders": {
+                "holders": [
+                    {
+                        "maxAge": 1,
+                        "name": "BODENSTEDT MATTHIAS",
+                        "relation": "Chief Financial Officer",
+                        "url": "",
+                        "transactionDescription": "Sale",
+                        "latestTransDate": "2023-12-20",
+                        "positionDirect": 520903,
+                        "positionDirectDate": "2023-12-20"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "CHEN BIHUA X.",
+                        "relation": "Beneficial Owner of more than 10% of a Class of Security",
+                        "url": "",
+                        "transactionDescription": "Purchase",
+                        "latestTransDate": "2023-10-05",
+                        "positionIndirect": 8494150,
+                        "positionIndirectDate": 1696464000
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "HELIX HOLDINGS L.L.C.",
+                        "relation": "Unknown",
+                        "url": "",
+                        "transactionDescription": "Conversion of Exercise of derivative security",
+                        "latestTransDate": "2022-04-05",
+                        "positionIndirect": 3215000,
+                        "positionIndirectDate": 1649116800
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "REICH KRISTIAN",
+                        "relation": "Officer",
+                        "url": "",
+                        "transactionDescription": "Sale",
+                        "latestTransDate": "2024-02-28",
+                        "positionSummaryDate": 1709078400
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "SANTOS DA SILVA JORGE",
+                        "relation": "Chief Executive Officer",
+                        "url": "",
+                        "transactionDescription": "Sale",
+                        "latestTransDate": "2024-02-29",
+                        "positionDirect": 2982810,
+                        "positionDirectDate": "2024-02-29"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "STURGE SIMON J",
+                        "relation": "Director",
+                        "url": "",
+                        "transactionDescription": "Conversion of Exercise of derivative security",
+                        "latestTransDate": "2023-09-29",
+                        "positionDirect": 342980,
+                        "positionDirectDate": "2023-09-29"
+                    }
+                ],
+                "maxAge": 1
+            },
+            "calendarEvents": {
+                "maxAge": 1,
+                "earnings": {
+                    "earningsDate": [
+                        "2024-08-08 07:30:S",
+                        "2024-08-12 07:30:S"
+                    ],
+                    "earningsCallDate": [],
+                    "isEarningsDateEstimate": true,
+                    "earningsAverage": -0.28,
+                    "earningsLow": -0.38,
+                    "earningsHigh": -0.22
+                }
+            },
+            "upgradeDowngradeHistory": {
+                "history": [
+                    {
+                        "epochGradeDate": "2024-07-01 05:40:14",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2024-06-25 04:46:54",
+                        "firm": "Oppenheimer",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2024-06-11 05:34:09",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2024-06-10 12:46:47",
+                        "firm": "Needham",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2024-05-17 09:16:17",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2024-05-08 14:14:41",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2024-05-08 04:52:10",
+                        "firm": "Needham",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2024-04-23 05:23:33",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2024-04-11 06:24:53",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2024-04-09 04:56:26",
+                        "firm": "Needham",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2024-04-02 06:04:53",
+                        "firm": "Goldman Sachs",
+                        "toGrade": "Neutral",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2024-03-13 08:25:23",
+                        "firm": "Wedbush",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Outperform",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2024-03-11 07:46:55",
+                        "firm": "Wedbush",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Outperform",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2024-03-11 06:12:32",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2024-03-11 05:44:39",
+                        "firm": "Needham",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2024-03-04 06:43:42",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2024-03-01 07:37:20",
+                        "firm": "Wedbush",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Outperform",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2024-03-01 04:27:42",
+                        "firm": "Needham",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2024-02-15 05:59:04",
+                        "firm": "Wolfe Research",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2023-12-18 09:36:30",
+                        "firm": "Stifel",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-12-08 06:46:00",
+                        "firm": "Citigroup",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2023-12-01 08:18:40",
+                        "firm": "Wedbush",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Outperform",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-11-27 05:53:50",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-11-16 08:11:56",
+                        "firm": "Wedbush",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Outperform",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-11-15 13:03:30",
+                        "firm": "Guggenheim",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-11-08 10:57:50",
+                        "firm": "Cantor Fitzgerald",
+                        "toGrade": "Overweight",
+                        "fromGrade": "Overweight",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-11-07 09:56:30",
+                        "firm": "Wedbush",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Outperform",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-11-06 09:22:38",
+                        "firm": "Wedbush",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Outperform",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-11-02 04:52:23",
+                        "firm": "Stifel",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2023-10-16 08:12:49",
+                        "firm": "Wedbush",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Outperform",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-10-16 05:11:11",
+                        "firm": "Needham",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-10-03 08:07:35",
+                        "firm": "Wedbush",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Outperform",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-09-18 10:57:15",
+                        "firm": "Cantor Fitzgerald",
+                        "toGrade": "Overweight",
+                        "fromGrade": "Overweight",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-09-18 07:54:50",
+                        "firm": "Wedbush",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Outperform",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-09-14 08:07:05",
+                        "firm": "Cantor Fitzgerald",
+                        "toGrade": "Overweight",
+                        "fromGrade": "Overweight",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-09-12 11:15:01",
+                        "firm": "Barclays",
+                        "toGrade": "Equal-Weight",
+                        "fromGrade": "Equal-Weight",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-09-12 08:02:59",
+                        "firm": "Cantor Fitzgerald",
+                        "toGrade": "Overweight",
+                        "fromGrade": "Overweight",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-09-12 05:19:37",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-09-12 05:11:04",
+                        "firm": "Needham",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-08-31 05:12:10",
+                        "firm": "Needham",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2023-08-14 07:16:16",
+                        "firm": "Wedbush",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Outperform",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-08-14 05:29:03",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-07-31 11:21:19",
+                        "firm": "Wedbush",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Outperform",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-07-26 05:23:35",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-07-17 05:17:12",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-07-03 08:17:50",
+                        "firm": "Cantor Fitzgerald",
+                        "toGrade": "Overweight",
+                        "fromGrade": "Overweight",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-06-27 04:41:33",
+                        "firm": "Barclays",
+                        "toGrade": "Equal-Weight",
+                        "fromGrade": "Equal-Weight",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-06-26 09:31:45",
+                        "firm": "Guggenheim",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-06-21 05:20:43",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-06-15 04:53:56",
+                        "firm": "Barclays",
+                        "toGrade": "Equal-Weight",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2023-05-15 05:53:11",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-05-10 05:59:15",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-05-04 05:42:21",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-05-01 06:11:46",
+                        "firm": "Guggenheim",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2023-04-20 07:16:54",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-03-22 06:14:59",
+                        "firm": "Wedbush",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2023-03-21 05:24:33",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-03-20 07:19:00",
+                        "firm": "Cantor Fitzgerald",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-03-09 06:23:51",
+                        "firm": "BTIG",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2023-03-06 07:26:59",
+                        "firm": "Cantor Fitzgerald",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-02-14 06:45:34",
+                        "firm": "Cantor Fitzgerald",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2023-02-13 05:12:09",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2023-02-03 11:08:36",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2022-11-11 03:53:24",
+                        "firm": "Jefferies",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2022-08-25 06:04:56",
+                        "firm": "SVB Leerink",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2022-07-21 05:33:57",
+                        "firm": "HC Wainwright & Co.",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2022-07-07 11:12:00",
+                        "firm": "Cowen & Co.",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "init"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "FREE_REALTIME",
+                "regularMarketChangePercent": 0.04644394,
+                "regularMarketChange": 2.1549988,
+                "regularMarketTime": "2024-07-15 14:53:50",
+                "priceHint": 2,
+                "regularMarketPrice": 48.555,
+                "regularMarketDayHigh": 48.85,
+                "regularMarketDayLow": 46.54,
+                "regularMarketVolume": 239651,
+                "averageDailyVolume10Day": 482710,
+                "averageDailyVolume3Month": 346103,
+                "regularMarketPreviousClose": 46.4,
+                "regularMarketSource": "FREE_REALTIME",
+                "regularMarketOpen": 47.0,
+                "exchange": "NCM",
+                "exchangeName": "NasdaqCM",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "REGULAR",
+                "quoteType": "EQUITY",
+                "symbol": "MLTX",
+                "underlyingSymbol": null,
+                "shortName": "MoonLake Immunotherapeutics",
+                "longName": "MoonLake Immunotherapeutics",
+                "currency": "USD",
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "toCurrency": null,
+                "lastMarket": null,
+                "marketCap": 3052876288
+            },
+            "balanceSheetHistory": {
+                "balanceSheetStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-12-31"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earningsTrend": {
+                "trend": [
+                    {
+                        "maxAge": 1,
+                        "period": "0q",
+                        "endDate": "2024-06-30",
+                        "growth": -0.21700001,
+                        "earningsEstimate": {
+                            "avg": -0.28,
+                            "low": -0.38,
+                            "high": -0.22,
+                            "yearAgoEps": -0.23,
+                            "numberOfAnalysts": 13,
+                            "growth": -0.21700001
+                        },
+                        "revenueEstimate": {
+                            "avg": 0,
+                            "low": 0,
+                            "high": 0,
+                            "numberOfAnalysts": 6,
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": -0.28,
+                            "7daysAgo": -0.28,
+                            "30daysAgo": -0.28,
+                            "60daysAgo": -0.28,
+                            "90daysAgo": -0.27
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+1q",
+                        "endDate": "2024-09-30",
+                        "growth": -0.944,
+                        "earningsEstimate": {
+                            "avg": -0.35,
+                            "low": -0.56,
+                            "high": -0.23,
+                            "yearAgoEps": -0.18,
+                            "numberOfAnalysts": 13,
+                            "growth": -0.944
+                        },
+                        "revenueEstimate": {
+                            "avg": 0,
+                            "low": 0,
+                            "high": 0,
+                            "numberOfAnalysts": 6,
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": -0.35,
+                            "7daysAgo": -0.35,
+                            "30daysAgo": -0.36,
+                            "60daysAgo": -0.36,
+                            "90daysAgo": -0.33
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "0y",
+                        "endDate": "2024-12-31",
+                        "growth": -0.699,
+                        "earningsEstimate": {
+                            "avg": -1.24,
+                            "low": -1.82,
+                            "high": -0.82,
+                            "yearAgoEps": -0.73,
+                            "numberOfAnalysts": 13,
+                            "growth": -0.699
+                        },
+                        "revenueEstimate": {
+                            "avg": 0,
+                            "low": 0,
+                            "high": 0,
+                            "numberOfAnalysts": 6,
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": -1.24,
+                            "7daysAgo": -1.24,
+                            "30daysAgo": -1.26,
+                            "60daysAgo": -1.26,
+                            "90daysAgo": -1.16
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+1y",
+                        "endDate": "2025-12-31",
+                        "growth": -0.589,
+                        "earningsEstimate": {
+                            "avg": -1.97,
+                            "low": -2.8,
+                            "high": -1.11,
+                            "yearAgoEps": -1.24,
+                            "numberOfAnalysts": 12,
+                            "growth": -0.589
+                        },
+                        "revenueEstimate": {
+                            "avg": 0,
+                            "low": 0,
+                            "high": 0,
+                            "numberOfAnalysts": 6,
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": -1.97,
+                            "7daysAgo": -1.97,
+                            "30daysAgo": -1.96,
+                            "60daysAgo": -1.96,
+                            "90daysAgo": -1.78
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+5y",
+                        "endDate": null,
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": {},
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "numberOfAnalysts": {},
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": {},
+                            "7daysAgo": {},
+                            "30daysAgo": {},
+                            "60daysAgo": {},
+                            "90daysAgo": {}
+                        },
+                        "epsRevisions": {
+                            "upLast7days": {},
+                            "upLast30days": {},
+                            "downLast30days": {},
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "-5y",
+                        "endDate": null,
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": {},
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "numberOfAnalysts": {},
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": {},
+                            "7daysAgo": {},
+                            "30daysAgo": {},
+                            "60daysAgo": {},
+                            "90daysAgo": {}
+                        },
+                        "epsRevisions": {
+                            "upLast7days": {},
+                            "upLast30days": {},
+                            "downLast30days": {},
+                            "downLast90days": {}
+                        }
+                    }
+                ],
+                "maxAge": 1
+            },
+            "secFilings": {
+                "filings": [
+                    {
+                        "date": "2024-06-10",
+                        "epochDate": "2024-06-09 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-24-051263_1821586",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390024051263/ea0207582-8k_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390024051263/ea020758201ex99-1_moonlake.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390024051263/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390024051263/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-06-06",
+                        "epochDate": "2024-06-05 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-24-050194_1821586",
+                        "exhibits": [
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390024050194/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390024050194/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390024050194/ea0207411-8k_moonlake.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-05-07",
+                        "epochDate": "2024-05-06 19:00:00",
+                        "type": "10-Q",
+                        "title": "Periodic Financial Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001821586-24-000020_1821586",
+                        "exhibits": [
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000182158624000020/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000182158624000020/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-31.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158624000020/mltx_2024q1xex311dasilva.htm"
+                            },
+                            {
+                                "type": "EX-31.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158624000020/mltx_2024q1xex312bodenstedt.htm"
+                            },
+                            {
+                                "type": "EX-32.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158624000020/mltx_2024q1xex321dasilva.htm"
+                            },
+                            {
+                                "type": "EX-32.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158624000020/mltx_2024q1xex322bodenstedt.htm"
+                            },
+                            {
+                                "type": "10-Q",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158624000020/mnlk-20240331.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-04-24",
+                        "epochDate": "2024-04-23 19:00:00",
+                        "type": "DEF 14A",
+                        "title": "Proxy Statements",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001140361-24-021744_1821586",
+                        "exhibits": [
+                            {
+                                "type": "DEF 14A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000114036124021744/ny20023928x1_def14a.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-03-11",
+                        "epochDate": "2024-03-10 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-24-021233_1821586",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390024021233/ea0201498-8k_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390024021233/ea020149801ex99-1_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390024021233/ea020149801ex99-2_moonlake.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390024021233/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390024021233/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-03-05",
+                        "epochDate": "2024-03-04 18:00:00",
+                        "type": "SC 13D/A",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0000921895-24-000582_1821586",
+                        "exhibits": [
+                            {
+                                "type": "SC 13D/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000918923/000092189524000582/sc13da207422mltx_03052024.htm"
+                            },
+                            {
+                                "type": "SC 13D/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000092189524000582/sc13da207422mltx_03052024.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-02-29",
+                        "epochDate": "2024-02-28 18:00:00",
+                        "type": "10-K",
+                        "title": "Periodic Financial Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001821586-24-000008_1821586",
+                        "exhibits": [
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000182158624000008/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000182158624000008/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-31.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158624000008/mltx_2023q4xex311dasilva.htm"
+                            },
+                            {
+                                "type": "EX-31.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158624000008/mltx_2023q4xex312bodenstedt.htm"
+                            },
+                            {
+                                "type": "EX-32.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158624000008/mltx_2023q4xex321dasilva.htm"
+                            },
+                            {
+                                "type": "EX-32.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158624000008/mltx_2023q4xex322bodenstedt.htm"
+                            },
+                            {
+                                "type": "EX-21.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158624000008/mltx_ex211subsidiarieslist.htm"
+                            },
+                            {
+                                "type": "EX-23.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158624000008/mltx_ex231consentofindepen.htm"
+                            },
+                            {
+                                "type": "EX-97.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158624000008/mltx_ex971-clawbackpolicy.htm"
+                            },
+                            {
+                                "type": "EX-4.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158624000008/mltx-exhibit41.htm"
+                            },
+                            {
+                                "type": "10-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158624000008/mnlk-20231231.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-02-26",
+                        "epochDate": "2024-02-25 18:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-24-016737_1821586",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390024016737/ea0200697-8k_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390024016737/ea0200697ex99-1_moonlake.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390024016737/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390024016737/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-11-14",
+                        "epochDate": "2023-11-13 18:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001821586-23-000020_1821586",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158623000020/mnlk-20231114.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000182158623000020/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000182158623000020/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158623000020/moonlake-pressreleasexq320.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-11-06",
+                        "epochDate": "2023-11-05 18:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001628280-23-036888_1821586",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000162828023036888/exhibit991-8xkx110623.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000162828023036888/exhibit992-8xkx110623.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000162828023036888/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000162828023036888/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000162828023036888/mltx-20231105.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-10-16",
+                        "epochDate": "2023-10-15 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001013762-23-003933_1821586",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000101376223003933/ea186779ex99-1_moonlake.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000101376223003933/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000101376223003933/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000101376223003933/ea186779-8k_moonlake.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-09-11",
+                        "epochDate": "2023-09-10 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-23-075653_1821586",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390023075653/ea185014-8k_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390023075653/ea185014ex99-1_moonlake.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390023075653/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390023075653/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-09-07",
+                        "epochDate": "2023-09-06 19:00:00",
+                        "type": "CORRESP",
+                        "title": "A correspondence can be sent as a document with another submission type or can be sent as a separate submission",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001628280-23-031707_1821586",
+                        "exhibits": [
+                            {
+                                "type": "CORRESP",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000162828023031707/filename1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-09-01",
+                        "epochDate": "2023-08-31 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-23-073296_1821586",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390023073296/ea184508-8k_moonlake.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390023073296/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390023073296/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-08-31",
+                        "epochDate": "2023-08-30 19:00:00",
+                        "type": "S-3",
+                        "title": "Offering Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001628280-23-031149_1821586",
+                        "exhibits": [
+                            {
+                                "type": "S-3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000162828023031149/moonlakes-3x08312023.htm"
+                            },
+                            {
+                                "type": "EX-FILING FEES",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000162828023031149/exhibit107-sx308312023.htm"
+                            },
+                            {
+                                "type": "EX-1.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000162828023031149/exhibit12-sx308312023.htm"
+                            },
+                            {
+                                "type": "EX-23.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000162828023031149/exhibit231-sx308312023.htm"
+                            },
+                            {
+                                "type": "EX-4.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000162828023031149/exhibit41-sx308312023.htm"
+                            },
+                            {
+                                "type": "EX-4.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000162828023031149/exhibit42-sx308312023.htm"
+                            },
+                            {
+                                "type": "EX-5.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000162828023031149/exhibit51-sx308312023.htm"
+                            },
+                            {
+                                "type": "EX-5.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000162828023031149/exhibit52-sx308312023.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-08-10",
+                        "epochDate": "2023-08-09 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-23-065274_1821586",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390023065274/ea183237-8k_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390023065274/ea183237ex99-1_moonlake.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390023065274/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390023065274/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-06-30",
+                        "epochDate": "2023-06-29 19:00:00",
+                        "type": "SC 13D/A",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001193805-23-000934_1821586",
+                        "exhibits": [
+                            {
+                                "type": "SC 13D/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000918923/000119380523000934/e618750_sc13da-moonlake.htm"
+                            },
+                            {
+                                "type": "SC 13D/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000119380523000934/e618750_sc13da-moonlake.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-06-07",
+                        "epochDate": "2023-06-06 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-23-047184_1821586",
+                        "exhibits": [
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390023047184/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390023047184/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390023047184/ea179949-8k_moonlake.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-05-19",
+                        "epochDate": "2023-05-18 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-23-041556_1821586",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390023041556/ea178889-8k_moonlake.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390023041556/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390023041556/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-05-05",
+                        "epochDate": "2023-05-04 19:00:00",
+                        "type": "CORRESP",
+                        "title": "A correspondence can be sent as a document with another submission type or can be sent as a separate submission",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001628280-23-016128_1821586",
+                        "exhibits": [
+                            {
+                                "type": "CORRESP",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000162828023016128/filename1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-04-26",
+                        "epochDate": "2023-04-25 19:00:00",
+                        "type": "ARS",
+                        "title": "Annual Report to Shareholders",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001140361-23-020600_1821586",
+                        "exhibits": [
+                            {
+                                "type": "ARS",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000114036123020600/ny20007692x3_ars.pdf"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-04-19",
+                        "epochDate": "2023-04-18 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-23-030849_1821586",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390023030849/ea177148ex99-1_moonlake.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390023030849/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390023030849/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390023030849/ea177148-8k_moonlake.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-03-31",
+                        "epochDate": "2023-03-30 19:00:00",
+                        "type": "SC 13G",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0000929638-23-001056_1821586",
+                        "exhibits": [
+                            {
+                                "type": "SC 13G",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001599214/000092963823001056/sc13g.htm"
+                            },
+                            {
+                                "type": "SC 13G",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000092963823001056/sc13g.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-03-20",
+                        "epochDate": "2023-03-19 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001821586-23-000004_1821586",
+                        "exhibits": [
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000182158623000004/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000182158623000004/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158623000004/moonlake-pressreleasexq420.htm"
+                            },
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158623000004/mnlk-20230320.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-03-10",
+                        "epochDate": "2023-03-09 18:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-23-019254_1821586",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390023019254/ea175050-8k_moonlake.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390023019254/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390023019254/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-02-14",
+                        "epochDate": "2023-02-13 18:00:00",
+                        "type": "SC 13G/A",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001104659-23-020808_1821586",
+                        "exhibits": [
+                            {
+                                "type": "SC 13G/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001423053/000110465923020808/tm234574-24_sc13ga.htm"
+                            },
+                            {
+                                "type": "SC 13G/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000110465923020808/tm234574-24_sc13ga.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-02-09",
+                        "epochDate": "2023-02-08 18:00:00",
+                        "type": "SC 13G/A",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0000902664-23-001320_1821586",
+                        "exhibits": [
+                            {
+                                "type": "SC 13G/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001165408/000090266423001320/p23-0267sc13ga.htm"
+                            },
+                            {
+                                "type": "SC 13G/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000090266423001320/p23-0267sc13ga.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-01-27",
+                        "epochDate": "2023-01-26 18:00:00",
+                        "type": "SC 13G/A",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001104659-23-007190_1821586",
+                        "exhibits": [
+                            {
+                                "type": "SC 13G/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000110465923007190/tm234517-1_sc13ga.htm"
+                            },
+                            {
+                                "type": "SC 13G/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001923120/000110465923007190/tm234517-1_sc13ga.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-09-30",
+                        "epochDate": "2022-09-29 19:00:00",
+                        "type": "S-8",
+                        "title": "Offering Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-060668_1821586",
+                        "exhibits": [
+                            {
+                                "type": "EX-FILING FEES",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022060668/ea166557-fee_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-10.4",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022060668/ea166557ex10-4_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-10.7",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022060668/ea166557ex10-7_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-23.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022060668/ea166557ex23-2_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-23.3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022060668/ea166557ex23-3_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-5.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022060668/ea166557ex5-1_moonlake.htm"
+                            },
+                            {
+                                "type": "S-8",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022060668/ea166557-s8_moonlake.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-08-12",
+                        "epochDate": "2022-08-11 19:00:00",
+                        "type": "10-Q",
+                        "title": "Periodic Financial Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001821586-22-000006_1821586",
+                        "exhibits": [
+                            {
+                                "type": "10-Q",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158622000006/mnlk-20220630.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000182158622000006/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000182158622000006/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-31.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158622000006/mltx_2022q2xex311dasilva.htm"
+                            },
+                            {
+                                "type": "EX-31.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158622000006/mltx_2022q2xex312bodenstedt.htm"
+                            },
+                            {
+                                "type": "EX-32.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158622000006/mltx_2022q2xex321dasilva.htm"
+                            },
+                            {
+                                "type": "EX-32.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000182158622000006/mltx_2022q2xex322bodenstedt.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-08-03",
+                        "epochDate": "2022-08-02 19:00:00",
+                        "type": "SC 13G",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001104659-22-085404_1821586",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000110465922085404/tm2222348d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000110465922085404/tm2222348d1_ex99-2.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001923120/000110465922085404/tm2222348d1_ex99-1.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001923120/000110465922085404/tm2222348d1_ex99-2.htm"
+                            },
+                            {
+                                "type": "SC 13G",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000110465922085404/tm2222348d1_sc13g.htm"
+                            },
+                            {
+                                "type": "SC 13G",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001923120/000110465922085404/tm2222348d1_sc13g.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-07-26",
+                        "epochDate": "2022-07-25 19:00:00",
+                        "type": "CORRESP",
+                        "title": "A correspondence can be sent as a document with another submission type or can be sent as a separate submission",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-041496_1821586",
+                        "exhibits": [
+                            {
+                                "type": "CORRESP",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022041496/filename1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-07-15",
+                        "epochDate": "2022-07-14 19:00:00",
+                        "type": "S-1/A",
+                        "title": "Offering Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-039695_1821586",
+                        "exhibits": [
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390022039695/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390022039695/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-FILING FEES",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022039695/fs12022a4ex-fee_moonlakeim.htm"
+                            },
+                            {
+                                "type": "EX-23.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022039695/fs12022a4ex23-1_moonlakeim.htm"
+                            },
+                            {
+                                "type": "EX-23.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022039695/fs12022a4ex23-2_moonlakeim.htm"
+                            },
+                            {
+                                "type": "S-1/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022039695/fs12022a4_moonlakeim.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-06-17",
+                        "epochDate": "2022-06-16 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-033592_1821586",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022033592/ea161716-8k_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-16.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022033592/ea161716ex16-1_moonlake.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390022033592/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390022033592/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-06-07",
+                        "epochDate": "2022-06-06 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-031476_1821586",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022031476/ea161246-8k_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022031476/ea161246ex99-1_moonlake.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390022031476/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390022031476/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-05-16",
+                        "epochDate": "2022-05-15 19:00:00",
+                        "type": "8-K/A",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-027102_1821586",
+                        "exhibits": [
+                            {
+                                "type": "8-K/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022027102/ea159897-8ka1_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022027102/ea159897ex99-1_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022027102/ea159897ex99-2_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-99.3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022027102/ea159897ex99-3_moonlake.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390022027102/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390022027102/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-05-02",
+                        "epochDate": "2022-05-01 19:00:00",
+                        "type": "S-1/A",
+                        "title": "Offering Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-023173_1821586",
+                        "exhibits": [
+                            {
+                                "type": "S-1/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022023173/fs12022a3_moonlakeim.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390022023173/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390022023173/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-FILING FEES",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022023173/fs12022a3ex-fee_moonlakeim.htm"
+                            },
+                            {
+                                "type": "EX-10.12",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022023173/fs12022a3ex10-12_moonlakeim.htm"
+                            },
+                            {
+                                "type": "EX-10.8",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022023173/fs12022a3ex10-8_moonlakeim.htm"
+                            },
+                            {
+                                "type": "EX-23.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022023173/fs12022a3ex23-1_moonlakeim.htm"
+                            },
+                            {
+                                "type": "EX-23.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022023173/fs12022a3ex23-2_moonlakeim.htm"
+                            },
+                            {
+                                "type": "EX-5.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022023173/fs12022a3ex5-1_moonlakeim.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-04-18",
+                        "epochDate": "2022-04-17 19:00:00",
+                        "type": "SC 13D",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0000921895-22-001288_1821586",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.7",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000918923/000092189522001288/ex997to13d07422010_04182022.htm"
+                            },
+                            {
+                                "type": "EX-99.7",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000092189522001288/ex997to13d07422010_04182022.htm"
+                            },
+                            {
+                                "type": "SC 13D",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000918923/000092189522001288/sc13d07422010_04182022.htm"
+                            },
+                            {
+                                "type": "SC 13D",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000092189522001288/sc13d07422010_04182022.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-04-11",
+                        "epochDate": "2022-04-10 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-019217_1821586",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022019217/ea158227-8k_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-10.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022019217/ea158227ex10-2_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-10.33",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022019217/ea158227ex10-33_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-10.5",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022019217/ea158227ex10-5_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-10.7",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022019217/ea158227ex10-7_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-10.8",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022019217/ea158227ex10-8_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-14.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022019217/ea158227ex14-1_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-21.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022019217/ea158227ex21-1_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-3.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022019217/ea158227ex3-1_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022019217/ea158227ex99-1_moonlake.htm"
+                            },
+                            {
+                                "type": "EX-99.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022019217/ea158227ex99-2_moonlake.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390022019217/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390022019217/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-03-31",
+                        "epochDate": "2022-03-30 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-016984_1821586",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022016984/ea157748-8k_helixacq.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390022016984/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390022016984/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-03-25",
+                        "epochDate": "2022-03-24 19:00:00",
+                        "type": "DEFA14A",
+                        "title": "Proxy Statements",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-015052_1821586",
+                        "exhibits": [
+                            {
+                                "type": "DEFA14A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022015052/ea157407-defa14a_helixacq.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-03-24",
+                        "epochDate": "2022-03-23 19:00:00",
+                        "type": "DEFA14A",
+                        "title": "Proxy Statements",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-014881_1821586",
+                        "exhibits": [
+                            {
+                                "type": "DEFA14A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022014881/ea157373-defa14a_helixacq.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-03-14",
+                        "epochDate": "2022-03-13 19:00:00",
+                        "type": "S-1/A",
+                        "title": "Offering Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-012161_1821586",
+                        "exhibits": [
+                            {
+                                "type": "S-1/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022012161/ea156790-s1a2_helixacq.htm"
+                            },
+                            {
+                                "type": "EX-10.10",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022012161/ea156790ex10-10_helixacq.htm"
+                            },
+                            {
+                                "type": "EX-10.11",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022012161/ea156790ex10-11_helixacq.htm"
+                            },
+                            {
+                                "type": "EX-10.12",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022012161/ea156790ex10-12_helixacq.htm"
+                            },
+                            {
+                                "type": "EX-10.13",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022012161/ea156790ex10-13_helixacq.htm"
+                            },
+                            {
+                                "type": "EX-10.9",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022012161/ea156790ex10-9_helixacq.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390022012161/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390022012161/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-03-08",
+                        "epochDate": "2022-03-07 18:00:00",
+                        "type": "S-1/A",
+                        "title": "Offering Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-011107_1821586",
+                        "exhibits": [
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390022011107/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390022011107/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-FILING FEES",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex-fee_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.14",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-14_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.15",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-15_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.16",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-16_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.17",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-17_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.18",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-18_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.19",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-19_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.20",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-20_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.21",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-21_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.22",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-22_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.23",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-23_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.24",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-24_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.25",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-25_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.26",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-26_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.27",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-27_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.28",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-28_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.29",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-29_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.30",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-30_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-10.32",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex10-32_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-23.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex23-1_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-23.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex23-2_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-5.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1ex5-1_helixacqu.htm"
+                            },
+                            {
+                                "type": "S-1/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022011107/fs12022a1_helixacq.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-03-04",
+                        "epochDate": "2022-03-03 18:00:00",
+                        "type": "DEFR14A",
+                        "title": "Proxy Statements",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-010753_1821586",
+                        "exhibits": [
+                            {
+                                "type": "DEFR14A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022010753/defr14a0222_helixacqcorp.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-02-25",
+                        "epochDate": "2022-02-24 18:00:00",
+                        "type": "DEFA14A",
+                        "title": "Proxy Statements",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-009483_1821586",
+                        "exhibits": [
+                            {
+                                "type": "DEFA14A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022009483/ea156204-8k_helixacq.htm"
+                            },
+                            {
+                                "type": "EX-10.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022009483/ea156204ex10-1_helixacq.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-02-17",
+                        "epochDate": "2022-02-16 18:00:00",
+                        "type": "10-K",
+                        "title": "Periodic Financial Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-008253_1821586",
+                        "exhibits": [
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390022008253/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390022008253/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-31.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/1821586/000121390022008253/f10k2021ex31-1_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-31.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/1821586/000121390022008253/f10k2021ex31-2_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-32.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/1821586/000121390022008253/f10k2021ex32-1_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-32.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/1821586/000121390022008253/f10k2021ex32-2_helixacqu.htm"
+                            },
+                            {
+                                "type": "EX-4.5",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/1821586/000121390022008253/f10k2021ex4-5_helixacqu.htm"
+                            },
+                            {
+                                "type": "10-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/1821586/000121390022008253/f10k2021_helixacq.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-02-14",
+                        "epochDate": "2022-02-13 18:00:00",
+                        "type": "DEFM14A",
+                        "title": "Proxy Statements",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-007163_1821586",
+                        "exhibits": [
+                            {
+                                "type": "DEFM14A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022007163/defm14a4_helixacq.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-02-11",
+                        "epochDate": "2022-02-10 18:00:00",
+                        "type": "S-1",
+                        "title": "Offering Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-006626_1821586",
+                        "exhibits": [
+                            {
+                                "type": "S-1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022006626/fs12022_helixacq.htm"
+                            },
+                            {
+                                "type": "S-1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/1821586/000121390022006626/fs12022_helixacq.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001821586/000121390022006626/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001821586/000121390022006626/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-FILING FEES",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022006626/fs12022ex-fee_helixacquis.htm"
+                            },
+                            {
+                                "type": "EX-23.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022006626/fs12022ex23-1_helixacquis.htm"
+                            },
+                            {
+                                "type": "EX-23.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022006626/fs12022ex23-2_helixacquis.htm"
+                            },
+                            {
+                                "type": "EX-3.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022006626/fs12022ex3-2_helixacquis.htm"
+                            },
+                            {
+                                "type": "EX-FILING FEES",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/1821586/000121390022006626/fs12022ex-fee_helixacquis.htm"
+                            },
+                            {
+                                "type": "EX-23.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/1821586/000121390022006626/fs12022ex23-1_helixacquis.htm"
+                            },
+                            {
+                                "type": "EX-23.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/1821586/000121390022006626/fs12022ex23-2_helixacquis.htm"
+                            },
+                            {
+                                "type": "EX-3.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/1821586/000121390022006626/fs12022ex3-2_helixacquis.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-02-03",
+                        "epochDate": "2022-02-02 18:00:00",
+                        "type": "PRER14A",
+                        "title": "Proxy Statements",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-005287_1821586",
+                        "exhibits": [
+                            {
+                                "type": "PRER14A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022005287/prer14a_helixacquisition.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-01-21",
+                        "epochDate": "2022-01-20 18:00:00",
+                        "type": "PRER14A",
+                        "title": "Proxy Statements",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-002878_1821586",
+                        "exhibits": [
+                            {
+                                "type": "PRER14A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022002878/prer14a_helixacq.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-01-20",
+                        "epochDate": "2022-01-19 18:00:00",
+                        "type": "CORRESP",
+                        "title": "A correspondence can be sent as a document with another submission type or can be sent as a separate submission",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-002881_1821586",
+                        "exhibits": [
+                            {
+                                "type": "CORRESP",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022002881/filename1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-01-19",
+                        "epochDate": "2022-01-18 18:00:00",
+                        "type": "DEFA14A",
+                        "title": "Proxy Statements",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-22-002466_1821586",
+                        "exhibits": [
+                            {
+                                "type": "DEFA14A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390022002466/ea154134-defa14a_helixacq.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2021-12-14",
+                        "epochDate": "2021-12-13 18:00:00",
+                        "type": "CORRESP",
+                        "title": "A correspondence can be sent as a document with another submission type or can be sent as a separate submission",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/MLTX/0001213900-21-065250_1821586",
+                        "exhibits": [
+                            {
+                                "type": "CORRESP",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001821586/000121390021065250/filename1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "institutionOwnership": {
+                "maxAge": 1,
+                "ownershipList": [
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "BVF Inc.",
+                        "pctHeld": 0.3459,
+                        "position": 21751284,
+                        "value": 1056133601,
+                        "pctChange": 0.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Cormorant Asset Management, LP",
+                        "pctHeld": 0.1351,
+                        "position": 8494151,
+                        "value": 412433504,
+                        "pctChange": 0.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "FMR, LLC",
+                        "pctHeld": 0.0695,
+                        "position": 4370652,
+                        "value": 212217009,
+                        "pctChange": 0.1359
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Avoro Capital Advisors LLC",
+                        "pctHeld": 0.040999997,
+                        "position": 2580000,
+                        "value": 125271900,
+                        "pctChange": 0.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Citadel Advisors Llc",
+                        "pctHeld": 0.0367,
+                        "position": 2309433,
+                        "value": 112134520,
+                        "pctChange": 0.1497
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Adage Capital Partners GP L.L.C.",
+                        "pctHeld": 0.0363,
+                        "position": 2284913,
+                        "value": 110943951,
+                        "pctChange": 0.4976
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Price (T.Rowe) Associates Inc",
+                        "pctHeld": 0.034,
+                        "position": 2135883,
+                        "value": 103707799,
+                        "pctChange": -0.077
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Holocene Advisors, LP",
+                        "pctHeld": 0.0231,
+                        "position": 1454869,
+                        "value": 70641164,
+                        "pctChange": 0.5134
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Federated Hermes, Inc.",
+                        "pctHeld": 0.0175,
+                        "position": 1099756,
+                        "value": 53398652,
+                        "pctChange": 0.037
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "T. Rowe Price Investment Management, Inc.",
+                        "pctHeld": 0.0174,
+                        "position": 1095101,
+                        "value": 53172629,
+                        "pctChange": -0.1028
+                    }
+                ]
+            },
+            "majorHoldersBreakdown": {
+                "maxAge": 1,
+                "insidersPercentHeld": 0.15271,
+                "institutionsPercentHeld": 0.97361,
+                "institutionsFloatPercentHeld": 1.1490899,
+                "institutionsCount": 172
+            },
+            "balanceSheetHistoryQuarterly": {
+                "balanceSheetStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-09-30"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earningsHistory": {
+                "history": [
+                    {
+                        "maxAge": 1,
+                        "epsActual": -0.23,
+                        "epsEstimate": -0.27,
+                        "epsDifference": 0.04,
+                        "surprisePercent": 0.148,
+                        "quarter": "2023-06-30",
+                        "period": "-4q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": -0.18,
+                        "epsEstimate": -0.23,
+                        "epsDifference": 0.05,
+                        "surprisePercent": 0.21700001,
+                        "quarter": "2023-09-30",
+                        "period": "-3q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": -0.12,
+                        "epsEstimate": -0.23,
+                        "epsDifference": 0.11,
+                        "surprisePercent": 0.478,
+                        "quarter": "2023-12-31",
+                        "period": "-2q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": -0.22,
+                        "epsEstimate": -0.19,
+                        "epsDifference": -0.03,
+                        "surprisePercent": -0.158,
+                        "quarter": "2024-03-31",
+                        "period": "-1q"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "summaryProfile": {
+                "address1": "Dorfstrasse 29",
+                "city": "Zug",
+                "zip": "6300",
+                "country": "Switzerland",
+                "phone": "41 415108022",
+                "website": "https://www.moonlaketx.com",
+                "industry": "Biotechnology",
+                "industryKey": "biotechnology",
+                "industryDisp": "Biotechnology",
+                "sector": "Healthcare",
+                "sectorKey": "healthcare",
+                "sectorDisp": "Healthcare",
+                "longBusinessSummary": "MoonLake Immunotherapeutics, a clinical-stage biopharmaceutical company, engages in developing therapies. It develops Sonelokimab, a novel investigational Nanobody for the treatment of inflammation diseases; and hidradenitis suppurativa, psoriatic arthritis, axial spondyloarthritis, and psoriasis. MoonLake Immunotherapeutics was founded in 2021 and is headquartered in Zug, Switzerland.",
+                "fullTimeEmployees": 50,
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "netSharePurchaseActivity": {
+                "maxAge": 1,
+                "period": "6m",
+                "buyInfoCount": 0,
+                "buyInfoShares": 0,
+                "sellInfoCount": 0,
+                "netInfoCount": 0,
+                "netInfoShares": 0,
+                "totalInsiderShares": 9601586
+            },
+            "insiderTransactions": {
+                "transactions": [
+                    {
+                        "maxAge": 1,
+                        "shares": 123615,
+                        "value": 6803044,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 55.00 - 55.89 per share.",
+                        "filerName": "SANTOS DA SILVA JORGE",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2024-02-29",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 118922,
+                        "value": 6540710,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 55.00 per share.",
+                        "filerName": "REICH KRISTIAN",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2024-02-28",
+                        "ownership": "D/I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1125,
+                        "value": 62179,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 55.27 per share.",
+                        "filerName": "SANTOS DA SILVA JORGE",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2024-02-21",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 21078,
+                        "value": 1208418,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 55.30 - 57.45 per share.",
+                        "filerName": "REICH KRISTIAN",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2024-02-21",
+                        "ownership": "D/I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 60000,
+                        "value": 3555400,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 57.44 - 60.18 per share.",
+                        "filerName": "SANTOS DA SILVA JORGE",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2024-02-20",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 60000,
+                        "value": 3654800,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 60.15 - 62.43 per share.",
+                        "filerName": "REICH KRISTIAN",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2024-02-16",
+                        "ownership": "D/I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 100000,
+                        "value": 5917368,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 58.34 - 59.22 per share.",
+                        "filerName": "BODENSTEDT MATTHIAS",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2023-12-20",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 58839,
+                        "value": 3524297,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 59.90 per share.",
+                        "filerName": "CHEN BIHUA X.",
+                        "filerRelation": "Beneficial Owner of more than 10% of a Class of Security",
+                        "moneyText": "",
+                        "startDate": "2023-10-05",
+                        "ownership": "I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 293212,
+                        "value": 16800343,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 57.25 - 57.37 per share.",
+                        "filerName": "CHEN BIHUA X.",
+                        "filerRelation": "Beneficial Owner of more than 10% of a Class of Security",
+                        "moneyText": "",
+                        "startDate": "2023-10-04",
+                        "ownership": "I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3167554,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "SANTOS DA SILVA JORGE",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2023-09-29",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 62972,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "BODENSTEDT MATTHIAS",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2023-09-29",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2569458,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "REICH KRISTIAN",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2023-09-29",
+                        "ownership": "D/I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 342980,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "STURGE SIMON J",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-09-29",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 800000,
+                        "value": 40000000,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 50.00 per share.",
+                        "filerName": "CHEN BIHUA X.",
+                        "filerRelation": "Beneficial Owner of more than 10% of a Class of Security",
+                        "moneyText": "",
+                        "startDate": "2023-06-30",
+                        "ownership": "I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 450000,
+                        "value": 20464191,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 36.91 - 54.92 per share.",
+                        "filerName": "CHEN BIHUA X.",
+                        "filerRelation": "Beneficial Owner of more than 10% of a Class of Security",
+                        "moneyText": "",
+                        "startDate": "2023-06-26",
+                        "ownership": "I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 557931,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "BODENSTEDT MATTHIAS",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2023-04-05",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 598096,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "REICH KRISTIAN",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2023-04-05",
+                        "ownership": "D/I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 827100,
+                        "value": 16774846,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 19.36 - 21.70 per share.",
+                        "filerName": "CHEN BIHUA X.",
+                        "filerRelation": "Beneficial Owner of more than 10% of a Class of Security",
+                        "moneyText": "",
+                        "startDate": "2023-03-21",
+                        "ownership": "I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2850000,
+                        "value": 37762500,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 13.25 per share.",
+                        "filerName": "CHEN BIHUA X.",
+                        "filerRelation": "Beneficial Owner of more than 10% of a Class of Security",
+                        "moneyText": "",
+                        "startDate": "2022-04-05",
+                        "ownership": "I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2785000,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "CHEN BIHUA X.",
+                        "filerRelation": "Beneficial Owner of more than 10% of a Class of Security",
+                        "moneyText": "",
+                        "startDate": "2022-04-05",
+                        "ownership": "I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2785000,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "HELIX HOLDINGS L.L.C.",
+                        "filerRelation": "Unknown",
+                        "moneyText": "",
+                        "startDate": "2022-04-05",
+                        "ownership": "I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 430000,
+                        "value": 4300000,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 10.00 per share.",
+                        "filerName": "CHEN BIHUA X.",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2020-10-22",
+                        "ownership": "I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 430000,
+                        "value": 4300000,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 10.00 per share.",
+                        "filerName": "HELIX HOLDINGS L.L.C.",
+                        "filerRelation": "Beneficial Owner of more than 10% of a Class of Security",
+                        "moneyText": "",
+                        "startDate": "2020-10-22",
+                        "ownership": "D"
+                    }
+                ],
+                "maxAge": 1
+            },
+            "sectorTrend": {
+                "maxAge": 1,
+                "symbol": null,
+                "estimates": []
+            },
+            "incomeStatementHistoryQuarterly": {
+                "incomeStatementHistory": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31",
+                        "totalRevenue": 0,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -13673656,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "totalRevenue": 0,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -7437076,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-09-30",
+                        "totalRevenue": 0,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -9426049,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30",
+                        "totalRevenue": 0,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -10139279,
+                        "netIncomeApplicableToCommonShares": {}
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "cashflowStatementHistoryQuarterly": {
+                "cashflowStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31",
+                        "netIncome": -13673656
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "netIncome": -7437076
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-09-30",
+                        "netIncome": -9426049
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30",
+                        "netIncome": -10139279
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earnings": {
+                "maxAge": 86400,
+                "earningsChart": {
+                    "quarterly": [
+                        {
+                            "date": "2Q2023",
+                            "actual": -0.23,
+                            "estimate": -0.27
+                        },
+                        {
+                            "date": "3Q2023",
+                            "actual": -0.18,
+                            "estimate": -0.23
+                        },
+                        {
+                            "date": "4Q2023",
+                            "actual": -0.12,
+                            "estimate": -0.23
+                        },
+                        {
+                            "date": "1Q2024",
+                            "actual": -0.22,
+                            "estimate": -0.19
+                        }
+                    ],
+                    "currentQuarterEstimate": -0.28,
+                    "currentQuarterEstimateDate": "2Q",
+                    "currentQuarterEstimateYear": 2024,
+                    "earningsDate": [
+                        "2024-08-08 07:30:S",
+                        "2024-08-12 07:30:S"
+                    ],
+                    "isEarningsDateEstimate": true
+                },
+                "financialsChart": {
+                    "yearly": [
+                        {
+                            "date": 2021,
+                            "revenue": 0,
+                            "earnings": -64372338
+                        },
+                        {
+                            "date": 2022,
+                            "revenue": 0,
+                            "earnings": -49973249
+                        },
+                        {
+                            "date": 2023,
+                            "revenue": 0,
+                            "earnings": -36007260
+                        }
+                    ],
+                    "quarterly": [
+                        {
+                            "date": "2Q2023",
+                            "revenue": 0,
+                            "earnings": -10139279
+                        },
+                        {
+                            "date": "3Q2023",
+                            "revenue": 0,
+                            "earnings": -9426049
+                        },
+                        {
+                            "date": "4Q2023",
+                            "revenue": 0,
+                            "earnings": -7437076
+                        },
+                        {
+                            "date": "1Q2024",
+                            "revenue": 0,
+                            "earnings": -13673656
+                        }
+                    ]
+                },
+                "financialCurrency": "USD"
+            },
+            "financialData": {
+                "maxAge": 86400,
+                "currentPrice": 48.555,
+                "targetHighPrice": 104.0,
+                "targetLowPrice": 40.0,
+                "targetMeanPrice": 73.13,
+                "targetMedianPrice": 72.0,
+                "recommendationMean": 1.6,
+                "recommendationKey": "buy",
+                "numberOfAnalystOpinions": 15,
+                "totalCash": 547054720,
+                "totalCashPerShare": 8.701,
+                "ebitda": -60979336,
+                "totalDebt": 3661921,
+                "quickRatio": 61.562,
+                "currentRatio": 62.128,
+                "debtToEquity": 0.663,
+                "returnOnAssets": -0.12088,
+                "returnOnEquity": -0.14991,
+                "freeCashflow": -34989264,
+                "operatingCashflow": -48702116,
+                "grossMargins": 0.0,
+                "ebitdaMargins": 0.0,
+                "operatingMargins": 0.0,
+                "profitMargins": 0.0,
+                "financialCurrency": "USD"
+            }
+        }
+    }
+}

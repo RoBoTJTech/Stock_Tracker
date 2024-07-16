@@ -1,0 +1,393 @@
+{
+    "TECL": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "phone": "866-476-7523",
+                "longBusinessSummary": "The fund invests at least 80% of its net assets (plus borrowing for investment purposes) in financial instruments, such as swap agreements, securities of the index, and exchange-traded funds (\"ETFs\") that track the index, that, in combination, provide 3X daily leveraged exposure to the index, consistent with the fund's investment objective. The index includes domestic companies from the technology sector. It is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "fundProfile": {
+                "maxAge": 1,
+                "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq3.gif",
+                "family": "Direxion Funds",
+                "categoryName": "Trading--Leveraged Equity",
+                "legalType": "Exchange Traded Fund",
+                "feesExpensesInvestment": {
+                    "annualReportExpenseRatio": 0.0094,
+                    "annualHoldingsTurnover": 0.0,
+                    "totalNetAssets": 602269.25,
+                    "projectionValues": {}
+                },
+                "feesExpensesInvestmentCat": {
+                    "annualReportExpenseRatio": 0.0,
+                    "totalNetAssets": 602269.25,
+                    "projectionValuesCat": {}
+                }
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 106.41,
+                "open": 107.92,
+                "dayLow": 105.14,
+                "dayHigh": 110.08,
+                "regularMarketPreviousClose": 106.41,
+                "regularMarketOpen": 107.92,
+                "regularMarketDayLow": 105.14,
+                "regularMarketDayHigh": 110.08,
+                "trailingPE": 77.3106,
+                "volume": 1659489,
+                "regularMarketVolume": 1659489,
+                "averageVolume": 1938580,
+                "averageVolume10days": 1702280,
+                "averageDailyVolume10Day": 1702280,
+                "bid": 107.89,
+                "ask": 108.0,
+                "bidSize": 800,
+                "askSize": 800,
+                "yield": 0.0029,
+                "totalAssets": 3593381376,
+                "fiftyTwoWeekLow": 39.02,
+                "fiftyTwoWeekHigh": 112.78,
+                "fiftyDayAverage": 88.9684,
+                "twoHundredDayAverage": 71.0991,
+                "navPrice": 106.392,
+                "currency": "USD",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "pageViews": {
+                "shortTermTrend": "DOWN",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketChangePercent": 0.013250601,
+                "preMarketChange": 1.41,
+                "preMarketTime": "2024-07-15 08:27:40",
+                "preMarketPrice": 107.82,
+                "preMarketSource": "FREE_REALTIME",
+                "postMarketChangePercent": 0.00813536,
+                "postMarketChange": 0.869995,
+                "postMarketTime": "2024-07-15 18:59:55",
+                "postMarketPrice": 107.81,
+                "postMarketSource": "FREE_REALTIME",
+                "regularMarketChangePercent": 0.0049807234,
+                "regularMarketChange": 0.5299988,
+                "regularMarketTime": "2024-07-15 15:00:00",
+                "priceHint": 2,
+                "regularMarketPrice": 106.94,
+                "regularMarketDayHigh": 110.08,
+                "regularMarketDayLow": 105.14,
+                "regularMarketVolume": 1659489,
+                "averageDailyVolume10Day": 1702280,
+                "averageDailyVolume3Month": 1938580,
+                "regularMarketPreviousClose": 106.41,
+                "regularMarketSource": "DELAYED",
+                "regularMarketOpen": 107.92,
+                "exchange": "PCX",
+                "exchangeName": "NYSEArca",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "POSTPOST",
+                "quoteType": "ETF",
+                "symbol": "TECL",
+                "underlyingSymbol": null,
+                "shortName": "Direxion Technology Bull 3X Sha",
+                "longName": "Direxion Daily Technology Bull 3X Shares",
+                "currency": "USD",
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "lastMarket": null
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "category": "Trading--Leveraged Equity",
+                "ytdReturn": 0.5989717,
+                "beta3Year": 3.67,
+                "totalAssets": 3593381376,
+                "yield": 0.0029,
+                "fundFamily": "Direxion Funds",
+                "fundInceptionDate": "2008-12-16 18:00:00",
+                "legalType": "Exchange Traded Fund",
+                "threeYearAverageReturn": 0.2172969,
+                "fiveYearAverageReturn": 0.4372526,
+                "lastSplitFactor": null
+            },
+            "summaryProfile": {
+                "phone": "866-476-7523",
+                "longBusinessSummary": "The fund invests at least 80% of its net assets (plus borrowing for investment purposes) in financial instruments, such as swap agreements, securities of the index, and exchange-traded funds (\"ETFs\") that track the index, that, in combination, provide 3X daily leveraged exposure to the index, consistent with the fund's investment objective. The index includes domestic companies from the technology sector. It is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "topHoldings": {
+                "maxAge": 1,
+                "stockPosition": 0.9971,
+                "bondPosition": 0.0,
+                "holdings": [
+                    {
+                        "symbol": "MSFT",
+                        "holdingName": "Microsoft Corp",
+                        "holdingPercent": 0.1583597
+                    },
+                    {
+                        "symbol": "NVDA",
+                        "holdingName": "NVIDIA Corp",
+                        "holdingPercent": 0.144869
+                    },
+                    {
+                        "symbol": "AAPL",
+                        "holdingName": "Apple Inc",
+                        "holdingPercent": 0.0319782
+                    },
+                    {
+                        "symbol": "AVGO",
+                        "holdingName": "Broadcom Inc",
+                        "holdingPercent": 0.029853301
+                    },
+                    {
+                        "symbol": "AMD",
+                        "holdingName": "Advanced Micro Devices Inc",
+                        "holdingPercent": 0.019072501
+                    },
+                    {
+                        "symbol": "CRM",
+                        "holdingName": "Salesforce Inc",
+                        "holdingPercent": 0.0181652
+                    },
+                    {
+                        "symbol": "ADBE",
+                        "holdingName": "Adobe Inc",
+                        "holdingPercent": 0.0181043
+                    }
+                ],
+                "equityHoldings": {
+                    "priceToEarnings": 0.02563,
+                    "priceToBook": 0.10731,
+                    "priceToSales": 0.11942,
+                    "priceToCashflow": 0.03661
+                },
+                "bondHoldings": {},
+                "bondRatings": [
+                    {
+                        "us_government": 0.0
+                    }
+                ],
+                "sectorWeightings": [
+                    {
+                        "realestate": 0.0
+                    },
+                    {
+                        "consumer_cyclical": 0.0
+                    },
+                    {
+                        "basic_materials": 0.0
+                    },
+                    {
+                        "consumer_defensive": 0.0
+                    },
+                    {
+                        "technology": 1.0
+                    },
+                    {
+                        "communication_services": 0.0
+                    },
+                    {
+                        "financial_services": 0.0
+                    },
+                    {
+                        "utilities": 0.0
+                    },
+                    {
+                        "industrials": 0.0
+                    },
+                    {
+                        "energy": 0.0
+                    },
+                    {
+                        "healthcare": 0.0
+                    }
+                ]
+            },
+            "fundPerformance": {
+                "maxAge": 1,
+                "performanceOverview": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytdReturnPct": 0.5989717,
+                    "oneYearTotalReturn": 0.9803698,
+                    "threeYearTotalReturn": 0.2172969
+                },
+                "performanceOverviewCat": {},
+                "trailingReturns": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytd": 0.46213952,
+                    "oneMonth": 0.2328614,
+                    "threeMonth": 0.21269609,
+                    "oneYear": 0.8041392,
+                    "threeYear": 0.20967479,
+                    "fiveYear": 0.44300178,
+                    "tenYear": 0.4293317,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "trailingReturnsNav": {
+                    "ytd": 0.46213952,
+                    "oneMonth": 0.2328614,
+                    "threeMonth": 0.21269609,
+                    "oneYear": 0.8041392,
+                    "threeYear": 0.20967479,
+                    "fiveYear": 0.44300178,
+                    "tenYear": 0.4293317
+                },
+                "trailingReturnsCat": {
+                    "ytd": 0.0,
+                    "oneMonth": 0.0,
+                    "threeMonth": 0.0,
+                    "oneYear": 0.0,
+                    "threeYear": 0.0,
+                    "fiveYear": 0.0,
+                    "tenYear": 0.0,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "annualTotalReturns": {
+                    "returns": [
+                        {
+                            "year": "2023",
+                            "annualValue": 2.031251
+                        },
+                        {
+                            "year": "2022",
+                            "annualValue": -0.7431594
+                        },
+                        {
+                            "year": "2021",
+                            "annualValue": 1.128226
+                        },
+                        {
+                            "year": "2020",
+                            "annualValue": 0.69368666
+                        },
+                        {
+                            "year": "2019",
+                            "annualValue": 1.855727
+                        },
+                        {
+                            "year": "2018",
+                            "annualValue": -0.2402286
+                        },
+                        {
+                            "year": "2017",
+                            "annualValue": 1.248246
+                        },
+                        {
+                            "year": "2016",
+                            "annualValue": 0.3708482
+                        },
+                        {
+                            "year": "2015",
+                            "annualValue": 0.0468391
+                        },
+                        {
+                            "year": "2014",
+                            "annualValue": 0.524644
+                        },
+                        {
+                            "year": "2013",
+                            "annualValue": 0.87358916
+                        },
+                        {
+                            "year": "2012",
+                            "annualValue": 0.3368999
+                        },
+                        {
+                            "year": "2011",
+                            "annualValue": -0.183584
+                        },
+                        {
+                            "year": "2010",
+                            "annualValue": 0.20786619
+                        },
+                        {
+                            "year": "2009",
+                            "annualValue": 2.396053
+                        }
+                    ],
+                    "returnsCat": []
+                },
+                "pastQuarterlyReturns": {
+                    "returns": []
+                },
+                "riskOverviewStatistics": {
+                    "riskStatistics": [
+                        {
+                            "year": "5y",
+                            "alpha": 11.68,
+                            "beta": 3.56,
+                            "meanAnnualReturn": 5.15,
+                            "rSquared": 85.23,
+                            "stdDev": 69.82,
+                            "sharpeRatio": 0.85,
+                            "treynorRatio": 11.78
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": 12.08,
+                            "beta": 3.67,
+                            "meanAnnualReturn": 3.66,
+                            "rSquared": 84.05,
+                            "stdDev": 71.08,
+                            "sharpeRatio": 0.57,
+                            "treynorRatio": 4.78
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": 11.02,
+                            "beta": 3.53,
+                            "meanAnnualReturn": 4.5,
+                            "rSquared": 82.61,
+                            "stdDev": 59.49,
+                            "sharpeRatio": 0.88,
+                            "treynorRatio": 11.69
+                        }
+                    ]
+                },
+                "riskOverviewStatisticsCat": {
+                    "riskStatisticsCat": [
+                        {
+                            "year": "5y"
+                        },
+                        {
+                            "year": "3y"
+                        },
+                        {
+                            "year": "10y"
+                        }
+                    ]
+                }
+            },
+            "quoteType": {
+                "exchange": "PCX",
+                "quoteType": "ETF",
+                "symbol": "TECL",
+                "underlyingSymbol": "TECL",
+                "shortName": "Direxion Technology Bull 3X Sha",
+                "longName": "Direxion Daily Technology Bull 3X Shares",
+                "firstTradeDateEpochUtc": "2008-12-30 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "b498d382-2fcb-3c00-9d4a-d74be91afbf3",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            }
+        }
+    }
+}

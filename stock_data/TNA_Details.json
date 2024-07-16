@@ -1,0 +1,359 @@
+{
+    "TNA": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "phone": "866-476-7523",
+                "longBusinessSummary": "The fund invests at least 80% of its net assets in financial instruments, such as swap agreements, securities of the index, and exchange-traded funds (\"ETFs\") that track the index, that, in combination, provide 3X daily leveraged exposure to the Index, consistent with the fund's investment objective. The index measures the performance of approximately 2,000 small-capitalization companies in the Russell 3000\u00ae Index, based on a combination of their market capitalization and current index membership. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "fundProfile": {
+                "maxAge": 1,
+                "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq8.gif",
+                "family": "Direxion Funds",
+                "categoryName": "Trading--Leveraged Equity",
+                "legalType": "Exchange Traded Fund",
+                "feesExpensesInvestment": {
+                    "annualReportExpenseRatio": 0.0108,
+                    "annualHoldingsTurnover": 0.0,
+                    "totalNetAssets": 2829.28,
+                    "projectionValues": {}
+                },
+                "feesExpensesInvestmentCat": {
+                    "annualReportExpenseRatio": 0.0,
+                    "totalNetAssets": 2829.28,
+                    "projectionValuesCat": {}
+                }
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 40.85,
+                "open": 42.08,
+                "dayLow": 41.89,
+                "dayHigh": 43.2088,
+                "regularMarketPreviousClose": 40.85,
+                "regularMarketOpen": 42.08,
+                "regularMarketDayLow": 41.89,
+                "regularMarketDayHigh": 43.2088,
+                "trailingPE": 16.508057,
+                "volume": 28445843,
+                "regularMarketVolume": 28445843,
+                "averageVolume": 15113896,
+                "averageVolume10days": 19041640,
+                "averageDailyVolume10Day": 19041640,
+                "bid": 42.15,
+                "ask": 42.29,
+                "bidSize": 900,
+                "askSize": 2900,
+                "yield": 0.0113,
+                "totalAssets": 2114312448,
+                "fiftyTwoWeekLow": 21.58,
+                "fiftyTwoWeekHigh": 43.84,
+                "fiftyDayAverage": 37.4636,
+                "twoHundredDayAverage": 34.587,
+                "navPrice": 42.129,
+                "currency": "USD",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "pageViews": {
+                "shortTermTrend": "NEUTRAL",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "FREE_REALTIME",
+                "postMarketChangePercent": 0.0033222446,
+                "postMarketChange": 0.13999939,
+                "postMarketTime": "2024-07-12 18:59:56",
+                "postMarketPrice": 42.28,
+                "postMarketSource": "DELAYED",
+                "regularMarketChangePercent": 0.031579003,
+                "regularMarketChange": 1.29,
+                "regularMarketTime": "2024-07-12 15:00:06",
+                "priceHint": 2,
+                "regularMarketPrice": 42.14,
+                "regularMarketDayHigh": 43.2088,
+                "regularMarketDayLow": 41.89,
+                "regularMarketVolume": 28445843,
+                "averageDailyVolume10Day": 19041640,
+                "averageDailyVolume3Month": 15113896,
+                "regularMarketPreviousClose": 40.85,
+                "regularMarketSource": "FREE_REALTIME",
+                "regularMarketOpen": 42.08,
+                "exchange": "PCX",
+                "exchangeName": "NYSEArca",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "CLOSED",
+                "quoteType": "ETF",
+                "symbol": "TNA",
+                "underlyingSymbol": null,
+                "shortName": "Direxion Small Cap Bull 3X Shar",
+                "longName": "Direxion Daily Small Cap Bull 3X Shares",
+                "currency": "USD",
+                "quoteSourceName": "Delayed Quote",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "lastMarket": null
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "category": "Trading--Leveraged Equity",
+                "ytdReturn": 0.073528,
+                "beta3Year": 3.14,
+                "totalAssets": 2114312448,
+                "yield": 0.0113,
+                "fundFamily": "Direxion Funds",
+                "fundInceptionDate": "2008-11-04 18:00:00",
+                "legalType": "Exchange Traded Fund",
+                "threeYearAverageReturn": -0.2289925,
+                "fiveYearAverageReturn": -0.0718773,
+                "lastSplitFactor": null
+            },
+            "summaryProfile": {
+                "phone": "866-476-7523",
+                "longBusinessSummary": "The fund invests at least 80% of its net assets in financial instruments, such as swap agreements, securities of the index, and exchange-traded funds (\"ETFs\") that track the index, that, in combination, provide 3X daily leveraged exposure to the Index, consistent with the fund's investment objective. The index measures the performance of approximately 2,000 small-capitalization companies in the Russell 3000\u00ae Index, based on a combination of their market capitalization and current index membership. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "topHoldings": {
+                "maxAge": 1,
+                "stockPosition": 0.65949994,
+                "bondPosition": 0.0,
+                "holdings": [
+                    {
+                        "symbol": "IWM",
+                        "holdingName": "iShares Russell 2000 ETF",
+                        "holdingPercent": 0.6596393
+                    }
+                ],
+                "equityHoldings": {
+                    "priceToEarnings": 0.06294,
+                    "priceToBook": 0.51434,
+                    "priceToSales": 0.80818,
+                    "priceToCashflow": 0.10695
+                },
+                "bondHoldings": {},
+                "bondRatings": [
+                    {
+                        "us_government": 0.0
+                    }
+                ],
+                "sectorWeightings": [
+                    {
+                        "realestate": 0.066300005
+                    },
+                    {
+                        "consumer_cyclical": 0.1018
+                    },
+                    {
+                        "basic_materials": 0.0481
+                    },
+                    {
+                        "consumer_defensive": 0.0419
+                    },
+                    {
+                        "technology": 0.17379999
+                    },
+                    {
+                        "communication_services": 0.0179
+                    },
+                    {
+                        "financial_services": 0.1374
+                    },
+                    {
+                        "utilities": 0.026300002
+                    },
+                    {
+                        "industrials": 0.1604
+                    },
+                    {
+                        "energy": 0.0716
+                    },
+                    {
+                        "healthcare": 0.15439999
+                    }
+                ]
+            },
+            "fundPerformance": {
+                "maxAge": 1,
+                "performanceOverview": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytdReturnPct": 0.073528,
+                    "oneYearTotalReturn": 0.1284644,
+                    "threeYearTotalReturn": -0.2289925
+                },
+                "performanceOverviewCat": {},
+                "trailingReturns": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytd": -0.0626491,
+                    "oneMonth": -0.042733498,
+                    "threeMonth": -0.1415754,
+                    "oneYear": 0.0517792,
+                    "threeYear": -0.2730507,
+                    "fiveYear": -0.0960506,
+                    "tenYear": -0.0059956997,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "trailingReturnsNav": {
+                    "ytd": -0.0626491,
+                    "oneMonth": -0.042733498,
+                    "threeMonth": -0.1415754,
+                    "oneYear": 0.0517792,
+                    "threeYear": -0.2730507,
+                    "fiveYear": -0.0960506,
+                    "tenYear": -0.0059956997
+                },
+                "trailingReturnsCat": {
+                    "ytd": 0.0,
+                    "oneMonth": 0.0,
+                    "threeMonth": 0.0,
+                    "oneYear": 0.0,
+                    "threeYear": 0.0,
+                    "fiveYear": 0.0,
+                    "tenYear": 0.0,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "annualTotalReturns": {
+                    "returns": [
+                        {
+                            "year": "2023",
+                            "annualValue": 0.2619936
+                        },
+                        {
+                            "year": "2022",
+                            "annualValue": -0.6247705
+                        },
+                        {
+                            "year": "2021",
+                            "annualValue": 0.2787002
+                        },
+                        {
+                            "year": "2020",
+                            "annualValue": -0.0782538
+                        },
+                        {
+                            "year": "2019",
+                            "annualValue": 0.71888787
+                        },
+                        {
+                            "year": "2018",
+                            "annualValue": -0.3989344
+                        },
+                        {
+                            "year": "2017",
+                            "annualValue": 0.3915184
+                        },
+                        {
+                            "year": "2016",
+                            "annualValue": 0.59216124
+                        },
+                        {
+                            "year": "2015",
+                            "annualValue": -0.21500058
+                        },
+                        {
+                            "year": "2014",
+                            "annualValue": 0.0519986
+                        },
+                        {
+                            "year": "2013",
+                            "annualValue": 1.508231
+                        },
+                        {
+                            "year": "2012",
+                            "annualValue": 0.42634928
+                        },
+                        {
+                            "year": "2011",
+                            "annualValue": -0.3809537
+                        },
+                        {
+                            "year": "2010",
+                            "annualValue": 0.69796723
+                        },
+                        {
+                            "year": "2009",
+                            "annualValue": 0.4243887
+                        }
+                    ],
+                    "returnsCat": []
+                },
+                "pastQuarterlyReturns": {
+                    "returns": []
+                },
+                "riskOverviewStatistics": {
+                    "riskStatistics": [
+                        {
+                            "year": "5y",
+                            "alpha": -30.37,
+                            "beta": 3.43,
+                            "meanAnnualReturn": 1.49,
+                            "rSquared": 74.42,
+                            "stdDev": 71.76,
+                            "sharpeRatio": 0.22,
+                            "treynorRatio": -3.48
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": -38.58,
+                            "beta": 3.14,
+                            "meanAnnualReturn": -0.9,
+                            "rSquared": 72.16,
+                            "stdDev": 65.76,
+                            "sharpeRatio": -0.22,
+                            "treynorRatio": -9.78
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": -22.24,
+                            "beta": 3.44,
+                            "meanAnnualReturn": 1.64,
+                            "rSquared": 73.15,
+                            "stdDev": 61.56,
+                            "sharpeRatio": 0.29,
+                            "treynorRatio": -0.64
+                        }
+                    ]
+                },
+                "riskOverviewStatisticsCat": {
+                    "riskStatisticsCat": [
+                        {
+                            "year": "5y"
+                        },
+                        {
+                            "year": "3y"
+                        },
+                        {
+                            "year": "10y"
+                        }
+                    ]
+                }
+            },
+            "quoteType": {
+                "exchange": "PCX",
+                "quoteType": "ETF",
+                "symbol": "TNA",
+                "underlyingSymbol": "TNA",
+                "shortName": "Direxion Small Cap Bull 3X Shar",
+                "longName": "Direxion Daily Small Cap Bull 3X Shares",
+                "firstTradeDateEpochUtc": "2008-11-19 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "4738ff51-7e57-3e0a-8797-8c4752ef0a37",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            }
+        }
+    }
+}

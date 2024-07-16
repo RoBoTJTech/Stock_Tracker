@@ -1,0 +1,121 @@
+{
+    "NOV": {
+        "triggers": [
+            {
+                "high_timestamp": "2024-01-26 09:30:00-05:00",
+                "high_price": 21.16,
+                "trigger_timestamp": "2024-02-01 16:00:00-05:00",
+                "trigger_price": 19.72,
+                "percentage_drop": 6.81,
+                "bar_high": 19.85,
+                "bar_low": 19.72,
+                "bar_open": 19.85,
+                "bar_close": 19.85
+            },
+            {
+                "high_timestamp": "2024-02-02 05:00:00-05:00",
+                "high_price": 20.28,
+                "trigger_timestamp": "2024-02-06 14:30:00-05:00",
+                "trigger_price": 17.42,
+                "percentage_drop": 14.1,
+                "bar_high": 17.58,
+                "bar_low": 17.42,
+                "bar_open": 17.56,
+                "bar_close": 17.48
+            },
+            {
+                "high_timestamp": "2024-04-08 07:00:00-04:00",
+                "high_price": 20.74,
+                "trigger_timestamp": "2024-04-18 11:30:00-04:00",
+                "trigger_price": 18.63,
+                "percentage_drop": 10.17,
+                "bar_high": 18.74,
+                "bar_low": 18.63,
+                "bar_open": 18.71,
+                "bar_close": 18.74
+            },
+            {
+                "high_timestamp": "2024-05-20 09:30:00-04:00",
+                "high_price": 19.34,
+                "trigger_timestamp": "2024-05-30 11:30:00-04:00",
+                "trigger_price": 18.19,
+                "percentage_drop": 5.95,
+                "bar_high": 18.3,
+                "bar_low": 18.19,
+                "bar_open": 18.3,
+                "bar_close": 18.24
+            },
+            {
+                "high_timestamp": "2024-05-31 14:30:00-04:00",
+                "high_price": 18.73,
+                "trigger_timestamp": "2024-06-06 14:30:00-04:00",
+                "trigger_price": 17.39,
+                "percentage_drop": 7.18,
+                "bar_high": 17.47,
+                "bar_low": 17.39,
+                "bar_open": 17.39,
+                "bar_close": 17.42
+            },
+            {
+                "high_timestamp": "2024-06-25 16:00:00-04:00",
+                "high_price": 19.26,
+                "trigger_timestamp": "2024-07-11 11:30:00-04:00",
+                "trigger_price": 18.18,
+                "percentage_drop": 5.61,
+                "bar_high": 18.28,
+                "bar_low": 18.18,
+                "bar_open": 18.21,
+                "bar_close": 18.22
+            }
+        ],
+        "trades": [
+            {
+                "buy_timestamp": "2024-02-01 16:00:00-05:00",
+                "buy_price": 19.72,
+                "sell_timestamp": "2024-02-02 07:00:00-05:00",
+                "sell_price": 20.84,
+                "profit": 0.99
+            },
+            {
+                "buy_timestamp": "2024-02-06 14:30:00-05:00",
+                "buy_price": 17.42,
+                "sell_timestamp": "2024-03-13 13:30:00-04:00",
+                "sell_price": 18.45,
+                "profit": 0.88
+            },
+            {
+                "buy_timestamp": "2024-04-18 11:30:00-04:00",
+                "buy_price": 18.63,
+                "sell_timestamp": "2024-04-26 09:30:00-04:00",
+                "sell_price": 19.68,
+                "profit": 0.94
+            },
+            {
+                "buy_timestamp": "2024-05-30 11:30:00-04:00",
+                "buy_price": 18.19,
+                "sell_timestamp": "2024-06-25 16:00:00-04:00",
+                "sell_price": 19.21,
+                "profit": 0.91
+            },
+            {
+                "buy_timestamp": "2024-07-11 11:30:00-04:00",
+                "buy_price": 18.18,
+                "sell_timestamp": "2024-07-15 11:30:00-04:00",
+                "sell_price": 19.2,
+                "profit": 0.91
+            }
+        ],
+        "totals": {
+            "Report": "Source: Yahoo, Period: 6Mo, Interval: 1Hr",
+            "Threshold": 5,
+            "Triggers": 6,
+            "Buy_Orders": 5,
+            "Sell_Orders": 5,
+            "Gained": 25,
+            "Working_Days": 55,
+            "Annual_Trade_Gain": 114.55,
+            "Score": 83.2,
+            "Updated": "2024-07-15 05:07:07 PM EDT"
+        }
+    }
+}

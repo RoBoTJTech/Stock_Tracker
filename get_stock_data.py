@@ -24,15 +24,18 @@ def print_object_details(obj):
 
 def get_serializable_attributes(ticker):
     serializable_attrs = {}
-    for attr in dir(ticker):
-        if not attr.startswith('_'):
-            try:
-                value = getattr(ticker, attr)
-                # Attempt to serialize the value to JSON
-                json.dumps(value)
-                serializable_attrs[attr] = value
-            except (TypeError, ValueError):
-                pass  # Skip non-serializable attributes
+    try:
+        for attr in dir(ticker):
+            if not attr.startswith('_'):
+                try:
+                    value = getattr(ticker, attr)
+                    # Attempt to serialize the value to JSON
+                    json.dumps(value)
+                    serializable_attrs[attr] = value
+                except (TypeError, ValueError):
+                    pass  # Skip non-serializable attributes
+    except:
+        pass
     return serializable_attrs
 
 def get_stock_details(ticker_symbol):
@@ -59,7 +62,34 @@ def estimate_inflows_outflows(yf_ticker_obj):
         return total_inflows, total_outflows, net_inflows_outflows
     else:
         return 0, 0, 0
-    
+
+def make_recommendation(yf_ticker_obj):
+    total_inflows, total_outflows, net_inflows_outflows = estimate_inflows_outflows(yf_ticker_obj)
+    try:
+        # Fetch additional data for trend analysis
+        data = fetch_yahoo_chart(yf_ticker_obj, '1y', '1d')
+        data['MA50'] = data['Close'].rolling(window=50).mean()
+        data['MA200'] = data['Close'].rolling(window=200).mean()
+        MA_Trend = data['MA50'].iloc[-1] - data['MA200'].iloc[-1]
+    except:
+        MA_Trend = 0
+
+    # Numerical recommendationMean mapping
+    if MA_Trend > 0 :
+        if net_inflows_outflows > 0:
+            recommendation_mean = 1
+        else:
+            recommendation_mean = 2
+    elif MA_Trend <= 0:
+        if net_inflows_outflows > 0:
+            recommendation_mean = 4
+        else:
+            recommendation_mean = 5
+    else:
+        recommendation_mean = 3
+
+    return total_inflows, total_outflows, net_inflows_outflows, recommendation_mean, MA_Trend
+
 # Heikin Ashi Calculations
 def calculate_heikin_ashi(data):
     if 'HA_Open' not in data.columns:
@@ -226,6 +256,11 @@ def save_to_json(ticker, triggers, trades, totals, filename):
     if not triggers and not trades and not totals:
         print(f"No data to save for {filename}. The values are empty.")
         return
+    
+    if not isinstance(totals, dict):
+        raise ValueError(f"Expected a dictionary for totals: {totals}. Did not save: {filename}")
+    # Remove keys with a value of 0
+    totals = {k: v for k, v in totals.items() if v != 0}
 
     result = {
         ticker: {
@@ -360,7 +395,7 @@ def high_to_highest_score(ratio):
     score = max_score * (1 - ((ratio - optimal_ratio) ** 2) / optimal_ratio ** 2)
     return max(0, score)  # Ensure the score is not negative
 
-def calculate_score(apr, total_months, curved_ratio, avg_monthly_change, pe_ratio, forward_pe_ratio, peg_ratio, ps_ratio):
+def calculate_score(apr, total_months, curved_ratio, avg_monthly_change, pe_ratio, forward_pe_ratio, peg_ratio, ps_ratio, risk):
     
     weighted_pe = 1 / (pe_ratio + 1) * 0.075 if pe_ratio and pe_ratio > 0 else 0
     weighted_forward_pe = 1 / (forward_pe_ratio + 1) * 0.075 if forward_pe_ratio and forward_pe_ratio > 0 else 0
@@ -371,27 +406,16 @@ def calculate_score(apr, total_months, curved_ratio, avg_monthly_change, pe_rati
     if combined_weighted_ratio == 0:
         combined_weighted_ratio = curved_ratio / 2
 
-    print(f"APR: {apr}")
-    print(f"Total Months: {total_months}")
-    print(f"Curved Ratio: {curved_ratio}")
-    print(f"Avg Monthly Change: {avg_monthly_change}")
-    print(f"P/E Ratio: {pe_ratio}, Weighted P/E: {weighted_pe}")
-    print(f"Forward P/E Ratio: {forward_pe_ratio}, Weighted Forward P/E: {weighted_forward_pe}")
-    print(f"PEG Ratio: {peg_ratio}, Weighted PEG: {weighted_peg}")
-    print(f"P/S Ratio: {ps_ratio}, Weighted P/S: {weighted_ps}")
-    print(f"Combined Weighted Ratio: {combined_weighted_ratio}")
-    
     chart_score = apr * total_months * curved_ratio * (1 + avg_monthly_change / 100)
     ratio_score = combined_weighted_ratio
-    score = max(chart_score * max(ratio_score, .01), 0)
-    print(f"Chart Score: {chart_score}")
-    print(f"Ratio Score: {ratio_score}")
-    print(f"Final Score: {score}")
+    risk = 10 - risk
+    risk_weight = 0.2
+    score = max(chart_score * max(ratio_score, .01), 0) * (1 + risk_weight * risk)
     return score
 
 # Analyze stock data for different periods and resolutions
 def analyze_stock(ticker):
-
+    print(f"Scraping data for: {ticker}")
     yf_ticker_obj = yf.Ticker(ticker)
 
     analyze_yahoo_chart(ticker, '1Mo', '5Mi', 60, yf_ticker_obj)
@@ -404,14 +428,23 @@ def analyze_stock(ticker):
         try: 
             details = get_stock_details(ticker)
             save_to_json(ticker, [], [], details, f"{ticker}_Details.json")
-            Recommendation = recommendation_mean_to_key(details['financialData']['recommendationMean'], 'None')
-            # Extract financial ratios from the correct keys
-            pe_ratio = details['summaryDetail'].get('trailingPE', 0)
-            forward_pe_ratio = details['summaryDetail'].get('forwardPE', 0)
-            peg_ratio = details['defaultKeyStatistics'].get('pegRatio', 0)
-            ps_ratio = details['summaryDetail'].get('priceToSalesTrailing12Months', 0)
-        except:     
+            # Extract financial recommendation mean and convert it
+            recommendation_mean = details.get('financialData', {}).get('recommendationMean', None)
+            if recommendation_mean:
+                Recommendation = recommendation_mean_to_key(recommendation_mean)
+            else:
+                Recommendation = 'None'
+
+            # Extract financial ratios with default values if primary keys are missing
+            risk = details.get('assetProfile', {}).get('overallRisk', 5)
+            pe_ratio = round(details.get('summaryDetail', {}).get('trailingPE', 0),2)
+            forward_pe_ratio = round(details.get('summaryDetail', {}).get('forwardPE', 0),2)
+            peg_ratio = round(details.get('defaultKeyStatistics', {}).get('pegRatio', 0),2)
+            ps_ratio = round(details.get('summaryDetail', {}).get('priceToSalesTrailing12Months', 0),2)
+        except Exception as e:
+            print(e) 
             Recommendation = 'None'
+            risk = 5
             pe_ratio = 0
             forward_pe_ratio = 0
             peg_ratio = 0
@@ -445,7 +478,7 @@ def analyze_stock(ticker):
         total_months = total_days / 30.44  # Average number of days per month
 
         # Calculate the daily growth rate
-        daily_growth_rate = (End_Price / Start_Price) ** (1 / total_days) - 1
+        daily_growth_rate = (End_Price / max(Start_Price,1)) ** (1 / max(total_days,1)) - 1
 
         # Calculate the annual APR based on daily compounding
         Average_APR = round(((1 + daily_growth_rate) ** 365 - 1) * 100, 2)
@@ -464,17 +497,15 @@ def analyze_stock(ticker):
         # Apply the curved function to high_to_highest_ratio
         curved_ratio = high_to_highest_curve(High_To_Highest_Ratio)
 
-        inflow, outflow, netflow = estimate_inflows_outflows(yf_ticker_obj)
+        inflow, outflow, netflow, recommendation_mean, MA_Trend = make_recommendation(yf_ticker_obj)
 
         # Calculate the score
         Score = calculate_score(Average_APR, total_months, curved_ratio, Average_Monthly_Change, 
-                                pe_ratio, forward_pe_ratio, peg_ratio, ps_ratio)
+                                pe_ratio, forward_pe_ratio, peg_ratio, ps_ratio, risk)
 
         if Recommendation == 'None':
-            if netflow > 0:
-                Recommendation = 'Buy'
-            else:
-                Recommendation = 'Sell'
+            Recommendation = recommendation_mean_to_key(recommendation_mean)
+
         # Save the results to JSON (mock function)
         save_to_json(ticker, [], [], {
             "Start_Date": Start_Date,
@@ -494,6 +525,8 @@ def analyze_stock(ticker):
             "Month_Inflow": inflow,
             "Month_Outflow": outflow,
             "Month_Net": netflow,
+            "50_200_MA_Trend": round(MA_Trend, 2),
+            "Risk": risk,
             "Score": round(Score, 2),
             "Updated": datetime.now(pytz.timezone('US/Eastern')).strftime("%Y-%m-%d %I:%M:%S %p %Z")
         }, f"{ticker}_Overall_Trend.json")

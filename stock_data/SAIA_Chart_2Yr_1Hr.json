@@ -1,0 +1,92 @@
+{
+    "SAIA": {
+        "triggers": [
+            {
+                "high_timestamp": "2022-08-11 11:30:00-04:00",
+                "high_price": 254.7,
+                "trigger_timestamp": "2022-09-09 14:30:00-04:00",
+                "trigger_price": 201.15,
+                "percentage_drop": 21.02,
+                "bar_high": 202.3,
+                "bar_low": 201.15,
+                "bar_open": 201.78,
+                "bar_close": 202.07
+            },
+            {
+                "high_timestamp": "2022-11-15 13:30:00-05:00",
+                "high_price": 261.67,
+                "trigger_timestamp": "2022-12-23 11:30:00-05:00",
+                "trigger_price": 213.7,
+                "percentage_drop": 18.33,
+                "bar_high": 215.51,
+                "bar_low": 213.7,
+                "bar_open": 214.25,
+                "bar_close": 214.33
+            },
+            {
+                "high_timestamp": "2023-09-07 09:30:00-04:00",
+                "high_price": 438.23,
+                "trigger_timestamp": "2023-10-30 13:30:00-04:00",
+                "trigger_price": 359.33,
+                "percentage_drop": 18.0,
+                "bar_high": 363.0,
+                "bar_low": 359.33,
+                "bar_open": 362.11,
+                "bar_close": 361.36
+            },
+            {
+                "high_timestamp": "2024-03-06 13:30:00-05:00",
+                "high_price": 617.14,
+                "trigger_timestamp": "2024-05-01 11:30:00-04:00",
+                "trigger_price": 398.16,
+                "percentage_drop": 35.48,
+                "bar_high": 402.43,
+                "bar_low": 398.16,
+                "bar_open": 400.02,
+                "bar_close": 402.43
+            }
+        ],
+        "trades": [
+            {
+                "buy_timestamp": "2022-09-09 14:30:00-04:00",
+                "buy_price": 201.15,
+                "sell_timestamp": "2022-11-07 18:00:00-05:00",
+                "sell_price": 238.71,
+                "profit": 36.41
+            },
+            {
+                "buy_timestamp": "2022-12-23 11:30:00-05:00",
+                "buy_price": 213.7,
+                "sell_timestamp": "2023-01-18 10:30:00-05:00",
+                "sell_price": 254.3,
+                "profit": 38.79
+            },
+            {
+                "buy_timestamp": "2023-10-30 13:30:00-04:00",
+                "buy_price": 359.33,
+                "sell_timestamp": "2023-12-04 12:30:00-05:00",
+                "sell_price": 428.34,
+                "profit": 65.34
+            },
+            {
+                "buy_timestamp": "2024-05-01 11:30:00-04:00",
+                "buy_price": 398.16,
+                "sell_timestamp": "2024-06-12 16:00:00-04:00",
+                "sell_price": 474.87,
+                "profit": 72.44
+            }
+        ],
+        "totals": {
+            "Report": "Source: Yahoo, Period: 2Yr, Interval: 1Hr",
+            "Threshold": 18,
+            "Triggers": 4,
+            "Buy_Orders": 4,
+            "Sell_Orders": 4,
+            "Gained": 72,
+            "Working_Days": 116,
+            "Annual_Trade_Gain": 156.41,
+            "Score": 291.71,
+            "Updated": "2024-07-15 10:56:20 AM EDT"
+        }
+    }
+}

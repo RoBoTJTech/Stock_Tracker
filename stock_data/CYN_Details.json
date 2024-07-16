@@ -1,0 +1,1430 @@
+{
+    "CYN": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "address1": "1015 O\u2019Brien Drive",
+                "city": "Menlo Park",
+                "state": "CA",
+                "zip": "94025",
+                "country": "United States",
+                "phone": "650 924 5905",
+                "website": "https://www.cyngn.com",
+                "industry": "Software\u2014Application",
+                "sector": "Technology",
+                "longBusinessSummary": "Cyngn Inc., an autonomous vehicle (AV) technology company, develops autonomous driving software. It develops Enterprise Autonomy Suite, which consists of DriveMod, a modular industrial vehicle autonomous driving software; Cyngn Insight, a customer-facing tool suite for monitoring and managing AV fleets and generating/aggregating/analyzing data; and Cyngn Evolve, an internal tool suite and infrastructure that facilitates artificial intelligence and machine learning training to enhance algorithms and models, and provides a simulation framework to ensure that data collected in the field can be applied to validating new releases. The company was incorporated in 2013 and is headquartered in Menlo Park, California.",
+                "fullTimeEmployees": 81,
+                "companyOfficers": [
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Lior  Tal",
+                        "age": 48,
+                        "title": "CEO & Chairman of the Board",
+                        "yearBorn": 1975,
+                        "fiscalYear": 2023,
+                        "totalPay": 800000,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 49657
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Donald  Alvarez",
+                        "age": 57,
+                        "title": "CFO & Director",
+                        "yearBorn": 1966,
+                        "fiscalYear": 2023,
+                        "totalPay": 360000,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Ben  Landen",
+                        "age": 35,
+                        "title": "Vice President of Business Development",
+                        "yearBorn": 1988,
+                        "fiscalYear": 2023,
+                        "totalPay": 300000,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. William  Ong",
+                        "title": "Head of Corporate Planning & Strategy",
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    }
+                ],
+                "compensationAsOfEpochDate": "2023-12-30 18:00:00",
+                "maxAge": 86400
+            },
+            "recommendationTrend": {
+                "trend": [
+                    {
+                        "period": "0m",
+                        "strongBuy": 0,
+                        "buy": 0,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-1m",
+                        "strongBuy": 0,
+                        "buy": 2,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-2m",
+                        "strongBuy": 0,
+                        "buy": 2,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-3m",
+                        "strongBuy": 0,
+                        "buy": 0,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "cashflowStatementHistory": {
+                "cashflowStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "netIncome": -22811230
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31",
+                        "netIncome": -19236509
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-12-31",
+                        "netIncome": -7799529
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2020-12-31",
+                        "netIncome": -8338807
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "indexTrend": {
+                "maxAge": 1,
+                "symbol": "SP5",
+                "peRatio": 19.8083,
+                "pegRatio": 1.63808,
+                "estimates": [
+                    {
+                        "period": "0q",
+                        "growth": 0.056999996
+                    },
+                    {
+                        "period": "+1q",
+                        "growth": 0.096
+                    },
+                    {
+                        "period": "0y",
+                        "growth": 0.036
+                    },
+                    {
+                        "period": "+1y",
+                        "growth": 0.123
+                    },
+                    {
+                        "period": "+5y",
+                        "growth": 0.114567004
+                    },
+                    {
+                        "period": "-5y"
+                    }
+                ]
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "enterpriseValue": 4531045,
+                "forwardPE": -0.5642857,
+                "profitMargins": 0.0,
+                "floatShares": 1303622,
+                "sharesOutstanding": 1415430,
+                "sharesShort": 28349,
+                "sharesShortPriorMonth": 19292,
+                "sharesShortPreviousMonthDate": "2024-05-30 19:00:00",
+                "dateShortInterest": "2024-06-27 19:00:00",
+                "sharesPercentSharesOut": 0.02,
+                "heldPercentInsiders": 0.00653,
+                "heldPercentInstitutions": 0.15461001,
+                "shortRatio": 0.1,
+                "shortPercentOfFloat": 0.0202,
+                "beta": -1.881,
+                "category": null,
+                "bookValue": 9.012,
+                "priceToBook": 0.87660897,
+                "fundFamily": null,
+                "legalType": null,
+                "lastFiscalYearEnd": "2023-12-30 18:00:00",
+                "nextFiscalYearEnd": "2024-12-30 18:00:00",
+                "mostRecentQuarter": "2024-03-30 19:00:00",
+                "netIncomeToCommon": -23152552,
+                "trailingEps": -44.82,
+                "forwardEps": -14.0,
+                "lastSplitFactor": null,
+                "enterpriseToRevenue": 7.284,
+                "enterpriseToEbitda": -0.196
+            },
+            "industryTrend": {
+                "maxAge": 1,
+                "symbol": null,
+                "estimates": []
+            },
+            "quoteType": {
+                "exchange": "NCM",
+                "quoteType": "EQUITY",
+                "symbol": "CYN",
+                "underlyingSymbol": "CYN",
+                "shortName": "Cyngn Inc.",
+                "longName": "Cyngn Inc.",
+                "firstTradeDateEpochUtc": "2021-10-20 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "9499afbb-d8e0-3035-b315-641ba20f0f99",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            },
+            "incomeStatementHistory": {
+                "incomeStatementHistory": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "totalRevenue": 1489317,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -22811230,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31",
+                        "totalRevenue": 262000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -19236509,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-12-31",
+                        "totalRevenue": 0,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -7799529,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2020-12-31",
+                        "totalRevenue": 0,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -8338807,
+                        "netIncomeApplicableToCommonShares": {}
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "fundOwnership": {
+                "ownershipList": [
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Vanguard Total Stock Market Index Fund",
+                        "pctHeld": 0.0138,
+                        "position": 479651,
+                        "value": 558139
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Vanguard Extended Market Index Fund",
+                        "pctHeld": 0.0029,
+                        "position": 101175,
+                        "value": 117730
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-05-31",
+                        "organization": "Fidelity Extended Market Index Fund",
+                        "pctHeld": 0.0023,
+                        "position": 79388,
+                        "value": 72170
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-08-31",
+                        "organization": "iShares Micro Cap ETF",
+                        "pctHeld": 0.0008,
+                        "position": 27755,
+                        "value": 14508
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-05-31",
+                        "organization": "Fidelity Series Total Market Index Fund",
+                        "pctHeld": 0.0004,
+                        "position": 14667,
+                        "value": 13333
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-05-31",
+                        "organization": "Fidelity NASDAQ Composite Index Fund",
+                        "pctHeld": 0.00029999999,
+                        "position": 11100,
+                        "value": 10090
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "EQ Advisors Trust-1290 VT Micro Cap Port",
+                        "pctHeld": 0.0001,
+                        "position": 2513,
+                        "value": 2924
+                    }
+                ],
+                "maxAge": 1
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 5.97,
+                "open": 5.87,
+                "dayLow": 5.87,
+                "dayHigh": 10.27,
+                "regularMarketPreviousClose": 5.97,
+                "regularMarketOpen": 5.87,
+                "regularMarketDayLow": 5.87,
+                "regularMarketDayHigh": 10.27,
+                "payoutRatio": 0.0,
+                "beta": -1.881,
+                "forwardPE": -0.5642857,
+                "volume": 5047454,
+                "regularMarketVolume": 5047454,
+                "averageVolume": 643274,
+                "averageVolume10days": 2102173,
+                "averageDailyVolume10Day": 2102173,
+                "bid": 7.8,
+                "ask": 8.19,
+                "bidSize": 300,
+                "askSize": 300,
+                "marketCap": 11181897,
+                "fiftyTwoWeekLow": 3.52,
+                "fiftyTwoWeekHigh": 104.0,
+                "priceToSalesTrailing12Months": 17.97646,
+                "fiftyDayAverage": 8.8358,
+                "twoHundredDayAverage": 18.77195,
+                "trailingAnnualDividendRate": 0.0,
+                "trailingAnnualDividendYield": 0.0,
+                "currency": "USD",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "insiderHolders": {
+                "holders": [
+                    {
+                        "maxAge": 1,
+                        "name": "ANDREESSEN HOROWITZ FUND III, L.P.",
+                        "relation": "Beneficial Owner of more than 10% of a Class of Security",
+                        "url": "",
+                        "transactionDescription": "Conversion of Exercise of derivative security",
+                        "latestTransDate": "2021-10-22",
+                        "positionIndirect": 287718,
+                        "positionIndirectDate": 1634860800
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "BENCHMARK CAPITAL MANAGEMENT CO VII L L C",
+                        "relation": "Beneficial Owner of more than 10% of a Class of Security",
+                        "url": "",
+                        "transactionDescription": "Conversion of Exercise of derivative security",
+                        "latestTransDate": "2021-10-22",
+                        "positionIndirect": 9238790,
+                        "positionIndirectDate": 1634860800
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "CUNNINGHAM COLLEEN",
+                        "relation": "Director",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2024-05-01",
+                        "positionDirect": 189522,
+                        "positionDirectDate": "2024-05-01"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "LANDEN BEN",
+                        "relation": "Officer",
+                        "url": "",
+                        "transactionDescription": "Conversion of Exercise of derivative security",
+                        "latestTransDate": "2022-07-27",
+                        "positionDirect": 40000,
+                        "positionDirectDate": "2022-07-27"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "LASKY MITCHELL H",
+                        "relation": "Director and Beneficial Owner of more than 10% of a Class of Security",
+                        "url": "",
+                        "transactionDescription": "Conversion of Exercise of derivative security",
+                        "latestTransDate": "2021-10-22",
+                        "positionIndirect": 290162,
+                        "positionIndirectDate": 1634860800
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "MACLEOD KAREN M.",
+                        "relation": "Director",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2024-05-01",
+                        "positionDirect": 190772,
+                        "positionDirectDate": "2024-05-01"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "MCDONNELL JAMES P",
+                        "relation": "Director",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2024-05-01",
+                        "positionDirect": 189522,
+                        "positionDirectDate": "2024-05-01"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "REDPOINT VENTURES IV, L.P.",
+                        "relation": "Beneficial Owner of more than 10% of a Class of Security",
+                        "url": "",
+                        "transactionDescription": "Conversion of Exercise of derivative security",
+                        "latestTransDate": "2021-10-22",
+                        "positionSummaryDate": 1634860800
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "TAL LIOR",
+                        "relation": "Chief Executive Officer",
+                        "url": "",
+                        "transactionDescription": "Conversion of Exercise of derivative security",
+                        "latestTransDate": "2022-02-02",
+                        "positionDirect": 500000,
+                        "positionDirectDate": "2022-02-02"
+                    }
+                ],
+                "maxAge": 1
+            },
+            "calendarEvents": {
+                "maxAge": 1,
+                "earnings": {
+                    "earningsDate": [
+                        "2024-08-06 19:00:S",
+                        "2024-08-11 19:00:S"
+                    ],
+                    "earningsAverage": -8.0,
+                    "earningsLow": -8.0,
+                    "earningsHigh": -8.0,
+                    "revenueAverage": 540000,
+                    "revenueLow": 540000,
+                    "revenueHigh": 540000
+                }
+            },
+            "upgradeDowngradeHistory": {
+                "history": [
+                    {
+                        "epochGradeDate": "2021-11-15 18:00:00",
+                        "firm": "Aegis Capital",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "init"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketChangePercent": -0.0281909,
+                "preMarketChange": -0.1683,
+                "preMarketTime": "2024-07-15 08:22:57",
+                "preMarketPrice": 5.8017,
+                "preMarketSource": "FREE_REALTIME",
+                "regularMarketChangePercent": 0.3243644,
+                "regularMarketChange": 1.9300003,
+                "regularMarketTime": "2024-07-15 10:01:37",
+                "priceHint": 2,
+                "regularMarketPrice": 7.9,
+                "regularMarketDayHigh": 10.27,
+                "regularMarketDayLow": 5.87,
+                "regularMarketVolume": 5047454,
+                "averageDailyVolume10Day": 2102173,
+                "averageDailyVolume3Month": 643274,
+                "regularMarketPreviousClose": 5.97,
+                "regularMarketSource": "FREE_REALTIME",
+                "regularMarketOpen": 5.87,
+                "exchange": "NCM",
+                "exchangeName": "NasdaqCM",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "REGULAR",
+                "quoteType": "EQUITY",
+                "symbol": "CYN",
+                "underlyingSymbol": null,
+                "shortName": "Cyngn Inc.",
+                "longName": "Cyngn Inc.",
+                "currency": "USD",
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "marketCap": 11181897
+            },
+            "balanceSheetHistory": {
+                "balanceSheetStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2020-12-31"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earningsTrend": {
+                "trend": [
+                    {
+                        "maxAge": 1,
+                        "period": "0q",
+                        "endDate": "2024-06-30",
+                        "growth": 0.537,
+                        "earningsEstimate": {
+                            "avg": -8.0,
+                            "low": -8.0,
+                            "high": -8.0,
+                            "yearAgoEps": -17.27,
+                            "numberOfAnalysts": 1,
+                            "growth": 0.537
+                        },
+                        "revenueEstimate": {
+                            "avg": 540000,
+                            "low": 540000,
+                            "high": 540000,
+                            "numberOfAnalysts": 1,
+                            "yearAgoRevenue": 551000,
+                            "growth": -0.02
+                        },
+                        "epsTrend": {
+                            "current": -8.0,
+                            "7daysAgo": -8.0,
+                            "30daysAgo": -0.08,
+                            "60daysAgo": -0.08,
+                            "90daysAgo": -0.07
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+1q",
+                        "endDate": "2024-09-30",
+                        "growth": 0.42900002,
+                        "earningsEstimate": {
+                            "avg": -8.0,
+                            "low": -8.0,
+                            "high": -8.0,
+                            "yearAgoEps": -14.0,
+                            "numberOfAnalysts": 1,
+                            "growth": 0.42900002
+                        },
+                        "revenueEstimate": {
+                            "avg": 1430000,
+                            "low": 1430000,
+                            "high": 1430000,
+                            "numberOfAnalysts": 1,
+                            "yearAgoRevenue": 25000,
+                            "growth": 56.2
+                        },
+                        "epsTrend": {
+                            "current": -8.0,
+                            "7daysAgo": -8.0,
+                            "30daysAgo": -0.08,
+                            "60daysAgo": -0.08,
+                            "90daysAgo": -0.1
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "0y",
+                        "endDate": "2024-12-31",
+                        "growth": 0.439,
+                        "earningsEstimate": {
+                            "avg": -32.0,
+                            "low": -32.0,
+                            "high": -32.0,
+                            "yearAgoEps": -57.0,
+                            "numberOfAnalysts": 1,
+                            "growth": 0.439
+                        },
+                        "revenueEstimate": {
+                            "avg": 2860000,
+                            "low": 2860000,
+                            "high": 2860000,
+                            "numberOfAnalysts": 1,
+                            "yearAgoRevenue": 1489000,
+                            "growth": 0.921
+                        },
+                        "epsTrend": {
+                            "current": -32.0,
+                            "7daysAgo": -32.0,
+                            "30daysAgo": -0.32,
+                            "60daysAgo": -0.32,
+                            "90daysAgo": -0.26
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+1y",
+                        "endDate": "2025-12-31",
+                        "growth": 0.56200004,
+                        "earningsEstimate": {
+                            "avg": -14.0,
+                            "low": -14.0,
+                            "high": -14.0,
+                            "yearAgoEps": -32.0,
+                            "numberOfAnalysts": 1,
+                            "growth": 0.56200004
+                        },
+                        "revenueEstimate": {
+                            "avg": 19640000,
+                            "low": 19640000,
+                            "high": 19640000,
+                            "numberOfAnalysts": 1,
+                            "yearAgoRevenue": 2860000,
+                            "growth": 5.867
+                        },
+                        "epsTrend": {
+                            "current": -14.0,
+                            "7daysAgo": -14.0,
+                            "30daysAgo": -0.14,
+                            "60daysAgo": -0.08,
+                            "90daysAgo": -0.08
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+5y",
+                        "endDate": null,
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": {},
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "numberOfAnalysts": {},
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": {},
+                            "7daysAgo": {},
+                            "30daysAgo": {},
+                            "60daysAgo": {},
+                            "90daysAgo": {}
+                        },
+                        "epsRevisions": {
+                            "upLast7days": {},
+                            "upLast30days": {},
+                            "downLast30days": {},
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "-5y",
+                        "endDate": null,
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": {},
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "numberOfAnalysts": {},
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": {},
+                            "7daysAgo": {},
+                            "30daysAgo": {},
+                            "60daysAgo": {},
+                            "90daysAgo": {}
+                        },
+                        "epsRevisions": {
+                            "upLast7days": {},
+                            "upLast30days": {},
+                            "downLast30days": {},
+                            "downLast90days": {}
+                        }
+                    }
+                ],
+                "maxAge": 1
+            },
+            "institutionOwnership": {
+                "ownershipList": [
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Redpoint Management, Llc",
+                        "pctHeld": 0.0709,
+                        "position": 2463851,
+                        "value": 2867025
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Vanguard Group Inc",
+                        "pctHeld": 0.0167,
+                        "position": 580826,
+                        "value": 675870
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Geode Capital Management, LLC",
+                        "pctHeld": 0.0058999998,
+                        "position": 203277,
+                        "value": 236540
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Blackrock Inc.",
+                        "pctHeld": 0.0033000002,
+                        "position": 115335,
+                        "value": 134207
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "JP Morgan Chase & Company",
+                        "pctHeld": 0.0017,
+                        "position": 57347,
+                        "value": 66731
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Northern Trust Corporation",
+                        "pctHeld": 0.00090000004,
+                        "position": 31994,
+                        "value": 37229
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "State Street Corporation",
+                        "pctHeld": 0.0008,
+                        "position": 28100,
+                        "value": 32698
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Tower Research Capital LLC (TRC)",
+                        "pctHeld": 0.0002,
+                        "position": 6170,
+                        "value": 7179
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Group One Trading, L.P.",
+                        "pctHeld": 0.0001,
+                        "position": 3800,
+                        "value": 4421
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "UBS Group AG",
+                        "pctHeld": 0.0001,
+                        "position": 5001,
+                        "value": 5819
+                    }
+                ],
+                "maxAge": 1
+            },
+            "majorHoldersBreakdown": {
+                "maxAge": 1,
+                "insidersPercentHeld": 0.00653,
+                "institutionsPercentHeld": 0.15461001,
+                "institutionsFloatPercentHeld": 0.15562999,
+                "institutionsCount": 30
+            },
+            "balanceSheetHistoryQuarterly": {
+                "balanceSheetStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-09-30"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earningsHistory": {
+                "history": [
+                    {
+                        "maxAge": 1,
+                        "epsActual": -17.27,
+                        "epsEstimate": -17.27,
+                        "epsDifference": 0.0,
+                        "surprisePercent": 0.0,
+                        "quarter": "2023-06-30",
+                        "period": "-4q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": -14.0,
+                        "epsEstimate": -16.36,
+                        "epsDifference": 2.36,
+                        "surprisePercent": 0.144,
+                        "quarter": "2023-09-30",
+                        "period": "-3q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": -12.0,
+                        "epsEstimate": -12.0,
+                        "epsDifference": 0.0,
+                        "surprisePercent": 0.0,
+                        "quarter": "2023-12-31",
+                        "period": "-2q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": -8.0,
+                        "epsEstimate": -6.0,
+                        "epsDifference": -2.0,
+                        "surprisePercent": -0.333,
+                        "quarter": "2024-03-31",
+                        "period": "-1q"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "summaryProfile": {
+                "address1": "1015 O\u2019Brien Drive",
+                "city": "Menlo Park",
+                "state": "CA",
+                "zip": "94025",
+                "country": "United States",
+                "phone": "650 924 5905",
+                "website": "https://www.cyngn.com",
+                "industry": "Software\u2014Application",
+                "sector": "Technology",
+                "longBusinessSummary": "Cyngn Inc., an autonomous vehicle (AV) technology company, develops autonomous driving software. It develops Enterprise Autonomy Suite, which consists of DriveMod, a modular industrial vehicle autonomous driving software; Cyngn Insight, a customer-facing tool suite for monitoring and managing AV fleets and generating/aggregating/analyzing data; and Cyngn Evolve, an internal tool suite and infrastructure that facilitates artificial intelligence and machine learning training to enhance algorithms and models, and provides a simulation framework to ensure that data collected in the field can be applied to validating new releases. The company was incorporated in 2013 and is headquartered in Menlo Park, California.",
+                "fullTimeEmployees": 81,
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "netSharePurchaseActivity": {
+                "maxAge": 1,
+                "period": "6m",
+                "buyInfoCount": 0,
+                "buyInfoShares": 0,
+                "sellInfoCount": 0,
+                "netInfoCount": 0,
+                "netInfoShares": 0,
+                "totalInsiderShares": 9242
+            },
+            "insiderTransactions": {
+                "transactions": [
+                    {
+                        "maxAge": 1,
+                        "shares": 72000,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "MACLEOD KAREN M.",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2024-05-01",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 72000,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "MCDONNELL JAMES P",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2024-05-01",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 72000,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "CUNNINGHAM COLLEEN",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2024-05-01",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 36000,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "MACLEOD KAREN M.",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-05-26",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 36000,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "MCDONNELL JAMES P",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-05-26",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 36000,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "CUNNINGHAM COLLEEN",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-05-26",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1250,
+                        "value": 1538,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 1.23 per share.",
+                        "filerName": "MACLEOD KAREN M.",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-03-31",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 40000,
+                        "value": 9200,
+                        "filerUrl": "",
+                        "transactionText": "Conversion of Exercise of derivative security at price 0.23 per share.",
+                        "filerName": "LANDEN BEN",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2022-07-27",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2717,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "MACLEOD KAREN M.",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2022-07-13",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2717,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "MCDONNELL JAMES P",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2022-07-13",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2717,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "CUNNINGHAM COLLEEN",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2022-07-13",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 500000,
+                        "value": 65000,
+                        "filerUrl": "",
+                        "transactionText": "Conversion of Exercise of derivative security at price 0.13 per share.",
+                        "filerName": "TAL LIOR",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2022-02-02",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 9238787,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "LASKY MITCHELL H",
+                        "filerRelation": "Director and Beneficial Owner of more than 10% of a Class of Security",
+                        "moneyText": "",
+                        "startDate": "2021-10-22",
+                        "ownership": "I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 9238787,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "BENCHMARK CAPITAL MANAGEMENT CO VII L L C",
+                        "filerRelation": "Beneficial Owner of more than 10% of a Class of Security",
+                        "moneyText": "",
+                        "startDate": "2021-10-22",
+                        "ownership": "I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5234828,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "ANDREESSEN HOROWITZ FUND III, L.P.",
+                        "filerRelation": "Beneficial Owner of more than 10% of a Class of Security",
+                        "moneyText": "",
+                        "startDate": "2021-10-22",
+                        "ownership": "I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2463851,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "REDPOINT VENTURES IV, L.P.",
+                        "filerRelation": "Beneficial Owner of more than 10% of a Class of Security",
+                        "moneyText": "",
+                        "startDate": "2021-10-22",
+                        "ownership": "D/I"
+                    }
+                ],
+                "maxAge": 1
+            },
+            "sectorTrend": {
+                "maxAge": 1,
+                "symbol": null,
+                "estimates": []
+            },
+            "incomeStatementHistoryQuarterly": {
+                "incomeStatementHistory": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31",
+                        "totalRevenue": 5513,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -5970079,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "totalRevenue": 40356,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -5357561,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-09-30",
+                        "totalRevenue": 25210,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -5471512,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30",
+                        "totalRevenue": 550952,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -6353399,
+                        "netIncomeApplicableToCommonShares": {}
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "cashflowStatementHistoryQuarterly": {
+                "cashflowStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31",
+                        "netIncome": -5970079
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "netIncome": -5357561
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-09-30",
+                        "netIncome": -5471512
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30",
+                        "netIncome": -6353399
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earnings": {
+                "maxAge": 86400,
+                "earningsChart": {
+                    "quarterly": [
+                        {
+                            "date": "2Q2023",
+                            "actual": -17.27,
+                            "estimate": -17.27
+                        },
+                        {
+                            "date": "3Q2023",
+                            "actual": -14.0,
+                            "estimate": -16.36
+                        },
+                        {
+                            "date": "4Q2023",
+                            "actual": -12.0,
+                            "estimate": -12.0
+                        },
+                        {
+                            "date": "1Q2024",
+                            "actual": -8.0,
+                            "estimate": -6.0
+                        }
+                    ],
+                    "currentQuarterEstimate": -8.0,
+                    "currentQuarterEstimateDate": "2Q",
+                    "currentQuarterEstimateYear": 2024,
+                    "earningsDate": [
+                        "2024-08-06 19:00:S",
+                        "2024-08-11 19:00:S"
+                    ]
+                },
+                "financialsChart": {
+                    "yearly": [
+                        {
+                            "date": 2020,
+                            "revenue": 0,
+                            "earnings": -8338807
+                        },
+                        {
+                            "date": 2021,
+                            "revenue": 0,
+                            "earnings": -7799529
+                        },
+                        {
+                            "date": 2022,
+                            "revenue": 262000,
+                            "earnings": -19236509
+                        },
+                        {
+                            "date": 2023,
+                            "revenue": 1489317,
+                            "earnings": -22811230
+                        }
+                    ],
+                    "quarterly": [
+                        {
+                            "date": "2Q2023",
+                            "revenue": 550952,
+                            "earnings": -6353399
+                        },
+                        {
+                            "date": "3Q2023",
+                            "revenue": 25210,
+                            "earnings": -5471512
+                        },
+                        {
+                            "date": "4Q2023",
+                            "revenue": 40356,
+                            "earnings": -5357561
+                        },
+                        {
+                            "date": "1Q2024",
+                            "revenue": 5513,
+                            "earnings": -5970079
+                        }
+                    ]
+                },
+                "financialCurrency": "USD"
+            },
+            "pageViews": {
+                "shortTermTrend": "DOWN",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "financialData": {
+                "maxAge": 86400,
+                "currentPrice": 7.9,
+                "targetHighPrice": 300.0,
+                "targetLowPrice": 134.0,
+                "targetMeanPrice": 217.0,
+                "targetMedianPrice": 217.0,
+                "recommendationMean": 2.0,
+                "recommendationKey": "buy",
+                "numberOfAnalystOpinions": 2,
+                "totalCash": 4771280,
+                "totalCashPerShare": 3.371,
+                "ebitda": -23163376,
+                "totalDebt": 852226,
+                "quickRatio": 3.301,
+                "currentRatio": 3.704,
+                "totalRevenue": 622030,
+                "debtToEquity": 10.691,
+                "revenuePerShare": 1.248,
+                "returnOnAssets": -0.97369003,
+                "returnOnEquity": -1.69048,
+                "freeCashflow": -12152603,
+                "operatingCashflow": -19940552,
+                "revenueGrowth": -0.994,
+                "grossMargins": -0.15654,
+                "ebitdaMargins": 0.0,
+                "operatingMargins": -1082.2345,
+                "profitMargins": 0.0,
+                "financialCurrency": "USD"
+            }
+        }
+    }
+}

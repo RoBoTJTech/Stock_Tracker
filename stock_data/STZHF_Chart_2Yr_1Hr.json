@@ -1,0 +1,56 @@
+{
+    "STZHF": {
+        "triggers": [
+            {
+                "high_timestamp": "2022-07-27 12:30:00-04:00",
+                "high_price": 27.99,
+                "trigger_timestamp": "2022-07-28 09:30:00-04:00",
+                "trigger_price": 27.7,
+                "percentage_drop": 1.04,
+                "bar_high": 28.0,
+                "bar_low": 27.7,
+                "bar_open": 27.7,
+                "bar_close": 27.9
+            },
+            {
+                "high_timestamp": "2022-08-10 12:30:00-04:00",
+                "high_price": 29.9,
+                "trigger_timestamp": "2022-08-18 14:30:00-04:00",
+                "trigger_price": 28.81,
+                "percentage_drop": 3.65,
+                "bar_high": 28.89,
+                "bar_low": 28.81,
+                "bar_open": 28.87,
+                "bar_close": 28.81
+            }
+        ],
+        "trades": [
+            {
+                "buy_timestamp": "2022-07-28 09:30:00-04:00",
+                "buy_price": 27.7,
+                "sell_timestamp": "2022-08-04 11:30:00-04:00",
+                "sell_price": 28.28,
+                "profit": 0.28
+            },
+            {
+                "buy_timestamp": "2022-08-18 14:30:00-04:00",
+                "buy_price": 28.81,
+                "sell_timestamp": "2022-08-25 09:30:00-04:00",
+                "sell_price": 29.18,
+                "profit": 0.29
+            }
+        ],
+        "totals": {
+            "Report": "Source: Yahoo, Period: 2Yr, Interval: 1Hr",
+            "Threshold": 1,
+            "Triggers": 2,
+            "Buy_Orders": 2,
+            "Sell_Orders": 2,
+            "Gained": 2,
+            "Working_Days": 11,
+            "Annual_Trade_Gain": 45.82,
+            "Score": 1.11,
+            "Updated": "2024-07-15 01:26:15 PM EDT"
+        }
+    }
+}

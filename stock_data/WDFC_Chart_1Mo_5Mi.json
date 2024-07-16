@@ -1,0 +1,56 @@
+{
+    "WDFC": {
+        "triggers": [
+            {
+                "high_timestamp": "2024-06-18 14:25:00-04:00",
+                "high_price": 225.24,
+                "trigger_timestamp": "2024-07-05 11:05:00-04:00",
+                "trigger_price": 214.87,
+                "percentage_drop": 4.61,
+                "bar_high": 215.3,
+                "bar_low": 214.87,
+                "bar_open": 214.93,
+                "bar_close": 214.87
+            },
+            {
+                "high_timestamp": "2024-07-10 18:25:00-04:00",
+                "high_price": 247.0,
+                "trigger_timestamp": "2024-07-11 10:15:00-04:00",
+                "trigger_price": 229.55,
+                "percentage_drop": 7.06,
+                "bar_high": 231.55,
+                "bar_low": 229.55,
+                "bar_open": 230.89,
+                "bar_close": 229.95
+            }
+        ],
+        "trades": [
+            {
+                "buy_timestamp": "2024-07-05 11:05:00-04:00",
+                "buy_price": 214.87,
+                "sell_timestamp": "2024-07-08 16:00:00-04:00",
+                "sell_price": 223.91,
+                "profit": 8.61
+            },
+            {
+                "buy_timestamp": "2024-07-11 10:15:00-04:00",
+                "buy_price": 229.55,
+                "sell_timestamp": "2024-07-15 09:30:00-04:00",
+                "sell_price": 240.81,
+                "profit": 9.26
+            }
+        ],
+        "totals": {
+            "Report": "Source: Yahoo, Period: 1Mo, Interval: 5Mi",
+            "Threshold": 4,
+            "Triggers": 2,
+            "Buy_Orders": 2,
+            "Sell_Orders": 2,
+            "Gained": 8,
+            "Working_Days": 4,
+            "Annual_Trade_Gain": 504.0,
+            "Score": 48.66,
+            "Updated": "2024-07-15 07:53:58 PM EDT"
+        }
+    }
+}

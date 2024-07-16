@@ -1,0 +1,4056 @@
+{
+    "SWBI": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "address1": "2100 Roosevelt Avenue",
+                "city": "Springfield",
+                "state": "MA",
+                "zip": "01104",
+                "country": "United States",
+                "phone": "800 331 0852",
+                "fax": "413 747 3317",
+                "website": "https://www.smith-wesson.com",
+                "industry": "Aerospace & Defense",
+                "industryKey": "aerospace-defense",
+                "industryDisp": "Aerospace & Defense",
+                "sector": "Industrials",
+                "sectorKey": "industrials",
+                "sectorDisp": "Industrials",
+                "longBusinessSummary": "Smith & Wesson Brands, Inc. designs, manufactures, and sells firearms worldwide. The company offers handguns, including revolvers and pistols; long guns, such as modern sporting rifles, bolt action rifles; handcuffs; suppressors; and other firearm-related products under the Smith & Wesson, M&P, and Gemtech brands. It also provides manufacturing services comprising forging, heat treating, rapid prototyping, tooling, finishing, plating, machining, and custom plastic injection molding to other businesses under the Smith & Wesson and Smith & Wesson Precision Components brand names; and sells parts purchased through third parties. The company sells its products to firearm enthusiasts, collectors, hunters, sportsmen, competitive shooters, individuals desiring home and personal protection, law enforcement, security agencies and officers, and military agencies. It markets its products through independent dealers, retailers, in-store retails, and direct to consumers; print, broadcast, and digital advertising campaigns; social and electronic media; and in-store retail merchandising strategies. Smith & Wesson Brands, Inc. was founded in 1852 and is based in Springfield, Massachusetts.",
+                "fullTimeEmployees": 1501,
+                "companyOfficers": [
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Mark Peter Smith",
+                        "age": 47,
+                        "title": "President, CEO & Director",
+                        "yearBorn": 1976,
+                        "fiscalYear": 2023,
+                        "totalPay": 802849,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Ms. Deana L. McPherson",
+                        "age": 53,
+                        "title": "Executive VP, CFO, Treasurer & Assistant Secretary",
+                        "yearBorn": 1970,
+                        "fiscalYear": 2023,
+                        "totalPay": 472501,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Kevin Alden Maxwell",
+                        "age": 46,
+                        "title": "Senior VP, General Counsel, Chief Compliance Officer & Secretary",
+                        "yearBorn": 1977,
+                        "fiscalYear": 2023,
+                        "totalPay": 366167,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Ms. Susan Jean Cupero",
+                        "age": 63,
+                        "title": "Vice President of Sales",
+                        "yearBorn": 1960,
+                        "fiscalYear": 2023,
+                        "totalPay": 355352,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. John R. Dineen",
+                        "title": "Chief Information Officer",
+                        "fiscalYear": 2023,
+                        "totalPay": 275685,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    }
+                ],
+                "auditRisk": 7,
+                "boardRisk": 1,
+                "compensationRisk": 1,
+                "shareHolderRightsRisk": 3,
+                "overallRisk": 2,
+                "governanceEpochDate": "2024-06-30 19:00:00",
+                "compensationAsOfEpochDate": "2023-12-30 18:00:00",
+                "irWebsite": "http://ir.smith-wesson.com/phoenix.zhtml?c=90977&p=irol-investorHome",
+                "maxAge": 86400
+            },
+            "recommendationTrend": {
+                "trend": [
+                    {
+                        "period": "0m",
+                        "strongBuy": 0,
+                        "buy": 0,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-1m",
+                        "strongBuy": 0,
+                        "buy": 3,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-2m",
+                        "strongBuy": 0,
+                        "buy": 3,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-3m",
+                        "strongBuy": 0,
+                        "buy": 0,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "cashflowStatementHistory": {
+                "cashflowStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-04-30",
+                        "netIncome": 39609000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-04-30",
+                        "netIncome": 36876000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-04-30",
+                        "netIncome": 194494000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-04-30",
+                        "netIncome": 252049000
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "indexTrend": {
+                "maxAge": 1,
+                "symbol": "SP5",
+                "peRatio": 19.8083,
+                "pegRatio": 1.63808,
+                "estimates": [
+                    {
+                        "period": "0q",
+                        "growth": 0.056999996
+                    },
+                    {
+                        "period": "+1q",
+                        "growth": 0.096
+                    },
+                    {
+                        "period": "0y",
+                        "growth": 0.036
+                    },
+                    {
+                        "period": "+1y",
+                        "growth": 0.123
+                    },
+                    {
+                        "period": "+5y",
+                        "growth": 0.114567004
+                    },
+                    {
+                        "period": "-5y"
+                    }
+                ]
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "enterpriseValue": 656274240,
+                "profitMargins": 0.073920004,
+                "floatShares": 42206779,
+                "sharesOutstanding": 45559500,
+                "sharesShort": 1202293,
+                "sharesShortPriorMonth": 1047284,
+                "sharesShortPreviousMonthDate": "2024-05-30 19:00:00",
+                "dateShortInterest": "2024-06-27 19:00:00",
+                "sharesPercentSharesOut": 0.026400002,
+                "heldPercentInsiders": 0.013309999,
+                "heldPercentInstitutions": 0.60729,
+                "shortRatio": 1.91,
+                "shortPercentOfFloat": 0.026600001,
+                "beta": 1.02,
+                "impliedSharesOutstanding": 45559500,
+                "category": null,
+                "bookValue": 8.739,
+                "priceToBook": 1.7748026,
+                "fundFamily": null,
+                "legalType": null,
+                "lastFiscalYearEnd": "2024-04-29 19:00:00",
+                "nextFiscalYearEnd": "2025-04-29 19:00:00",
+                "mostRecentQuarter": "2024-04-29 19:00:00",
+                "earningsQuarterlyGrowth": 1.034,
+                "netIncomeToCommon": 39609000,
+                "trailingEps": 0.86,
+                "forwardEps": 1.18,
+                "pegRatio": 0.94,
+                "lastSplitFactor": "1301:1000",
+                "lastSplitDate": "2020-08-24 19:00:00",
+                "enterpriseToRevenue": 1.225,
+                "enterpriseToEbitda": 7.785,
+                "52WeekChange": 0.099607825,
+                "SandP52WeekChange": 0.24156773,
+                "lastDividendValue": 0.13,
+                "lastDividendDate": 1720656000
+            },
+            "industryTrend": {
+                "maxAge": 1,
+                "symbol": null,
+                "estimates": []
+            },
+            "quoteType": {
+                "exchange": "NMS",
+                "quoteType": "EQUITY",
+                "symbol": "SWBI",
+                "underlyingSymbol": "SWBI",
+                "shortName": "Smith & Wesson Brands, Inc.",
+                "longName": "Smith & Wesson Brands, Inc.",
+                "firstTradeDateEpochUtc": "1999-08-17 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "dffcdc16-6f1a-300b-8bfd-c9372fa1de7a",
+                "messageBoardId": "finmb_414079",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            },
+            "incomeStatementHistory": {
+                "incomeStatementHistory": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-04-30",
+                        "totalRevenue": 535833000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 39609000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-04-30",
+                        "totalRevenue": 479242000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 36876000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-04-30",
+                        "totalRevenue": 864126000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 194494000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-04-30",
+                        "totalRevenue": 1059195000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 252049000,
+                        "netIncomeApplicableToCommonShares": {}
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "fundOwnership": {
+                "maxAge": 1,
+                "ownershipList": [
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Vanguard Total Stock Market Index Fund",
+                        "pctHeld": 0.0315,
+                        "position": 1435422,
+                        "value": 22263395,
+                        "pctChange": 0.0016
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-05-31",
+                        "organization": "iShares Russell 2000 ETF",
+                        "pctHeld": 0.023,
+                        "position": 1046796,
+                        "value": 16235806,
+                        "pctChange": -0.013099999
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-05-31",
+                        "organization": "Avantis U.S. Small Cap Value ETF",
+                        "pctHeld": 0.0183,
+                        "position": 835337,
+                        "value": 12956077,
+                        "pctChange": 0.0687
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Vanguard Extended Market Index Fund",
+                        "pctHeld": 0.015800001,
+                        "position": 719200,
+                        "value": 11154792,
+                        "pctChange": 0.0155
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-05-31",
+                        "organization": "iShares U.S. Aerospace & Defense ETF",
+                        "pctHeld": 0.0153,
+                        "position": 696916,
+                        "value": 10809167,
+                        "pctChange": -0.0011
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Vanguard Small-Cap Index Fund",
+                        "pctHeld": 0.0127,
+                        "position": 580576,
+                        "value": 9004733,
+                        "pctChange": -0.0117999995
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-02-29",
+                        "organization": "Schwab Strategic Tr-Schwab Fundamental U.S. Small Company Index ETF",
+                        "pctHeld": 0.0114,
+                        "position": 520775,
+                        "value": 8077220,
+                        "pctChange": 0.0234
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-04-30",
+                        "organization": "DFA U.S. Targeted Value Portfolio",
+                        "pctHeld": 0.0104,
+                        "position": 471963,
+                        "value": 7320146,
+                        "pctChange": 0.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-04-30",
+                        "organization": "Fidelity Small Cap Index Fund",
+                        "pctHeld": 0.01,
+                        "position": 455996,
+                        "value": 7072498,
+                        "pctChange": -0.010299999
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-05-31",
+                        "organization": "iShares Russell 2000 Value ETF",
+                        "pctHeld": 0.009,
+                        "position": 409662,
+                        "value": 6353857,
+                        "pctChange": -0.0304
+                    }
+                ]
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 14.02,
+                "open": 15.17,
+                "dayLow": 15.13,
+                "dayHigh": 16.0196,
+                "regularMarketPreviousClose": 14.02,
+                "regularMarketOpen": 15.17,
+                "regularMarketDayLow": 15.13,
+                "regularMarketDayHigh": 16.0196,
+                "dividendRate": 0.52,
+                "dividendYield": 0.037100002,
+                "exDividendDate": "2024-07-10 19:00:00",
+                "payoutRatio": 0.5581,
+                "beta": 1.02,
+                "trailingPE": 18.034883,
+                "forwardPE": 13.144069,
+                "volume": 936776,
+                "regularMarketVolume": 936776,
+                "averageVolume": 402060,
+                "averageVolume10days": 470900,
+                "averageDailyVolume10Day": 470900,
+                "bid": 15.47,
+                "ask": 15.56,
+                "bidSize": 100,
+                "askSize": 200,
+                "marketCap": 706627840,
+                "fiftyTwoWeekLow": 10.38,
+                "fiftyTwoWeekHigh": 18.05,
+                "priceToSalesTrailing12Months": 1.3187464,
+                "fiftyDayAverage": 15.716,
+                "twoHundredDayAverage": 14.7992,
+                "trailingAnnualDividendRate": 0.48,
+                "trailingAnnualDividendYield": 0.034236804,
+                "currency": "USD",
+                "fromCurrency": null,
+                "toCurrency": null,
+                "lastMarket": null,
+                "coinMarketCapLink": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "insiderHolders": {
+                "holders": [
+                    {
+                        "maxAge": 1,
+                        "name": "BRITT ANITA D",
+                        "relation": "Director",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2023-09-19",
+                        "positionDirect": 46207,
+                        "positionDirectDate": "2023-09-19"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "CUPERO SUSAN JEAN",
+                        "relation": "Officer",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2024-05-01",
+                        "positionDirect": 66965,
+                        "positionDirectDate": "2024-05-01"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "FURMAN JOHN B",
+                        "relation": "Director",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2023-09-19",
+                        "positionDirect": 54093,
+                        "positionDirectDate": "2023-09-19"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "LOHMEIER MICHELLE J",
+                        "relation": "Director",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2023-09-19",
+                        "positionDirect": 16339,
+                        "positionDirectDate": "2023-09-19"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "MAXWELL KEVIN ALDEN",
+                        "relation": "General Counsel",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2024-05-01",
+                        "positionDirect": 57259,
+                        "positionDirectDate": "2024-05-01"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "MCPHERSON DEANA L.",
+                        "relation": "Chief Financial Officer",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2024-05-01",
+                        "positionDirect": 98099,
+                        "positionDirectDate": "2024-05-01"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "MONHEIT BARRY M",
+                        "relation": "Director",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2023-09-19",
+                        "positionDirect": 98369,
+                        "positionDirectDate": "2023-09-19"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "SCOTT ROBERT L",
+                        "relation": "Director",
+                        "url": "",
+                        "transactionDescription": "Sale",
+                        "latestTransDate": "2024-06-28",
+                        "positionDirect": 69569,
+                        "positionDirectDate": "2024-06-28"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "SMITH MARK PETER",
+                        "relation": "Chief Executive Officer",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2024-05-01",
+                        "positionDirect": 377148,
+                        "positionDirectDate": "2024-05-01"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "SUGGS DENIS G",
+                        "relation": "Director",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2023-09-19",
+                        "positionDirect": 26493,
+                        "positionDirectDate": "2023-09-19"
+                    }
+                ],
+                "maxAge": 1
+            },
+            "calendarEvents": {
+                "maxAge": 1,
+                "earnings": {
+                    "earningsDate": [
+                        "2024-09-05 05:59:S",
+                        "2024-09-09 07:00:S"
+                    ],
+                    "earningsCallDate": [
+                        1718917200
+                    ],
+                    "isEarningsDateEstimate": true,
+                    "earningsAverage": -0.02,
+                    "earningsLow": -0.03,
+                    "earningsHigh": -0.01,
+                    "revenueAverage": 102520000,
+                    "revenueLow": 102220000,
+                    "revenueHigh": 102820000
+                },
+                "exDividendDate": "2024-07-10 19:00:00",
+                "dividendDate": "2024-07-24 19:00:00"
+            },
+            "upgradeDowngradeHistory": {
+                "history": [
+                    {
+                        "epochGradeDate": "2024-06-21 09:11:32",
+                        "firm": "Lake Street",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2024-03-08 12:50:32",
+                        "firm": "Craig-Hallum",
+                        "toGrade": "Buy",
+                        "fromGrade": "Hold",
+                        "action": "up"
+                    },
+                    {
+                        "epochGradeDate": "2024-03-08 10:23:58",
+                        "firm": "Lake Street",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2023-12-08 11:03:03",
+                        "firm": "Craig-Hallum",
+                        "toGrade": "Hold",
+                        "fromGrade": "Hold",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2022-09-09 08:17:29",
+                        "firm": "Lake Street",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2021-12-03 08:32:53",
+                        "firm": "Cowen & Co.",
+                        "toGrade": "Market Perform",
+                        "fromGrade": "Outperform",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2021-03-05 07:03:12",
+                        "firm": "Craig-Hallum",
+                        "toGrade": "Hold",
+                        "fromGrade": "Buy",
+                        "action": "down"
+                    },
+                    {
+                        "epochGradeDate": "2020-09-24 07:59:17",
+                        "firm": "Aegis Capital",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "init"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "FREE_REALTIME",
+                "regularMarketChangePercent": 0.10627672,
+                "regularMarketChange": 1.4899998,
+                "regularMarketTime": "2024-07-15 10:24:18",
+                "priceHint": 2,
+                "regularMarketPrice": 15.51,
+                "regularMarketDayHigh": 16.0196,
+                "regularMarketDayLow": 15.13,
+                "regularMarketVolume": 936776,
+                "averageDailyVolume10Day": 470900,
+                "averageDailyVolume3Month": 402060,
+                "regularMarketPreviousClose": 14.02,
+                "regularMarketSource": "FREE_REALTIME",
+                "regularMarketOpen": 15.17,
+                "exchange": "NMS",
+                "exchangeName": "NasdaqGS",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "REGULAR",
+                "quoteType": "EQUITY",
+                "symbol": "SWBI",
+                "underlyingSymbol": null,
+                "shortName": "Smith & Wesson Brands, Inc.",
+                "longName": "Smith & Wesson Brands, Inc.",
+                "currency": "USD",
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "toCurrency": null,
+                "lastMarket": null,
+                "marketCap": 706627840
+            },
+            "balanceSheetHistory": {
+                "balanceSheetStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-04-30"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-04-30"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-04-30"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2021-04-30"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earningsTrend": {
+                "trend": [
+                    {
+                        "maxAge": 1,
+                        "period": "0q",
+                        "endDate": "2024-07-31",
+                        "growth": -1.286,
+                        "earningsEstimate": {
+                            "avg": -0.02,
+                            "low": -0.03,
+                            "high": -0.01,
+                            "yearAgoEps": 0.07,
+                            "numberOfAnalysts": 2,
+                            "growth": -1.286
+                        },
+                        "revenueEstimate": {
+                            "avg": 102520000,
+                            "low": 102220000,
+                            "high": 102820000,
+                            "numberOfAnalysts": 2,
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": -0.02,
+                            "7daysAgo": -0.02,
+                            "30daysAgo": 0.18,
+                            "60daysAgo": 0.18,
+                            "90daysAgo": 0.18
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+1q",
+                        "endDate": "2024-10-31",
+                        "growth": 2.2,
+                        "earningsEstimate": {
+                            "avg": 0.16,
+                            "low": 0.13,
+                            "high": 0.2,
+                            "yearAgoEps": 0.05,
+                            "numberOfAnalysts": 2,
+                            "growth": 2.2
+                        },
+                        "revenueEstimate": {
+                            "avg": 132420000,
+                            "low": 130250000,
+                            "high": 134590000,
+                            "numberOfAnalysts": 2,
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": 0.16,
+                            "7daysAgo": 0.16,
+                            "30daysAgo": 0.28,
+                            "60daysAgo": 0.28,
+                            "90daysAgo": 0.28
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "0y",
+                        "endDate": "2025-04-30",
+                        "growth": 0.403,
+                        "earningsEstimate": {
+                            "avg": 1.01,
+                            "low": 0.96,
+                            "high": 1.07,
+                            "yearAgoEps": 0.72,
+                            "numberOfAnalysts": 2,
+                            "growth": 0.403
+                        },
+                        "revenueEstimate": {
+                            "avg": 567040000,
+                            "low": 563350000,
+                            "high": 570740000,
+                            "numberOfAnalysts": 2,
+                            "yearAgoRevenue": 535833000,
+                            "growth": 0.058000002
+                        },
+                        "epsTrend": {
+                            "current": 1.01,
+                            "7daysAgo": 1.01,
+                            "30daysAgo": 1.18,
+                            "60daysAgo": 1.18,
+                            "90daysAgo": 1.18
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 1,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+1y",
+                        "endDate": "2026-04-30",
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": 0.0,
+                            "low": 0.0,
+                            "high": 0.0,
+                            "yearAgoEps": 1.01,
+                            "numberOfAnalysts": 0,
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": 0,
+                            "low": 0,
+                            "high": 0,
+                            "numberOfAnalysts": 0,
+                            "yearAgoRevenue": 567040000,
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": 0.0,
+                            "7daysAgo": 0.0,
+                            "30daysAgo": 0.0,
+                            "60daysAgo": 0.0,
+                            "90daysAgo": 0.0
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+5y",
+                        "endDate": null,
+                        "growth": 0.15,
+                        "earningsEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": {},
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "numberOfAnalysts": {},
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": {},
+                            "7daysAgo": {},
+                            "30daysAgo": {},
+                            "60daysAgo": {},
+                            "90daysAgo": {}
+                        },
+                        "epsRevisions": {
+                            "upLast7days": {},
+                            "upLast30days": {},
+                            "downLast30days": {},
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "-5y",
+                        "endDate": null,
+                        "growth": -0.03376,
+                        "earningsEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": {},
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "numberOfAnalysts": {},
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": {},
+                            "7daysAgo": {},
+                            "30daysAgo": {},
+                            "60daysAgo": {},
+                            "90daysAgo": {}
+                        },
+                        "epsRevisions": {
+                            "upLast7days": {},
+                            "upLast30days": {},
+                            "downLast30days": {},
+                            "downLast90days": {}
+                        }
+                    }
+                ],
+                "maxAge": 1
+            },
+            "secFilings": {
+                "filings": [
+                    {
+                        "date": "2024-06-20",
+                        "epochDate": "2024-06-19 19:00:00",
+                        "type": "10-K",
+                        "title": "Periodic Financial Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0000950170-24-075584_1092796",
+                        "exhibits": [
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000095017024075584/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000095017024075584/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-10.124(B)",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017024075584/swbi-ex10_124b.htm"
+                            },
+                            {
+                                "type": "EX-19.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017024075584/swbi-ex19_1.htm"
+                            },
+                            {
+                                "type": "EX-21.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017024075584/swbi-ex21_1.htm"
+                            },
+                            {
+                                "type": "EX-23.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017024075584/swbi-ex23_1.htm"
+                            },
+                            {
+                                "type": "EX-31.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017024075584/swbi-ex31_1.htm"
+                            },
+                            {
+                                "type": "EX-31.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017024075584/swbi-ex31_2.htm"
+                            },
+                            {
+                                "type": "EX-32.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017024075584/swbi-ex32_1.htm"
+                            },
+                            {
+                                "type": "EX-32.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017024075584/swbi-ex32_2.htm"
+                            },
+                            {
+                                "type": "EX-97.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017024075584/swbi-ex97_1.htm"
+                            },
+                            {
+                                "type": "10-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017024075584/swbi-20240430.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-05-31",
+                        "epochDate": "2024-05-30 19:00:00",
+                        "type": "SD",
+                        "title": "Specialized Disclosure Report filed pursuant to Section 1502 of the Dodd-Frank Wall Street Reform and Consumer Protection Act relating to the use of conflict minerals (Rule 13p-1)",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-24-151791_1092796",
+                        "exhibits": [
+                            {
+                                "type": "SD",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312524151791/d806051dsd.htm"
+                            },
+                            {
+                                "type": "EX-1.01",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312524151791/d806051dex101.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-03-22",
+                        "epochDate": "2024-03-21 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-24-075246_1092796",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312524075246/d812460d8k.htm"
+                            },
+                            {
+                                "type": "EX-3.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312524075246/d812460dex31.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000119312524075246/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000119312524075246/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-03-07",
+                        "epochDate": "2024-03-06 18:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-24-062163_1092796",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312524062163/d793242d8k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312524062163/d793242dex991.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000119312524062163/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000119312524062163/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-01-24",
+                        "epochDate": "2024-01-23 18:00:00",
+                        "type": "SC 13G/A",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001086364-24-002659_1092796",
+                        "exhibits": [],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-12-07",
+                        "epochDate": "2023-12-06 18:00:00",
+                        "type": "10-Q",
+                        "title": "Periodic Financial Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0000950170-23-068840_1092796",
+                        "exhibits": [
+                            {
+                                "type": "10-Q",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017023068840/swbi-20231031.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000095017023068840/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000095017023068840/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-10.137",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017023068840/swbi-ex10_137.htm"
+                            },
+                            {
+                                "type": "EX-31.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017023068840/swbi-ex31_1.htm"
+                            },
+                            {
+                                "type": "EX-31.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017023068840/swbi-ex31_2.htm"
+                            },
+                            {
+                                "type": "EX-32.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017023068840/swbi-ex32_1.htm"
+                            },
+                            {
+                                "type": "EX-32.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017023068840/swbi-ex32_2.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-09-20",
+                        "epochDate": "2023-09-19 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-23-238033_1092796",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523238033/d516249d8k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523238033/d516249dex991.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000119312523238033/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000119312523238033/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-09-07",
+                        "epochDate": "2023-09-06 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-23-230613_1092796",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523230613/d549807d8k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523230613/d549807dex991.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000119312523230613/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000119312523230613/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-08-29",
+                        "epochDate": "2023-08-28 19:00:00",
+                        "type": "PX14A6G",
+                        "title": "Notice of exempt solicitation",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001214659-23-011743_1092796",
+                        "exhibits": [
+                            {
+                                "type": "PX14A6G",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000121465923011743/d829232px14a6g.htm"
+                            },
+                            {
+                                "type": "PX14A6G",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001734335/000121465923011743/d829232px14a6g.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-08-10",
+                        "epochDate": "2023-08-09 19:00:00",
+                        "type": "DEF 14A",
+                        "title": "Proxy Statements",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0000950170-23-041366_1092796",
+                        "exhibits": [
+                            {
+                                "type": "DEF 14A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017023041366/swbi-20230810.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-07-28",
+                        "epochDate": "2023-07-27 19:00:00",
+                        "type": "PRE 14A",
+                        "title": "Proxy Statements",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0000950170-23-035573_1092796",
+                        "exhibits": [
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000095017023035573/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000095017023035573/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "PRE 14A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017023035573/swbi-20230728.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-07-17",
+                        "epochDate": "2023-07-16 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-23-187697_1092796",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523187697/d530804d8k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523187697/d530804dex991.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000119312523187697/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000119312523187697/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-06-30",
+                        "epochDate": "2023-06-29 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-23-180423_1092796",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523180423/d497279d8k.htm"
+                            },
+                            {
+                                "type": "EX-3.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523180423/d497279dex31.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000119312523180423/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000119312523180423/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-06-22",
+                        "epochDate": "2023-06-21 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-23-172552_1092796",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523172552/d524330d8k.htm"
+                            },
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523172552/d524330dex991.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000119312523172552/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000119312523172552/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-05-31",
+                        "epochDate": "2023-05-30 19:00:00",
+                        "type": "SD",
+                        "title": "Specialized Disclosure Report filed pursuant to Section 1502 of the Dodd-Frank Wall Street Reform and Consumer Protection Act relating to the use of conflict minerals (Rule 13p-1)",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-23-157798_1092796",
+                        "exhibits": [
+                            {
+                                "type": "EX-1.01",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523157798/d497686dex101.htm"
+                            },
+                            {
+                                "type": "SD",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523157798/d497686dsd.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-05-02",
+                        "epochDate": "2023-05-01 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-23-132493_1092796",
+                        "exhibits": [
+                            {
+                                "type": "EX-10.128A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523132493/d460271dex10128a.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000119312523132493/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000119312523132493/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523132493/d460271d8k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-03-24",
+                        "epochDate": "2023-03-23 19:00:00",
+                        "type": "CORRESP",
+                        "title": "A correspondence can be sent as a document with another submission type or can be sent as a separate submission",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-23-079101_1092796",
+                        "exhibits": [
+                            {
+                                "type": "CORRESP",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523079101/filename1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-03-10",
+                        "epochDate": "2023-03-09 18:00:00",
+                        "type": "CORRESP",
+                        "title": "A correspondence can be sent as a document with another submission type or can be sent as a separate submission",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-23-067584_1092796",
+                        "exhibits": [
+                            {
+                                "type": "CORRESP",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523067584/filename1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-03-09",
+                        "epochDate": "2023-03-08 18:00:00",
+                        "type": "10-Q",
+                        "title": "Periodic Financial Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0000950170-23-007044_1092796",
+                        "exhibits": [
+                            {
+                                "type": "10-Q",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017023007044/swbi-20230131.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000095017023007044/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000095017023007044/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-31",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017023007044/swbi-ex31_1.htm"
+                            },
+                            {
+                                "type": "EX-31",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017023007044/swbi-ex31_2.htm"
+                            },
+                            {
+                                "type": "EX-32",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017023007044/swbi-ex32_1.htm"
+                            },
+                            {
+                                "type": "EX-32",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017023007044/swbi-ex32_2.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-03-03",
+                        "epochDate": "2023-03-02 18:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-23-060047_1092796",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523060047/d464494d8k.htm"
+                            },
+                            {
+                                "type": "EX-3.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523060047/d464494dex31.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000119312523060047/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000119312523060047/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-02-13",
+                        "epochDate": "2023-02-12 18:00:00",
+                        "type": "SC 13G/A",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001037389-23-000050_1092796",
+                        "exhibits": [],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-02-10",
+                        "epochDate": "2023-02-09 18:00:00",
+                        "type": "SC 13G",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0000354204-23-001689_1092796",
+                        "exhibits": [
+                            {
+                                "type": "SC 13G",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000354204/000035420423001689/SEC13G_Filing.htm"
+                            },
+                            {
+                                "type": "SC 13G",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000035420423001689/SEC13G_Filing.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-02-09",
+                        "epochDate": "2023-02-08 18:00:00",
+                        "type": "SC 13G/A",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001104659-23-016974_1092796",
+                        "exhibits": [
+                            {
+                                "type": "SC 13G/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000102909/000110465923016974/tv01918-smithwessonbrandsinc.htm"
+                            },
+                            {
+                                "type": "SC 13G/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000110465923016974/tv01918-smithwessonbrandsinc.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-02-03",
+                        "epochDate": "2023-02-02 18:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-23-024121_1092796",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523024121/d426582d8k.htm"
+                            },
+                            {
+                                "type": "EX-10.134",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523024121/d426582dex10134.htm"
+                            },
+                            {
+                                "type": "EX-10.135",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523024121/d426582dex10135.htm"
+                            },
+                            {
+                                "type": "EX-10.136",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312523024121/d426582dex10136.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000119312523024121/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000119312523024121/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-12-06",
+                        "epochDate": "2022-12-05 18:00:00",
+                        "type": "10-Q",
+                        "title": "Periodic Financial Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0000950170-22-026093_1092796",
+                        "exhibits": [
+                            {
+                                "type": "10-Q",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017022026093/swbi-20221031.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000095017022026093/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000095017022026093/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-31.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017022026093/swbi-ex31_1.htm"
+                            },
+                            {
+                                "type": "EX-31.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017022026093/swbi-ex31_2.htm"
+                            },
+                            {
+                                "type": "EX-32.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017022026093/swbi-ex32_1.htm"
+                            },
+                            {
+                                "type": "EX-32.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017022026093/swbi-ex32_2.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-09-13",
+                        "epochDate": "2022-09-12 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-22-243779_1092796",
+                        "exhibits": [
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000119312522243779/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000119312522243779/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312522243779/d399734d8k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-09-12",
+                        "epochDate": "2022-09-11 19:00:00",
+                        "type": "S-8",
+                        "title": "Offering Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-22-242851_1092796",
+                        "exhibits": [
+                            {
+                                "type": "S-8",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312522242851/d400475ds8.htm"
+                            },
+                            {
+                                "type": "EX-23.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312522242851/d400475dex232.htm"
+                            },
+                            {
+                                "type": "EX-5",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312522242851/d400475dex5.htm"
+                            },
+                            {
+                                "type": "EX-FILING FEES",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312522242851/d400475dexfilingfees.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-09-08",
+                        "epochDate": "2022-09-07 19:00:00",
+                        "type": "10-Q",
+                        "title": "Periodic Financial Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0000950170-22-018246_1092796",
+                        "exhibits": [
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000095017022018246/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000095017022018246/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-10.133",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017022018246/swbi-ex10_133.htm"
+                            },
+                            {
+                                "type": "EX-31.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017022018246/swbi-ex31_1.htm"
+                            },
+                            {
+                                "type": "EX-31.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017022018246/swbi-ex31_2.htm"
+                            },
+                            {
+                                "type": "EX-32.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017022018246/swbi-ex32_1.htm"
+                            },
+                            {
+                                "type": "EX-32.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017022018246/swbi-ex32_2.htm"
+                            },
+                            {
+                                "type": "10-Q",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017022018246/swbi-20220731.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-08-16",
+                        "epochDate": "2022-08-15 19:00:00",
+                        "type": "PX14A6G",
+                        "title": "Notice of exempt solicitation",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001214659-22-010257_1092796",
+                        "exhibits": [
+                            {
+                                "type": "PX14A6G",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000121465922010257/b815224px14a6g.htm"
+                            },
+                            {
+                                "type": "PX14A6G",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001749378/000121465922010257/b815224px14a6g.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-08-03",
+                        "epochDate": "2022-08-02 19:00:00",
+                        "type": "DEF 14A",
+                        "title": "Proxy Statements",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001564590-22-027611_1092796",
+                        "exhibits": [
+                            {
+                                "type": "DEF 14A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000156459022027611/swbi-def14a_20220912.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-06-23",
+                        "epochDate": "2022-06-22 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-22-180296_1092796",
+                        "exhibits": [
+                            {
+                                "type": "EX-99.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312522180296/d383154dex991.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000119312522180296/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000119312522180296/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312522180296/d383154d8k.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-05-27",
+                        "epochDate": "2022-05-26 19:00:00",
+                        "type": "SD",
+                        "title": "Specialized Disclosure Report filed pursuant to Section 1502 of the Dodd-Frank Wall Street Reform and Consumer Protection Act relating to the use of conflict minerals (Rule 13p-1)",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-22-162329_1092796",
+                        "exhibits": [
+                            {
+                                "type": "EX-1.01",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312522162329/d327665dex101.htm"
+                            },
+                            {
+                                "type": "SD",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312522162329/d327665dsd.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-03-30",
+                        "epochDate": "2022-03-29 19:00:00",
+                        "type": "S-8",
+                        "title": "Offering Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001193125-22-089984_1092796",
+                        "exhibits": [
+                            {
+                                "type": "S-8",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312522089984/d321189ds8.htm"
+                            },
+                            {
+                                "type": "EX-10.131",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312522089984/d321189dex10131.htm"
+                            },
+                            {
+                                "type": "EX-23.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312522089984/d321189dex232.htm"
+                            },
+                            {
+                                "type": "EX-5",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312522089984/d321189dex5.htm"
+                            },
+                            {
+                                "type": "EX-FILING FEES",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000119312522089984/d321189dexfilingfees.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-03-03",
+                        "epochDate": "2022-03-02 18:00:00",
+                        "type": "10-Q",
+                        "title": "Periodic Financial Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0000950170-22-002804_1092796",
+                        "exhibits": [
+                            {
+                                "type": "10-Q",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017022002804/swbi-20220131.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0001092796/000095017022002804/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0001092796/000095017022002804/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "EX-31.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017022002804/swbi-ex31_1.htm"
+                            },
+                            {
+                                "type": "EX-31.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017022002804/swbi-ex31_2.htm"
+                            },
+                            {
+                                "type": "EX-32.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017022002804/swbi-ex32_1.htm"
+                            },
+                            {
+                                "type": "EX-32.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000095017022002804/swbi-ex32_2.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-02-11",
+                        "epochDate": "2022-02-10 18:00:00",
+                        "type": "SC 13G/A",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001037389-22-000188_1092796",
+                        "exhibits": [],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-02-10",
+                        "epochDate": "2022-02-09 18:00:00",
+                        "type": "SC 13G/A",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0001104659-22-018585_1092796",
+                        "exhibits": [
+                            {
+                                "type": "SC 13G/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000102909/000110465922018585/tv01912-smithwessonbrandsinc.htm"
+                            },
+                            {
+                                "type": "SC 13G/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000110465922018585/tv01912-smithwessonbrandsinc.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-02-08",
+                        "epochDate": "2022-02-07 18:00:00",
+                        "type": "SC 13G/A",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0000354204-22-001875_1092796",
+                        "exhibits": [
+                            {
+                                "type": "SC 13G/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0000354204/000035420422001875/SEC13G_Filing.htm"
+                            },
+                            {
+                                "type": "SC 13G/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0001092796/000035420422001875/SEC13G_Filing.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2022-02-07",
+                        "epochDate": "2022-02-06 18:00:00",
+                        "type": "SC 13G/A",
+                        "title": "Tender Offer/Acquisition Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/SWBI/0000834237-22-007822_1092796",
+                        "exhibits": [],
+                        "maxAge": 1
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "institutionOwnership": {
+                "maxAge": 1,
+                "ownershipList": [
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Blackrock Inc.",
+                        "pctHeld": 0.0929,
+                        "position": 4230790,
+                        "value": 65619553,
+                        "pctChange": -0.0352
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Vanguard Group Inc",
+                        "pctHeld": 0.0794,
+                        "position": 3616996,
+                        "value": 56099608,
+                        "pctChange": 0.013200001
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Dimensional Fund Advisors LP",
+                        "pctHeld": 0.0661,
+                        "position": 3011270,
+                        "value": 46704798,
+                        "pctChange": 0.00090000004
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Renaissance Technologies, LLC",
+                        "pctHeld": 0.0598,
+                        "position": 2725509,
+                        "value": 42272645,
+                        "pctChange": 0.0211
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "UBS Group AG",
+                        "pctHeld": 0.041100003,
+                        "position": 1872149,
+                        "value": 29037031,
+                        "pctChange": -0.0945
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Geode Capital Management, LLC",
+                        "pctHeld": 0.0227,
+                        "position": 1034931,
+                        "value": 16051780,
+                        "pctChange": 0.025
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Charles Schwab Investment Management, Inc.",
+                        "pctHeld": 0.0217,
+                        "position": 989059,
+                        "value": 15340305,
+                        "pctChange": -0.0019
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "State Street Corporation",
+                        "pctHeld": 0.0216,
+                        "position": 983356,
+                        "value": 15251851,
+                        "pctChange": 0.014199999
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "Punch Card Capital, L.P.",
+                        "pctHeld": 0.0184,
+                        "position": 840038,
+                        "value": 13028989,
+                        "pctChange": 0.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-03-31",
+                        "organization": "American Century Companies Inc",
+                        "pctHeld": 0.0179,
+                        "position": 815755,
+                        "value": 12652360,
+                        "pctChange": 0.237
+                    }
+                ]
+            },
+            "majorHoldersBreakdown": {
+                "maxAge": 1,
+                "insidersPercentHeld": 0.013309999,
+                "institutionsPercentHeld": 0.60729,
+                "institutionsFloatPercentHeld": 0.61548,
+                "institutionsCount": 244
+            },
+            "balanceSheetHistoryQuarterly": {
+                "balanceSheetStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-04-30"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-01-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-10-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-07-31"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earningsHistory": {
+                "history": [
+                    {
+                        "maxAge": 1,
+                        "epsActual": 0.07,
+                        "epsEstimate": 0.05,
+                        "epsDifference": 0.02,
+                        "surprisePercent": 0.4,
+                        "quarter": "2023-07-31",
+                        "period": "-4q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": 0.05,
+                        "epsEstimate": 0.14,
+                        "epsDifference": -0.09,
+                        "surprisePercent": -0.643,
+                        "quarter": "2023-10-31",
+                        "period": "-3q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": 0.17,
+                        "epsEstimate": 0.1,
+                        "epsDifference": 0.07,
+                        "surprisePercent": 0.7,
+                        "quarter": "2024-01-31",
+                        "period": "-2q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": 0.43,
+                        "epsEstimate": 0.34,
+                        "epsDifference": 0.09,
+                        "surprisePercent": 0.265,
+                        "quarter": "2024-04-30",
+                        "period": "-1q"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "summaryProfile": {
+                "address1": "2100 Roosevelt Avenue",
+                "city": "Springfield",
+                "state": "MA",
+                "zip": "01104",
+                "country": "United States",
+                "phone": "800 331 0852",
+                "fax": "413 747 3317",
+                "website": "https://www.smith-wesson.com",
+                "industry": "Aerospace & Defense",
+                "industryKey": "aerospace-defense",
+                "industryDisp": "Aerospace & Defense",
+                "sector": "Industrials",
+                "sectorKey": "industrials",
+                "sectorDisp": "Industrials",
+                "longBusinessSummary": "Smith & Wesson Brands, Inc. designs, manufactures, and sells firearms worldwide. The company offers handguns, including revolvers and pistols; long guns, such as modern sporting rifles, bolt action rifles; handcuffs; suppressors; and other firearm-related products under the Smith & Wesson, M&P, and Gemtech brands. It also provides manufacturing services comprising forging, heat treating, rapid prototyping, tooling, finishing, plating, machining, and custom plastic injection molding to other businesses under the Smith & Wesson and Smith & Wesson Precision Components brand names; and sells parts purchased through third parties. The company sells its products to firearm enthusiasts, collectors, hunters, sportsmen, competitive shooters, individuals desiring home and personal protection, law enforcement, security agencies and officers, and military agencies. It markets its products through independent dealers, retailers, in-store retails, and direct to consumers; print, broadcast, and digital advertising campaigns; social and electronic media; and in-store retail merchandising strategies. Smith & Wesson Brands, Inc. was founded in 1852 and is based in Springfield, Massachusetts.",
+                "fullTimeEmployees": 1501,
+                "companyOfficers": [],
+                "irWebsite": "http://ir.smith-wesson.com/phoenix.zhtml?c=90977&p=irol-investorHome",
+                "maxAge": 86400
+            },
+            "netSharePurchaseActivity": {
+                "maxAge": 1,
+                "period": "6m",
+                "buyInfoCount": 4,
+                "buyInfoShares": 142882,
+                "buyPercentInsiderShares": 0.295,
+                "sellInfoCount": 5,
+                "sellInfoShares": 21068,
+                "sellPercentInsiderShares": 0.043,
+                "netInfoCount": 9,
+                "netInfoShares": 121814,
+                "netPercentInsiderShares": 0.25100002,
+                "totalInsiderShares": 606397
+            },
+            "insiderTransactions": {
+                "transactions": [
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 29600,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 14.80 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2024-06-28",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 25041,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MCPHERSON DEANA L.",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2024-05-01",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 82489,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SMITH MARK PETER",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2024-05-01",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 17676,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "CUPERO SUSAN JEAN",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2024-05-01",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 17676,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MAXWELL KEVIN ALDEN",
+                        "filerRelation": "General Counsel",
+                        "moneyText": "",
+                        "startDate": "2024-05-01",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 35800,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 17.90 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2024-03-20",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 13068,
+                        "value": 228540,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 17.49 per share.",
+                        "filerName": "MCPHERSON DEANA L.",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2024-03-11",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 26920,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 13.46 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2024-02-20",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 26340,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 13.17 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2024-01-22",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 26800,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 13.40 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-12-20",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 27920,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 13.96 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-11-20",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 28300,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 14.15 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-10-20",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8496,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "FURMAN JOHN B",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-09-19",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8496,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MONHEIT BARRY M",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-09-19",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8496,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-09-19",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8496,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "BRITT ANITA D",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-09-19",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8496,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SUGGS DENIS G",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-09-19",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8496,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "LOHMEIER MICHELLE J",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-09-19",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8496,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "DIAZ FRED M.",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-09-19",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 7843,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "LOHMEIER MICHELLE J",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-07-17",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 21256,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MCPHERSON DEANA L.",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2023-05-01",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 68672,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SMITH MARK PETER",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2023-05-01",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 13898,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "CUPERO SUSAN JEAN",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2023-05-01",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 13898,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MAXWELL KEVIN ALDEN",
+                        "filerRelation": "General Counsel",
+                        "moneyText": "",
+                        "startDate": "2023-05-01",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 4000,
+                        "value": 43502,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 10.88 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-02-15",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 4000,
+                        "value": 40891,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 10.22 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-01-17",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 4000,
+                        "value": 35492,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 8.87 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2022-12-15",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3500,
+                        "value": 41405,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 11.83 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2022-11-15",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3000,
+                        "value": 31470,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 10.49 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2022-10-17",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2500,
+                        "value": 29875,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 11.95 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2022-09-15",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8071,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "FURMAN JOHN B",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2022-09-12",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8071,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MONHEIT BARRY M",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2022-09-12",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8071,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2022-09-12",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8071,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "BRITT ANITA D",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2022-09-12",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8071,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "GOLDEN MICHAEL F",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2022-09-12",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8071,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SUGGS DENIS G",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2022-09-12",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8071,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "DIAZ FRED M.",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2022-09-12",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 29600,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 14.80 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2022-08-15",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1500,
+                        "value": 19800,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 13.20 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2022-07-15",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5000,
+                        "value": 78200,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 15.64 per share.",
+                        "filerName": "FURMAN JOHN B",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2022-06-27",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 28800,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "SMITH MARK PETER",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2022-05-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 12894,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MCPHERSON DEANA L.",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2022-05-02",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 41834,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SMITH MARK PETER",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2022-05-02",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 41834,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SMITH MARK PETER",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2022-05-02",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8883,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "CUPERO SUSAN JEAN",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2022-05-02",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8883,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MAXWELL KEVIN ALDEN",
+                        "filerRelation": "General Counsel",
+                        "moneyText": "",
+                        "startDate": "2022-05-02",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 27860,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "SMITH MARK PETER",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2022-04-29",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 335,
+                        "value": 4992,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 14.90 per share.",
+                        "filerName": "MCPHERSON DEANA L.",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2022-03-08",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3076,
+                        "value": 50785,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 16.51 per share.",
+                        "filerName": "SMITH MARK PETER",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2021-12-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 300,
+                        "value": 5120,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 17.07 per share.",
+                        "filerName": "DIAZ FRED M.",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2021-12-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 16241,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MAXWELL KEVIN ALDEN",
+                        "filerRelation": "General Counsel",
+                        "moneyText": "",
+                        "startDate": "2021-11-08",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 4570,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "FURMAN JOHN B",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2021-09-27",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 4570,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MONHEIT BARRY M",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2021-09-27",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 4570,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2021-09-27",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 4570,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "BRITT ANITA D",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2021-09-27",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 4570,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "GOLDEN MICHAEL F",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2021-09-27",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 4570,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SUGGS DENIS G",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2021-09-27",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 4570,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "DIAZ FRED M.",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2021-09-27",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 10000,
+                        "value": 322376,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 32.10 - 32.82 per share.",
+                        "filerName": "MONHEIT BARRY M",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2021-06-30",
+                        "ownership": "I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1534,
+                        "value": 46281,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 30.17 per share.",
+                        "filerName": "FURMAN JOHN B",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2021-06-25",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5414,
+                        "value": 132327,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 23.48 - 25.25 per share.",
+                        "filerName": "FURMAN JOHN B",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2021-06-21",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 10000,
+                        "value": 276503,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 27.65 per share.",
+                        "filerName": "MONHEIT BARRY M",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2021-06-21",
+                        "ownership": "I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5102,
+                        "value": 127550,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 25.00 per share.",
+                        "filerName": "MCPHERSON DEANA L.",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2021-06-21",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8834,
+                        "value": 214480,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 24.28 per share.",
+                        "filerName": "CICERO ROBERT J",
+                        "filerRelation": "General Counsel",
+                        "moneyText": "",
+                        "startDate": "2021-06-21",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 28800,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "SMITH MARK PETER",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2021-05-18",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 28800,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "CICERO ROBERT J",
+                        "filerRelation": "General Counsel",
+                        "moneyText": "",
+                        "startDate": "2021-05-18",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5356,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SUGGS DENIS G",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2021-05-03",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8570,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MCPHERSON DEANA L.",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2021-05-03",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 27852,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SMITH MARK PETER",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2021-05-03",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 6963,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "CICERO ROBERT J",
+                        "filerRelation": "General Counsel",
+                        "moneyText": "",
+                        "startDate": "2021-05-03",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5356,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "DIAZ FRED M.",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2021-05-03",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5892,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "CUPERO SUSAN JEAN",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2021-05-03",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1500,
+                        "value": 25500,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 17.00 per share.",
+                        "filerName": "SMITH MARK PETER",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2021-03-24",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3000,
+                        "value": 56550,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 18.85 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2021-03-15",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1496,
+                        "value": 25006,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 16.71 per share.",
+                        "filerName": "SMITH MARK PETER",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2021-03-08",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3000,
+                        "value": 55770,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 18.59 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2021-02-16",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3000,
+                        "value": 63782,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 21.26 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2021-01-15",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 734,
+                        "value": 14680,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 20.00 per share.",
+                        "filerName": "MCPHERSON DEANA L.",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2021-01-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3000,
+                        "value": 55560,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 18.52 per share.",
+                        "filerName": "FURMAN JOHN B",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-12-24",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 10000,
+                        "value": 174145,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 17.41 per share.",
+                        "filerName": "MONHEIT BARRY M",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-12-18",
+                        "ownership": "I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3000,
+                        "value": 46500,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 15.50 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-12-15",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3000,
+                        "value": 47700,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 15.90 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-11-16",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 10000,
+                        "value": 172169,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 17.08 - 17.71 per share.",
+                        "filerName": "GOLDEN MICHAEL F",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-11-02",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 10000,
+                        "value": 21500,
+                        "filerUrl": "",
+                        "transactionText": "Conversion of Exercise of derivative security at price 2.15 per share.",
+                        "filerName": "GOLDEN MICHAEL F",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-11-02",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3000,
+                        "value": 48450,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 16.15 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-10-15",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5114,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "FURMAN JOHN B",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-10-13",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5114,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MONHEIT BARRY M",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-10-13",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5114,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-10-13",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5114,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "BRITT ANITA D",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-10-13",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5114,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "GOLDEN MICHAEL F",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-10-13",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3000,
+                        "value": 47610,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 15.87 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-09-25",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 9514,
+                        "value": 154718,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 16.26 per share.",
+                        "filerName": "BRITT ANITA D",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-09-24",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 37827,
+                        "value": 611721,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 16.17 - 16.23 per share.",
+                        "filerName": "CICERO ROBERT J",
+                        "filerRelation": "General Counsel",
+                        "moneyText": "",
+                        "startDate": "2020-09-16",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 17357,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "CUPERO SUSAN JEAN",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2020-09-09",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 10000,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MCPHERSON DEANA L.",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2020-09-08",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 10000,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "CICERO ROBERT J",
+                        "filerRelation": "General Counsel",
+                        "moneyText": "",
+                        "startDate": "2020-09-08",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 28952,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SMITH MARK PETER",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2020-08-25",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 13975103,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SMITH & WESSON BRANDS, INC.",
+                        "filerRelation": "Beneficial Owner of more than 10% of a Class of Security",
+                        "moneyText": "",
+                        "startDate": "2020-08-21",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2824,
+                        "value": 51551,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 18.23 - 18.28 per share.",
+                        "filerName": "CUPERO SUSAN JEAN",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2020-06-24",
+                        "ownership": "D/I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 10000,
+                        "value": 26500,
+                        "filerUrl": "",
+                        "transactionText": "Conversion of Exercise of derivative security at price 2.65 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-06-17",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1000,
+                        "value": 17000,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 17.00 per share.",
+                        "filerName": "TOBIASSEN LANE A",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2020-06-10",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 6914,
+                        "value": 103641,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 14.99 per share.",
+                        "filerName": "SALTZ MITCHELL A",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-06-01",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1000,
+                        "value": 15000,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 15.00 per share.",
+                        "filerName": "TOBIASSEN LANE A",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2020-06-01",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 20000,
+                        "value": 215000,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 10.75 per share.",
+                        "filerName": "FURMAN JOHN B",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-05-28",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 20000,
+                        "value": 63400,
+                        "filerUrl": "",
+                        "transactionText": "Conversion of Exercise of derivative security at price 2.65 - 3.69 per share.",
+                        "filerName": "FURMAN JOHN B",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-05-28",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 16026,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MCPHERSON DEANA L.",
+                        "filerRelation": "Officer and Treasurer",
+                        "moneyText": "",
+                        "startDate": "2020-04-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 16026,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MCPHERSON DEANA L.",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2020-04-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 44872,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SMITH MARK PETER",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2020-04-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 44872,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SMITH MARK PETER",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2020-04-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 16026,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "CICERO ROBERT J",
+                        "filerRelation": "General Counsel",
+                        "moneyText": "",
+                        "startDate": "2020-04-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 16026,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "CICERO ROBERT J",
+                        "filerRelation": "General Counsel",
+                        "moneyText": "",
+                        "startDate": "2020-04-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 44872,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MURPHY BRIAN DANIEL",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2020-04-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 44872,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MURPHY BRIAN DANIEL",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2020-04-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 10000,
+                        "value": 36900,
+                        "filerUrl": "",
+                        "transactionText": "Conversion of Exercise of derivative security at price 3.69 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-03-16",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1500,
+                        "value": 8730,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 5.82 per share.",
+                        "filerName": "WADECKI ISABELL MARIE",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-03-11",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 16339,
+                        "value": 99995,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 6.12 per share.",
+                        "filerName": "GLUCHOWSKI GREGORY J JR",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-03-11",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 7500,
+                        "value": 45032,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 6.00 per share.",
+                        "filerName": "MONHEIT BARRY M",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-03-10",
+                        "ownership": "I"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5000,
+                        "value": 31398,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 6.28 per share.",
+                        "filerName": "MCPHERSON DEANA L.",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2020-03-10",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5192,
+                        "value": 29990,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 5.78 per share.",
+                        "filerName": "SMITH MARK PETER",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2020-03-10",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3194,
+                        "value": 19991,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 6.26 per share.",
+                        "filerName": "MURPHY BRIAN DANIEL",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2020-03-10",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 20000,
+                        "value": 63400,
+                        "filerUrl": "",
+                        "transactionText": "Conversion of Exercise of derivative security at price 2.65 - 3.69 per share.",
+                        "filerName": "MONHEIT BARRY M",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2020-03-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8000,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MCPHERSON DEANA L.",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2020-03-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8000,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MCPHERSON DEANA L.",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2020-03-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8000,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "CICERO ROBERT J",
+                        "filerRelation": "General Counsel",
+                        "moneyText": "",
+                        "startDate": "2020-03-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 8000,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "CICERO ROBERT J",
+                        "filerRelation": "General Counsel",
+                        "moneyText": "",
+                        "startDate": "2020-03-06",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 14455,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "FURMAN JOHN B",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2019-09-25",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 14455,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MONHEIT BARRY M",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2019-09-25",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 14455,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "WADECKI ISABELL MARIE",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2019-09-25",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 14455,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SALTZ MITCHELL A",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2019-09-25",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 14455,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2019-09-25",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 14455,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "BRITT ANITA D",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2019-09-25",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 14455,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "GOLDEN MICHAEL F",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2019-09-25",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 14455,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "GLUCHOWSKI GREGORY J JR",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2019-09-25",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 10000,
+                        "value": 69500,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 6.95 per share.",
+                        "filerName": "FURMAN JOHN B",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2019-09-13",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 10000,
+                        "value": 57900,
+                        "filerUrl": "",
+                        "transactionText": "Conversion of Exercise of derivative security at price 5.79 per share.",
+                        "filerName": "FURMAN JOHN B",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2019-09-13",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 22900,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "BUCHANAN JEFFREY D",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2019-04-30",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 63700,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "DEBNEY PETER JAMES",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2019-04-30",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 13000,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SMITH MARK PETER",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2019-04-30",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 13000,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "CICERO ROBERT J",
+                        "filerRelation": "General Counsel",
+                        "moneyText": "",
+                        "startDate": "2019-04-30",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 13000,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MURPHY BRIAN DANIEL",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2019-04-30",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 13000,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "TOBIASSEN LANE A",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2019-04-30",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 20000,
+                        "value": 200121,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 10.00 - 10.01 per share.",
+                        "filerName": "GOLDEN MICHAEL F",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2019-04-29",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 10000,
+                        "value": 92480,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 9.25 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2019-04-01",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 10000,
+                        "value": 57900,
+                        "filerUrl": "",
+                        "transactionText": "Conversion of Exercise of derivative security at price 5.79 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2019-04-01",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5501,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "BRUST ROBERT H",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2018-09-26",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5501,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "FURMAN JOHN B",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2018-09-26",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5501,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MONHEIT BARRY M",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2018-09-26",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5501,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "WADECKI ISABELL MARIE",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2018-09-26",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5501,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SALTZ MITCHELL A",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2018-09-26",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 5501,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SCOTT ROBERT L",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2018-09-26",
+                        "ownership": "D"
+                    }
+                ],
+                "maxAge": 1
+            },
+            "sectorTrend": {
+                "maxAge": 1,
+                "symbol": null,
+                "estimates": []
+            },
+            "incomeStatementHistoryQuarterly": {
+                "incomeStatementHistory": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-04-30",
+                        "totalRevenue": 159147000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 26110000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-01-31",
+                        "totalRevenue": 137484000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 7882000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-10-31",
+                        "totalRevenue": 124958000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 2498000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-07-31",
+                        "totalRevenue": 114243000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 3118000,
+                        "netIncomeApplicableToCommonShares": {}
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "cashflowStatementHistoryQuarterly": {
+                "cashflowStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-04-30",
+                        "netIncome": 26110000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-01-31",
+                        "netIncome": 7882000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-10-31",
+                        "netIncome": 2498000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-07-31",
+                        "netIncome": 3118000
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earnings": {
+                "maxAge": 86400,
+                "earningsChart": {
+                    "quarterly": [
+                        {
+                            "date": "3Q2023",
+                            "actual": 0.07,
+                            "estimate": 0.05
+                        },
+                        {
+                            "date": "4Q2023",
+                            "actual": 0.05,
+                            "estimate": 0.14
+                        },
+                        {
+                            "date": "1Q2024",
+                            "actual": 0.17,
+                            "estimate": 0.1
+                        },
+                        {
+                            "date": "2Q2024",
+                            "actual": 0.43,
+                            "estimate": 0.34
+                        }
+                    ],
+                    "currentQuarterEstimate": -0.02,
+                    "currentQuarterEstimateDate": "3Q",
+                    "currentQuarterEstimateYear": 2024,
+                    "earningsDate": [
+                        "2024-09-05 05:59:S",
+                        "2024-09-09 07:00:S"
+                    ],
+                    "isEarningsDateEstimate": true
+                },
+                "financialsChart": {
+                    "yearly": [
+                        {
+                            "date": 2021,
+                            "revenue": 1059195000,
+                            "earnings": 252049000
+                        },
+                        {
+                            "date": 2022,
+                            "revenue": 864126000,
+                            "earnings": 194494000
+                        },
+                        {
+                            "date": 2023,
+                            "revenue": 479242000,
+                            "earnings": 36876000
+                        },
+                        {
+                            "date": 2024,
+                            "revenue": 535833000,
+                            "earnings": 39609000
+                        }
+                    ],
+                    "quarterly": [
+                        {
+                            "date": "2Q2023",
+                            "revenue": 114243000,
+                            "earnings": 3118000
+                        },
+                        {
+                            "date": "3Q2023",
+                            "revenue": 124958000,
+                            "earnings": 2498000
+                        },
+                        {
+                            "date": "4Q2023",
+                            "revenue": 137484000,
+                            "earnings": 7882000
+                        },
+                        {
+                            "date": "1Q2024",
+                            "revenue": 159147000,
+                            "earnings": 26110000
+                        }
+                    ]
+                },
+                "financialCurrency": "USD"
+            },
+            "pageViews": {
+                "shortTermTrend": "DOWN",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "financialData": {
+                "maxAge": 86400,
+                "currentPrice": 15.51,
+                "targetHighPrice": 20.0,
+                "targetLowPrice": 18.0,
+                "targetMeanPrice": 18.67,
+                "targetMedianPrice": 18.0,
+                "recommendationMean": 2.0,
+                "recommendationKey": "buy",
+                "numberOfAnalystOpinions": 3,
+                "totalCash": 60839000,
+                "totalCashPerShare": 1.335,
+                "ebitda": 84300192,
+                "totalDebt": 78369000,
+                "quickRatio": 1.266,
+                "currentRatio": 2.977,
+                "totalRevenue": 535832992,
+                "debtToEquity": 19.683,
+                "revenuePerShare": 11.696,
+                "returnOnAssets": 0.05788,
+                "returnOnEquity": 0.1012,
+                "freeCashflow": 5915625,
+                "operatingCashflow": 106739000,
+                "earningsGrowth": 1.047,
+                "revenueGrowth": 0.099,
+                "grossMargins": 0.31131,
+                "ebitdaMargins": 0.15732999,
+                "operatingMargins": 0.15951,
+                "profitMargins": 0.073920004,
+                "financialCurrency": "USD"
+            }
+        }
+    }
+}

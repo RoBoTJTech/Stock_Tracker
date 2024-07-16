@@ -1,0 +1,316 @@
+{
+    "UVXY": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "phone": "240-497-6400",
+                "longBusinessSummary": "The index seeks to offer exposure to market volatility through publicly traded futures markets and is designed to measure the implied volatility of the S&P 500 over 30 days in the future.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "fundProfile": {
+                "maxAge": 1,
+                "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq.gif",
+                "family": "ProShares",
+                "categoryName": "Trading--Miscellaneous",
+                "legalType": "Exchange Traded Fund",
+                "managementInfo": {
+                    "managerName": null,
+                    "managerBio": null
+                },
+                "feesExpensesInvestment": {
+                    "annualReportExpenseRatio": 0.0095,
+                    "annualHoldingsTurnover": 0.0,
+                    "totalNetAssets": 0.0,
+                    "projectionValues": {}
+                },
+                "feesExpensesInvestmentCat": {
+                    "annualReportExpenseRatio": 0.0,
+                    "totalNetAssets": 0.0,
+                    "projectionValuesCat": {}
+                },
+                "brokerages": []
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 20.98,
+                "open": 20.84,
+                "dayLow": 20.66,
+                "dayHigh": 21.37,
+                "regularMarketPreviousClose": 20.98,
+                "regularMarketOpen": 20.84,
+                "regularMarketDayLow": 20.66,
+                "regularMarketDayHigh": 21.37,
+                "volume": 3438065,
+                "regularMarketVolume": 3438065,
+                "averageVolume": 6578013,
+                "averageVolume10days": 6162930,
+                "averageDailyVolume10Day": 6162930,
+                "bid": 20.99,
+                "ask": 21.0,
+                "bidSize": 1800,
+                "askSize": 800,
+                "yield": 0.0,
+                "totalAssets": 232142192,
+                "fiftyTwoWeekLow": 20.55,
+                "fiftyTwoWeekHigh": 104.5,
+                "fiftyDayAverage": 25.2108,
+                "twoHundredDayAverage": 43.3935,
+                "navPrice": 21.087,
+                "currency": "USD",
+                "fromCurrency": null,
+                "toCurrency": null,
+                "lastMarket": null,
+                "coinMarketCapLink": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "pageViews": {
+                "shortTermTrend": "NEUTRAL",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "FREE_REALTIME",
+                "regularMarketChangePercent": 0.01715923,
+                "regularMarketChange": 0.3600006,
+                "regularMarketTime": "2024-07-15 11:13:48",
+                "priceHint": 2,
+                "regularMarketPrice": 21.34,
+                "regularMarketDayHigh": 21.37,
+                "regularMarketDayLow": 20.66,
+                "regularMarketVolume": 3438065,
+                "averageDailyVolume10Day": 6162930,
+                "averageDailyVolume3Month": 6578013,
+                "regularMarketPreviousClose": 20.98,
+                "regularMarketSource": "FREE_REALTIME",
+                "regularMarketOpen": 20.84,
+                "exchange": "BTS",
+                "exchangeName": "Cboe US",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "REGULAR",
+                "quoteType": "ETF",
+                "symbol": "UVXY",
+                "underlyingSymbol": null,
+                "shortName": "ProShares Trust Ultra VIX Short",
+                "longName": "ProShares Ultra VIX Short-Term Futures ETF",
+                "currency": "USD",
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "toCurrency": null,
+                "lastMarket": null
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "category": "Trading--Miscellaneous",
+                "ytdReturn": -0.5028436,
+                "beta3Year": -67.19,
+                "totalAssets": 232142192,
+                "yield": 0.0,
+                "fundFamily": "ProShares",
+                "fundInceptionDate": "2011-10-02 19:00:00",
+                "legalType": "Exchange Traded Fund",
+                "threeYearAverageReturn": -0.7521518,
+                "fiveYearAverageReturn": -0.72306424,
+                "lastSplitFactor": null
+            },
+            "summaryProfile": {
+                "phone": "240-497-6400",
+                "longBusinessSummary": "The index seeks to offer exposure to market volatility through publicly traded futures markets and is designed to measure the implied volatility of the S&P 500 over 30 days in the future.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "topHoldings": {
+                "maxAge": 1,
+                "cashPosition": 0.4083,
+                "stockPosition": 0.0,
+                "bondPosition": 0.0,
+                "otherPosition": 0.59169996,
+                "preferredPosition": 0.0,
+                "convertiblePosition": 0.0,
+                "holdings": [],
+                "equityHoldings": {
+                    "priceToEarnings": 0.0,
+                    "priceToBook": 0.0,
+                    "priceToSales": 0.0,
+                    "priceToCashflow": 0.0
+                },
+                "bondHoldings": {},
+                "bondRatings": [
+                    {
+                        "us_government": 0.0855
+                    }
+                ],
+                "sectorWeightings": []
+            },
+            "fundPerformance": {
+                "maxAge": 1,
+                "fundCategoryName": "Trading--Miscellaneous",
+                "performanceOverview": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytdReturnPct": -0.5028436,
+                    "fiveYrAvgReturnPct": -0.72306424,
+                    "oneYearTotalReturn": -0.76050234,
+                    "threeYearTotalReturn": -0.7521518
+                },
+                "performanceOverviewCat": {},
+                "trailingReturns": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytd": -0.44082987,
+                    "oneMonth": -0.0856822,
+                    "threeMonth": -0.25038138,
+                    "oneYear": -0.74484175,
+                    "threeYear": -0.7433806,
+                    "fiveYear": -0.7256841,
+                    "tenYear": -0.7576127,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "trailingReturnsNav": {
+                    "ytd": -0.44082987,
+                    "oneMonth": -0.0856822,
+                    "threeMonth": -0.25038138,
+                    "oneYear": -0.74484175,
+                    "threeYear": -0.7433806,
+                    "fiveYear": -0.7256841,
+                    "tenYear": -0.7576127
+                },
+                "trailingReturnsCat": {
+                    "ytd": 0.0,
+                    "oneMonth": 0.0,
+                    "threeMonth": 0.0,
+                    "oneYear": 0.0,
+                    "threeYear": 0.0,
+                    "fiveYear": 0.0,
+                    "tenYear": 0.0,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "annualTotalReturns": {
+                    "returns": [
+                        {
+                            "year": "2023",
+                            "annualValue": -0.8769679
+                        },
+                        {
+                            "year": "2022",
+                            "annualValue": -0.4481094
+                        },
+                        {
+                            "year": "2021",
+                            "annualValue": -0.8832864
+                        },
+                        {
+                            "year": "2020",
+                            "annualValue": -0.1737781
+                        },
+                        {
+                            "year": "2019",
+                            "annualValue": -0.8422855
+                        },
+                        {
+                            "year": "2018",
+                            "annualValue": 0.6009794
+                        },
+                        {
+                            "year": "2017",
+                            "annualValue": -0.9416572
+                        },
+                        {
+                            "year": "2016",
+                            "annualValue": -0.9382738
+                        },
+                        {
+                            "year": "2015",
+                            "annualValue": -0.77454484
+                        },
+                        {
+                            "year": "2014",
+                            "annualValue": -0.625298
+                        },
+                        {
+                            "year": "2013",
+                            "annualValue": -0.9197129
+                        },
+                        {
+                            "year": "2012",
+                            "annualValue": -0.97135407
+                        }
+                    ],
+                    "returnsCat": []
+                },
+                "pastQuarterlyReturns": {
+                    "returns": []
+                },
+                "riskOverviewStatistics": {
+                    "riskStatistics": [
+                        {
+                            "year": "5y",
+                            "alpha": -80.78,
+                            "beta": 24.54,
+                            "meanAnnualReturn": -6.62,
+                            "rSquared": 0.25,
+                            "stdDev": 107.25,
+                            "sharpeRatio": -0.76,
+                            "treynorRatio": -3.05
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": -135.42,
+                            "beta": -67.19,
+                            "meanAnnualReturn": -8.74,
+                            "rSquared": 2.33,
+                            "stdDev": 67.35,
+                            "sharpeRatio": -1.6,
+                            "treynorRatio": 1.16
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": -84.74,
+                            "beta": -19.35,
+                            "meanAnnualReturn": -7.06,
+                            "rSquared": 0.08,
+                            "stdDev": 112.54,
+                            "sharpeRatio": -0.77,
+                            "treynorRatio": 4.0
+                        }
+                    ]
+                },
+                "riskOverviewStatisticsCat": {
+                    "riskStatisticsCat": [
+                        {
+                            "year": "5y"
+                        },
+                        {
+                            "year": "3y"
+                        },
+                        {
+                            "year": "10y"
+                        }
+                    ]
+                }
+            },
+            "quoteType": {
+                "exchange": "BTS",
+                "quoteType": "ETF",
+                "symbol": "UVXY",
+                "underlyingSymbol": "UVXY",
+                "shortName": "ProShares Trust Ultra VIX Short",
+                "longName": "ProShares Ultra VIX Short-Term Futures ETF",
+                "firstTradeDateEpochUtc": "2011-10-04 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "51f6a6f8-3334-3a80-b62b-7e064065ce09",
+                "messageBoardId": "finmb_141277002",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            }
+        }
+    }
+}

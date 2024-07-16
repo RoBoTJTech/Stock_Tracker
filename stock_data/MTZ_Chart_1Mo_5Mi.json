@@ -1,0 +1,115 @@
+{
+    "MTZ": {
+        "triggers": [
+            {
+                "high_timestamp": "2024-06-17 07:25:00-04:00",
+                "high_price": 109.22,
+                "trigger_timestamp": "2024-06-17 11:10:00-04:00",
+                "trigger_price": 106.96,
+                "percentage_drop": 2.07,
+                "bar_high": 107.35,
+                "bar_low": 106.96,
+                "bar_open": 106.96,
+                "bar_close": 107.35
+            },
+            {
+                "high_timestamp": "2024-06-18 16:20:00-04:00",
+                "high_price": 110.67,
+                "trigger_timestamp": "2024-06-21 10:05:00-04:00",
+                "trigger_price": 107.07,
+                "percentage_drop": 3.25,
+                "bar_high": 107.5,
+                "bar_low": 107.07,
+                "bar_open": 107.21,
+                "bar_close": 107.5
+            },
+            {
+                "high_timestamp": "2024-06-21 16:25:00-04:00",
+                "high_price": 111.63,
+                "trigger_timestamp": "2024-06-24 14:40:00-04:00",
+                "trigger_price": 108.68,
+                "percentage_drop": 2.64,
+                "bar_high": 109.12,
+                "bar_low": 108.68,
+                "bar_open": 109.12,
+                "bar_close": 108.68
+            },
+            {
+                "high_timestamp": "2024-06-25 14:20:00-04:00",
+                "high_price": 109.78,
+                "trigger_timestamp": "2024-06-28 15:55:00-04:00",
+                "trigger_price": 106.72,
+                "percentage_drop": 2.79,
+                "bar_high": 107.07,
+                "bar_low": 106.72,
+                "bar_open": 106.84,
+                "bar_close": 106.92
+            },
+            {
+                "high_timestamp": "2024-07-01 17:50:00-04:00",
+                "high_price": 105.44,
+                "trigger_timestamp": "2024-07-02 09:40:00-04:00",
+                "trigger_price": 102.63,
+                "percentage_drop": 2.67,
+                "bar_high": 103.26,
+                "bar_low": 102.63,
+                "bar_open": 103.08,
+                "bar_close": 102.63
+            },
+            {
+                "high_timestamp": "2024-07-02 10:35:00-04:00",
+                "high_price": 103.4,
+                "trigger_timestamp": "2024-07-03 09:40:00-04:00",
+                "trigger_price": 101.15,
+                "percentage_drop": 2.18,
+                "bar_high": 102.26,
+                "bar_low": 101.15,
+                "bar_open": 102.2,
+                "bar_close": 101.62
+            },
+            {
+                "high_timestamp": "2024-07-03 12:45:00-04:00",
+                "high_price": 103.3,
+                "trigger_timestamp": "2024-07-05 11:10:00-04:00",
+                "trigger_price": 100.74,
+                "percentage_drop": 2.48,
+                "bar_high": 101.28,
+                "bar_low": 100.74,
+                "bar_open": 101.08,
+                "bar_close": 100.82
+            }
+        ],
+        "trades": [
+            {
+                "buy_timestamp": "2024-06-17 11:10:00-04:00",
+                "buy_price": 106.96,
+                "sell_timestamp": "2024-06-17 16:00:00-04:00",
+                "sell_price": 109.5,
+                "profit": 2.15
+            },
+            {
+                "buy_timestamp": "2024-06-21 10:05:00-04:00",
+                "buy_price": 107.07,
+                "sell_timestamp": "2024-06-21 15:45:00-04:00",
+                "sell_price": 109.65,
+                "profit": 2.15
+            },
+            {
+                "buy_timestamp": "2024-06-24 14:40:00-04:00",
+                "buy_price": 108.68
+            }
+        ],
+        "totals": {
+            "Report": "Source: Yahoo, Period: 1Mo, Interval: 5Mi",
+            "Threshold": 2,
+            "Triggers": 7,
+            "Buy_Orders": 3,
+            "Sell_Orders": 2,
+            "Gained": 4,
+            "Working_Days": 18,
+            "Annual_Trade_Gain": 56.0,
+            "Score": 1.46,
+            "Updated": "2024-07-15 08:02:48 PM EDT"
+        }
+    }
+}

@@ -1,0 +1,1495 @@
+{
+    "FTRE": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "address1": "8 Moore Drive",
+                "city": "Durham",
+                "state": "NC",
+                "zip": "27709",
+                "country": "United States",
+                "phone": "877 495 0816",
+                "website": "https://www.fortrea.com",
+                "industry": "Biotechnology",
+                "sector": "Healthcare",
+                "longBusinessSummary": "Fortrea Holdings Inc., a contract research organization, primarily engages in the provision of biopharmaceutical product and medical device development services worldwide. The company operates through two segments: Clinical Services and Enabling Services. The Clinical Services segment provides across the clinical pharmacology and clinical development spectrum. The Enabling Services segment provides patient access and clinical trial technology solutions to customers that streamline complex randomization and optimize the trial drug supply process. The company offers delivery models that include full service, functional service provider, and hybrid service structures. It also offers phase I-IV clinical trial management, differentiated technology enabled trial solutions, and post approval services, as well as consulting services. The company serves pharmaceutical, biotechnology, and medical device organizations. Fortrea Holdings Inc. was incorporated in 2023 and is headquartered in Durham, North Carolina.",
+                "fullTimeEmployees": 16000,
+                "companyOfficers": [
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Thomas H. Pike",
+                        "age": 64,
+                        "title": "CEO, President & Chairman",
+                        "yearBorn": 1959,
+                        "fiscalYear": 2023,
+                        "totalPay": 2191755,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Ms. Jill  McConnell",
+                        "age": 48,
+                        "title": "Chief Financial Officer",
+                        "yearBorn": 1975,
+                        "fiscalYear": 2023,
+                        "totalPay": 735386,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Mark A. Morais",
+                        "age": 46,
+                        "title": "COO & President of Clinical Services",
+                        "yearBorn": 1977,
+                        "fiscalYear": 2023,
+                        "totalPay": 732472,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Amanda M. Warren",
+                        "title": "Chief Accounting Officer",
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Ms. Hima B. Inguva",
+                        "title": "Head of Investor Relations & Corporate Development",
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Stillman  Hanson",
+                        "title": "General Counsel & Corporate Secretary",
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Dr. John J. Doyle",
+                        "title": "President of Consulting",
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    }
+                ],
+                "auditRisk": 8,
+                "boardRisk": 7,
+                "compensationRisk": 8,
+                "shareHolderRightsRisk": 5,
+                "overallRisk": 7,
+                "governanceEpochDate": "2024-06-30 19:00:00",
+                "compensationAsOfEpochDate": "2023-12-30 18:00:00",
+                "maxAge": 86400
+            },
+            "recommendationTrend": {
+                "trend": [
+                    {
+                        "period": "0m",
+                        "strongBuy": 0,
+                        "buy": 0,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-1m",
+                        "strongBuy": 3,
+                        "buy": 1,
+                        "hold": 2,
+                        "sell": 1,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-2m",
+                        "strongBuy": 3,
+                        "buy": 1,
+                        "hold": 2,
+                        "sell": 1,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-3m",
+                        "strongBuy": 0,
+                        "buy": 0,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "cashflowStatementHistory": {
+                "cashflowStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "netIncome": -3400000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31",
+                        "netIncome": 192900000
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "indexTrend": {
+                "maxAge": 1,
+                "symbol": "SP5",
+                "peRatio": 19.6637,
+                "pegRatio": 1.61152,
+                "estimates": [
+                    {
+                        "period": "0q",
+                        "growth": 0.071
+                    },
+                    {
+                        "period": "+1q",
+                        "growth": 0.115
+                    },
+                    {
+                        "period": "0y",
+                        "growth": 0.047
+                    },
+                    {
+                        "period": "+1y",
+                        "growth": 0.125
+                    },
+                    {
+                        "period": "+5y",
+                        "growth": 0.115975
+                    },
+                    {
+                        "period": "-5y"
+                    }
+                ]
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "enterpriseValue": 3920499968,
+                "forwardPE": 16.660494,
+                "profitMargins": -0.03799,
+                "floatShares": 75138018,
+                "sharesOutstanding": 89374000,
+                "sharesShort": 9396287,
+                "sharesShortPriorMonth": 8087377,
+                "sharesShortPreviousMonthDate": "2024-05-30 19:00:00",
+                "dateShortInterest": "2024-06-27 19:00:00",
+                "sharesPercentSharesOut": 0.105100006,
+                "heldPercentInsiders": 0.00132,
+                "heldPercentInstitutions": 1.07952,
+                "shortRatio": 6.32,
+                "shortPercentOfFloat": 0.1519,
+                "category": null,
+                "bookValue": 17.806,
+                "priceToBook": 1.5157812,
+                "fundFamily": null,
+                "legalType": null,
+                "lastFiscalYearEnd": "2023-12-30 18:00:00",
+                "nextFiscalYearEnd": "2024-12-30 18:00:00",
+                "mostRecentQuarter": "2024-03-30 19:00:00",
+                "netIncomeToCommon": -91200000,
+                "trailingEps": -1.02,
+                "forwardEps": 1.62,
+                "pegRatio": -4.1,
+                "lastSplitFactor": null,
+                "enterpriseToRevenue": 1.274,
+                "enterpriseToEbitda": 28.827
+            },
+            "industryTrend": {
+                "maxAge": 1,
+                "symbol": null,
+                "estimates": []
+            },
+            "quoteType": {
+                "exchange": "NMS",
+                "quoteType": "EQUITY",
+                "symbol": "FTRE",
+                "underlyingSymbol": "FTRE",
+                "shortName": "Fortrea Holdings Inc.",
+                "longName": "Fortrea Holdings Inc.",
+                "firstTradeDateEpochUtc": "2023-06-20 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "1a500ede-bc78-3bb2-9c0b-fe82456ec63e",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            },
+            "incomeStatementHistory": {
+                "incomeStatementHistory": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "totalRevenue": 3109000000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -3400000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31",
+                        "totalRevenue": 3096100000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 192900000,
+                        "netIncomeApplicableToCommonShares": {}
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "fundOwnership": {
+                "ownershipList": [
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-09-30",
+                        "organization": "iShares Core S&P Smallcap ETF",
+                        "pctHeld": 0.0674,
+                        "position": 5982062,
+                        "value": 171027152
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-08-31",
+                        "organization": "John Hancock Fds III-Disciplined Value Mid Cap Fd",
+                        "pctHeld": 0.031,
+                        "position": 2749163,
+                        "value": 75739440
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-07-31",
+                        "organization": "Blackrock Equity Dividend Fund",
+                        "pctHeld": 0.026199998,
+                        "position": 2328720,
+                        "value": 74425891
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-09-30",
+                        "organization": "iShares S&P Smallcap 600 Value ETF",
+                        "pctHeld": 0.0126,
+                        "position": 1116837,
+                        "value": 31930369
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-08-31",
+                        "organization": "AB Discovery Value Fund",
+                        "pctHeld": 0.0099,
+                        "position": 881279,
+                        "value": 24279236
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-08-31",
+                        "organization": "SPDR Portfolio S&P 600 Small Cap ETF",
+                        "pctHeld": 0.0083,
+                        "position": 736867,
+                        "value": 20300685
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-08-31",
+                        "organization": "SPDR (R) Ser Tr-SPDR S&P 600 Small Cap Value ETF",
+                        "pctHeld": 0.007900001,
+                        "position": 698194,
+                        "value": 19235244
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-07-31",
+                        "organization": "DFA U.S. Large Cap Value Series",
+                        "pctHeld": 0.0073,
+                        "position": 648579,
+                        "value": 20728584
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-08-31",
+                        "organization": "Fidelity Mid Cap Index Fd",
+                        "pctHeld": 0.0028,
+                        "position": 248792,
+                        "value": 6854219
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-08-31",
+                        "organization": "iShares Russell Midcap ETF",
+                        "pctHeld": 0.0028,
+                        "position": 252388,
+                        "value": 6953289
+                    }
+                ],
+                "maxAge": 1
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 26.0,
+                "open": 25.14,
+                "dayLow": 25.825,
+                "dayHigh": 27.265,
+                "regularMarketPreviousClose": 26.0,
+                "regularMarketOpen": 25.14,
+                "regularMarketDayLow": 25.825,
+                "regularMarketDayHigh": 27.265,
+                "payoutRatio": 0.0,
+                "forwardPE": 16.660494,
+                "volume": 1584000,
+                "regularMarketVolume": 1584000,
+                "averageVolume": 1437786,
+                "averageVolume10days": 1414890,
+                "averageDailyVolume10Day": 1414890,
+                "bid": 26.98,
+                "ask": 27.05,
+                "bidSize": 800,
+                "askSize": 400,
+                "marketCap": 2412204288,
+                "fiftyTwoWeekLow": 22.15,
+                "fiftyTwoWeekHigh": 41.02,
+                "priceToSalesTrailing12Months": 0.78389585,
+                "fiftyDayAverage": 26.7834,
+                "twoHundredDayAverage": 31.6346,
+                "trailingAnnualDividendRate": 0.0,
+                "trailingAnnualDividendYield": 0.0,
+                "currency": "USD",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "insiderHolders": {
+                "holders": [
+                    {
+                        "maxAge": 1,
+                        "name": "HANSON JAMES S",
+                        "relation": "General Counsel",
+                        "url": "",
+                        "transactionDescription": "Purchase",
+                        "latestTransDate": "2024-06-12",
+                        "positionDirect": 7500,
+                        "positionDirectDate": "2024-06-12"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "LARSON BETTY D",
+                        "relation": "Former",
+                        "url": "",
+                        "transactionDescription": "Conversion of Exercise of derivative security",
+                        "latestTransDate": "2024-03-28",
+                        "positionDirect": 6354,
+                        "positionDirectDate": "2024-03-28"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "MCCONNELL JILL G",
+                        "relation": "Chief Financial Officer",
+                        "url": "",
+                        "transactionDescription": "Conversion of Exercise of derivative security",
+                        "latestTransDate": "2024-06-03",
+                        "positionDirect": 26882,
+                        "positionDirectDate": "2024-06-03"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "MORAIS MARK A",
+                        "relation": "Chief Operating Officer",
+                        "url": "",
+                        "transactionDescription": "Conversion of Exercise of derivative security",
+                        "latestTransDate": "2024-06-03",
+                        "positionDirect": 25152,
+                        "positionDirectDate": "2024-06-03"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "NEUPERT PETER M",
+                        "relation": "Director",
+                        "url": "",
+                        "transactionDescription": "Purchase",
+                        "latestTransDate": "2023-08-23",
+                        "positionDirect": 21996,
+                        "positionDirectDate": "2023-08-23"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "PIKE THOMAS",
+                        "relation": "Chief Executive Officer",
+                        "url": "",
+                        "transactionDescription": "Purchase",
+                        "latestTransDate": "2024-05-29",
+                        "positionDirect": 57827,
+                        "positionDirectDate": "2024-05-29"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "WARREN AMANDA M",
+                        "relation": "Officer",
+                        "url": "",
+                        "transactionDescription": "Conversion of Exercise of derivative security",
+                        "latestTransDate": "2024-06-03",
+                        "positionDirect": 5298,
+                        "positionDirectDate": "2024-06-03"
+                    }
+                ],
+                "maxAge": 1
+            },
+            "calendarEvents": {
+                "maxAge": 1,
+                "earnings": {
+                    "earningsDate": [],
+                    "earningsAverage": 0.09,
+                    "earningsLow": 0.03,
+                    "earningsHigh": 0.23,
+                    "revenueAverage": 689080000,
+                    "revenueLow": 682500000,
+                    "revenueHigh": 705400000
+                }
+            },
+            "upgradeDowngradeHistory": {
+                "history": [
+                    {
+                        "epochGradeDate": "2023-10-18 19:00:00",
+                        "firm": "Citigroup",
+                        "toGrade": "Neutral",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2023-09-13 19:00:00",
+                        "firm": "Evercore ISI Group",
+                        "toGrade": "In-Line",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2023-08-15 19:00:00",
+                        "firm": "Barclays",
+                        "toGrade": "Equal-Weight",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2023-08-06 19:00:00",
+                        "firm": "B of A Securities",
+                        "toGrade": "Underperform",
+                        "fromGrade": "",
+                        "action": "init"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "FREE_REALTIME",
+                "postMarketChangePercent": 0.0,
+                "postMarketChange": 0.0,
+                "postMarketTime": "2024-07-15 15:54:00",
+                "postMarketPrice": 26.99,
+                "postMarketSource": "FREE_REALTIME",
+                "regularMarketChangePercent": 0.038076915,
+                "regularMarketChange": 0.9899998,
+                "regularMarketTime": "2024-07-15 15:00:01",
+                "priceHint": 2,
+                "regularMarketPrice": 26.99,
+                "regularMarketDayHigh": 27.265,
+                "regularMarketDayLow": 25.825,
+                "regularMarketVolume": 1584000,
+                "averageDailyVolume10Day": 1414890,
+                "averageDailyVolume3Month": 1437786,
+                "regularMarketPreviousClose": 26.0,
+                "regularMarketSource": "FREE_REALTIME",
+                "regularMarketOpen": 25.14,
+                "exchange": "NMS",
+                "exchangeName": "NasdaqGS",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "POSTPOST",
+                "quoteType": "EQUITY",
+                "symbol": "FTRE",
+                "underlyingSymbol": null,
+                "shortName": "Fortrea Holdings Inc.",
+                "longName": "Fortrea Holdings Inc.",
+                "currency": "USD",
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "marketCap": 2412204288
+            },
+            "balanceSheetHistory": {
+                "balanceSheetStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2022-12-31"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earningsTrend": {
+                "trend": [
+                    {
+                        "maxAge": 1,
+                        "period": "0q",
+                        "endDate": "2024-06-30",
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": 0.09,
+                            "low": 0.03,
+                            "high": 0.23,
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": 10,
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": 689080000,
+                            "low": 682500000,
+                            "high": 705400000,
+                            "numberOfAnalysts": 10,
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": 0.09,
+                            "7daysAgo": 0.08,
+                            "30daysAgo": 0.08,
+                            "60daysAgo": 0.12,
+                            "90daysAgo": 0.14
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 1,
+                            "upLast30days": 1,
+                            "downLast30days": 1,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+1q",
+                        "endDate": "2024-09-30",
+                        "growth": 0.125,
+                        "earningsEstimate": {
+                            "avg": 0.27,
+                            "low": 0.22,
+                            "high": 0.31,
+                            "yearAgoEps": 0.24,
+                            "numberOfAnalysts": 10,
+                            "growth": 0.125
+                        },
+                        "revenueEstimate": {
+                            "avg": 716070000,
+                            "low": 702200000,
+                            "high": 725900000,
+                            "numberOfAnalysts": 10,
+                            "yearAgoRevenue": 776400000,
+                            "growth": -0.078
+                        },
+                        "epsTrend": {
+                            "current": 0.27,
+                            "7daysAgo": 0.27,
+                            "30daysAgo": 0.27,
+                            "60daysAgo": 0.34,
+                            "90daysAgo": 0.38
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 2,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "0y",
+                        "endDate": "2024-12-31",
+                        "growth": -0.48599997,
+                        "earningsEstimate": {
+                            "avg": 0.72,
+                            "low": 0.6,
+                            "high": 0.83,
+                            "yearAgoEps": 1.4,
+                            "numberOfAnalysts": 9,
+                            "growth": -0.48599997
+                        },
+                        "revenueEstimate": {
+                            "avg": 2801160000,
+                            "low": 2764800000,
+                            "high": 2819900000,
+                            "numberOfAnalysts": 11,
+                            "yearAgoRevenue": 3109000000,
+                            "growth": -0.099
+                        },
+                        "epsTrend": {
+                            "current": 0.72,
+                            "7daysAgo": 0.73,
+                            "30daysAgo": 0.73,
+                            "60daysAgo": 0.91,
+                            "90daysAgo": 1.03
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 1,
+                            "upLast30days": 1,
+                            "downLast30days": 1,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+1y",
+                        "endDate": "2025-12-31",
+                        "growth": 1.25,
+                        "earningsEstimate": {
+                            "avg": 1.62,
+                            "low": 1.07,
+                            "high": 1.88,
+                            "yearAgoEps": 0.72,
+                            "numberOfAnalysts": 10,
+                            "growth": 1.25
+                        },
+                        "revenueEstimate": {
+                            "avg": 2926860000,
+                            "low": 2900500000,
+                            "high": 2991000000,
+                            "numberOfAnalysts": 11,
+                            "yearAgoRevenue": 2801160000,
+                            "growth": 0.045
+                        },
+                        "epsTrend": {
+                            "current": 1.62,
+                            "7daysAgo": 1.62,
+                            "30daysAgo": 1.62,
+                            "60daysAgo": 1.84,
+                            "90daysAgo": 1.98
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 1,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+5y",
+                        "endDate": null,
+                        "growth": -0.088,
+                        "earningsEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": {},
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "numberOfAnalysts": {},
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": {},
+                            "7daysAgo": {},
+                            "30daysAgo": {},
+                            "60daysAgo": {},
+                            "90daysAgo": {}
+                        },
+                        "epsRevisions": {
+                            "upLast7days": {},
+                            "upLast30days": {},
+                            "downLast30days": {},
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "-5y",
+                        "endDate": null,
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": {},
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "numberOfAnalysts": {},
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": {},
+                            "7daysAgo": {},
+                            "30daysAgo": {},
+                            "60daysAgo": {},
+                            "90daysAgo": {}
+                        },
+                        "epsRevisions": {
+                            "upLast7days": {},
+                            "upLast30days": {},
+                            "downLast30days": {},
+                            "downLast90days": {}
+                        }
+                    }
+                ],
+                "maxAge": 1
+            },
+            "institutionOwnership": {
+                "ownershipList": [
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Gates Capital Management, Inc.",
+                        "pctHeld": 0.0125,
+                        "position": 1107760,
+                        "value": 37674917
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Boston Partners",
+                        "pctHeld": 0.0112,
+                        "position": 994266,
+                        "value": 33814986
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-09-30",
+                        "organization": "Penn Davis Mcfarland Inc",
+                        "pctHeld": 0.006,
+                        "position": 529930,
+                        "value": 15150698
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-09-30",
+                        "organization": "DnB Asset Management AS",
+                        "pctHeld": 0.0023,
+                        "position": 208555,
+                        "value": 5962587
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-09-30",
+                        "organization": "Willis Investment Counsel, Inc.",
+                        "pctHeld": 0.002,
+                        "position": 180853,
+                        "value": 5170587
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Soapstone Management L.P.",
+                        "pctHeld": 0.0019,
+                        "position": 166497,
+                        "value": 5662562
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "River Road Asset Management, LLC",
+                        "pctHeld": 0.0015,
+                        "position": 129551,
+                        "value": 4406029
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Victory Capital Management Inc.",
+                        "pctHeld": 0.0011999999,
+                        "position": 104970,
+                        "value": 3570029
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-06-30",
+                        "organization": "Price Jennifer C.",
+                        "pctHeld": 0.00090000004,
+                        "position": 80000,
+                        "value": 2720800
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2023-09-30",
+                        "organization": "Birch Hill Investment Advisors LLC",
+                        "pctHeld": 0.0008,
+                        "position": 71597,
+                        "value": 2046958
+                    }
+                ],
+                "maxAge": 1
+            },
+            "majorHoldersBreakdown": {
+                "maxAge": 1,
+                "insidersPercentHeld": 0.00132,
+                "institutionsPercentHeld": 1.07952,
+                "institutionsFloatPercentHeld": 1.08095,
+                "institutionsCount": 565
+            },
+            "balanceSheetHistoryQuarterly": {
+                "balanceSheetStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-09-30"
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earningsHistory": {
+                "history": [
+                    {
+                        "maxAge": 1,
+                        "epsActual": {},
+                        "epsEstimate": {},
+                        "epsDifference": {},
+                        "surprisePercent": {},
+                        "quarter": {},
+                        "period": "-4q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": 0.24,
+                        "epsEstimate": 0.16,
+                        "epsDifference": 0.08,
+                        "surprisePercent": 0.5,
+                        "quarter": "2023-09-30",
+                        "period": "-3q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": 0.19,
+                        "epsEstimate": 0.24,
+                        "epsDifference": -0.05,
+                        "surprisePercent": -0.20799999,
+                        "quarter": "2023-12-31",
+                        "period": "-2q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": -0.04,
+                        "epsEstimate": 0.01,
+                        "epsDifference": -0.05,
+                        "surprisePercent": -5.0,
+                        "quarter": "2024-03-31",
+                        "period": "-1q"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "summaryProfile": {
+                "address1": "8 Moore Drive",
+                "city": "Durham",
+                "state": "NC",
+                "zip": "27709",
+                "country": "United States",
+                "phone": "877 495 0816",
+                "website": "https://www.fortrea.com",
+                "industry": "Biotechnology",
+                "sector": "Healthcare",
+                "longBusinessSummary": "Fortrea Holdings Inc., a contract research organization, primarily engages in the provision of biopharmaceutical product and medical device development services worldwide. The company operates through two segments: Clinical Services and Enabling Services. The Clinical Services segment provides across the clinical pharmacology and clinical development spectrum. The Enabling Services segment provides patient access and clinical trial technology solutions to customers that streamline complex randomization and optimize the trial drug supply process. The company offers delivery models that include full service, functional service provider, and hybrid service structures. It also offers phase I-IV clinical trial management, differentiated technology enabled trial solutions, and post approval services, as well as consulting services. The company serves pharmaceutical, biotechnology, and medical device organizations. Fortrea Holdings Inc. was incorporated in 2023 and is headquartered in Durham, North Carolina.",
+                "fullTimeEmployees": 16000,
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "netSharePurchaseActivity": {
+                "maxAge": 1,
+                "period": "6m",
+                "buyInfoCount": 0,
+                "buyInfoShares": 0,
+                "sellInfoCount": 0,
+                "netInfoCount": 0,
+                "netInfoShares": 0,
+                "totalInsiderShares": 118008
+            },
+            "insiderTransactions": {
+                "transactions": [
+                    {
+                        "maxAge": 1,
+                        "shares": 2000,
+                        "value": 50600,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 25.30 per share.",
+                        "filerName": "HANSON JAMES S",
+                        "filerRelation": "General Counsel",
+                        "moneyText": "",
+                        "startDate": "2024-06-12",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 7706,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "HANSON JAMES S",
+                        "filerRelation": "General Counsel",
+                        "moneyText": "",
+                        "startDate": "2024-06-03",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3842,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "WARREN AMANDA M",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2024-06-03",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 11000,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "MORAIS MARK A",
+                        "filerRelation": "Chief Operating Officer",
+                        "moneyText": "",
+                        "startDate": "2024-06-03",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 11000,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "MCCONNELL JILL G",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2024-06-03",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 10000,
+                        "value": 248066,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 24.81 per share.",
+                        "filerName": "PIKE THOMAS",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2024-05-29",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 6354,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "LARSON BETTY D",
+                        "filerRelation": "Former",
+                        "moneyText": "",
+                        "startDate": "2024-03-28",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 15368,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "MORAIS MARK A",
+                        "filerRelation": "Chief Operating Officer",
+                        "moneyText": "",
+                        "startDate": "2024-03-04",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 20776,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "MCCONNELL JILL G",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2024-03-04",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1068,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "WARREN AMANDA M",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2024-02-09",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1210,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "MORAIS MARK A",
+                        "filerRelation": "Chief Operating Officer",
+                        "moneyText": "",
+                        "startDate": "2024-02-09",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1544,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "MCCONNELL JILL G",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2024-02-09",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1182,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "WARREN AMANDA M",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2024-02-07",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 2249,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "MORAIS MARK A",
+                        "filerRelation": "Chief Operating Officer",
+                        "moneyText": "",
+                        "startDate": "2024-02-07",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1680,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "MCCONNELL JILL G",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2024-02-07",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1046,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "WARREN AMANDA M",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2024-02-02",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1787,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "MORAIS MARK A",
+                        "filerRelation": "Chief Operating Officer",
+                        "moneyText": "",
+                        "startDate": "2024-02-02",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1708,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "MCCONNELL JILL G",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2024-02-02",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 40220,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "PIKE THOMAS",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2024-01-09",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 406,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "MORAIS MARK A",
+                        "filerRelation": "Chief Operating Officer",
+                        "moneyText": "",
+                        "startDate": "2023-12-15",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 11000,
+                        "value": 278256,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 25.30 per share.",
+                        "filerName": "NEUPERT PETER M",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2023-08-23",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 20000,
+                        "value": 504640,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 25.23 per share.",
+                        "filerName": "PIKE THOMAS",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2023-08-23",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 510,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "WARREN AMANDA M",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2023-06-30",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 510,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "WARREN AMANDA M",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2023-06-30",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 570,
+                        "filerUrl": "",
+                        "transactionText": "",
+                        "filerName": "WARREN AMANDA M",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2023-06-30",
+                        "ownership": "D"
+                    }
+                ],
+                "maxAge": 1
+            },
+            "sectorTrend": {
+                "maxAge": 1,
+                "symbol": null,
+                "estimates": []
+            },
+            "incomeStatementHistoryQuarterly": {
+                "incomeStatementHistory": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31",
+                        "totalRevenue": 662100000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -101000000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "totalRevenue": 775400000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -36000000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-09-30",
+                        "totalRevenue": 776400000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": -13100000,
+                        "netIncomeApplicableToCommonShares": {}
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30",
+                        "totalRevenue": 793000000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 28300000,
+                        "netIncomeApplicableToCommonShares": {}
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "cashflowStatementHistoryQuarterly": {
+                "cashflowStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31",
+                        "netIncome": -101000000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "netIncome": -36000000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-09-30",
+                        "netIncome": -13100000
+                    },
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-06-30",
+                        "netIncome": 28300000
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earnings": {
+                "maxAge": 86400,
+                "earningsChart": {
+                    "quarterly": [
+                        {
+                            "date": "3Q2023",
+                            "actual": 0.24,
+                            "estimate": 0.16
+                        },
+                        {
+                            "date": "4Q2023",
+                            "actual": 0.19,
+                            "estimate": 0.24
+                        },
+                        {
+                            "date": "1Q2024",
+                            "actual": -0.04,
+                            "estimate": 0.01
+                        }
+                    ],
+                    "currentQuarterEstimate": 0.09,
+                    "currentQuarterEstimateDate": "2Q",
+                    "currentQuarterEstimateYear": 2024,
+                    "earningsDate": []
+                },
+                "financialsChart": {
+                    "yearly": [
+                        {
+                            "date": 2022,
+                            "revenue": 3096100000,
+                            "earnings": 192900000
+                        },
+                        {
+                            "date": 2023,
+                            "revenue": 3109000000,
+                            "earnings": -3400000
+                        }
+                    ],
+                    "quarterly": [
+                        {
+                            "date": "2Q2023",
+                            "revenue": 793000000,
+                            "earnings": 28300000
+                        },
+                        {
+                            "date": "3Q2023",
+                            "revenue": 776400000,
+                            "earnings": -13100000
+                        },
+                        {
+                            "date": "4Q2023",
+                            "revenue": 775400000,
+                            "earnings": -36000000
+                        },
+                        {
+                            "date": "1Q2024",
+                            "revenue": 662100000,
+                            "earnings": -101000000
+                        }
+                    ]
+                },
+                "financialCurrency": "USD"
+            },
+            "pageViews": {
+                "shortTermTrend": "UP",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "financialData": {
+                "maxAge": 86400,
+                "currentPrice": 26.99,
+                "targetHighPrice": 42.0,
+                "targetLowPrice": 27.0,
+                "targetMeanPrice": 31.61,
+                "targetMedianPrice": 28.0,
+                "recommendationMean": 2.4,
+                "recommendationKey": "buy",
+                "numberOfAnalystOpinions": 9,
+                "totalCash": 93900000,
+                "totalCashPerShare": 1.05,
+                "ebitda": 136000000,
+                "totalDebt": 1690000000,
+                "quickRatio": 1.265,
+                "currentRatio": 1.466,
+                "totalRevenue": 3077199872,
+                "debtToEquity": 106.162,
+                "revenuePerShare": 34.614,
+                "returnOnAssets": 0.00564,
+                "returnOnEquity": -0.0365,
+                "freeCashflow": 207000000,
+                "operatingCashflow": 143800000,
+                "revenueGrowth": -0.046,
+                "grossMargins": 0.15465,
+                "ebitdaMargins": 0.0442,
+                "operatingMargins": -0.0515,
+                "profitMargins": -0.03799,
+                "financialCurrency": "USD"
+            }
+        }
+    }
+}

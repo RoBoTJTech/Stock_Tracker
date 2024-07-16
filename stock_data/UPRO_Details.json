@@ -1,0 +1,364 @@
+{
+    "UPRO": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "longBusinessSummary": "The fund invests in financial instruments that ProShare Advisors believes, in combination, should produce daily returns consistent with the Daily Target. The index is a measure of large-cap U.S. stock market performance. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "fundProfile": {
+                "maxAge": 1,
+                "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq3.gif",
+                "family": "ProShares",
+                "categoryName": "Trading--Leveraged Equity",
+                "legalType": "Exchange Traded Fund",
+                "feesExpensesInvestment": {
+                    "annualReportExpenseRatio": 0.0092,
+                    "annualHoldingsTurnover": 0.34,
+                    "totalNetAssets": 311008.62,
+                    "projectionValues": {}
+                },
+                "feesExpensesInvestmentCat": {
+                    "annualReportExpenseRatio": 0.0,
+                    "totalNetAssets": 311008.62,
+                    "projectionValuesCat": {}
+                }
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 81.76,
+                "open": 82.21,
+                "dayLow": 82.05,
+                "dayHigh": 84.87,
+                "regularMarketPreviousClose": 81.76,
+                "regularMarketOpen": 82.21,
+                "regularMarketDayLow": 82.05,
+                "regularMarketDayHigh": 84.87,
+                "volume": 4657197,
+                "regularMarketVolume": 4657197,
+                "averageVolume": 4333695,
+                "averageVolume10days": 3409910,
+                "averageDailyVolume10Day": 3409910,
+                "bid": 83.07,
+                "ask": 83.31,
+                "bidSize": 2200,
+                "askSize": 800,
+                "yield": 0.0068,
+                "totalAssets": 3514748928,
+                "fiftyTwoWeekLow": 35.57,
+                "fiftyTwoWeekHigh": 84.87,
+                "fiftyDayAverage": 73.4508,
+                "twoHundredDayAverage": 59.58685,
+                "trailingAnnualDividendRate": 0.0,
+                "trailingAnnualDividendYield": 0.0,
+                "navPrice": 83.076,
+                "currency": "USD",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "pageViews": {
+                "shortTermTrend": "UP",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "FREE_REALTIME",
+                "postMarketChangePercent": -0.00180247,
+                "postMarketChange": -0.150002,
+                "postMarketTime": "2024-07-12 18:59:48",
+                "postMarketPrice": 83.07,
+                "postMarketSource": "FREE_REALTIME",
+                "regularMarketChangePercent": 0.017857099,
+                "regularMarketChange": 1.46,
+                "regularMarketTime": "2024-07-12 15:00:08",
+                "priceHint": 2,
+                "regularMarketPrice": 83.22,
+                "regularMarketDayHigh": 84.87,
+                "regularMarketDayLow": 82.05,
+                "regularMarketVolume": 4657197,
+                "averageDailyVolume10Day": 3409910,
+                "averageDailyVolume3Month": 4333695,
+                "regularMarketPreviousClose": 81.76,
+                "regularMarketSource": "FREE_REALTIME",
+                "regularMarketOpen": 82.21,
+                "exchange": "PCX",
+                "exchangeName": "NYSEArca",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "CLOSED",
+                "quoteType": "ETF",
+                "symbol": "UPRO",
+                "underlyingSymbol": null,
+                "shortName": "ProShares UltraPro S&P 500",
+                "longName": "ProShares UltraPro S&P500",
+                "currency": "USD",
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "lastMarket": null
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "category": "Trading--Leveraged Equity",
+                "ytdReturn": 0.5273445,
+                "beta3Year": 2.99,
+                "totalAssets": 3514748928,
+                "yield": 0.0068,
+                "fundFamily": "ProShares",
+                "fundInceptionDate": "2009-06-22 19:00:00",
+                "legalType": "Exchange Traded Fund",
+                "threeYearAverageReturn": 0.1204917,
+                "fiveYearAverageReturn": 0.2388899,
+                "lastSplitFactor": null
+            },
+            "summaryProfile": {
+                "longBusinessSummary": "The fund invests in financial instruments that ProShare Advisors believes, in combination, should produce daily returns consistent with the Daily Target. The index is a measure of large-cap U.S. stock market performance. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "topHoldings": {
+                "maxAge": 1,
+                "stockPosition": 0.7415,
+                "bondPosition": 0.0694,
+                "holdings": [
+                    {
+                        "symbol": "MSFT",
+                        "holdingName": "Microsoft Corp",
+                        "holdingPercent": 0.0377916
+                    },
+                    {
+                        "symbol": "NVDA",
+                        "holdingName": "NVIDIA Corp",
+                        "holdingPercent": 0.0345749
+                    },
+                    {
+                        "symbol": "AAPL",
+                        "holdingName": "Apple Inc",
+                        "holdingPercent": 0.0345391
+                    }
+                ],
+                "equityHoldings": {
+                    "priceToEarnings": 0.03819,
+                    "priceToBook": 0.21619,
+                    "priceToSales": 0.33183,
+                    "priceToCashflow": 0.05609
+                },
+                "bondHoldings": {},
+                "bondRatings": [
+                    {
+                        "us_government": 0.22620001
+                    }
+                ],
+                "sectorWeightings": [
+                    {
+                        "realestate": 0.0215
+                    },
+                    {
+                        "consumer_cyclical": 0.1012
+                    },
+                    {
+                        "basic_materials": 0.0195
+                    },
+                    {
+                        "consumer_defensive": 0.0575
+                    },
+                    {
+                        "technology": 0.3336
+                    },
+                    {
+                        "communication_services": 0.0934
+                    },
+                    {
+                        "financial_services": 0.1201
+                    },
+                    {
+                        "utilities": 0.023599999
+                    },
+                    {
+                        "industrials": 0.0756
+                    },
+                    {
+                        "energy": 0.0365
+                    },
+                    {
+                        "healthcare": 0.1174
+                    }
+                ]
+            },
+            "fundPerformance": {
+                "maxAge": 1,
+                "performanceOverview": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytdReturnPct": 0.5273445,
+                    "oneYearTotalReturn": 0.74541396,
+                    "threeYearTotalReturn": 0.1204917
+                },
+                "performanceOverviewCat": {},
+                "trailingReturns": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytd": 0.41006988,
+                    "oneMonth": 0.0992044,
+                    "threeMonth": 0.08853,
+                    "oneYear": 0.6310371,
+                    "threeYear": 0.112892106,
+                    "fiveYear": 0.236672,
+                    "tenYear": 0.2362104,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "trailingReturnsNav": {
+                    "ytd": 0.41006988,
+                    "oneMonth": 0.0992044,
+                    "threeMonth": 0.08853,
+                    "oneYear": 0.6310371,
+                    "threeYear": 0.112892106,
+                    "fiveYear": 0.236672,
+                    "tenYear": 0.2362104
+                },
+                "trailingReturnsCat": {
+                    "ytd": 0.0,
+                    "oneMonth": 0.0,
+                    "threeMonth": 0.0,
+                    "oneYear": 0.0,
+                    "threeYear": 0.0,
+                    "fiveYear": 0.0,
+                    "tenYear": 0.0,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "annualTotalReturns": {
+                    "returns": [
+                        {
+                            "year": "2023",
+                            "annualValue": 0.68582267
+                        },
+                        {
+                            "year": "2022",
+                            "annualValue": -0.56834704
+                        },
+                        {
+                            "year": "2021",
+                            "annualValue": 0.98638475
+                        },
+                        {
+                            "year": "2020",
+                            "annualValue": 0.100756794
+                        },
+                        {
+                            "year": "2019",
+                            "annualValue": 1.023129
+                        },
+                        {
+                            "year": "2018",
+                            "annualValue": -0.2514768
+                        },
+                        {
+                            "year": "2017",
+                            "annualValue": 0.7137442
+                        },
+                        {
+                            "year": "2016",
+                            "annualValue": 0.3078494
+                        },
+                        {
+                            "year": "2015",
+                            "annualValue": -0.0524513
+                        },
+                        {
+                            "year": "2014",
+                            "annualValue": 0.38002652
+                        },
+                        {
+                            "year": "2013",
+                            "annualValue": 1.184914
+                        },
+                        {
+                            "year": "2012",
+                            "annualValue": 0.4679555
+                        },
+                        {
+                            "year": "2011",
+                            "annualValue": -0.1187722
+                        },
+                        {
+                            "year": "2010",
+                            "annualValue": 0.3634127
+                        }
+                    ],
+                    "returnsCat": []
+                },
+                "pastQuarterlyReturns": {
+                    "returns": []
+                },
+                "riskOverviewStatistics": {
+                    "riskStatistics": [
+                        {
+                            "year": "5y",
+                            "alpha": -5.89,
+                            "beta": 3.1,
+                            "meanAnnualReturn": 3.16,
+                            "rSquared": 99.19,
+                            "stdDev": 56.2,
+                            "sharpeRatio": 0.64,
+                            "treynorRatio": 6.89
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": -1.81,
+                            "beta": 2.99,
+                            "meanAnnualReturn": 2.07,
+                            "rSquared": 99.74,
+                            "stdDev": 53.29,
+                            "sharpeRatio": 0.4,
+                            "treynorRatio": 2.62
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": -4.71,
+                            "beta": 3.08,
+                            "meanAnnualReturn": 2.75,
+                            "rSquared": 99.37,
+                            "stdDev": 47.34,
+                            "sharpeRatio": 0.66,
+                            "treynorRatio": 7.13
+                        }
+                    ]
+                },
+                "riskOverviewStatisticsCat": {
+                    "riskStatisticsCat": [
+                        {
+                            "year": "5y"
+                        },
+                        {
+                            "year": "3y"
+                        },
+                        {
+                            "year": "10y"
+                        }
+                    ]
+                }
+            },
+            "quoteType": {
+                "exchange": "PCX",
+                "quoteType": "ETF",
+                "symbol": "UPRO",
+                "underlyingSymbol": "UPRO",
+                "shortName": "ProShares UltraPro S&P 500",
+                "longName": "ProShares UltraPro S&P500",
+                "firstTradeDateEpochUtc": "2009-06-25 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "dabc1b05-0d0c-3410-be50-2f7c611a7b93",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            }
+        }
+    }
+}

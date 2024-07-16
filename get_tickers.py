@@ -12,17 +12,30 @@ from bs4 import BeautifulSoup
 try:
     top_gainers = si.get_day_gainers()
     top_gainers_tickers = top_gainers['Symbol'].tolist()
-    print(f"Found {len(top_gainers_tickers)} tickers in top gainers.")
+    print(f"Found {len(top_gainers_tickers)} tickers in Yahoo top gainers.")
 except:
-    print("Failed to get top gainers.")
+    print("Failed to get Yahoo top gainers.")
 
 # Fetch most active stocks
 try:
     most_active = si.get_day_most_active()
     most_active_tickers = most_active['Symbol'].tolist()
-    print(f"Found {len(most_active_tickers)} tickers in most active stocks.")
+    print(f"Found {len(most_active_tickers)} tickers in most Yahoo active stocks.")
 except:
-    print("Failed to get most active.")
+    print("Failed to get Yahoo most active.")
+
+try:
+    url = "https://api.stocktwits.com/api/2/trending/symbols.json"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    }
+
+    response = requests.get(url, headers=headers)
+    data = response.json()
+    trending_tickers = [symbol['symbol'] for symbol in data['symbols']]
+    print(f"Found {len(trending_tickers)} tickers in Stocktwits trending stocks.")
+except Exception as e:
+    print(f"Failed to get Stocktwits trending tickers: {e}")
 
 # Load unique tickers from the unique_tickers.json file
 with open('unique_tickers.json', 'r') as file:
@@ -104,16 +117,17 @@ for filename in os.listdir(stock_data_dir):
 print(f"Found {len(old_tickers)} tickers from old Overall_Trend.json files.")
 
 # Combine and deduplicate the tickers
-all_tickers = list(set(hot_pick_tickers + top_gainers_tickers + most_active_tickers + unique_tickers + scraped_tickers + old_tickers))
+all_tickers = list(set(hot_pick_tickers + top_gainers_tickers + most_active_tickers + trending_tickers + unique_tickers + scraped_tickers + old_tickers))
+filtered_tickers = [ticker for ticker in all_tickers if ticker.isalpha()]
 
-print(f"Total unique tickers found: {len(all_tickers)}")
+print(f"Total unique tickers found: {len(filtered_tickers)}")
 
 # Path to your get_stock_data.py script
 script_path = './get_stock_data.py'
 
 # Loop through each ticker and call get_stock_data.py
-random.shuffle(all_tickers)
-for ticker in all_tickers:
+random.shuffle(filtered_tickers)
+for ticker in filtered_tickers:
     json_file_path = os.path.join(stock_data_dir, f"{ticker}_Overall_Trend.json")
 
     # Check if the file exists and is newer than 1 Hr 

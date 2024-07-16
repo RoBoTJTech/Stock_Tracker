@@ -1,0 +1,74 @@
+{
+    "FLMMF": {
+        "triggers": [
+            {
+                "high_timestamp": "2024-01-29 09:30:00-05:00",
+                "high_price": 16.1,
+                "trigger_timestamp": "2024-02-05 13:30:00-05:00",
+                "trigger_price": 15.29,
+                "percentage_drop": 5.05,
+                "bar_high": 15.36,
+                "bar_low": 15.29,
+                "bar_open": 15.29,
+                "bar_close": 15.36
+            },
+            {
+                "high_timestamp": "2024-03-15 13:30:00-04:00",
+                "high_price": 17.83,
+                "trigger_timestamp": "2024-03-27 12:30:00-04:00",
+                "trigger_price": 16.63,
+                "percentage_drop": 6.73,
+                "bar_high": 16.71,
+                "bar_low": 16.63,
+                "bar_open": 16.71,
+                "bar_close": 16.63
+            },
+            {
+                "high_timestamp": "2024-05-17 15:30:00-04:00",
+                "high_price": 19.57,
+                "trigger_timestamp": "2024-06-06 09:30:00-04:00",
+                "trigger_price": 17.75,
+                "percentage_drop": 9.31,
+                "bar_high": 17.75,
+                "bar_low": 17.75,
+                "bar_open": 17.75,
+                "bar_close": 17.75
+            }
+        ],
+        "trades": [
+            {
+                "buy_timestamp": "2024-02-05 13:30:00-05:00",
+                "buy_price": 15.29,
+                "sell_timestamp": "2024-02-26 09:30:00-05:00",
+                "sell_price": 16.13,
+                "profit": 0.77
+            },
+            {
+                "buy_timestamp": "2024-03-27 12:30:00-04:00",
+                "buy_price": 16.63,
+                "sell_timestamp": "2024-03-28 12:30:00-04:00",
+                "sell_price": 17.55,
+                "profit": 0.84
+            },
+            {
+                "buy_timestamp": "2024-06-06 09:30:00-04:00",
+                "buy_price": 17.75,
+                "sell_timestamp": "2024-06-28 12:30:00-04:00",
+                "sell_price": 18.64,
+                "profit": 0.89
+            }
+        ],
+        "totals": {
+            "Report": "Source: Yahoo, Period: 6Mo, Interval: 1Hr",
+            "Threshold": 5,
+            "Triggers": 3,
+            "Buy_Orders": 3,
+            "Sell_Orders": 3,
+            "Gained": 15,
+            "Working_Days": 34,
+            "Annual_Trade_Gain": 111.18,
+            "Score": 32.05,
+            "Updated": "2024-07-15 06:44:09 PM EDT"
+        }
+    }
+}

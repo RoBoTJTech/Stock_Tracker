@@ -3,6 +3,14 @@ import json
 import math
 from datetime import datetime
 
+def worst_trading_rank(unique_tickers, scores):
+    rank = 0
+    for ticker in unique_tickers:
+        ticker_rank = scores["Overall_Trend"].get(ticker, {}).get("Rank", 0)
+        if ticker_rank > rank:
+            rank = ticker_rank
+    return rank
+
 def get_Scores(directory):
     scores = {
         "Overall_Trend": {},
@@ -22,65 +30,55 @@ def get_Scores(directory):
 
         filepath = os.path.join(directory, filename)
         with open(filepath, 'r') as f:
-            try: 
+            try:
                 ticker = filename.split('_')[0]
                 data = json.load(f)
-                scores[score_type][ticker] = data[ticker]["totals"]
-            except:
-                pass
+                if "Score" in data[ticker]["totals"]:
+                    scores[score_type][ticker] = data[ticker]["totals"]
+                else:
+                    print(f"Missing 'Score' key in file {filename}, skipping.")
+            except Exception as e:
+                print(f"Error processing file {filename}: {e}, skipping.")
+                continue
+
+    # Create lists of tickers sorted by their score values
+    Overall_Trend_Orders = sorted(scores["Overall_Trend"], key=lambda ticker: scores["Overall_Trend"][ticker]["Score"], reverse=True)
+    Yr_1Hr_Orders = sorted(scores["2Yr_1Hr"], key=lambda ticker: scores["2Yr_1Hr"][ticker]["Score"], reverse=True)
+    Mo_5Mi_Orders = sorted(scores["1Mo_5Mi"], key=lambda ticker: scores["1Mo_5Mi"][ticker]["Score"], reverse=True)
+    
+    # Calculate the rank for each ticker in the Overall_Trend_Orders list
+    ranks = {}
+    for i, ticker in enumerate(Overall_Trend_Orders):
+        overall_rank = i + 1
+        yr_1hr_rank = Yr_1Hr_Orders.index(ticker) + 1 if ticker in Yr_1Hr_Orders else len(Yr_1Hr_Orders) + 1
+        mo_5mi_rank = Mo_5Mi_Orders.index(ticker) + 1 if ticker in Mo_5Mi_Orders else len(Mo_5Mi_Orders) + 1
+        total_rank = overall_rank + yr_1hr_rank + mo_5mi_rank
+        scores["Overall_Trend"][ticker]["Rank"] = total_rank
+        ranks[ticker] = {
+            "totals": {
+                "Overall_Trend_Rank": overall_rank,
+                "2Yr_1Hr_Rank": yr_1hr_rank,
+                "1Mo_5Mi_Rank": mo_5mi_rank,
+                "Total_Rank": total_rank
+            }
+        } 
+
+    # Sort ranks by Total_Rank
+    sorted_ranks = sorted(ranks.items(), key=lambda item: item[1]["totals"]["Total_Rank"])
+    # Update scores and add actual Rank to ranks
+    for actual_rank, (ticker, rank_info) in enumerate(sorted_ranks, start=1):
+        scores["Overall_Trend"][ticker]["Rank"] = actual_rank
+        rank_info["totals"]["Rank"] = actual_rank
+
+    # Convert sorted_ranks back to dictionary for output
+    sorted_ranks_dict = {ticker: rank_info for ticker, rank_info in sorted_ranks}
+    # Write the ranks to ranks.json
+    with open('ranks.json', 'w') as outfile:
+            json.dump(sorted_ranks_dict, outfile, indent=4)
+    
     return scores
 
-def get_lowest_and_average_values(unique_tickers, scores):
-    lowest_values = {
-        "Overall_Trend": float('inf'),
-        "2Yr_1Hr": float('inf'),
-        "1Mo_5Mi": float('inf'),
-    }
-
-    average_values = {
-        "Overall_Trend": 0,
-        "2Yr_1Hr": 0,
-        "1Mo_5Mi": 0
-    }
-
-    total_counts = {
-        "Overall_Trend": 0,
-        "2Yr_1Hr": 0,
-        "1Mo_5Mi": 0
-    }
-
-    for ticker in unique_tickers:
-        overall_score = scores["Overall_Trend"].get(ticker, {}).get("Score", 0) 
-        y2_score = scores["2Yr_1Hr"].get(ticker, {}).get("Score", 0)
-        mo1_score = scores["1Mo_5Mi"].get(ticker, {}).get("Score", 0)
-        if overall_score < lowest_values["Overall_Trend"]:
-            if overall_score > 0:
-                lowest_values["Overall_Trend"] = overall_score
-        if y2_score < lowest_values["2Yr_1Hr"]:
-            if y2_score > 0:
-                lowest_values["2Yr_1Hr"] = y2_score
-        if mo1_score < lowest_values["1Mo_5Mi"]:
-            if mo1_score > 0:
-                lowest_values["1Mo_5Mi"] = mo1_score
-
-        average_values["Overall_Trend"] += overall_score
-        total_counts["Overall_Trend"] += 1
-
-        average_values["2Yr_1Hr"] += y2_score
-        total_counts["2Yr_1Hr"] += 1
-
-        average_values["1Mo_5Mi"] += mo1_score
-        total_counts["1Mo_5Mi"] += 1
-
-
-    for key in average_values:
-        if total_counts[key] != 0:
-            average_values[key] = (average_values[key] / total_counts[key]) #+ lowest_values[key]) /2
-    print(lowest_values)
-    print(average_values)
-    return lowest_values
-
-def filter_scores(scores, unique_tickers, average_values, trade_type='buy'):
+def filter_scores(scores, unique_tickers, rank, trade_type='buy'):
     symbols = []
 
     if trade_type == 'sell':
@@ -94,18 +92,14 @@ def filter_scores(scores, unique_tickers, average_values, trade_type='buy'):
             continue
         if trade_type == 'hold' and ticker not in unique_tickers:
             continue
-        overall_score = scores["Overall_Trend"].get(ticker, {}).get("Score", 0)
+        Overall_Rank = scores["Overall_Trend"].get(ticker, {}).get("Rank", 0)
         Overall_Trend = scores["Overall_Trend"].get(ticker, {}).get("Overall_Trend", "Downward")
-        y2_score = scores["2Yr_1Hr"].get(ticker, {}).get("Score", 0)
-        mo1_score = scores["1Mo_5Mi"].get(ticker, {}).get("Score", 0)
         Sell_Orders = scores["1Mo_5Mi"].get(ticker, {}).get("Sell_Orders", 0)
         Recommendation = scores["Overall_Trend"].get(ticker, {}).get("Recommendation", "None")
-        if ("Buy" in Recommendation and
-            Sell_Orders > 4 and Overall_Trend == "Upward" and
-            overall_score > average_values["Overall_Trend"] and
-            y2_score > average_values["2Yr_1Hr"] and
-            mo1_score > average_values["1Mo_5Mi"]):
+        if ("Buy" in Recommendation and Overall_Trend == "Upward" and Overall_Rank <= rank and 
+            (trade_type != 'buy' or (trade_type == 'buy' and Sell_Orders > 4))):
             symbols.append((ticker, scores["1Mo_5Mi"].get(ticker, {})))
+
     sorted_tickers = sorted(symbols, key=lambda x: x[1].get("Score", 0), reverse=True)
     symbols = [ticker for ticker, _ in sorted_tickers]
     return symbols
@@ -128,11 +122,11 @@ def main():
     with open('unique_tickers.json', 'r') as file:
         unique_tickers = json.load(file)
 
-    average_values = get_lowest_and_average_values(unique_tickers, scores)
-    buy_symbols = filter_scores(scores, unique_tickers, average_values, 'buy')
-    hold_symbols = filter_scores(scores, unique_tickers, average_values, 'hold')
+    rank = worst_trading_rank(unique_tickers, scores)
+    buy_symbols = filter_scores(scores, unique_tickers, rank, 'buy')
+    hold_symbols = filter_scores(scores, unique_tickers, rank, 'hold')
     sell_symbols_unsorted = [ticker for ticker in unique_tickers if ticker not in hold_symbols]
-    sell_symbols = filter_scores(scores, sell_symbols_unsorted, average_values, 'sell') 
+    sell_symbols = filter_scores(scores, sell_symbols_unsorted, rank, 'sell') 
 
     # Create Hot Picks JSON file
     create_hot_picks_json(sell_symbols, buy_symbols, hold_symbols)

@@ -1,0 +1,591 @@
+{
+    "XLF": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "longBusinessSummary": "The fund generally invests substantially all, but at least 95%, of its total assets in the securities comprising the index. The index includes companies that have been identified as Financial companies by the Global Industry Classification Standard, including securities of companies from the following industries: financial services; insurance; banks; capital markets; mortgage real estate investment trusts; and consumer finance. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "fundProfile": {
+                "maxAge": 1,
+                "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq1.gif",
+                "family": "SPDR State Street Global Advisors",
+                "categoryName": "Financial",
+                "legalType": "Exchange Traded Fund",
+                "feesExpensesInvestment": {
+                    "annualReportExpenseRatio": 0.00090000004,
+                    "annualHoldingsTurnover": 0.23,
+                    "totalNetAssets": 170397.38,
+                    "projectionValues": {}
+                },
+                "feesExpensesInvestmentCat": {
+                    "annualReportExpenseRatio": 0.0127254,
+                    "annualHoldingsTurnover": 0.4274,
+                    "totalNetAssets": 170397.38,
+                    "projectionValuesCat": {}
+                }
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 42.24,
+                "open": 42.19,
+                "dayLow": 42.0815,
+                "dayHigh": 42.5559,
+                "regularMarketPreviousClose": 42.24,
+                "regularMarketOpen": 42.19,
+                "regularMarketDayLow": 42.0815,
+                "regularMarketDayHigh": 42.5559,
+                "trailingPE": 19.232506,
+                "volume": 39041225,
+                "regularMarketVolume": 39041225,
+                "averageVolume": 38143601,
+                "averageVolume10days": 32397910,
+                "averageDailyVolume10Day": 32397910,
+                "bid": 42.33,
+                "ask": 42.36,
+                "bidSize": 21500,
+                "askSize": 28000,
+                "yield": 0.0159,
+                "totalAssets": 38795915264,
+                "fiftyTwoWeekLow": 31.36,
+                "fiftyTwoWeekHigh": 42.56,
+                "fiftyDayAverage": 41.407,
+                "twoHundredDayAverage": 38.45315,
+                "trailingAnnualDividendRate": 0.58,
+                "trailingAnnualDividendYield": 0.01373106,
+                "navPrice": 42.35281,
+                "currency": "USD",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "pageViews": {
+                "shortTermTrend": "DOWN",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "FREE_REALTIME",
+                "postMarketChangePercent": -0.000707942,
+                "postMarketChange": -0.0300026,
+                "postMarketTime": "2024-07-12 18:58:28",
+                "postMarketPrice": 42.35,
+                "postMarketSource": "FREE_REALTIME",
+                "regularMarketChangePercent": 0.00331438,
+                "regularMarketChange": 0.139999,
+                "regularMarketTime": "2024-07-12 15:00:00",
+                "priceHint": 2,
+                "regularMarketPrice": 42.38,
+                "regularMarketDayHigh": 42.5559,
+                "regularMarketDayLow": 42.0815,
+                "regularMarketVolume": 39041225,
+                "averageDailyVolume10Day": 32397910,
+                "averageDailyVolume3Month": 38143601,
+                "regularMarketPreviousClose": 42.24,
+                "regularMarketSource": "FREE_REALTIME",
+                "regularMarketOpen": 42.19,
+                "exchange": "PCX",
+                "exchangeName": "NYSEArca",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "CLOSED",
+                "quoteType": "ETF",
+                "symbol": "XLF",
+                "underlyingSymbol": null,
+                "shortName": "SPDR Select Sector Fund - Finan",
+                "longName": "The Financial Select Sector SPDR Fund",
+                "currency": "USD",
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "marketCap": 37440401408
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "category": "Financial",
+                "ytdReturn": 0.1357624,
+                "beta3Year": 1.02,
+                "totalAssets": 38795915264,
+                "yield": 0.0159,
+                "fundFamily": "SPDR State Street Global Advisors",
+                "fundInceptionDate": "1998-12-15 18:00:00",
+                "legalType": "Exchange Traded Fund",
+                "threeYearAverageReturn": 0.0654238,
+                "fiveYearAverageReturn": 0.1060978,
+                "lastSplitFactor": null
+            },
+            "summaryProfile": {
+                "longBusinessSummary": "The fund generally invests substantially all, but at least 95%, of its total assets in the securities comprising the index. The index includes companies that have been identified as Financial companies by the Global Industry Classification Standard, including securities of companies from the following industries: financial services; insurance; banks; capital markets; mortgage real estate investment trusts; and consumer finance. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "topHoldings": {
+                "maxAge": 1,
+                "stockPosition": 0.9984,
+                "bondPosition": 0.0,
+                "holdings": [
+                    {
+                        "symbol": "BRK-B",
+                        "holdingName": "Berkshire Hathaway Inc Class B",
+                        "holdingPercent": 0.1291737
+                    },
+                    {
+                        "symbol": "JPM",
+                        "holdingName": "JPMorgan Chase & Co",
+                        "holdingPercent": 0.1018762
+                    },
+                    {
+                        "symbol": "V",
+                        "holdingName": "Visa Inc Class A",
+                        "holdingPercent": 0.0724677
+                    },
+                    {
+                        "symbol": "MA",
+                        "holdingName": "Mastercard Inc Class A",
+                        "holdingPercent": 0.063527495
+                    },
+                    {
+                        "symbol": "BAC",
+                        "holdingName": "Bank of America Corp",
+                        "holdingPercent": 0.047459897
+                    },
+                    {
+                        "symbol": "WFC",
+                        "holdingName": "Wells Fargo & Co",
+                        "holdingPercent": 0.0363166
+                    },
+                    {
+                        "symbol": "GS",
+                        "holdingName": "The Goldman Sachs Group Inc",
+                        "holdingPercent": 0.0255822
+                    },
+                    {
+                        "symbol": "SPGI",
+                        "holdingName": "S&P Global Inc",
+                        "holdingPercent": 0.0250424
+                    },
+                    {
+                        "symbol": "AXP",
+                        "holdingName": "American Express Co",
+                        "holdingPercent": 0.023078201
+                    },
+                    {
+                        "symbol": "PGR",
+                        "holdingName": "Progressive Corp",
+                        "holdingPercent": 0.0213374
+                    }
+                ],
+                "equityHoldings": {
+                    "priceToEarnings": 0.05991,
+                    "priceToBook": 0.48907,
+                    "priceToSales": 0.33864,
+                    "priceToCashflow": 0.0
+                },
+                "bondHoldings": {},
+                "bondRatings": [
+                    {
+                        "us_government": 0.0
+                    }
+                ],
+                "sectorWeightings": [
+                    {
+                        "realestate": 0.0
+                    },
+                    {
+                        "consumer_cyclical": 0.0
+                    },
+                    {
+                        "basic_materials": 0.0
+                    },
+                    {
+                        "consumer_defensive": 0.0
+                    },
+                    {
+                        "technology": 0.028099999
+                    },
+                    {
+                        "communication_services": 0.0
+                    },
+                    {
+                        "financial_services": 0.96760005
+                    },
+                    {
+                        "utilities": 0.0
+                    },
+                    {
+                        "industrials": 0.0043
+                    },
+                    {
+                        "energy": 0.0
+                    },
+                    {
+                        "healthcare": 0.0
+                    }
+                ]
+            },
+            "fundPerformance": {
+                "maxAge": 1,
+                "performanceOverview": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytdReturnPct": 0.1357624,
+                    "oneYearTotalReturn": 0.2545455,
+                    "threeYearTotalReturn": 0.0654238
+                },
+                "performanceOverviewCat": {
+                    "ytdReturnPct": 0.062234,
+                    "fiveYrAvgReturnPct": 0.078495204
+                },
+                "trailingReturns": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytd": 0.1010106,
+                    "oneMonth": -0.0089212,
+                    "threeMonth": -0.0204881,
+                    "oneYear": 0.2402674,
+                    "threeYear": 0.0581208,
+                    "fiveYear": 0.1048843,
+                    "tenYear": 0.104643404,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "trailingReturnsNav": {
+                    "ytd": 0.1010106,
+                    "oneMonth": -0.0089212,
+                    "threeMonth": -0.0204881,
+                    "oneYear": 0.2402674,
+                    "threeYear": 0.0581208,
+                    "fiveYear": 0.1048843,
+                    "tenYear": 0.104643404
+                },
+                "trailingReturnsCat": {
+                    "ytd": 0.062234,
+                    "oneMonth": -0.0051635997,
+                    "threeMonth": -0.0119788,
+                    "oneYear": 0.24031,
+                    "threeYear": 0.027529098,
+                    "fiveYear": 0.078495204,
+                    "tenYear": 0.0787843,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "annualTotalReturns": {
+                    "returns": [
+                        {
+                            "year": "2023",
+                            "annualValue": 0.1202378
+                        },
+                        {
+                            "year": "2022",
+                            "annualValue": -0.1060184
+                        },
+                        {
+                            "year": "2021",
+                            "annualValue": 0.3482365
+                        },
+                        {
+                            "year": "2020",
+                            "annualValue": -0.016742
+                        },
+                        {
+                            "year": "2019",
+                            "annualValue": 0.3187707
+                        },
+                        {
+                            "year": "2018",
+                            "annualValue": -0.1304298
+                        },
+                        {
+                            "year": "2017",
+                            "annualValue": 0.2200032
+                        },
+                        {
+                            "year": "2016",
+                            "annualValue": -0.0074040997
+                        },
+                        {
+                            "year": "2015",
+                            "annualValue": -0.020995801
+                        },
+                        {
+                            "year": "2014",
+                            "annualValue": 0.1468883
+                        },
+                        {
+                            "year": "2013",
+                            "annualValue": 0.35117853
+                        },
+                        {
+                            "year": "2012",
+                            "annualValue": 0.2797347
+                        },
+                        {
+                            "year": "2011",
+                            "annualValue": -0.17402099
+                        },
+                        {
+                            "year": "2010",
+                            "annualValue": 0.1169115
+                        },
+                        {
+                            "year": "2009",
+                            "annualValue": 0.1712223
+                        },
+                        {
+                            "year": "2008",
+                            "annualValue": -0.553033
+                        },
+                        {
+                            "year": "2007",
+                            "annualValue": -0.1958332
+                        },
+                        {
+                            "year": "2006",
+                            "annualValue": 0.1833261
+                        },
+                        {
+                            "year": "2005",
+                            "annualValue": 0.0572661
+                        },
+                        {
+                            "year": "2004",
+                            "annualValue": 0.1041045
+                        },
+                        {
+                            "year": "2003",
+                            "annualValue": 0.2998141
+                        },
+                        {
+                            "year": "2002",
+                            "annualValue": -0.1504942
+                        },
+                        {
+                            "year": "2001",
+                            "annualValue": -0.0968924
+                        },
+                        {
+                            "year": "2000",
+                            "annualValue": 0.25557038
+                        },
+                        {
+                            "year": "1999",
+                            "annualValue": 0.2611327
+                        }
+                    ],
+                    "returnsCat": [
+                        {
+                            "year": "2023",
+                            "annualValue": 0.12594889
+                        },
+                        {
+                            "year": "2022",
+                            "annualValue": -0.1383398
+                        },
+                        {
+                            "year": "2021",
+                            "annualValue": 0.32331872
+                        },
+                        {
+                            "year": "2020",
+                            "annualValue": -0.011493799
+                        },
+                        {
+                            "year": "2019",
+                            "annualValue": 0.2839154
+                        },
+                        {
+                            "year": "2018",
+                            "annualValue": -0.1420715
+                        },
+                        {
+                            "year": "2017",
+                            "annualValue": 0.1671997
+                        },
+                        {
+                            "year": "2016",
+                            "annualValue": 0.190925
+                        },
+                        {
+                            "year": "2015",
+                            "annualValue": -0.0087088
+                        },
+                        {
+                            "year": "2014",
+                            "annualValue": 0.049008198
+                        },
+                        {
+                            "year": "2013",
+                            "annualValue": 0.3456956
+                        },
+                        {
+                            "year": "2012",
+                            "annualValue": 0.247738
+                        },
+                        {
+                            "year": "2011",
+                            "annualValue": -0.15117429
+                        },
+                        {
+                            "year": "2010",
+                            "annualValue": 0.111341104
+                        },
+                        {
+                            "year": "2009",
+                            "annualValue": 0.252568
+                        },
+                        {
+                            "year": "2008",
+                            "annualValue": -0.43906072
+                        },
+                        {
+                            "year": "2007",
+                            "annualValue": -0.116384
+                        },
+                        {
+                            "year": "2006",
+                            "annualValue": 0.16904199
+                        },
+                        {
+                            "year": "2005",
+                            "annualValue": 0.067364
+                        },
+                        {
+                            "year": "2004",
+                            "annualValue": 0.1401656
+                        },
+                        {
+                            "year": "2003",
+                            "annualValue": 0.3356057
+                        },
+                        {
+                            "year": "2002",
+                            "annualValue": -0.1028075
+                        },
+                        {
+                            "year": "2001",
+                            "annualValue": -0.020524599
+                        },
+                        {
+                            "year": "2000",
+                            "annualValue": 0.2774444
+                        },
+                        {
+                            "year": "1999",
+                            "annualValue": -0.0178678
+                        },
+                        {
+                            "year": "1998",
+                            "annualValue": 0.0605055
+                        },
+                        {
+                            "year": "1997",
+                            "annualValue": 0.469989
+                        },
+                        {
+                            "year": "1996",
+                            "annualValue": 0.3187636
+                        },
+                        {
+                            "year": "1995",
+                            "annualValue": 0.4602047
+                        },
+                        {
+                            "year": "1994",
+                            "annualValue": -0.026810901
+                        }
+                    ]
+                },
+                "pastQuarterlyReturns": {
+                    "returns": []
+                },
+                "riskOverviewStatistics": {
+                    "riskStatistics": [
+                        {
+                            "year": "5y",
+                            "alpha": -0.5,
+                            "beta": 1.14,
+                            "meanAnnualReturn": 1.05,
+                            "rSquared": 77.35,
+                            "stdDev": 22.49,
+                            "sharpeRatio": 0.46,
+                            "treynorRatio": 7.19
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": 0.88,
+                            "beta": 1.02,
+                            "meanAnnualReturn": 0.63,
+                            "rSquared": 72.19,
+                            "stdDev": 19.93,
+                            "sharpeRatio": 0.21,
+                            "treynorRatio": 2.34
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": 1.87,
+                            "beta": 1.1,
+                            "meanAnnualReturn": 0.99,
+                            "rSquared": 70.78,
+                            "stdDev": 19.44,
+                            "sharpeRatio": 0.53,
+                            "treynorRatio": 8.01
+                        }
+                    ]
+                },
+                "riskOverviewStatisticsCat": {
+                    "riskStatisticsCat": [
+                        {
+                            "year": "5y",
+                            "alpha": -2.39,
+                            "beta": 1.16,
+                            "meanAnnualReturn": 0.91,
+                            "rSquared": 65.2,
+                            "stdDev": 25.43,
+                            "sharpeRatio": 0.36,
+                            "treynorRatio": 5.01
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": -1.59,
+                            "beta": 1.02,
+                            "meanAnnualReturn": 0.43,
+                            "rSquared": 58.77,
+                            "stdDev": 22.78,
+                            "sharpeRatio": 0.11,
+                            "treynorRatio": -0.13
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": -0.12,
+                            "beta": 1.11,
+                            "meanAnnualReturn": 0.83,
+                            "rSquared": 61.41,
+                            "stdDev": 21.36,
+                            "sharpeRatio": 0.4,
+                            "treynorRatio": 5.88
+                        }
+                    ]
+                }
+            },
+            "quoteType": {
+                "exchange": "PCX",
+                "quoteType": "ETF",
+                "symbol": "XLF",
+                "underlyingSymbol": "XLF",
+                "shortName": "SPDR Select Sector Fund - Finan",
+                "longName": "The Financial Select Sector SPDR Fund",
+                "firstTradeDateEpochUtc": "1998-12-22 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "8c79bf33-80b0-3f96-8327-6dc8d8f35dd0",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            }
+        }
+    }
+}

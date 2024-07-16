@@ -1,0 +1,401 @@
+{
+    "FAS": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "phone": "866-476-7523",
+                "longBusinessSummary": "The fund invests at least 80% of its net assets in financial instruments, such as swap agreements, securities of the index, and ETFs that track the index, that, in combination, provide 3X daily leveraged exposure to the index, consistent with the fund's investment objective. The index includes securities of companies from the following industries: Banks; Thrifts & Mortgage Finance; Diversified Financial Services; Consumer Finance; Capital Markets; Insurance; and Mortgage REITs. It is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "fundProfile": {
+                "maxAge": 1,
+                "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq1.gif",
+                "family": "Direxion Funds",
+                "categoryName": "Trading--Leveraged Equity",
+                "legalType": "Exchange Traded Fund",
+                "feesExpensesInvestment": {
+                    "annualReportExpenseRatio": 0.0094,
+                    "annualHoldingsTurnover": 0.0,
+                    "totalNetAssets": 170423.52,
+                    "projectionValues": {}
+                },
+                "feesExpensesInvestmentCat": {
+                    "annualReportExpenseRatio": 0.0,
+                    "totalNetAssets": 170423.52,
+                    "projectionValuesCat": {}
+                }
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 109.22,
+                "open": 108.66,
+                "dayLow": 107.67,
+                "dayHigh": 111.29,
+                "regularMarketPreviousClose": 109.22,
+                "regularMarketOpen": 108.66,
+                "regularMarketDayLow": 107.67,
+                "regularMarketDayHigh": 111.29,
+                "trailingPE": 32.396156,
+                "volume": 849724,
+                "regularMarketVolume": 849724,
+                "averageVolume": 480098,
+                "averageVolume10days": 533370,
+                "averageDailyVolume10Day": 533370,
+                "bid": 109.0,
+                "ask": 110.2,
+                "bidSize": 900,
+                "askSize": 1100,
+                "yield": 0.012999999,
+                "totalAssets": 2129881984,
+                "fiftyTwoWeekLow": 48.73,
+                "fiftyTwoWeekHigh": 113.08,
+                "fiftyDayAverage": 103.661,
+                "twoHundredDayAverage": 87.59455,
+                "trailingAnnualDividendRate": 0.0,
+                "trailingAnnualDividendYield": 0.0,
+                "navPrice": 109.769,
+                "currency": "USD",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "pageViews": {
+                "shortTermTrend": "UP",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "FREE_REALTIME",
+                "postMarketChangePercent": -0.00090990425,
+                "postMarketChange": -0.099998474,
+                "postMarketTime": "2024-07-12 18:54:07",
+                "postMarketPrice": 109.8,
+                "postMarketSource": "DELAYED",
+                "regularMarketChangePercent": 0.0062259687,
+                "regularMarketChange": 0.6800003,
+                "regularMarketTime": "2024-07-12 15:00:00",
+                "priceHint": 2,
+                "regularMarketPrice": 109.9,
+                "regularMarketDayHigh": 111.29,
+                "regularMarketDayLow": 107.67,
+                "regularMarketVolume": 849724,
+                "averageDailyVolume10Day": 533370,
+                "averageDailyVolume3Month": 480098,
+                "regularMarketPreviousClose": 109.22,
+                "regularMarketSource": "DELAYED",
+                "regularMarketOpen": 108.66,
+                "exchange": "PCX",
+                "exchangeName": "NYSEArca",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "CLOSED",
+                "quoteType": "ETF",
+                "symbol": "FAS",
+                "underlyingSymbol": null,
+                "shortName": "Direxion Financial Bull 3X Shar",
+                "longName": "Direxion Daily Financial Bull 3X Shares",
+                "currency": "USD",
+                "quoteSourceName": "Delayed Quote",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "lastMarket": null
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "category": "Trading--Leveraged Equity",
+                "ytdReturn": 0.337857,
+                "beta3Year": 2.81,
+                "totalAssets": 2129881984,
+                "yield": 0.012999999,
+                "fundFamily": "Direxion Funds",
+                "fundInceptionDate": "2008-11-05 18:00:00",
+                "legalType": "Exchange Traded Fund",
+                "threeYearAverageReturn": 0.0088139,
+                "fiveYearAverageReturn": 0.0769762,
+                "lastSplitFactor": null
+            },
+            "summaryProfile": {
+                "phone": "866-476-7523",
+                "longBusinessSummary": "The fund invests at least 80% of its net assets in financial instruments, such as swap agreements, securities of the index, and ETFs that track the index, that, in combination, provide 3X daily leveraged exposure to the index, consistent with the fund's investment objective. The index includes securities of companies from the following industries: Banks; Thrifts & Mortgage Finance; Diversified Financial Services; Consumer Finance; Capital Markets; Insurance; and Mortgage REITs. It is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "topHoldings": {
+                "maxAge": 1,
+                "stockPosition": 0.8172,
+                "bondPosition": 0.0,
+                "holdings": [
+                    {
+                        "symbol": "BRK-B",
+                        "holdingName": "Berkshire Hathaway Inc Class B",
+                        "holdingPercent": 0.091006406
+                    },
+                    {
+                        "symbol": "JPM",
+                        "holdingName": "JPMorgan Chase & Co",
+                        "holdingPercent": 0.0717744
+                    },
+                    {
+                        "symbol": "V",
+                        "holdingName": "Visa Inc Class A",
+                        "holdingPercent": 0.0510566
+                    },
+                    {
+                        "symbol": "MA",
+                        "holdingName": "Mastercard Inc Class A",
+                        "holdingPercent": 0.044757098
+                    },
+                    {
+                        "symbol": "BAC",
+                        "holdingName": "Bank of America Corp",
+                        "holdingPercent": 0.033437
+                    },
+                    {
+                        "symbol": "WFC",
+                        "holdingName": "Wells Fargo & Co",
+                        "holdingPercent": 0.0255861
+                    },
+                    {
+                        "symbol": "GS",
+                        "holdingName": "The Goldman Sachs Group Inc",
+                        "holdingPercent": 0.018024
+                    },
+                    {
+                        "symbol": "SPGI",
+                        "holdingName": "S&P Global Inc",
+                        "holdingPercent": 0.0176419
+                    },
+                    {
+                        "symbol": "AXP",
+                        "holdingName": "American Express Co",
+                        "holdingPercent": 0.0162596
+                    }
+                ],
+                "equityHoldings": {
+                    "priceToEarnings": 0.05991,
+                    "priceToBook": 0.48907,
+                    "priceToSales": 0.33862,
+                    "priceToCashflow": 0.0
+                },
+                "bondHoldings": {},
+                "bondRatings": [
+                    {
+                        "us_government": 0.0
+                    }
+                ],
+                "sectorWeightings": [
+                    {
+                        "realestate": 0.0
+                    },
+                    {
+                        "consumer_cyclical": 0.0
+                    },
+                    {
+                        "basic_materials": 0.0
+                    },
+                    {
+                        "consumer_defensive": 0.0
+                    },
+                    {
+                        "technology": 0.028099999
+                    },
+                    {
+                        "communication_services": 0.0
+                    },
+                    {
+                        "financial_services": 0.96760005
+                    },
+                    {
+                        "utilities": 0.0
+                    },
+                    {
+                        "industrials": 0.0043
+                    },
+                    {
+                        "energy": 0.0
+                    },
+                    {
+                        "healthcare": 0.0
+                    }
+                ]
+            },
+            "fundPerformance": {
+                "maxAge": 1,
+                "performanceOverview": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytdReturnPct": 0.337857,
+                    "oneYearTotalReturn": 0.663636,
+                    "threeYearTotalReturn": 0.0088139
+                },
+                "performanceOverviewCat": {},
+                "trailingReturns": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytd": 0.2312026,
+                    "oneMonth": -0.0383318,
+                    "threeMonth": -0.0996914,
+                    "oneYear": 0.6102169,
+                    "threeYear": -0.012498,
+                    "fiveYear": 0.0761774,
+                    "tenYear": 0.1585406,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "trailingReturnsNav": {
+                    "ytd": 0.2312026,
+                    "oneMonth": -0.0383318,
+                    "threeMonth": -0.0996914,
+                    "oneYear": 0.6102169,
+                    "threeYear": -0.012498,
+                    "fiveYear": 0.0761774,
+                    "tenYear": 0.1585406
+                },
+                "trailingReturnsCat": {
+                    "ytd": 0.0,
+                    "oneMonth": 0.0,
+                    "threeMonth": 0.0,
+                    "oneYear": 0.0,
+                    "threeYear": 0.0,
+                    "fiveYear": 0.0,
+                    "tenYear": 0.0,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "annualTotalReturns": {
+                    "returns": [
+                        {
+                            "year": "2023",
+                            "annualValue": 0.14887181
+                        },
+                        {
+                            "year": "2022",
+                            "annualValue": -0.43182158
+                        },
+                        {
+                            "year": "2021",
+                            "annualValue": 1.165664
+                        },
+                        {
+                            "year": "2020",
+                            "annualValue": -0.3510453
+                        },
+                        {
+                            "year": "2019",
+                            "annualValue": 1.130662
+                        },
+                        {
+                            "year": "2018",
+                            "annualValue": -0.33841437
+                        },
+                        {
+                            "year": "2017",
+                            "annualValue": 0.6737799
+                        },
+                        {
+                            "year": "2016",
+                            "annualValue": 0.4069971
+                        },
+                        {
+                            "year": "2015",
+                            "annualValue": -0.085521005
+                        },
+                        {
+                            "year": "2014",
+                            "annualValue": 0.40808418
+                        },
+                        {
+                            "year": "2013",
+                            "annualValue": 1.258998
+                        },
+                        {
+                            "year": "2012",
+                            "annualValue": 0.84874046
+                        },
+                        {
+                            "year": "2011",
+                            "annualValue": -0.5340755
+                        },
+                        {
+                            "year": "2010",
+                            "annualValue": 0.13027039
+                        },
+                        {
+                            "year": "2009",
+                            "annualValue": -0.4145311
+                        }
+                    ],
+                    "returnsCat": []
+                },
+                "pastQuarterlyReturns": {
+                    "returns": []
+                },
+                "riskOverviewStatistics": {
+                    "riskStatistics": [
+                        {
+                            "year": "5y",
+                            "alpha": -11.88,
+                            "beta": 3.15,
+                            "meanAnnualReturn": 2.72,
+                            "rSquared": 72.16,
+                            "stdDev": 66.95,
+                            "sharpeRatio": 0.45,
+                            "treynorRatio": 1.68
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": -8.7,
+                            "beta": 2.81,
+                            "meanAnnualReturn": 1.37,
+                            "rSquared": 68.83,
+                            "stdDev": 60.06,
+                            "sharpeRatio": 0.22,
+                            "treynorRatio": -1.67
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": -6.59,
+                            "beta": 3.13,
+                            "meanAnnualReturn": 2.64,
+                            "rSquared": 74.8,
+                            "stdDev": 55.37,
+                            "sharpeRatio": 0.54,
+                            "treynorRatio": 4.55
+                        }
+                    ]
+                },
+                "riskOverviewStatisticsCat": {
+                    "riskStatisticsCat": [
+                        {
+                            "year": "5y"
+                        },
+                        {
+                            "year": "3y"
+                        },
+                        {
+                            "year": "10y"
+                        }
+                    ]
+                }
+            },
+            "quoteType": {
+                "exchange": "PCX",
+                "quoteType": "ETF",
+                "symbol": "FAS",
+                "underlyingSymbol": "FAS",
+                "shortName": "Direxion Financial Bull 3X Shar",
+                "longName": "Direxion Daily Financial Bull 3X Shares",
+                "firstTradeDateEpochUtc": "2008-11-19 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "149f0ea3-8984-3f47-9bd8-0af6375b383b",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            }
+        }
+    }
+}

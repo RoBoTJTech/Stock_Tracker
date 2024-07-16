@@ -1,0 +1,71 @@
+{
+    "CNP": {
+        "triggers": [
+            {
+                "high_timestamp": "2024-06-21 10:55:00-04:00",
+                "high_price": 31.44,
+                "trigger_timestamp": "2024-06-25 13:05:00-04:00",
+                "trigger_price": 30.36,
+                "percentage_drop": 3.44,
+                "bar_high": 30.4,
+                "bar_low": 30.36,
+                "bar_open": 30.38,
+                "bar_close": 30.36
+            },
+            {
+                "high_timestamp": "2024-06-28 16:00:00-04:00",
+                "high_price": 30.99,
+                "trigger_timestamp": "2024-07-10 12:05:00-04:00",
+                "trigger_price": 29.18,
+                "percentage_drop": 5.82,
+                "bar_high": 29.21,
+                "bar_low": 29.18,
+                "bar_open": 29.18,
+                "bar_close": 29.2
+            },
+            {
+                "high_timestamp": "2024-07-12 15:35:00-04:00",
+                "high_price": 30.56,
+                "trigger_timestamp": "2024-07-15 11:50:00-04:00",
+                "trigger_price": 28.5,
+                "percentage_drop": 6.76,
+                "bar_high": 28.58,
+                "bar_low": 28.5,
+                "bar_open": 28.5,
+                "bar_close": 28.58
+            }
+        ],
+        "trades": [
+            {
+                "buy_timestamp": "2024-06-25 13:05:00-04:00",
+                "buy_price": 30.36,
+                "sell_timestamp": "2024-07-01 19:10:00-04:00",
+                "sell_price": 31.31,
+                "profit": 0.91
+            },
+            {
+                "buy_timestamp": "2024-07-10 12:05:00-04:00",
+                "buy_price": 29.18,
+                "sell_timestamp": "2024-07-11 11:40:00-04:00",
+                "sell_price": 30.09,
+                "profit": 0.88
+            },
+            {
+                "buy_timestamp": "2024-07-15 11:50:00-04:00",
+                "buy_price": 28.5
+            }
+        ],
+        "totals": {
+            "Report": "Source: Yahoo, Period: 1Mo, Interval: 5Mi",
+            "Threshold": 3,
+            "Triggers": 3,
+            "Buy_Orders": 3,
+            "Sell_Orders": 2,
+            "Gained": 6,
+            "Working_Days": 7,
+            "Annual_Trade_Gain": 216.0,
+            "Score": 13.16,
+            "Updated": "2024-07-15 07:36:49 PM EDT"
+        }
+    }
+}

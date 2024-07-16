@@ -1,0 +1,353 @@
+{
+    "TQQQ": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "longBusinessSummary": "The fund invests in financial instruments that ProShare Advisors believes, in combination, should produce daily returns consistent with the Daily Target. The index includes 100 of the largest domestic and international non-financial companies listed on The Nasdaq Stock Market based on market capitalization. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "fundProfile": {
+                "maxAge": 1,
+                "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq3.gif",
+                "family": "ProShares",
+                "categoryName": "Trading--Leveraged Equity",
+                "legalType": "Exchange Traded Fund",
+                "feesExpensesInvestment": {
+                    "annualReportExpenseRatio": 0.0088,
+                    "annualHoldingsTurnover": 1.68,
+                    "totalNetAssets": 0.0,
+                    "projectionValues": {}
+                },
+                "feesExpensesInvestmentCat": {
+                    "annualReportExpenseRatio": 0.0,
+                    "totalNetAssets": 0.0,
+                    "projectionValuesCat": {}
+                }
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 79.35,
+                "open": 79.51,
+                "dayLow": 79.295,
+                "dayHigh": 82.94,
+                "regularMarketPreviousClose": 79.35,
+                "regularMarketOpen": 79.51,
+                "regularMarketDayLow": 79.295,
+                "regularMarketDayHigh": 82.94,
+                "volume": 50509879,
+                "regularMarketVolume": 50509879,
+                "averageVolume": 52040578,
+                "averageVolume10days": 43904920,
+                "averageDailyVolume10Day": 43904920,
+                "bid": 80.43,
+                "ask": 80.47,
+                "bidSize": 100,
+                "askSize": 100,
+                "yield": 0.0117,
+                "totalAssets": 23429597184,
+                "fiftyTwoWeekLow": 30.47,
+                "fiftyTwoWeekHigh": 85.2,
+                "fiftyDayAverage": 68.4702,
+                "twoHundredDayAverage": 54.43515,
+                "navPrice": 80.593,
+                "currency": "USD",
+                "fromCurrency": null,
+                "lastMarket": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "pageViews": {
+                "shortTermTrend": "DOWN",
+                "midTermTrend": "UP",
+                "longTermTrend": "UP",
+                "maxAge": 1
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "FREE_REALTIME",
+                "postMarketChangePercent": 0.0024801202,
+                "postMarketChange": 0.199997,
+                "postMarketTime": "2024-07-12 18:59:57",
+                "postMarketPrice": 80.84,
+                "postMarketSource": "FREE_REALTIME",
+                "regularMarketChangePercent": 0.015374937,
+                "regularMarketChange": 1.2200012,
+                "regularMarketTime": "2024-07-12 15:00:07",
+                "priceHint": 2,
+                "regularMarketPrice": 80.57,
+                "regularMarketDayHigh": 82.94,
+                "regularMarketDayLow": 79.295,
+                "regularMarketVolume": 50509879,
+                "averageDailyVolume10Day": 43904920,
+                "averageDailyVolume3Month": 52040578,
+                "regularMarketPreviousClose": 79.35,
+                "regularMarketSource": "FREE_REALTIME",
+                "regularMarketOpen": 79.51,
+                "exchange": "NGM",
+                "exchangeName": "NasdaqGM",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "CLOSED",
+                "quoteType": "ETF",
+                "symbol": "TQQQ",
+                "underlyingSymbol": null,
+                "shortName": "ProShares UltraPro QQQ",
+                "longName": "ProShares UltraPro QQQ",
+                "currency": "USD",
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "lastMarket": null
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "category": "Trading--Leveraged Equity",
+                "ytdReturn": 0.60214007,
+                "beta3Year": 3.53,
+                "totalAssets": 23429597184,
+                "yield": 0.0117,
+                "fundFamily": "ProShares",
+                "fundInceptionDate": "2010-02-08 18:00:00",
+                "legalType": "Exchange Traded Fund",
+                "threeYearAverageReturn": 0.0833339,
+                "fiveYearAverageReturn": 0.3717387,
+                "lastSplitFactor": null
+            },
+            "summaryProfile": {
+                "longBusinessSummary": "The fund invests in financial instruments that ProShare Advisors believes, in combination, should produce daily returns consistent with the Daily Target. The index includes 100 of the largest domestic and international non-financial companies listed on The Nasdaq Stock Market based on market capitalization. The fund is non-diversified.",
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "topHoldings": {
+                "maxAge": 1,
+                "stockPosition": 0.66059995,
+                "bondPosition": 0.1377,
+                "holdings": [
+                    {
+                        "symbol": "MSFT",
+                        "holdingName": "Microsoft Corp",
+                        "holdingPercent": 0.0286672
+                    },
+                    {
+                        "symbol": "AAPL",
+                        "holdingName": "Apple Inc",
+                        "holdingPercent": 0.027871499
+                    }
+                ],
+                "equityHoldings": {
+                    "priceToEarnings": 0.0,
+                    "priceToBook": 0.0,
+                    "priceToSales": 0.0,
+                    "priceToCashflow": 0.0
+                },
+                "bondHoldings": {},
+                "bondRatings": [
+                    {
+                        "us_government": 0.32349998
+                    }
+                ],
+                "sectorWeightings": [
+                    {
+                        "realestate": 0.002
+                    },
+                    {
+                        "consumer_cyclical": 0.122700006
+                    },
+                    {
+                        "basic_materials": 0.014199999
+                    },
+                    {
+                        "consumer_defensive": 0.059499998
+                    },
+                    {
+                        "technology": 0.5214
+                    },
+                    {
+                        "communication_services": 0.15529999
+                    },
+                    {
+                        "financial_services": 0.0041
+                    },
+                    {
+                        "utilities": 0.0117
+                    },
+                    {
+                        "industrials": 0.0427
+                    },
+                    {
+                        "energy": 0.0047999998
+                    },
+                    {
+                        "healthcare": 0.0617
+                    }
+                ]
+            },
+            "fundPerformance": {
+                "maxAge": 1,
+                "performanceOverview": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytdReturnPct": 0.60214007,
+                    "oneYearTotalReturn": 0.95144445,
+                    "threeYearTotalReturn": 0.0833339
+                },
+                "performanceOverviewCat": {},
+                "trailingReturns": {
+                    "asOfDate": "2024-07-11 19:00:00",
+                    "ytd": 0.46470878,
+                    "oneMonth": 0.18353201,
+                    "threeMonth": 0.1996375,
+                    "oneYear": 0.8222839,
+                    "threeYear": 0.074218005,
+                    "fiveYear": 0.3747364,
+                    "tenYear": 0.37661943,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "trailingReturnsNav": {
+                    "ytd": 0.46470878,
+                    "oneMonth": 0.18353201,
+                    "threeMonth": 0.1996375,
+                    "oneYear": 0.8222839,
+                    "threeYear": 0.074218005,
+                    "fiveYear": 0.3747364,
+                    "tenYear": 0.37661943
+                },
+                "trailingReturnsCat": {
+                    "ytd": 0.0,
+                    "oneMonth": 0.0,
+                    "threeMonth": 0.0,
+                    "oneYear": 0.0,
+                    "threeYear": 0.0,
+                    "fiveYear": 0.0,
+                    "tenYear": 0.0,
+                    "lastBullMkt": 0.0,
+                    "lastBearMkt": 0.0
+                },
+                "annualTotalReturns": {
+                    "returns": [
+                        {
+                            "year": "2023",
+                            "annualValue": 1.9826379
+                        },
+                        {
+                            "year": "2022",
+                            "annualValue": -0.79081845
+                        },
+                        {
+                            "year": "2021",
+                            "annualValue": 0.8298143
+                        },
+                        {
+                            "year": "2020",
+                            "annualValue": 1.100523
+                        },
+                        {
+                            "year": "2019",
+                            "annualValue": 1.338345
+                        },
+                        {
+                            "year": "2018",
+                            "annualValue": -0.19805099
+                        },
+                        {
+                            "year": "2017",
+                            "annualValue": 1.1806179
+                        },
+                        {
+                            "year": "2016",
+                            "annualValue": 0.1138055
+                        },
+                        {
+                            "year": "2015",
+                            "annualValue": 0.17231649
+                        },
+                        {
+                            "year": "2014",
+                            "annualValue": 0.5708932
+                        },
+                        {
+                            "year": "2013",
+                            "annualValue": 1.397334
+                        },
+                        {
+                            "year": "2012",
+                            "annualValue": 0.522871
+                        },
+                        {
+                            "year": "2011",
+                            "annualValue": -0.080470696
+                        }
+                    ],
+                    "returnsCat": []
+                },
+                "pastQuarterlyReturns": {
+                    "returns": []
+                },
+                "riskOverviewStatistics": {
+                    "riskStatistics": [
+                        {
+                            "year": "5y",
+                            "alpha": 6.3,
+                            "beta": 3.44,
+                            "meanAnnualReturn": 4.57,
+                            "rSquared": 85.85,
+                            "stdDev": 67.14,
+                            "sharpeRatio": 0.78,
+                            "treynorRatio": 10.22
+                        },
+                        {
+                            "year": "3y",
+                            "alpha": -0.34,
+                            "beta": 3.53,
+                            "meanAnnualReturn": 2.53,
+                            "rSquared": 84.64,
+                            "stdDev": 68.19,
+                            "sharpeRatio": 0.4,
+                            "treynorRatio": 1.13
+                        },
+                        {
+                            "year": "10y",
+                            "alpha": 6.65,
+                            "beta": 3.49,
+                            "meanAnnualReturn": 4.09,
+                            "rSquared": 85.22,
+                            "stdDev": 57.78,
+                            "sharpeRatio": 0.82,
+                            "treynorRatio": 10.34
+                        }
+                    ]
+                },
+                "riskOverviewStatisticsCat": {
+                    "riskStatisticsCat": [
+                        {
+                            "year": "5y"
+                        },
+                        {
+                            "year": "3y"
+                        },
+                        {
+                            "year": "10y"
+                        }
+                    ]
+                }
+            },
+            "quoteType": {
+                "exchange": "NGM",
+                "quoteType": "ETF",
+                "symbol": "TQQQ",
+                "underlyingSymbol": "TQQQ",
+                "shortName": "ProShares UltraPro QQQ",
+                "longName": "ProShares UltraPro QQQ",
+                "firstTradeDateEpochUtc": "2010-02-11 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "e44544e4-318f-3f5a-8077-5d451edcee89",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            }
+        }
+    }
+}

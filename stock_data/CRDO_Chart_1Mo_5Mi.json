@@ -1,0 +1,56 @@
+{
+    "CRDO": {
+        "triggers": [
+            {
+                "high_timestamp": "2024-06-18 13:55:00-04:00",
+                "high_price": 29.66,
+                "trigger_timestamp": "2024-06-21 16:00:00-04:00",
+                "trigger_price": 27.49,
+                "percentage_drop": 7.32,
+                "bar_high": 27.55,
+                "bar_low": 27.49,
+                "bar_open": 27.54,
+                "bar_close": 27.49
+            },
+            {
+                "high_timestamp": "2024-06-28 10:55:00-04:00",
+                "high_price": 32.77,
+                "trigger_timestamp": "2024-07-11 12:15:00-04:00",
+                "trigger_price": 30.32,
+                "percentage_drop": 7.48,
+                "bar_high": 30.43,
+                "bar_low": 30.32,
+                "bar_open": 30.37,
+                "bar_close": 30.37
+            }
+        ],
+        "trades": [
+            {
+                "buy_timestamp": "2024-06-21 16:00:00-04:00",
+                "buy_price": 27.49,
+                "sell_timestamp": "2024-06-25 09:30:00-04:00",
+                "sell_price": 29.48,
+                "profit": 1.93
+            },
+            {
+                "buy_timestamp": "2024-07-11 12:15:00-04:00",
+                "buy_price": 30.32,
+                "sell_timestamp": "2024-07-15 10:35:00-04:00",
+                "sell_price": 32.56,
+                "profit": 2.13
+            }
+        ],
+        "totals": {
+            "Report": "Source: Yahoo, Period: 1Mo, Interval: 5Mi",
+            "Threshold": 7,
+            "Triggers": 2,
+            "Buy_Orders": 2,
+            "Sell_Orders": 2,
+            "Gained": 14,
+            "Working_Days": 4,
+            "Annual_Trade_Gain": 882.0,
+            "Score": 149.03,
+            "Updated": "2024-07-15 07:15:32 PM EDT"
+        }
+    }
+}

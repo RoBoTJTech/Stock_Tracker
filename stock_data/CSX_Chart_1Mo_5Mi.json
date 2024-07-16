@@ -1,0 +1,56 @@
+{
+    "CSX": {
+        "triggers": [
+            {
+                "high_timestamp": "2024-06-24 12:25:00-04:00",
+                "high_price": 33.78,
+                "trigger_timestamp": "2024-06-25 10:30:00-04:00",
+                "trigger_price": 32.53,
+                "percentage_drop": 3.69,
+                "bar_high": 32.58,
+                "bar_low": 32.53,
+                "bar_open": 32.56,
+                "bar_close": 32.55
+            },
+            {
+                "high_timestamp": "2024-07-02 10:35:00-04:00",
+                "high_price": 33.83,
+                "trigger_timestamp": "2024-07-09 10:45:00-04:00",
+                "trigger_price": 32.39,
+                "percentage_drop": 4.24,
+                "bar_high": 32.47,
+                "bar_low": 32.39,
+                "bar_open": 32.44,
+                "bar_close": 32.47
+            }
+        ],
+        "trades": [
+            {
+                "buy_timestamp": "2024-06-25 10:30:00-04:00",
+                "buy_price": 32.53,
+                "sell_timestamp": "2024-06-27 17:30:00-04:00",
+                "sell_price": 33.56,
+                "profit": 0.98
+            },
+            {
+                "buy_timestamp": "2024-07-09 10:45:00-04:00",
+                "buy_price": 32.39,
+                "sell_timestamp": "2024-07-11 11:00:00-04:00",
+                "sell_price": 33.45,
+                "profit": 0.97
+            }
+        ],
+        "totals": {
+            "Report": "Source: Yahoo, Period: 1Mo, Interval: 5Mi",
+            "Threshold": 3,
+            "Triggers": 2,
+            "Buy_Orders": 2,
+            "Sell_Orders": 2,
+            "Gained": 6,
+            "Working_Days": 6,
+            "Annual_Trade_Gain": 252.0,
+            "Score": 18.25,
+            "Updated": "2024-07-15 07:14:01 PM EDT"
+        }
+    }
+}

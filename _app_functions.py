@@ -2,6 +2,8 @@ from glob import glob
 import os
 import json
 
+
+
 def calculate_color(age_seconds,cache_duration):
     if age_seconds >= cache_duration or age_seconds < 0:
         return '#FF0000'  # Red

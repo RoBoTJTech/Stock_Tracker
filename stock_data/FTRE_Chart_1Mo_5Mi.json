@@ -1,0 +1,320 @@
+{
+    "FTRE": {
+        "triggers": [
+            {
+                "high_timestamp": "2024-06-17 12:00:00-04:00",
+                "high_price": 24.75,
+                "trigger_timestamp": "2024-06-18 11:00:00-04:00",
+                "trigger_price": 23.81,
+                "percentage_drop": 3.81,
+                "bar_high": 23.86,
+                "bar_low": 23.81,
+                "bar_open": 23.82,
+                "bar_close": 23.86
+            },
+            {
+                "high_timestamp": "2024-06-18 11:10:00-04:00",
+                "high_price": 23.9,
+                "trigger_timestamp": "2024-06-18 13:50:00-04:00",
+                "trigger_price": 23.3,
+                "percentage_drop": 2.51,
+                "bar_high": 23.4,
+                "bar_low": 23.3,
+                "bar_open": 23.3,
+                "bar_close": 23.38
+            },
+            {
+                "high_timestamp": "2024-06-20 10:30:00-04:00",
+                "high_price": 24.82,
+                "trigger_timestamp": "2024-06-20 14:00:00-04:00",
+                "trigger_price": 24.57,
+                "percentage_drop": 1.03,
+                "bar_high": 24.67,
+                "bar_low": 24.57,
+                "bar_open": 24.6,
+                "bar_close": 24.65
+            },
+            {
+                "high_timestamp": "2024-06-20 14:30:00-04:00",
+                "high_price": 24.93,
+                "trigger_timestamp": "2024-06-21 10:40:00-04:00",
+                "trigger_price": 23.42,
+                "percentage_drop": 6.08,
+                "bar_high": 23.54,
+                "bar_low": 23.42,
+                "bar_open": 23.51,
+                "bar_close": 23.45
+            },
+            {
+                "high_timestamp": "2024-06-21 11:40:00-04:00",
+                "high_price": 23.68,
+                "trigger_timestamp": "2024-06-21 15:50:00-04:00",
+                "trigger_price": 23.19,
+                "percentage_drop": 2.07,
+                "bar_high": 23.31,
+                "bar_low": 23.19,
+                "bar_open": 23.3,
+                "bar_close": 23.21
+            },
+            {
+                "high_timestamp": "2024-06-24 10:30:00-04:00",
+                "high_price": 23.44,
+                "trigger_timestamp": "2024-06-24 14:00:00-04:00",
+                "trigger_price": 23.12,
+                "percentage_drop": 1.37,
+                "bar_high": 23.16,
+                "bar_low": 23.12,
+                "bar_open": 23.12,
+                "bar_close": 23.16
+            },
+            {
+                "high_timestamp": "2024-06-24 15:50:00-04:00",
+                "high_price": 23.21,
+                "trigger_timestamp": "2024-06-25 09:50:00-04:00",
+                "trigger_price": 22.97,
+                "percentage_drop": 1.03,
+                "bar_high": 23.04,
+                "bar_low": 22.97,
+                "bar_open": 23.0,
+                "bar_close": 22.99
+            },
+            {
+                "high_timestamp": "2024-06-25 10:20:00-04:00",
+                "high_price": 23.17,
+                "trigger_timestamp": "2024-06-25 12:25:00-04:00",
+                "trigger_price": 22.89,
+                "percentage_drop": 1.21,
+                "bar_high": 22.91,
+                "bar_low": 22.89,
+                "bar_open": 22.9,
+                "bar_close": 22.9
+            },
+            {
+                "high_timestamp": "2024-06-25 13:20:00-04:00",
+                "high_price": 22.85,
+                "trigger_timestamp": "2024-06-25 16:00:00-04:00",
+                "trigger_price": 22.48,
+                "percentage_drop": 1.62,
+                "bar_high": 22.48,
+                "bar_low": 22.48,
+                "bar_open": 22.48,
+                "bar_close": 22.48
+            },
+            {
+                "high_timestamp": "2024-06-26 15:10:00-04:00",
+                "high_price": 22.82,
+                "trigger_timestamp": "2024-06-27 12:45:00-04:00",
+                "trigger_price": 22.53,
+                "percentage_drop": 1.27,
+                "bar_high": 22.53,
+                "bar_low": 22.53,
+                "bar_open": 22.53,
+                "bar_close": 22.53
+            },
+            {
+                "high_timestamp": "2024-06-28 13:20:00-04:00",
+                "high_price": 23.84,
+                "trigger_timestamp": "2024-06-28 15:35:00-04:00",
+                "trigger_price": 23.28,
+                "percentage_drop": 2.35,
+                "bar_high": 23.34,
+                "bar_low": 23.28,
+                "bar_open": 23.29,
+                "bar_close": 23.33
+            },
+            {
+                "high_timestamp": "2024-07-01 10:00:00-04:00",
+                "high_price": 24.14,
+                "trigger_timestamp": "2024-07-01 13:15:00-04:00",
+                "trigger_price": 23.51,
+                "percentage_drop": 2.61,
+                "bar_high": 23.56,
+                "bar_low": 23.51,
+                "bar_open": 23.51,
+                "bar_close": 23.56
+            },
+            {
+                "high_timestamp": "2024-07-02 11:30:00-04:00",
+                "high_price": 23.97,
+                "trigger_timestamp": "2024-07-02 13:05:00-04:00",
+                "trigger_price": 23.51,
+                "percentage_drop": 1.92,
+                "bar_high": 23.57,
+                "bar_low": 23.51,
+                "bar_open": 23.51,
+                "bar_close": 23.57
+            },
+            {
+                "high_timestamp": "2024-07-03 09:30:00-04:00",
+                "high_price": 23.87,
+                "trigger_timestamp": "2024-07-03 12:50:00-04:00",
+                "trigger_price": 23.53,
+                "percentage_drop": 1.42,
+                "bar_high": 23.59,
+                "bar_low": 23.53,
+                "bar_open": 23.54,
+                "bar_close": 23.56
+            },
+            {
+                "high_timestamp": "2024-07-05 10:45:00-04:00",
+                "high_price": 23.67,
+                "trigger_timestamp": "2024-07-05 11:50:00-04:00",
+                "trigger_price": 23.39,
+                "percentage_drop": 1.18,
+                "bar_high": 23.44,
+                "bar_low": 23.39,
+                "bar_open": 23.42,
+                "bar_close": 23.39
+            },
+            {
+                "high_timestamp": "2024-07-05 14:15:00-04:00",
+                "high_price": 23.53,
+                "trigger_timestamp": "2024-07-05 15:50:00-04:00",
+                "trigger_price": 23.27,
+                "percentage_drop": 1.11,
+                "bar_high": 23.38,
+                "bar_low": 23.27,
+                "bar_open": 23.35,
+                "bar_close": 23.37
+            },
+            {
+                "high_timestamp": "2024-07-08 09:55:00-04:00",
+                "high_price": 23.59,
+                "trigger_timestamp": "2024-07-08 12:50:00-04:00",
+                "trigger_price": 23.3,
+                "percentage_drop": 1.23,
+                "bar_high": 23.34,
+                "bar_low": 23.3,
+                "bar_open": 23.31,
+                "bar_close": 23.33
+            },
+            {
+                "high_timestamp": "2024-07-08 13:35:00-04:00",
+                "high_price": 23.41,
+                "trigger_timestamp": "2024-07-09 11:55:00-04:00",
+                "trigger_price": 22.86,
+                "percentage_drop": 2.35,
+                "bar_high": 22.89,
+                "bar_low": 22.86,
+                "bar_open": 22.88,
+                "bar_close": 22.89
+            },
+            {
+                "high_timestamp": "2024-07-11 14:30:00-04:00",
+                "high_price": 25.06,
+                "trigger_timestamp": "2024-07-11 15:40:00-04:00",
+                "trigger_price": 24.76,
+                "percentage_drop": 1.2,
+                "bar_high": 24.87,
+                "bar_low": 24.76,
+                "bar_open": 24.87,
+                "bar_close": 24.78
+            }
+        ],
+        "trades": [
+            {
+                "buy_timestamp": "2024-06-18 11:00:00-04:00",
+                "buy_price": 23.81,
+                "sell_timestamp": "2024-06-20 10:05:00-04:00",
+                "sell_price": 24.1,
+                "profit": 0.24
+            },
+            {
+                "buy_timestamp": "2024-06-20 14:00:00-04:00",
+                "buy_price": 24.57,
+                "sell_timestamp": "2024-06-20 14:25:00-04:00",
+                "sell_price": 24.92,
+                "profit": 0.25
+            },
+            {
+                "buy_timestamp": "2024-06-21 10:40:00-04:00",
+                "buy_price": 23.42,
+                "sell_timestamp": "2024-06-21 11:30:00-04:00",
+                "sell_price": 23.78,
+                "profit": 0.24
+            },
+            {
+                "buy_timestamp": "2024-06-21 15:50:00-04:00",
+                "buy_price": 23.19,
+                "sell_timestamp": "2024-06-24 09:30:00-04:00",
+                "sell_price": 23.54,
+                "profit": 0.23
+            },
+            {
+                "buy_timestamp": "2024-06-24 14:00:00-04:00",
+                "buy_price": 23.12,
+                "sell_timestamp": "2024-06-28 10:25:00-04:00",
+                "sell_price": 23.39,
+                "profit": 0.23
+            },
+            {
+                "buy_timestamp": "2024-06-28 15:35:00-04:00",
+                "buy_price": 23.28,
+                "sell_timestamp": "2024-06-28 15:50:00-04:00",
+                "sell_price": 23.57,
+                "profit": 0.23
+            },
+            {
+                "buy_timestamp": "2024-07-01 13:15:00-04:00",
+                "buy_price": 23.51,
+                "sell_timestamp": "2024-07-01 13:50:00-04:00",
+                "sell_price": 23.8,
+                "profit": 0.24
+            },
+            {
+                "buy_timestamp": "2024-07-02 13:05:00-04:00",
+                "buy_price": 23.51,
+                "sell_timestamp": "2024-07-02 15:45:00-04:00",
+                "sell_price": 23.81,
+                "profit": 0.24
+            },
+            {
+                "buy_timestamp": "2024-07-03 12:50:00-04:00",
+                "buy_price": 23.53,
+                "sell_timestamp": "2024-07-05 08:00:00-04:00",
+                "sell_price": 23.83,
+                "profit": 0.24
+            },
+            {
+                "buy_timestamp": "2024-07-05 11:50:00-04:00",
+                "buy_price": 23.39,
+                "sell_timestamp": "2024-07-08 09:30:00-04:00",
+                "sell_price": 23.67,
+                "profit": 0.23
+            },
+            {
+                "buy_timestamp": "2024-07-08 12:50:00-04:00",
+                "buy_price": 23.3,
+                "sell_timestamp": "2024-07-08 16:55:00-04:00",
+                "sell_price": 23.57,
+                "profit": 0.23
+            },
+            {
+                "buy_timestamp": "2024-07-09 11:55:00-04:00",
+                "buy_price": 22.86,
+                "sell_timestamp": "2024-07-09 15:45:00-04:00",
+                "sell_price": 23.12,
+                "profit": 0.23
+            },
+            {
+                "buy_timestamp": "2024-07-11 15:40:00-04:00",
+                "buy_price": 24.76,
+                "sell_timestamp": "2024-07-12 09:30:00-04:00",
+                "sell_price": 25.12,
+                "profit": 0.25
+            }
+        ],
+        "totals": {
+            "Report": "Source: Yahoo, Period: 1Mo, Interval: 5Mi",
+            "Threshold": 1,
+            "Triggers": 19,
+            "Buy_Orders": 13,
+            "Sell_Orders": 13,
+            "Gained": 13,
+            "Working_Days": 18,
+            "Annual_Trade_Gain": 182.0,
+            "Score": 127.98,
+            "Updated": "2024-07-15 11:36:11 PM EDT"
+        }
+    }
+}

@@ -1,0 +1,1562 @@
+{
+    "PACS": {
+        "triggers": [],
+        "trades": [],
+        "totals": {
+            "assetProfile": {
+                "address1": "262 North University Avenue",
+                "city": "Farmington",
+                "state": "UT",
+                "zip": "84025",
+                "country": "United States",
+                "phone": "801-447-9829",
+                "website": "https://pacs.com",
+                "industry": "Medical Care Facilities",
+                "industryKey": "medical-care-facilities",
+                "industryDisp": "Medical Care Facilities",
+                "sector": "Healthcare",
+                "sectorKey": "healthcare",
+                "sectorDisp": "Healthcare",
+                "longBusinessSummary": "PACS Group, Inc., through its subsidiaries, operates skilled nursing facilities and assisted living facilities in the United States. The company also provides senior care and independent facilities. It engages in the acquisition, ownership, and leasing of health care-related properties. The company was founded in 2013 and is based in Farmington, Utah.",
+                "fullTimeEmployees": 32433,
+                "companyOfficers": [
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Jason  Murray",
+                        "age": 43,
+                        "title": "Co-Founder, CEO & Chairman",
+                        "yearBorn": 1980,
+                        "fiscalYear": 2023,
+                        "totalPay": 5056976,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Mark  Hancock",
+                        "age": 47,
+                        "title": "Co-Founder & Executive Vice Chairman",
+                        "yearBorn": 1976,
+                        "fiscalYear": 2023,
+                        "totalPay": 5056976,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Joshua  Jergensen",
+                        "age": 38,
+                        "title": "President & COO",
+                        "yearBorn": 1985,
+                        "fiscalYear": 2023,
+                        "totalPay": 8295021,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Derick  Apt",
+                        "age": 39,
+                        "title": "Chief Financial Officer",
+                        "yearBorn": 1984,
+                        "fiscalYear": 2023,
+                        "totalPay": 5873302,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Peter  Sanford",
+                        "age": 37,
+                        "title": "President of Providence Administrative Consulting Services, Inc.",
+                        "yearBorn": 1986,
+                        "fiscalYear": 2023,
+                        "totalPay": 5610812,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Ms. Michelle  Lewis",
+                        "age": 46,
+                        "title": "Chief Accounting Officer",
+                        "yearBorn": 1977,
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. John Todd Mitchell Esq.",
+                        "age": 47,
+                        "title": "Chief Legal Officer & Secretary",
+                        "yearBorn": 1976,
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "Mr. Joseph  Lee",
+                        "age": 44,
+                        "title": "Chief Compliance Officer",
+                        "yearBorn": 1979,
+                        "fiscalYear": 2023,
+                        "exercisedValue": 0,
+                        "unexercisedValue": 0
+                    }
+                ],
+                "compensationAsOfEpochDate": "2023-12-30 18:00:00",
+                "maxAge": 86400
+            },
+            "recommendationTrend": {
+                "trend": [
+                    {
+                        "period": "0m",
+                        "strongBuy": 0,
+                        "buy": 0,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-1m",
+                        "strongBuy": 2,
+                        "buy": 3,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-2m",
+                        "strongBuy": 2,
+                        "buy": 3,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    },
+                    {
+                        "period": "-3m",
+                        "strongBuy": 0,
+                        "buy": 0,
+                        "hold": 0,
+                        "sell": 0,
+                        "strongSell": 0
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "cashflowStatementHistory": {
+                "cashflowStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "netIncome": 112874000
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "indexTrend": {
+                "maxAge": 1,
+                "symbol": "SP5",
+                "peRatio": 19.8083,
+                "pegRatio": 1.63808,
+                "estimates": [
+                    {
+                        "period": "0q",
+                        "growth": 0.056999996
+                    },
+                    {
+                        "period": "+1q",
+                        "growth": 0.096
+                    },
+                    {
+                        "period": "0y",
+                        "growth": 0.036
+                    },
+                    {
+                        "period": "+1y",
+                        "growth": 0.123
+                    },
+                    {
+                        "period": "+5y",
+                        "growth": 0.114567004
+                    },
+                    {
+                        "period": "-5y"
+                    }
+                ]
+            },
+            "defaultKeyStatistics": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "enterpriseValue": 7713970688,
+                "forwardPE": 17.166065,
+                "profitMargins": 0.03727,
+                "floatShares": 25673259,
+                "sharesOutstanding": 152400000,
+                "sharesShort": 1881575,
+                "sharesShortPriorMonth": 1073422,
+                "sharesShortPreviousMonthDate": "2024-05-30 19:00:00",
+                "dateShortInterest": "2024-06-27 19:00:00",
+                "sharesPercentSharesOut": 0.0123000005,
+                "heldPercentInsiders": 0.87138003,
+                "heldPercentInstitutions": 0.03497,
+                "shortRatio": 3.77,
+                "impliedSharesOutstanding": 152400000,
+                "category": null,
+                "bookValue": 0.994,
+                "priceToBook": 32.467003,
+                "fundFamily": null,
+                "legalType": null,
+                "lastFiscalYearEnd": "2023-12-30 18:00:00",
+                "nextFiscalYearEnd": "2024-12-30 18:00:00",
+                "mostRecentQuarter": "2024-03-30 19:00:00",
+                "earningsQuarterlyGrowth": 0.307,
+                "netIncomeToCommon": 124415000,
+                "trailingEps": 0.84,
+                "forwardEps": 1.88,
+                "lastSplitFactor": null,
+                "enterpriseToRevenue": 2.311,
+                "enterpriseToEbitda": 26.132,
+                "52WeekChange": 0.34826088,
+                "SandP52WeekChange": 0.24156773
+            },
+            "industryTrend": {
+                "maxAge": 1,
+                "symbol": null,
+                "estimates": []
+            },
+            "quoteType": {
+                "exchange": "NYQ",
+                "quoteType": "EQUITY",
+                "symbol": "PACS",
+                "underlyingSymbol": "PACS",
+                "shortName": "PACS Group, Inc.",
+                "longName": "PACS Group, Inc.",
+                "firstTradeDateEpochUtc": "2024-04-11 08:30:00",
+                "timeZoneFullName": "America/New_York",
+                "timeZoneShortName": "EDT",
+                "uuid": "2fa1b1c4-e35e-3ca8-9ea3-bd3282be945b",
+                "messageBoardId": "finmb_1874670139",
+                "gmtOffSetMilliseconds": -14400000,
+                "maxAge": 1
+            },
+            "incomeStatementHistory": {
+                "incomeStatementHistory": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31",
+                        "totalRevenue": 3111492000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 112874000,
+                        "netIncomeApplicableToCommonShares": {}
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "fundOwnership": {
+                "maxAge": 1,
+                "ownershipList": []
+            },
+            "summaryDetail": {
+                "maxAge": 1,
+                "priceHint": 2,
+                "previousClose": 31.01,
+                "open": 31.3,
+                "dayLow": 30.75,
+                "dayHigh": 32.37,
+                "regularMarketPreviousClose": 31.01,
+                "regularMarketOpen": 31.3,
+                "regularMarketDayLow": 30.75,
+                "regularMarketDayHigh": 32.37,
+                "payoutRatio": 0.0,
+                "trailingPE": 38.41929,
+                "forwardPE": 17.166065,
+                "volume": 121102,
+                "regularMarketVolume": 121102,
+                "averageVolume": 499172,
+                "averageVolume10days": 793080,
+                "averageDailyVolume10Day": 793080,
+                "bid": 31.94,
+                "ask": 32.11,
+                "bidSize": 1200,
+                "askSize": 1100,
+                "marketCap": 4918283264,
+                "fiftyTwoWeekLow": 22.61,
+                "fiftyTwoWeekHigh": 32.37,
+                "priceToSalesTrailing12Months": 1.4735233,
+                "fiftyDayAverage": 28.659,
+                "twoHundredDayAverage": 27.630781,
+                "trailingAnnualDividendRate": 0.625,
+                "trailingAnnualDividendYield": 0.02015479,
+                "currency": "USD",
+                "fromCurrency": null,
+                "toCurrency": null,
+                "lastMarket": null,
+                "coinMarketCapLink": null,
+                "algorithm": null,
+                "tradeable": false
+            },
+            "insiderHolders": {
+                "holders": [
+                    {
+                        "maxAge": 1,
+                        "name": "DILSAVER EVELYN S",
+                        "relation": "Director",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2024-05-09",
+                        "positionDirect": 5927,
+                        "positionDirectDate": "2024-05-09"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "HANCOCK MARK",
+                        "relation": "Officer, Director and Beneficial Owner",
+                        "url": "",
+                        "transactionDescription": "Sale",
+                        "latestTransDate": "2024-04-15",
+                        "positionDirect": 62754600,
+                        "positionDirectDate": "2024-04-15"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "JERGENSEN JOSHUA",
+                        "relation": "President",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2024-04-11",
+                        "positionDirect": 2707600,
+                        "positionDirectDate": "2024-04-11"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "LEAVITT TAYLOR",
+                        "relation": "Director",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2024-05-09",
+                        "positionDirect": 6438,
+                        "positionDirectDate": "2024-05-09"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "LEE JOSEPH ROBERT",
+                        "relation": "Officer",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2024-04-11",
+                        "positionDirect": 676885,
+                        "positionDirectDate": "2024-04-11"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "LEWIS MICHELLE RENEE",
+                        "relation": "Officer",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2024-04-11",
+                        "positionDirect": 343368,
+                        "positionDirectDate": "2024-04-11"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "MILLARD JACQUELINE",
+                        "relation": "Director",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2024-05-09",
+                        "positionDirect": 6871,
+                        "positionDirectDate": "2024-05-09"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "MITCHELL JOHN TODD",
+                        "relation": "Officer",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2024-04-11",
+                        "positionDirect": 1004160,
+                        "positionDirectDate": "2024-04-11"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "MURRAY JASON HULSE",
+                        "relation": "Chief Executive Officer",
+                        "url": "",
+                        "transactionDescription": "Sale",
+                        "latestTransDate": "2024-04-15",
+                        "positionDirect": 62754600,
+                        "positionDirectDate": "2024-04-15"
+                    },
+                    {
+                        "maxAge": 1,
+                        "name": "SANFORD PETER",
+                        "relation": "Officer",
+                        "url": "",
+                        "transactionDescription": "Stock Award(Grant)",
+                        "latestTransDate": "2024-04-11",
+                        "positionDirect": 1353800,
+                        "positionDirectDate": "2024-04-11"
+                    }
+                ],
+                "maxAge": 1
+            },
+            "calendarEvents": {
+                "maxAge": 1,
+                "earnings": {
+                    "earningsDate": [],
+                    "earningsCallDate": [],
+                    "earningsAverage": 0.35,
+                    "earningsLow": 0.32,
+                    "earningsHigh": 0.38,
+                    "revenueAverage": 915820000,
+                    "revenueLow": 887270000,
+                    "revenueHigh": 933350000
+                }
+            },
+            "upgradeDowngradeHistory": {
+                "history": [
+                    {
+                        "epochGradeDate": "2024-07-15 09:07:16",
+                        "firm": "Truist Securities",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2024-06-28 06:07:42",
+                        "firm": "Macquarie",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2024-05-15 13:22:43",
+                        "firm": "Truist Securities",
+                        "toGrade": "Buy",
+                        "fromGrade": "Buy",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2024-05-15 12:30:09",
+                        "firm": "RBC Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Outperform",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2024-05-15 10:33:59",
+                        "firm": "Oppenheimer",
+                        "toGrade": "Outperform",
+                        "fromGrade": "Outperform",
+                        "action": "main"
+                    },
+                    {
+                        "epochGradeDate": "2024-05-14 08:38:22",
+                        "firm": "Stephens & Co.",
+                        "toGrade": "Overweight",
+                        "fromGrade": "Overweight",
+                        "action": "reit"
+                    },
+                    {
+                        "epochGradeDate": "2024-05-06 09:25:50",
+                        "firm": "Stephens & Co.",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2024-05-06 07:48:23",
+                        "firm": "JP Morgan",
+                        "toGrade": "Overweight",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2024-05-06 07:44:42",
+                        "firm": "Citigroup",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2024-05-06 06:27:54",
+                        "firm": "RBC Capital",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2024-05-06 06:20:32",
+                        "firm": "Truist Securities",
+                        "toGrade": "Buy",
+                        "fromGrade": "",
+                        "action": "init"
+                    },
+                    {
+                        "epochGradeDate": "2024-05-06 05:25:09",
+                        "firm": "Oppenheimer",
+                        "toGrade": "Outperform",
+                        "fromGrade": "",
+                        "action": "init"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "price": {
+                "maxAge": 1,
+                "preMarketSource": "DELAYED",
+                "regularMarketChangePercent": 0.04070304,
+                "regularMarketChange": 1.2622013,
+                "regularMarketTime": "2024-07-15 11:49:01",
+                "priceHint": 2,
+                "regularMarketPrice": 32.2722,
+                "regularMarketDayHigh": 32.37,
+                "regularMarketDayLow": 30.75,
+                "regularMarketVolume": 121102,
+                "averageDailyVolume10Day": 793080,
+                "averageDailyVolume3Month": 499172,
+                "regularMarketPreviousClose": 31.01,
+                "regularMarketSource": "FREE_REALTIME",
+                "regularMarketOpen": 31.3,
+                "exchange": "NYQ",
+                "exchangeName": "NYSE",
+                "exchangeDataDelayedBy": 0,
+                "marketState": "REGULAR",
+                "quoteType": "EQUITY",
+                "symbol": "PACS",
+                "underlyingSymbol": null,
+                "shortName": "PACS Group, Inc.",
+                "longName": "PACS Group, Inc.",
+                "currency": "USD",
+                "quoteSourceName": "Nasdaq Real Time Price",
+                "currencySymbol": "$",
+                "fromCurrency": null,
+                "toCurrency": null,
+                "lastMarket": null,
+                "marketCap": 4918283264
+            },
+            "balanceSheetHistory": {
+                "balanceSheetStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2023-12-31"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earningsTrend": {
+                "trend": [
+                    {
+                        "maxAge": 1,
+                        "period": "0q",
+                        "endDate": "2024-06-30",
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": 0.35,
+                            "low": 0.32,
+                            "high": 0.38,
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": 6,
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": 915820000,
+                            "low": 887270000,
+                            "high": 933350000,
+                            "numberOfAnalysts": 7,
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": 0.35,
+                            "7daysAgo": 0.35,
+                            "30daysAgo": 0.35,
+                            "60daysAgo": 0.35,
+                            "90daysAgo": 0.0
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+1q",
+                        "endDate": "2024-09-30",
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": 0.34,
+                            "low": 0.32,
+                            "high": 0.39,
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": 6,
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": 929790000,
+                            "low": 919550000,
+                            "high": 937300000,
+                            "numberOfAnalysts": 7,
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": 0.34,
+                            "7daysAgo": 0.34,
+                            "30daysAgo": 0.34,
+                            "60daysAgo": 0.34,
+                            "90daysAgo": 0.0
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "0y",
+                        "endDate": "2024-12-31",
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": 1.53,
+                            "low": 1.4,
+                            "high": 1.85,
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": 5,
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": 3737350000,
+                            "low": 3700850000,
+                            "high": 3779440000,
+                            "numberOfAnalysts": 7,
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": 1.53,
+                            "7daysAgo": 1.53,
+                            "30daysAgo": 1.56,
+                            "60daysAgo": 1.56,
+                            "90daysAgo": 0.0
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+1y",
+                        "endDate": "2025-12-31",
+                        "growth": 0.229,
+                        "earningsEstimate": {
+                            "avg": 1.88,
+                            "low": 1.7,
+                            "high": 2.19,
+                            "yearAgoEps": 1.53,
+                            "numberOfAnalysts": 6,
+                            "growth": 0.229
+                        },
+                        "revenueEstimate": {
+                            "avg": 4256710000,
+                            "low": 4215370000,
+                            "high": 4318860000,
+                            "numberOfAnalysts": 7,
+                            "yearAgoRevenue": 3737350000,
+                            "growth": 0.139
+                        },
+                        "epsTrend": {
+                            "current": 1.88,
+                            "7daysAgo": 1.88,
+                            "30daysAgo": 1.89,
+                            "60daysAgo": 1.89,
+                            "90daysAgo": 0.0
+                        },
+                        "epsRevisions": {
+                            "upLast7days": 0,
+                            "upLast30days": 0,
+                            "downLast30days": 0,
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "+5y",
+                        "endDate": null,
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": {},
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "numberOfAnalysts": {},
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": {},
+                            "7daysAgo": {},
+                            "30daysAgo": {},
+                            "60daysAgo": {},
+                            "90daysAgo": {}
+                        },
+                        "epsRevisions": {
+                            "upLast7days": {},
+                            "upLast30days": {},
+                            "downLast30days": {},
+                            "downLast90days": {}
+                        }
+                    },
+                    {
+                        "maxAge": 1,
+                        "period": "-5y",
+                        "endDate": null,
+                        "growth": {},
+                        "earningsEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "yearAgoEps": {},
+                            "numberOfAnalysts": {},
+                            "growth": {}
+                        },
+                        "revenueEstimate": {
+                            "avg": {},
+                            "low": {},
+                            "high": {},
+                            "numberOfAnalysts": {},
+                            "yearAgoRevenue": {},
+                            "growth": {}
+                        },
+                        "epsTrend": {
+                            "current": {},
+                            "7daysAgo": {},
+                            "30daysAgo": {},
+                            "60daysAgo": {},
+                            "90daysAgo": {}
+                        },
+                        "epsRevisions": {
+                            "upLast7days": {},
+                            "upLast30days": {},
+                            "downLast30days": {},
+                            "downLast90days": {}
+                        }
+                    }
+                ],
+                "maxAge": 1
+            },
+            "secFilings": {
+                "filings": [
+                    {
+                        "date": "2024-06-21",
+                        "epochDate": "2024-06-20 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/PACS/0002001184-24-000030_2001184",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000200118424000030/pacs-20240619.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0002001184/000200118424000030/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0002001184/000200118424000030/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-05-21",
+                        "epochDate": "2024-05-20 19:00:00",
+                        "type": "10-Q/A",
+                        "title": "Periodic Financial Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/PACS/0002001184-24-000027_2001184",
+                        "exhibits": [
+                            {
+                                "type": "10-Q/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000200118424000027/pacs-20240331.htm"
+                            },
+                            {
+                                "type": "EX-31.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000200118424000027/exhibit311q110-qa2024.htm"
+                            },
+                            {
+                                "type": "EX-31.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000200118424000027/exhibit312q110-qa2024.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0002001184/000200118424000027/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0002001184/000200118424000027/Financial_Report.xlsx"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-05-13",
+                        "epochDate": "2024-05-12 19:00:00",
+                        "type": "10-Q",
+                        "title": "Periodic Financial Reports",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/PACS/0002001184-24-000010_2001184",
+                        "exhibits": [
+                            {
+                                "type": "EX-10.10",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000200118424000010/exhibit1010q110-q2024.htm"
+                            },
+                            {
+                                "type": "EX-10.11",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000200118424000010/exhibit1011q110-q2024.htm"
+                            },
+                            {
+                                "type": "EX-31.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000200118424000010/exhibit311q110-q2024.htm"
+                            },
+                            {
+                                "type": "EX-31.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000200118424000010/exhibit312q110-q2024.htm"
+                            },
+                            {
+                                "type": "EX-32.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000200118424000010/exhibit321q110-q2024.htm"
+                            },
+                            {
+                                "type": "EX-32.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000200118424000010/exhibit322q110-q2024.htm"
+                            },
+                            {
+                                "type": "EXCEL",
+                                "url": "https://s3.amazonaws.com/finance-pri-uw2/sec-filings/0002001184/000200118424000010/Financial_Report.xlsx",
+                                "downloadUrl": "https://finance.yahoo.com/_getSECFilingReportUrl?reportUrl=/sec-filings/0002001184/000200118424000010/Financial_Report.xlsx"
+                            },
+                            {
+                                "type": "10-Q",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000200118424000010/pacs-20240331.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-04-15",
+                        "epochDate": "2024-04-14 19:00:00",
+                        "type": "8-K",
+                        "title": "Corporate Changes & Voting Matters",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/PACS/0001628280-24-016245_2001184",
+                        "exhibits": [
+                            {
+                                "type": "8-K",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024016245/pacsclosing8-k4152024.htm"
+                            },
+                            {
+                                "type": "EX-10.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024016245/exhibit101-closing8xk.htm"
+                            },
+                            {
+                                "type": "EX-10.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024016245/exhibit102-closing8xk.htm"
+                            },
+                            {
+                                "type": "EX-3.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024016245/exhibit31-closing8xk.htm"
+                            },
+                            {
+                                "type": "EX-3.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024016245/exhibit32-closing8xk.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-04-11",
+                        "epochDate": "2024-04-10 19:00:00",
+                        "type": "8-A12B",
+                        "title": "Trading Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/PACS/0001628280-24-015687_2001184",
+                        "exhibits": [
+                            {
+                                "type": "8-A12B",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024015687/pacs-8xa.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-04-10",
+                        "epochDate": "2024-04-09 19:00:00",
+                        "type": "S-1MEF",
+                        "title": "Offering Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/PACS/0001628280-24-015668_2001184",
+                        "exhibits": [
+                            {
+                                "type": "EX-FILING FEES",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024015668/exhibit107-sx1mef.htm"
+                            },
+                            {
+                                "type": "EX-23.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024015668/exhibit231-sx1mef.htm"
+                            },
+                            {
+                                "type": "S-1MEF",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024015668/pacs-sx1mef.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-04-08",
+                        "epochDate": "2024-04-07 19:00:00",
+                        "type": "CORRESP",
+                        "title": "A correspondence can be sent as a document with another submission type or can be sent as a separate submission",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/PACS/0001628280-24-015125_2001184",
+                        "exhibits": [
+                            {
+                                "type": "CORRESP",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024015125/filename1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-04-05",
+                        "epochDate": "2024-04-04 19:00:00",
+                        "type": "CORRESP",
+                        "title": "A correspondence can be sent as a document with another submission type or can be sent as a separate submission",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/PACS/0001628280-24-015092_2001184",
+                        "exhibits": [
+                            {
+                                "type": "CORRESP",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024015092/filename1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-04-01",
+                        "epochDate": "2024-03-31 19:00:00",
+                        "type": "CORRESP",
+                        "title": "A correspondence can be sent as a document with another submission type or can be sent as a separate submission",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/PACS/0001628280-24-014086_2001184",
+                        "exhibits": [
+                            {
+                                "type": "CORRESP",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024014086/filename1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-03-26",
+                        "epochDate": "2024-03-25 19:00:00",
+                        "type": "S-1/A",
+                        "title": "Offering Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/PACS/0001628280-24-012946_2001184",
+                        "exhibits": [
+                            {
+                                "type": "S-1/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024012946/pacs-sx1a.htm"
+                            },
+                            {
+                                "type": "EX-21.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024012946/exhibit211-sx1a.htm"
+                            },
+                            {
+                                "type": "EX-23.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024012946/exhibit232-sx1a.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-03-25",
+                        "epochDate": "2024-03-24 19:00:00",
+                        "type": "CORRESP",
+                        "title": "A correspondence can be sent as a document with another submission type or can be sent as a separate submission",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/PACS/0001628280-24-012947_2001184",
+                        "exhibits": [
+                            {
+                                "type": "CORRESP",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024012947/filename1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-03-13",
+                        "epochDate": "2024-03-12 19:00:00",
+                        "type": "S-1",
+                        "title": "Offering Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/PACS/0001628280-24-010947_2001184",
+                        "exhibits": [
+                            {
+                                "type": "S-1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024010947/pacs-sx1.htm"
+                            },
+                            {
+                                "type": "EX-10.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024010947/exhibit101-sx1.htm"
+                            },
+                            {
+                                "type": "EX-10.10",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024010947/exhibit1010-sx1.htm"
+                            },
+                            {
+                                "type": "EX-10.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024010947/exhibit102-sx1.htm"
+                            },
+                            {
+                                "type": "EX-FILING FEES",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024010947/exhibit1071-sx1.htm"
+                            },
+                            {
+                                "type": "EX-21.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024010947/exhibit211-sx1.htm"
+                            },
+                            {
+                                "type": "EX-23.2",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024010947/exhibit232-sx1.htm"
+                            },
+                            {
+                                "type": "EX-3.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024010947/exhibit31-sx1.htm"
+                            },
+                            {
+                                "type": "EX-3.3",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024010947/exhibit33-sx1.htm"
+                            },
+                            {
+                                "type": "EX-4.1",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162828024010947/exhibit41-sx1a.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-02-13",
+                        "epochDate": "2024-02-12 18:00:00",
+                        "type": "DRS/A",
+                        "title": "Offering Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/PACS/0001628279-24-000102_2001184",
+                        "exhibits": [
+                            {
+                                "type": "DRS/A",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162827924000102/filename1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2024-01-25",
+                        "epochDate": "2024-01-24 18:00:00",
+                        "type": "DRSLTR",
+                        "title": "Offering Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/PACS/0001628279-24-000028_2001184",
+                        "exhibits": [
+                            {
+                                "type": "DRSLTR",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162827924000028/filename1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    },
+                    {
+                        "date": "2023-12-08",
+                        "epochDate": "2023-12-07 18:00:00",
+                        "type": "DRS",
+                        "title": "Offering Registrations",
+                        "edgarUrl": "https://finance.yahoo.com/sec-filing/PACS/0001628279-23-000548_2001184",
+                        "exhibits": [
+                            {
+                                "type": "DRS",
+                                "url": "https://cdn.yahoofinance.com/prod/sec-filings/0002001184/000162827923000548/filename1.htm"
+                            }
+                        ],
+                        "maxAge": 1
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "institutionOwnership": {
+                "maxAge": 1,
+                "ownershipList": [
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-04-30",
+                        "organization": "Vanguard Specialized-Health Care Fund",
+                        "pctHeld": 0.074499995,
+                        "position": 1835905,
+                        "value": 59248696,
+                        "pctChange": 1.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-05-31",
+                        "organization": "Fidelity Advisor Mid Cap Value Fund",
+                        "pctHeld": 0.0093,
+                        "position": 230100,
+                        "value": 7425833,
+                        "pctChange": -0.0233
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-04-30",
+                        "organization": "Fidelity Advisor Small Cap Fund",
+                        "pctHeld": 0.0067000003,
+                        "position": 164100,
+                        "value": 5295868,
+                        "pctChange": 1.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-04-30",
+                        "organization": "Fidelity Small Cap Stock Fund",
+                        "pctHeld": 0.0046,
+                        "position": 112500,
+                        "value": 3630622,
+                        "pctChange": 1.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-05-31",
+                        "organization": "Allspring Var Tr-Small Cap Growth Fd",
+                        "pctHeld": 0.0036000002,
+                        "position": 88553,
+                        "value": 2857800,
+                        "pctChange": 0.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-04-30",
+                        "organization": "Financial Investors Tr-Grandeur Peak Global Opportunities Fund",
+                        "pctHeld": 0.0034999999,
+                        "position": 86613,
+                        "value": 2795192,
+                        "pctChange": 1.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-05-31",
+                        "organization": "Voya Variable Products Trust-Voya Smallcap Opportunities Port",
+                        "pctHeld": 0.0034,
+                        "position": 83954,
+                        "value": 2709380,
+                        "pctChange": 0.606
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-04-30",
+                        "organization": "Hartford Healthcare Fund",
+                        "pctHeld": 0.0028,
+                        "position": 70100,
+                        "value": 2262281,
+                        "pctChange": 1.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-04-30",
+                        "organization": "Fidelity Advisor Series Small Cap Fund",
+                        "pctHeld": 0.0015,
+                        "position": 36700,
+                        "value": 1184389,
+                        "pctChange": 1.0
+                    },
+                    {
+                        "maxAge": 1,
+                        "reportDate": "2024-04-30",
+                        "organization": "Financial Investors Tr-Grandeur Peak Global Reach Fund",
+                        "pctHeld": 0.0013,
+                        "position": 31915,
+                        "value": 1029967,
+                        "pctChange": 1.0
+                    }
+                ]
+            },
+            "majorHoldersBreakdown": {
+                "maxAge": 1,
+                "insidersPercentHeld": 0.87138003,
+                "institutionsPercentHeld": 0.03497,
+                "institutionsFloatPercentHeld": 0.27193,
+                "institutionsCount": 23
+            },
+            "balanceSheetHistoryQuarterly": {
+                "balanceSheetStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earningsHistory": {
+                "history": [
+                    {
+                        "maxAge": 1,
+                        "epsActual": {},
+                        "epsEstimate": {},
+                        "epsDifference": {},
+                        "surprisePercent": {},
+                        "quarter": {},
+                        "period": "-4q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": {},
+                        "epsEstimate": {},
+                        "epsDifference": {},
+                        "surprisePercent": {},
+                        "quarter": {},
+                        "period": "-3q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": {},
+                        "epsEstimate": {},
+                        "epsDifference": {},
+                        "surprisePercent": {},
+                        "quarter": {},
+                        "period": "-2q"
+                    },
+                    {
+                        "maxAge": 1,
+                        "epsActual": 0.38,
+                        "epsEstimate": 0.3,
+                        "epsDifference": 0.08,
+                        "surprisePercent": 0.26700002,
+                        "quarter": "2024-03-31",
+                        "period": "-1q"
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "summaryProfile": {
+                "address1": "262 North University Avenue",
+                "city": "Farmington",
+                "state": "UT",
+                "zip": "84025",
+                "country": "United States",
+                "phone": "801-447-9829",
+                "website": "https://pacs.com",
+                "industry": "Medical Care Facilities",
+                "industryKey": "medical-care-facilities",
+                "industryDisp": "Medical Care Facilities",
+                "sector": "Healthcare",
+                "sectorKey": "healthcare",
+                "sectorDisp": "Healthcare",
+                "longBusinessSummary": "PACS Group, Inc., through its subsidiaries, operates skilled nursing facilities and assisted living facilities in the United States. The company also provides senior care and independent facilities. It engages in the acquisition, ownership, and leasing of health care-related properties. The company was founded in 2013 and is based in Farmington, Utah.",
+                "fullTimeEmployees": 32433,
+                "companyOfficers": [],
+                "maxAge": 86400
+            },
+            "netSharePurchaseActivity": {
+                "maxAge": 1,
+                "period": "6m",
+                "buyInfoCount": 10,
+                "buyInfoShares": 8089905,
+                "buyPercentInsiderShares": 0.063,
+                "sellInfoCount": 2,
+                "sellInfoShares": 3214284,
+                "sellPercentInsiderShares": 0.025,
+                "netInfoCount": 12,
+                "netInfoShares": 4875621,
+                "netPercentInsiderShares": 0.038,
+                "totalInsiderShares": 132798080
+            },
+            "insiderTransactions": {
+                "transactions": [
+                    {
+                        "maxAge": 1,
+                        "shares": 5927,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "DILSAVER EVELYN S",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2024-05-09",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 6438,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MILLARD JACQUELINE",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2024-05-09",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 6438,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "LEAVITT TAYLOR",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2024-05-09",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1607142,
+                        "value": 33749982,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 21.00 per share.",
+                        "filerName": "MURRAY JASON HULSE",
+                        "filerRelation": "Chief Executive Officer",
+                        "moneyText": "",
+                        "startDate": "2024-04-15",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1607142,
+                        "value": 33749982,
+                        "filerUrl": "",
+                        "transactionText": "Sale at price 21.00 per share.",
+                        "filerName": "HANCOCK MARK",
+                        "filerRelation": "Officer, Director and Beneficial Owner",
+                        "moneyText": "",
+                        "startDate": "2024-04-15",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1126140,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "MITCHELL JOHN TODD",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2024-04-11",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 433,
+                        "value": 9993,
+                        "filerUrl": "",
+                        "transactionText": "Purchase at price 23.08 per share.",
+                        "filerName": "MILLARD JACQUELINE",
+                        "filerRelation": "Director",
+                        "moneyText": "",
+                        "startDate": "2024-04-11",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 750760,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "LEE JOSEPH ROBERT",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2024-04-11",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 3003039,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "JERGENSEN JOSHUA",
+                        "filerRelation": "President",
+                        "moneyText": "",
+                        "startDate": "2024-04-11",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 375380,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "LEWIS MICHELLE RENEE",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2024-04-11",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1501520,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "SANFORD PETER",
+                        "filerRelation": "Officer",
+                        "moneyText": "",
+                        "startDate": "2024-04-11",
+                        "ownership": "D"
+                    },
+                    {
+                        "maxAge": 1,
+                        "shares": 1313830,
+                        "value": 0,
+                        "filerUrl": "",
+                        "transactionText": "Stock Award(Grant) at price 0.00 per share.",
+                        "filerName": "APT DERICK G",
+                        "filerRelation": "Chief Financial Officer",
+                        "moneyText": "",
+                        "startDate": "2024-04-11",
+                        "ownership": "D"
+                    }
+                ],
+                "maxAge": 1
+            },
+            "sectorTrend": {
+                "maxAge": 1,
+                "symbol": null,
+                "estimates": []
+            },
+            "incomeStatementHistoryQuarterly": {
+                "incomeStatementHistory": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31",
+                        "totalRevenue": 934721000,
+                        "costOfRevenue": 0,
+                        "grossProfit": 0,
+                        "researchDevelopment": {},
+                        "sellingGeneralAdministrative": {},
+                        "nonRecurring": {},
+                        "otherOperatingExpenses": {},
+                        "totalOperatingExpenses": 0,
+                        "operatingIncome": {},
+                        "totalOtherIncomeExpenseNet": {},
+                        "ebit": 0,
+                        "interestExpense": {},
+                        "incomeBeforeTax": {},
+                        "incomeTaxExpense": 0,
+                        "minorityInterest": {},
+                        "netIncomeFromContinuingOps": {},
+                        "discontinuedOperations": {},
+                        "extraordinaryItems": {},
+                        "effectOfAccountingCharges": {},
+                        "otherItems": {},
+                        "netIncome": 49138000,
+                        "netIncomeApplicableToCommonShares": {}
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "cashflowStatementHistoryQuarterly": {
+                "cashflowStatements": [
+                    {
+                        "maxAge": 1,
+                        "endDate": "2024-03-31",
+                        "netIncome": 49138000
+                    }
+                ],
+                "maxAge": 86400
+            },
+            "earnings": {
+                "maxAge": 86400,
+                "earningsChart": {
+                    "quarterly": [
+                        {
+                            "date": "1Q2024",
+                            "actual": 0.38,
+                            "estimate": 0.3
+                        }
+                    ],
+                    "currentQuarterEstimate": 0.35,
+                    "currentQuarterEstimateDate": "2Q",
+                    "currentQuarterEstimateYear": 2024,
+                    "earningsDate": []
+                },
+                "financialsChart": {
+                    "yearly": [
+                        {
+                            "date": 2023,
+                            "revenue": 3111492000,
+                            "earnings": 112874000
+                        }
+                    ],
+                    "quarterly": [
+                        {
+                            "date": "1Q2024",
+                            "revenue": 934721000,
+                            "earnings": 49138000
+                        }
+                    ]
+                },
+                "financialCurrency": "USD"
+            },
+            "pageViews": {
+                "shortTermTrend": "UP",
+                "midTermTrend": "UP",
+                "longTermTrend": "NONE",
+                "maxAge": 1
+            },
+            "financialData": {
+                "maxAge": 86400,
+                "currentPrice": 32.2722,
+                "targetHighPrice": 35.0,
+                "targetLowPrice": 32.0,
+                "targetMeanPrice": 33.33,
+                "targetMedianPrice": 33.0,
+                "recommendationMean": 1.6,
+                "recommendationKey": "buy",
+                "numberOfAnalystOpinions": 6,
+                "totalCash": 81213000,
+                "totalCashPerShare": 0.533,
+                "ebitda": 295193984,
+                "totalDebt": 3063665920,
+                "quickRatio": 1.449,
+                "currentRatio": 1.565,
+                "totalRevenue": 3337771008,
+                "debtToEquity": 2293.283,
+                "revenuePerShare": 25.93,
+                "operatingCashflow": 43194000,
+                "earningsGrowth": 0.307,
+                "revenueGrowth": 0.319,
+                "grossMargins": 0.14491001,
+                "ebitdaMargins": 0.08844,
+                "operatingMargins": 0.08554,
+                "profitMargins": 0.03727,
+                "financialCurrency": "USD"
+            }
+        }
+    }
+}
