@@ -11,7 +11,8 @@ from openai import OpenAI
 from yahooquery import Ticker
 import subprocess
 
-VERSION = "1.0.1"
+
+VERSION = "1.0.2"
 
 # Configuration
 HISTORY_FILE = "history.json"  # File to store historical data
@@ -21,23 +22,7 @@ CACHE_DURATION = 300  # Cache duration in seconds (5 minutes)
 app = Flask(__name__)
 price_cache = {}
 
-def load_api_key(file_path):
-    try:
-        with open(file_path, 'r') as file:
-            # Read the file content and strip any leading/trailing whitespace
-            api_key = file.read().strip()
-            # Return the api key if it's not empty
-            if api_key:
-                return api_key
-            else:
-                raise ValueError("API key is empty")
-    except (FileNotFoundError, ValueError) as e:
-        # Handle the case where the file is not found or the API key is empty
-        print(f"Error loading API key: {e}")
-        # Return a fake key for demonstration purposes
-        return "PUT_YOUR_OPENAI_KEY_IN_openai_key.txt"
-
-client = OpenAI(api_key=load_api_key('openai_key.txt'))
+client = OpenAI(api_key=_app_functions.load_api_key('openai_key.txt'))
 
 def fetch_stock_data(ticker):
     stock = Ticker(ticker)
@@ -47,7 +32,7 @@ def fetch_stock_data(ticker):
         "earnings": stock.earnings,
         "recommendations": stock.recommendations,
         "analyst_ratings": stock.recommendation_trend,
-        "news": stock.news(),
+        "news": _app_functions.fetch_news_from_rss(ticker),
         "cashflow": stock.cash_flow,
         "balance_sheet": stock.balance_sheet,
         "income_statement": stock.income_statement,
@@ -62,27 +47,34 @@ def fetch_stock_data(ticker):
     }
     return data
 
-def review_and_analyze_stock(risk_tolerance, stock_data):
+def review_and_analyze_stock(ticker, risk_tolerance, stock_data):
 
     prompt = (
-        f"Based on current data downloaded using yahooquery, please provide a comprehensive report "
-        f"including details on current performance, financials, valuation ratios, analyst ratings, and any news. "
-        f"Include the company's profile information to explain what the company does. "
+        f"Based on current data downloaded using yahooquery, please provide a comprehensive report for stock ticker: {ticker} "
+        f"including details on current performance, financials, valuation ratios, analyst ratings, and summarize all news clearly related to {ticker}. "
+        f"Include the company's profile information to explain what the company does and automatically consider the industry context in your analysis. "
         f"Include technical indicators (using the data provided, provide any indicators you can), "
+        f"explain what the specific numbers in the indicators mean to each other based on the real data, "
         f"risk factors, and swing trading potential. Additionally, include a risk assessment "
         f"based on a risk tolerance of {risk_tolerance}, with a final Trade Status value at the "
-        f"very bottom of the report formatted as trade_status: with the values of Trade or Don't Trade.\n\n"
-        f"{json.dumps(stock_data, indent=2, default=str)}"
+        f"very bottom of the report formatted as trade_status: with the values of Trade or Don't Trade. DO NOT INCLUDE THE WORDING: Don't Trade, anywhere else "
+        f"it should only be used when applicable with the trade_status: value. I look for the phrase Don't Trade, as a trigger.\n\n"
+        f"Ensure that all relevant data points are considered equally and consistently in determining the final Trade Status. "
+        f"Use the following guidelines to weigh and assess each category based on industry norms and risk tolerance:\n"
+        f"1. **Technical Indicators**: Compare the current price against moving averages (20-day, 50-day, 100-day, 200-day). Generally, consider 'Trade' if the current price is above the 50-day and 200-day moving averages, indicating a positive trend. Adjust for risk tolerance: for lower risk tolerance, give more weight to longer-term averages (100-day and 200-day); for higher risk tolerance, give more weight to shorter-term averages (20-day and 50-day).\n"
+        f"2. **Analyst Ratings**: Use the average analyst rating to gauge market sentiment. A rating below 2.0 suggests a strong buy, favoring 'Trade'; a rating above 3.0 suggests a hold or sell, favoring 'Don't Trade'. Adjust for risk tolerance: for lower risk tolerance, be more conservative and consider avoiding stocks with ratings above 2.5; for higher risk tolerance, be more aggressive and consider ratings up to 3.0.\n"
+        f"3. **Financial Performance**: Evaluate year-over-year earnings growth, revenue growth, profit margin, and cash flow. Positive growth and strong cash flow generally favor 'Trade', while negative trends favor 'Don't Trade'. Adjust for risk tolerance: for lower risk tolerance, prioritize strong profit margins and stable earnings; for higher risk tolerance, be more flexible with earnings and revenue fluctuations.\n"
+        f"4. **Valuation Ratios**: Assess P/E ratio, forward P/E, and price to sales ratio. Reasonable valuations based on industry norms favor 'Trade'. Extremely high or low valuations might favor 'Don't Trade'. Adjust for risk tolerance: for lower risk tolerance, prefer stocks with moderate valuations; for higher risk tolerance, be more open to stocks with extreme valuations.\n"
+        f"5. **Risk and Volatility**: Use beta and other risk metrics to assess volatility. A beta close to 1 indicates average market risk; significantly higher beta suggests higher volatility, impacting the risk assessment based on {risk_tolerance}. Adjust for risk tolerance: for lower risk tolerance, avoid stocks with beta significantly above 1; for higher risk tolerance, be more accepting of high beta values.\n"
+        f"6. **Industry Context**: Consider the industry norms and company profile information, such as the sector, industry, and business model. Ensure that the company’s performance and risks are evaluated in the context of its industry. Adjust for risk tolerance: for lower risk tolerance, prefer companies with stable industry performance; for higher risk tolerance, be more open to companies in more volatile or emerging industries.\n\n"
+        f"Here is the provided data:\n{json.dumps(stock_data, indent=2, default=str)}"
     )
 
     response = client.chat.completions.create(model="gpt-4-turbo",
     messages=[{"role": "user", "content": prompt}],
     max_tokens=4096,  # Adjusted to allow for a larger response if needed
     temperature=0.7)
-
     return response.choices[0].message.content.strip()
-
-
 
 def get_current_mark(symbol,lookup = True):
     global price_cache
@@ -218,10 +210,13 @@ def parse_trade_data(file_path):
                     if extra_row[11] != '':
                         price = f"{extra_row[11]} {price}"
                     i += 1
-
+                trade_metrics = _app_functions.calculate_trade_metrics(symbol)
+                print(symbol, trade_metrics)
                 target_price_differential = round(float(price.split(' ')[0]) - mark if ' ' in price else float(price) - mark, 2)
                 key = f"{symbol}-{quantity}-{time_placed}"
                 last_differential = history.get(key, {}).get('differential', 0)
+                listed_date = int(history.get(key, {}).get('listed', time.time()))
+                completion_time = _app_functions.calculate_estimated_completion_time(trade_metrics,listed_date)
                 color = 'lightgrey' if key not in history else ('green' if target_price_differential < last_differential else 'red' if target_price_differential > last_differential else history[key].get('color', 'lightgrey'))
 
                 trg_value = float(price.split('+')[1].replace('%', '').replace('$', '')) if 'TRG+' in price else 0
@@ -236,9 +231,9 @@ def parse_trade_data(file_path):
                 total_profit += order_profit
                 bid_price = round(float_price - profit, 2)
                 order_cost = round(bid_price * shares, 2)
-                working_orders.append([symbol, quantity, f"Share Cost: ${bid_price:.2f}<br>Target Price: ${price}<br>Order Cost: ${order_cost:.2f}<br>Order Profit: ${order_profit:.2f}", f"${mark:.2f}", f"${target_price_differential:.2f}", f"${last_differential:.2f}", color, cache_color])
+                working_orders.append([symbol, quantity, f"Share Cost: ${bid_price:.2f}<br>Target Price: ${price}<br>Order Cost: ${order_cost:.2f}<br>Order Profit: ${order_profit:.2f}<br>ETC: {completion_time}", f"${mark:.2f}", f"${target_price_differential:.2f}", f"${last_differential:.2f}", color, cache_color])
                 if key not in history or history[key].get('mark', mark) != mark:
-                    new_history[key] = {'differential': target_price_differential, 'color': color, 'mark': mark}
+                    new_history[key] = {'differential': target_price_differential, 'color': color, 'mark': mark, 'listed': listed_date}
                 else:
                     new_history[key] = history[key]
 
@@ -330,36 +325,42 @@ def stock_data(filename):
 @app.route('/analyze_stock', methods=['GET'])
 def analyze_stock():
     ticker = request.args.get('ticker')
-    risk_tolerance = request.args.get('risk_tolerance', default=7, type=int)
+    risk_tolerance = request.args.get('risk_tolerance', default=6, type=int)
 
     if not ticker:
         return jsonify({"error": "Ticker parameter is required"}), 400
 
     cache_file_path = f'./stock_data/{ticker}_Analysis.json'
-    
+    current_trade_status = True
     # Check if the cache file exists and is newer than 6 hours
     if os.path.exists(cache_file_path):
+        # Read the cached file and return its content with a timestamp
+        with open(cache_file_path, 'r') as cache_file:
+            cached_response = cache_file.read()
+        if "Don't Trade" in cached_response:
+            current_trade_status = False
         file_mod_time = datetime.fromtimestamp(os.path.getmtime(cache_file_path))
-        if datetime.now() - file_mod_time < timedelta(hours=6):
-            # Read the cached file and return its content with a timestamp
-            with open(cache_file_path, 'r') as cache_file:
-                cached_response = cache_file.read()
+        if datetime.now() - file_mod_time < timedelta(hours=24):
             timestamp = file_mod_time.strftime('%Y-%m-%d %H:%M:%S')
             return jsonify({"analysis": cached_response, "timestamp": timestamp})
 
     try:
         stock_data = fetch_stock_data(ticker)
         current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        analysis = review_and_analyze_stock(risk_tolerance, stock_data)
+        analysis = review_and_analyze_stock(ticker, risk_tolerance, stock_data)
         
         # Write the analysis to the cache file
         os.makedirs(os.path.dirname(cache_file_path), exist_ok=True)
         with open(cache_file_path, 'w') as cache_file:
             cache_file.write(analysis)
         
+        if ("Don't Trade" in analysis and current_trade_status) or \
+            ("Don't Trade" not in analysis and not current_trade_status):
+            subprocess.run(["python3", "hot_picks.py"])
+
         return jsonify({"analysis": analysis, "timestamp": current_time})
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return jsonify({"analysis": str(e), "timestamp": current_time}), 500
 
 
 @app.route('/')
@@ -394,11 +395,20 @@ def index():
                 details['Rank'] = ranks[symbol]["totals"]
             else:
                 details['Rank'] = {}
+            trade_status = _app_functions.ai_trade_status(symbol, None)
+            if trade_status is True:
+                details['trade_status'] = {"status": "&#128077;"}
+            elif trade_status is False:
+                details['trade_status'] = {"status": "&#128078;"}
+            else:
+                details['trade_status'] = {}
         except FileNotFoundError:
             details['1Mo_5Mi'] = {}
             details['Overall_Trend'] = {}
             details['Rank'] = {}
+            details['trade_status'] = {}
         return details
+    
     buy_details = {symbol: load_symbol_details(symbol, ranks) for symbol in hot_picks['buy_symbols']}
     sell_details = {symbol: load_symbol_details(symbol, ranks) for symbol in hot_picks['sell_symbols']}
     hold_details = {symbol: load_symbol_details(symbol, ranks) for symbol in hot_picks['hold_symbols']}

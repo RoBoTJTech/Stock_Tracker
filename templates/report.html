@@ -202,8 +202,8 @@
                             <td>
                                 <a href="#" onclick="copyToClipboard('{{ symbol }}')" title="Copy to Clipboard">&#x2398;</a> <!-- ⎘ Copy icon -->
                                 <a href="#" class="ticker" data-symbol="{{ symbol }}">{{ symbol }}</a>
-                                <a href="#" onclick="fetchStockAnalysis('{{ symbol }}')" title="AI Analyze Report">&#129504;</a> <!-- 🧠 -->
-
+                                <a href="#" onclick="fetchStockAnalysis('{{ symbol }}')" title="AI Analyze Report">&#129504;</a>
+                                {{ sell_details[symbol].trade_status.status|safe }} <!-- 🧠 -->
                             </td>
                             <td>
                                 {% for key, value in sell_details[symbol]['1Mo_5Mi'].items() %}
@@ -243,7 +243,8 @@
                             <td>
                                 <a href="#" onclick="copyToClipboard('{{ symbol }}')" title="Copy to Clipboard">&#x2398;</a> <!-- ⎘ Copy icon -->
                                 <a href="#" class="ticker" data-symbol="{{ symbol }}">{{ symbol }}</a>
-                                <a href="#" onclick="fetchStockAnalysis('{{ symbol }}')" title="AI Analyze Report">&#129504;</a> <!-- 🧠 -->
+                                <a href="#" onclick="fetchStockAnalysis('{{ symbol }}')" title="AI Analyze Report">&#129504;</a>
+                                {{ buy_details[symbol].trade_status.status|safe}}
 
                             <td>
                                 {% for key, value in buy_details[symbol]['1Mo_5Mi'].items() %}
@@ -283,7 +284,8 @@
                             <td>
                                 <a href="#" onclick="copyToClipboard('{{ symbol }}')" title="Copy to Clipboard">&#x2398;</a> <!-- ⎘ Copy icon -->
                                 <a href="#" class="ticker" data-symbol="{{ symbol }}">{{ symbol }}</a>
-                                <a href="#" onclick="fetchStockAnalysis('{{ symbol }}')" title="AI Analyze Report">&#129504;</a> <!-- 🧠 -->
+                                <a href="#" onclick="fetchStockAnalysis('{{ symbol }}')" title="AI Analyze Report">&#129504;</a>
+                                {{ hold_details[symbol].trade_status.status|safe }} <!-- 🧠 -->
                             </td>
                             <td>
                                 {% for key, value in hold_details[symbol]['1Mo_5Mi'].items() %}

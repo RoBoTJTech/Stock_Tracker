@@ -440,7 +440,8 @@ def analyze_stock(ticker):
             pe_ratio = round(details.get('summaryDetail', {}).get('trailingPE', 0),2)
             forward_pe_ratio = round(details.get('summaryDetail', {}).get('forwardPE', 0),2)
             peg_ratio = round(details.get('defaultKeyStatistics', {}).get('pegRatio', 0),2)
-            ps_ratio = round(details.get('summaryDetail', {}).get('priceToSalesTrailing12Months', 0),2)
+            ps_ratio = round(details.get('summaryDetail', {})
+                             .get('priceToSalesTrailing12Months', 0),2)
         except Exception as e:
             print(e) 
             Recommendation = 'None'
@@ -536,7 +537,8 @@ def analyze_stock(ticker):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Analyze stock data for different periods and resolutions.')
+    parser = argparse.ArgumentParser(description=
+                                     'Analyze stock data for different periods and resolutions.')
     parser.add_argument('ticker', type=str, help='Stock ticker symbol')
     args = parser.parse_args()
 

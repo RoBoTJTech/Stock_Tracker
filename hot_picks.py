@@ -1,7 +1,8 @@
 import os
 import json
 import math
-from datetime import datetime
+import _app_functions
+import _app_constants
 
 def worst_trading_rank(unique_tickers, scores):
     rank = 0
@@ -35,8 +36,6 @@ def get_Scores(directory):
                 data = json.load(f)
                 if "Score" in data[ticker]["totals"]:
                     scores[score_type][ticker] = data[ticker]["totals"]
-                else:
-                    print(f"Missing 'Score' key in file {filename}, skipping.")
             except Exception as e:
                 print(f"Error processing file {filename}: {e}, skipping.")
                 continue
@@ -96,7 +95,8 @@ def filter_scores(scores, unique_tickers, rank, trade_type='buy'):
         Overall_Trend = scores["Overall_Trend"].get(ticker, {}).get("Overall_Trend", "Downward")
         Sell_Orders = scores["1Mo_5Mi"].get(ticker, {}).get("Sell_Orders", 0)
         Recommendation = scores["Overall_Trend"].get(ticker, {}).get("Recommendation", "None")
-        if ("Buy" in Recommendation and Overall_Trend == "Upward" and Overall_Rank <= rank and 
+        trade_status = _app_functions.ai_trade_status(ticker)
+        if (trade_status and "Buy" in Recommendation and Overall_Trend == "Upward" and Overall_Rank <= rank and 
             (trade_type != 'buy' or (trade_type == 'buy' and Sell_Orders > 4))):
             symbols.append((ticker, scores["1Mo_5Mi"].get(ticker, {})))
 
