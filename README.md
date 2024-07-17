@@ -1,5 +1,5 @@
 # Stock_Tracker
-For my personal use, to be used with TOS Autotrader. Finds stocks that meet criteria to be good eaners with auto trader, and also reports on current trades being made in schwab account
+For my personal use, to be used with my TOS Autotrader. Using my own stratagy. Finds stocks that meet criteria to be good eaners with my auto trader, and also reports on current trades being made in schwab account
 Every trade on auto pilot
 <img width="1150" alt="image" src="https://github.com/user-attachments/assets/dcfbf5bf-e522-4b49-8d24-7eca23cd6fea">
 <img width="1154" alt="image" src="https://github.com/user-attachments/assets/082c3549-f315-43ea-a4ed-03575056126a">
