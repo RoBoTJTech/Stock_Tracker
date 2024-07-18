@@ -4,12 +4,25 @@ import json
 import feedparser
 import _app_constants
 import time
+import pytz
 import _app_constants
 from datetime import datetime, timedelta
 import pandas as pd
 import _app_constants
 
 def calculate_trade_duration(start, end):
+    # ENSURE START AND END ARE LOCALIZED TO EASTERN TIME (EST)
+    eastern = pytz.timezone('US/Eastern')
+    if start.tzinfo is None:
+        start = eastern.localize(start)
+    else:
+        start = start.astimezone(eastern)
+    
+    if end.tzinfo is None:
+        end = eastern.localize(end)
+    else:
+        end = end.astimezone(eastern)
+
     # If start and end are on the same day
     if start.date() == end.date():
         duration = (min(end, end.replace(hour=_app_constants.MARKET_CLOSE.hour, minute=_app_constants.MARKET_CLOSE.minute)) - 
@@ -56,8 +69,11 @@ def calculate_trade_metrics(ticker):
     trades_df['buy_timestamp'] = pd.to_datetime(trades_df['buy_timestamp'])
     trades_df['sell_timestamp'] = pd.to_datetime(trades_df['sell_timestamp'])
 
-    # Filter out trades without sell_timestamp
-    trades_df = trades_df.dropna(subset=['sell_timestamp'])
+    # GET THE CURRENT TIMESTAMP AND CONVERT IT TO THE CORRECT TIMEZONE
+    current_timestamp = pd.Timestamp.now(tz='UTC').tz_convert('UTC-04:00')  # ADDED THIS LINE
+
+    # SET SELL_TIMESTAMP TO NOW FOR TRADES MISSING SELL_TIMESTAMP
+    trades_df['sell_timestamp'].fillna(current_timestamp, inplace=True)  # MODIFIED THIS LINE
 
     # Calculate trade durations in market hours
     trades_df['trade_duration'] = trades_df.apply(lambda row: calculate_trade_duration(row['buy_timestamp'], row['sell_timestamp']), axis=1)
@@ -185,11 +201,11 @@ def load_history(history_file):
     return {}
 
 def calculate_estimated_completion_time(trade_metrics, listed_date):
-    # Convert listed_date from epoch to datetime
-    listed_date = pd.to_datetime(listed_date, unit='s')
+    # CONVERT LISTED_DATE FROM EPOCH TO DATETIME WITH TIMEZONE INFORMATION
+    listed_date = pd.to_datetime(listed_date, unit='s').tz_localize('UTC')
     
     # Get the longest trade duration in seconds
-    longest_trade_duration = trade_metrics['longest_trade_duration']
+    longest_trade_duration = trade_metrics['average_trade_duration']
     
     # Convert the longest trade duration from seconds to business hours and round up to the nearest hour
     total_business_hours = longest_trade_duration / 3600
@@ -201,6 +217,8 @@ def calculate_estimated_completion_time(trade_metrics, listed_date):
     
     # Calculate the estimated completion date by adding business hours to the listed date
     estimated_completion_date = listed_date + (business_hours * total_business_hours)
+    # ENSURE TIMEZONE CONSISTENCY
+    estimated_completion_date = estimated_completion_date.tz_convert(listed_date.tzinfo)
     
     # Calculate the remaining duration from now until the estimated completion date
     current_epoch_time = pd.Timestamp.now().timestamp()

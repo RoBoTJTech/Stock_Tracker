@@ -87,10 +87,15 @@ def get_current_mark(symbol,lookup = True):
     try:
         # Fetch the current price from Yahoo Finance
         stock = yf.Ticker(symbol)
+
         try:
-            current_price = stock.history(period='1d',interval='1m',prepost=True)['Close'].iloc[-1]
+            # Get the bid price from the stock's info
+            current_price = stock.info['bid']
         except:
-            current_price = stock.history(period='1d',prepost=True)['Close'].iloc[-1]
+            try:
+                current_price = stock.history(period='1d',interval='1m',prepost=True)['low'].iloc[-1]
+            except:
+                current_price = stock.history(period='1d',prepost=True)['Close'].iloc[-1]
 
         # Check if the new price is the same as the cached price
         if symbol in price_cache and price_cache[symbol][0] == current_price:
@@ -211,7 +216,6 @@ def parse_trade_data(file_path):
                         price = f"{extra_row[11]} {price}"
                     i += 1
                 trade_metrics = _app_functions.calculate_trade_metrics(symbol)
-                print(symbol, trade_metrics)
                 target_price_differential = round(float(price.split(' ')[0]) - mark if ' ' in price else float(price) - mark, 2)
                 key = f"{symbol}-{quantity}-{time_placed}"
                 last_differential = history.get(key, {}).get('differential', 0)
@@ -325,7 +329,7 @@ def stock_data(filename):
 @app.route('/analyze_stock', methods=['GET'])
 def analyze_stock():
     ticker = request.args.get('ticker')
-    risk_tolerance = request.args.get('risk_tolerance', default=6, type=int)
+    risk_tolerance = request.args.get('risk_tolerance', default=5, type=int)
 
     if not ticker:
         return jsonify({"error": "Ticker parameter is required"}), 400

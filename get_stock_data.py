@@ -7,20 +7,7 @@ import numpy as np
 import argparse
 import json
 from datetime import time, datetime, timedelta
-from pprint import pprint
-import threading
 import pytz
-
-def print_object_details(obj):
-    attributes = dir(obj)
-    details = {}
-    for attr in attributes:
-        if not attr.startswith('__'):
-            try:
-                details[attr] = getattr(obj, attr)
-            except Exception as e:
-                details[attr] = str(e)
-    pprint(details)
 
 def get_serializable_attributes(ticker):
     serializable_attrs = {}
@@ -223,12 +210,10 @@ def calculate_totals(trades, total_triggers, Threshold):
     # Productivity Score calculation
     if len(trades) > 0 and total_sell_orders > 0:
         Score = round((
-            (len(trades) / total_triggers) * 
-            (total_sell_orders / len(trades)) * 
-            (buy_profit_percentage / 100) * 
-            (Annual_Trade_Gain / 100) * 
-            np.log(total_triggers + 1) * 
-            np.log(total_sell_orders + 1)
+            (len(trades) / np.ceil(total_triggers + 1 - len(trades)) / 2) *
+            (buy_profit_percentage / 100) *
+            (Annual_Trade_Gain / 100) *
+            (np.log(total_triggers - len(trades) +1) / 10)
         ) * 100, 2)
     else:
         Score = 0

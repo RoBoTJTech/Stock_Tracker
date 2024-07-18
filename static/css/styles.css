@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+  white-space: nowrap;
+}
+th {
+  background-color: #d3d3d3;
+}
+.green, .buy {
+  background-color: green;
+  color: white;
+}
+.red, .sell {
+  background-color: red;
+  color: white;
+}
+.lightgrey {
+  background-color: lightgrey;
+  color: black;
+}
+.indicator {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.tab-content {
+  display: none;
+}
+.tab-buttons, .nested-tab-buttons {
+  display: flex;
+  margin-bottom: 10px;
+}
+.tab-buttons button, .nested-tab-buttons button {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  margin-right: 5px;
+}
+.tab-buttons button.active, .nested-tab-buttons button.active {
+  background-color: #ddd;
+}
+/* Popup styles */
+.popup {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  z-index: 1000;
+  padding: 20px;
+  overflow: auto;
+  max-height: 80%;
+}
+.popup-content pre {
+  white-space: pre-wrap; /* Enable word wrap */
+  word-wrap: break-word; /* Handle long words */
+}
+.popup-content {
+  white-space: pre-wrap;
+}
+.popup-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+.json-key {
+  font-weight: bold;
+}
+.json-container {
+  margin-left: 20px;
+}
+.highlight {
+  background-color: yellow;
+}
+.highlight-parent {
+  background-color: lightblue;
+}
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
