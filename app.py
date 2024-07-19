@@ -127,15 +127,11 @@ def parse_trade_data(file_path):
     total_price = 0
     total_profit = 0
 
+    file_mod_time = os.path.getmtime(file_path)
+    file_timestamp = datetime.fromtimestamp(file_mod_time)
+
     with open(file_path, newline='') as csvfile:
         reader = csv.reader(csvfile)
-
-        
-        # Skip the initial lines that are not part of the CSV header and data
-        header_line = next(reader)
-        header_line = ''.join(header_line)
-        timestamp_str = header_line.split('on')[1].strip()
-        file_timestamp = datetime.strptime(timestamp_str, "%m/%d/%y %H:%M:%S")
 
         if datetime.now() - file_timestamp > timedelta(minutes=5):
             # If the file is older than 5 minutes, use live prices
