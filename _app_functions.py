@@ -46,7 +46,7 @@ def calculate_trade_duration(start, end):
 
 def calculate_trade_metrics(ticker):
     # Load JSON data
-    file_path = os.path.join(_app_constants.DATA_PATH, f'{ticker}_Chart_1Mo_5Mi.json')
+    file_path = os.path.join(_app_constants.DATA_PATH, f'{ticker}_Chart_1Mp_5Mi.json')
     # Check if the file exists
     if not os.path.exists(file_path):
         return {
@@ -64,6 +64,18 @@ def calculate_trade_metrics(ticker):
 
     trades = data.get(ticker, {}).get("trades", [])
 
+    #file_path = os.path.join(_app_constants.DATA_PATH, f'{ticker}_Chart_2Yr_1Hr.json')
+    #if os.path.exists(file_path):
+    #    with open(file_path, 'r') as file:
+    #        data = json.load(file)
+    #    trades.extend(data)
+    
+    #file_path = os.path.join(_app_constants.DATA_PATH, f'{ticker}_Chart_6Mo_1Hr.json')
+    #if os.path.exists(file_path):
+    #    with open(file_path, 'r') as file:
+    #        data = json.load(file)
+    #   trades.extend(data)
+
     # Convert trade timestamps to pandas DataFrame
     trades_df = pd.DataFrame(trades)
     trades_df['buy_timestamp'] = pd.to_datetime(trades_df['buy_timestamp'])
@@ -79,20 +91,24 @@ def calculate_trade_metrics(ticker):
     trades_df['trade_duration'] = trades_df.apply(lambda row: calculate_trade_duration(row['buy_timestamp'], row['sell_timestamp']), axis=1)
 
     # Calculate intervals between trades
-    trades_df = trades_df.sort_values(by='buy_timestamp')
-    trades_df['previous_sell_timestamp'] = trades_df['sell_timestamp'].shift(1)
-    trades_df = trades_df.dropna(subset=['previous_sell_timestamp'])
-    trades_df['trade_interval'] = trades_df.apply(lambda row: calculate_trade_duration(row['previous_sell_timestamp'], row['buy_timestamp']), axis=1)
+    if len(trades) > 1:
+        trades_df = trades_df.sort_values(by='buy_timestamp')
+        trades_df['previous_sell_timestamp'] = trades_df['sell_timestamp'].shift(1)
+        trades_df = trades_df.dropna(subset=['previous_sell_timestamp'])
+        trades_df['trade_interval'] = trades_df.apply(lambda row: calculate_trade_duration(row['previous_sell_timestamp'], row['buy_timestamp']), axis=1)
 
     # Calculate metrics
     if not trades_df.empty:
         shortest_trade_duration = trades_df['trade_duration'].min()
         average_trade_duration = trades_df['trade_duration'].mean()
         longest_trade_duration = trades_df['trade_duration'].max()
+        if len(trades) > 1:
+            shortest_trade_interval = trades_df['trade_interval'].min()
+            average_trade_interval = trades_df['trade_interval'].mean()
+            longest_trade_interval = trades_df['trade_interval'].max()
+        else:
+            shortest_trade_interval = average_trade_interval = longest_trade_interval = 0
 
-        shortest_trade_interval = trades_df['trade_interval'].min()
-        average_trade_interval = trades_df['trade_interval'].mean()
-        longest_trade_interval = trades_df['trade_interval'].max()
     else:
         shortest_trade_duration = average_trade_duration = longest_trade_duration = 0
         shortest_trade_interval = average_trade_interval = longest_trade_interval = 0
@@ -205,7 +221,7 @@ def calculate_estimated_completion_time(trade_metrics, listed_date):
     listed_date = pd.to_datetime(listed_date, unit='s').tz_localize('UTC')
     
     # Get the longest trade duration in seconds
-    longest_trade_duration = trade_metrics['average_trade_duration']
+    longest_trade_duration = trade_metrics['longest_trade_duration']
     
     # Convert the longest trade duration from seconds to business hours and round up to the nearest hour
     total_business_hours = longest_trade_duration / 3600

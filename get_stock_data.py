@@ -30,7 +30,7 @@ def get_stock_details(ticker_symbol):
     serializable_attrs = get_serializable_attributes(ticker)
     return serializable_attrs["all_modules"][ticker_symbol]
 
-# Fetch 1-month 5-minute interval data including pre-market and after-hours
+# Fetch data including pre-market and after-hours
 def fetch_yahoo_chart(yf_ticker_obj, period, interval):
     data = yf_ticker_obj.history(period=period, interval=interval, prepost=True)
     return data
@@ -94,16 +94,17 @@ def calculate_heikin_ashi(data):
 
     for i in range(len(data)):
         if i < 2:
-            data.loc[data.index[i], 'HA_Close'] = (data.loc[data.index[i], 'Open'] + data.loc[data.index[i], 'High'] + data.loc[data.index[i], 'Low'] + data.loc[data.index[i], 'Close']) / 4
+            data.loc[data.index[i], 'HA_Close'] = (data.loc[data.index[i], 'Open'] + data.loc[data.index[i], 'High'] + 
+                    data.loc[data.index[i], 'Low'] + data.loc[data.index[i], 'Close']) / 4
             data.loc[data.index[i], 'HA_Open'] = data.loc[data.index[i], 'Close']
         else:
-            data.loc[data.index[i], 'HA_Close'] = (data.loc[data.index[i-1], 'Open'] + data.loc[data.index[i-1], 'High'] + data.loc[data.index[i-1], 'Low'] + data.loc[data.index[i-1], 'Close']) / 4
-            ha_open_2_back = data.loc[data.index[i-2], 'HA_Open']
-            ha_close_2_back = data.loc[data.index[i-2], 'HA_Close']
-            data.loc[data.index[i], 'HA_Open'] = (ha_open_2_back + ha_close_2_back) / 2
+            data.loc[data.index[i], 'HA_Close'] = (data.loc[data.index[i-1], 'Open'] + data.loc[data.index[i-1], 'High'] + 
+                                                   data.loc[data.index[i-1], 'Low'] + data.loc[data.index[i-1], 'Close']) / 4
+            data.loc[data.index[i], 'HA_Open'] = (data.loc[data.index[i-2], 'HA_Open'] + 
+                                                  data.loc[data.index[i-2], 'HA_Close']) / 2
 
-        data.loc[data.index[i], 'HA_High'] = max(data.loc[data.index[i], 'High'], data.loc[data.index[i], 'HA_Open'], data.loc[data.index[i], 'HA_Close'])
-        data.loc[data.index[i], 'HA_Low'] = min(data.loc[data.index[i], 'Low'], data.loc[data.index[i], 'HA_Open'], data.loc[data.index[i], 'HA_Close'])
+        data.loc[data.index[i], 'HA_High'] = max(data.loc[data.index[i-1], 'High'], data.loc[data.index[i], 'HA_Open'], data.loc[data.index[i], 'HA_Close'])
+        data.loc[data.index[i], 'HA_Low'] = min(data.loc[data.index[i-1], 'Low'], data.loc[data.index[i], 'HA_Open'], data.loc[data.index[i], 'HA_Close'])
 
         data.loc[data.index[i], 'ConditionForTopWickOnly'] = (data.loc[data.index[i], 'HA_Close'] >= data.loc[data.index[i], 'HA_Open']) & \
                                                               (data.loc[data.index[i], 'HA_High'] > data.loc[data.index[i], 'HA_Close']) & \
@@ -132,8 +133,9 @@ def identify_triggers(data, Threshold=2, trading_hours=True):
                 if is_trading_hours(data.index[i]) and data['High'].iloc[i] > highest_price:
                     highest_price = data['High'].iloc[i]
                     highest_timestamp = data.index[i]
-                if not is_trading_hours(data.index[i]) and data['Close'].iloc[i] > highest_price:
-                    highest_price = data['Close'].iloc[i]
+                #Yahoo charts has bad data sometimes after hours, set to Close instead of High to filter it
+                if not is_trading_hours(data.index[i]) and data['High'].iloc[i] > highest_price:
+                    highest_price = data['High'].iloc[i]
                     highest_timestamp = data.index[i]
 
         threshold = highest_price * Threshold / 100
@@ -141,7 +143,7 @@ def identify_triggers(data, Threshold=2, trading_hours=True):
         # Sell logic
         if last_buy_price > 0:
             sell_threshold = last_buy_price + (Threshold / 100 * last_buy_price)
-            if (is_trading_hours(data.index[i]) and data['High'].iloc[i] > sell_threshold) or data['Close'].iloc[i] > sell_threshold:
+            if (is_trading_hours(data.index[i]) and data['High'].iloc[i] > sell_threshold) or data['High'].iloc[i] > sell_threshold: #Set to close like above to
                 sell_trade = {
                     "buy_timestamp": trades[-1]['buy_timestamp'],
                     "buy_price": trades[-1]['buy_price'],
@@ -173,7 +175,7 @@ def identify_triggers(data, Threshold=2, trading_hours=True):
                 }
                 last_buy_timestamp = data.index[i]
                 trades.append(buy_trade)
-                last_buy_price = max(max(max(data['Low'].iloc[i], data['High'].iloc[i]), data['Open'].iloc[i]), data['Close'].iloc[i])
+                last_buy_price = data['Low'].iloc[i] #Put this in to deail with bad data: max(max(max(data['Low'].iloc[i], data['High'].iloc[i]), data['Open'].iloc[i]), data['Close'].iloc[i])
             highest_price = -1
             highest_timestamp = None
 
@@ -210,10 +212,10 @@ def calculate_totals(trades, total_triggers, Threshold):
     # Productivity Score calculation
     if len(trades) > 0 and total_sell_orders > 0:
         Score = round((
-            (len(trades) / np.ceil(total_triggers + 1 - len(trades)) / 2) *
+            (len(trades) / np.ceil((total_triggers + 1 - len(trades)) / 2)) *
             (buy_profit_percentage / 100) *
             (Annual_Trade_Gain / 100) *
-            (np.log(total_triggers - len(trades) +1) / 10)
+            (np.log(total_triggers - len(trades) +1) + 1) / 10
         ) * 100, 2)
     else:
         Score = 0
@@ -352,7 +354,7 @@ def analyze_yahoo_chart(ticker,period,interval,age, yf_ticker_obj):
             triggers, trades = identify_triggers(data, threshold)
             total_days, Annual_Trade_Gain, buy_profit_percentage, total_sell_orders, total_buy_orders, Score, now = calculate_totals(trades, len(triggers), threshold)
 
-            if (Score > best_score and total_sell_orders > 1) or (total_sell_orders == 1 and best_score == 0):
+            if (Score > best_score and total_sell_orders >= 4) or (total_sell_orders < 4 and total_sell_orders > 0 and best_score == 0):
                 best_score = Score
                 best_threshold = threshold
                 best_triggers = triggers
@@ -369,6 +371,7 @@ def analyze_yahoo_chart(ticker,period,interval,age, yf_ticker_obj):
                     "Score": Score,
                     "Updated": now
                 }
+                print(ticker,best_totals)
 
         save_to_json(ticker, best_triggers, best_trades, best_totals, f"{ticker}_Chart_{period}_{interval}.json")
 
