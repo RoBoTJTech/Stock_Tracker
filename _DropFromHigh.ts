@@ -1,13 +1,16 @@
-#Thresholds for triggers
-# Version 1.0.1
+# Auto Trader  
+# Version 1.0.3
+# Track to find high, then follows to
+# find dip below threshold.
+
 # I'm also trying this declare to 
 # see if that helps the timing issue
 declare once_per_bar;
-input resetHighOnOpenValue = yes;
 input thresholdValue = 1;
 input sellPriceOffsetValue = 0;
 input triggerOffset = no;
-input enableSafetyNew = no;
+input enableSafetyNet = yes;
+input resetHighOnOpenValue = no;
 
 # Market Hours
 input marketOpenValue = 0930;
@@ -29,14 +32,70 @@ def isInMarketHours = if isFourHoursOrGreaterChart and !(excludeFridayValue and 
 # But it was spot on with it as the 
 # current cell except for a few times
 
-def HA_Close = (open[1] + high[1] + low[1] + close[1]) / 4;
-def HA_Open = CompoundValue(1, (HA_Open[2] + HA_Close[2]) / 2, close);
+def HA_Close = (open[0] + high[0] + low[0] + close[0]) / 4;
+def HA_Open = CompoundValue(1, (HA_Open[1] + HA_Close[1]) / 2, (open[1] + close[1]) / 2);
 def conditionForTopWickOnly = HA_Close >= HA_Open
-    and Max(Max(high[1], HA_Open), HA_Close) > HA_Close 
-    and Min(Min(low[1], HA_Open), HA_Close) == Min(HA_Open, HA_Close);
+    and Max(Max(high[0], HA_Open), HA_Close) > HA_Close 
+    and Min(Min(low[0], HA_Open), HA_Close) == Min(HA_Open, HA_Close);
 
+def allConditionsMet;
+def highestPrice;
+if IsNaN(highestPrice[1]) or allConditionsMet[1] or allConditionsMet[2] or (! isInMarketHours and resetHighOnOpenValue)
+then {
+    highestPrice = 0;
+}
+else {
+    highestPrice = Max(low, highestPrice[1]);
+}
 
-AssignPriceColor(if isInMarketHours then 
+# Calculate percentage change from daily open to current close for QQQ, SPY, and DIA
+def isNewDay = GetYYYYMMDD() != GetYYYYMMDD()[1];
+
+def dailyOpen = if IsNaN(dailyOpen[1]) then open(period = AggregationPeriod.DAY)
+                else if isNewDay then open
+                else dailyOpen[1];
+def dwcfDailyOpen = if isNewDay or IsNaN(dwcfDailyOpen[1]) then open(symbol = "$DWCF", period = AggregationPeriod.DAY) else dwcfDailyOpen[1];
+def spyDailyOpen = if isNewDay or IsNaN(spyDailyOpen[1]) then open(symbol = "SPY", period = AggregationPeriod.DAY) else spyDailyOpen[1];
+def compDailyOpen = if isNewDay or IsNaN(compDailyOpen[1]) then open(symbol = "$COMP", period = AggregationPeriod.DAY) else compDailyOpen[1];
+def djiDailyOpen = if isNewDay or IsNaN(djiDailyOpen[1]) then open(symbol = "$DJI", period = AggregationPeriod.DAY) else djiDailyOpen[1];
+
+def percentChange = if IsNaN(dailyOpen) or IsNaN(high) then 0 else 100 * (high - dailyOpen) / dailyOpen;
+def dwcfPercentChange = if IsNaN(dwcfDailyOpen) or IsNaN(high(symbol = "$DWCF")) then 0 else 100 * (high(symbol = "$DWCF") - dwcfDailyOpen) / dwcfDailyOpen;
+def spyPercentChange = if IsNaN(spyDailyOpen) or IsNaN(high(symbol = "SPY")) then 0 else 100 * (high(symbol = "SPY") - spyDailyOpen) / spyDailyOpen;
+def compPercentChange = if IsNaN(compDailyOpen) or IsNaN(high(symbol = "$COMP")) then 0 else 100 * (high(symbol = "$COMP") - compDailyOpen) / compDailyOpen;
+def djiPercentChange = if IsNaN(djiDailyOpen) or IsNaN(high(symbol = "$DJI")) then 0 else 100 * (high(symbol = "$DJI") - djiDailyOpen) / djiDailyOpen;
+
+def marketPercentChange = Min(Min(Min(dwcfPercentChange, spyPercentChange), Min(compPercentChange, djiPercentChange)), 0);
+
+def marketIndex;
+if marketPercentChange == dwcfPercentChange {
+    marketIndex = 1;
+} else if marketPercentChange == spyPercentChange {
+    marketIndex = 2;
+} else if marketPercentChange == compPercentChange {
+    marketIndex = 3;
+} else if marketPercentChange == djiPercentChange {
+    marketIndex = 4;
+}
+else {
+    marketIndex = 0;
+}
+
+threshold = highestPrice * thresholdValue / 100;
+sellThreshold = ( highestPrice - threshold ) * ( thresholdValue + sellPriceOffsetValue ) / 100;
+def safetyNet = if enableSafetyNet then (if marketPercentChange < 0 and percentChange < 0 then highestPrice * marketPercentChange / 100 else 0) else 0;
+# Conditions for Sell
+allConditionsMet = highestPrice - low + safetyNet > threshold 
+    and conditionForTopWickOnly[1] and conditionForTopWickOnly[2] and isInMarketHours
+    and (!enableSafetyNet or percentChange >= 0 or (enableSafetyNet and percentChange 
+    < 0 and conditionForTopWickOnly[3]));
+
+AssignPriceColor(if isInMarketHours and enableSafetyNet and safetyNet >= 0 and percentChange < 0 then Color.YELLOW
+        else 
+        if isInMarketHours and enableSafetyNet and safetyNet < 0 
+            and percentChange < 0  then Color.ORANGE
+        else
+        if isInMarketHours then 
             Color.CURRENT 
         else 
         if HA_Close < HA_Open then 
@@ -45,33 +104,6 @@ AssignPriceColor(if isInMarketHours then
             Color.LIGHT_GREEN 
         else 
             Color.DARK_GRAY);
-
-def allConditionsMet;
-def highestPrice;
-if IsNaN(highestPrice[1]) or allConditionsMet[1] or allConditionsMet[2] or (! isInMarketHours and resetHighOnOpenValue)
-then {
-    highestPrice = 0;
-} else if conditionForTopWickOnly[2] and conditionForTopWickOnly[1] and ! conditionForTopWickOnly {
-    highestPrice = Max(high, highestPrice[1]);
-} else {
-    highestPrice = highestPrice[1];
-}
-
-# Calculate percentage change from daily open to current close for QQQ, SPY, and DIA
-#def qqqPercentChange = 100 * (close(symbol = "QQQ") - DailyOpen(symbol = "QQQ")) / DailyOpen(symbol = "QQQ");
-#def spyPercentChange = 100 * (close(symbol = "SPY") - DailyOpen(symbol = "SPY")) / DailyOpen(symbol = "SPY");
-#def diaPercentChange = 100 * (close(symbol = "DIA") - DailyOpen(symbol = "DIA")) / DailyOpen(symbol = "DIA");
-
-def qqqPercentChange = 100 * (close(symbol = "QQQ") - open(symbol = "QQQ", period = AggregationPeriod.DAY)) / open(symbol = "QQQ", period = AggregationPeriod.DAY);
-def spyPercentChange = 100 * (close(symbol = "SPY") - open(symbol = "SPY", period = AggregationPeriod.DAY)) / open(symbol = "SPY", period = AggregationPeriod.DAY);
-def diaPercentChange = 100 * (close(symbol = "DIA") - open(symbol = "DIA", period = AggregationPeriod.DAY)) / open(symbol = "DIA", period = AggregationPeriod.DAY);
-def avgPercentChange = (qqqPercentChange + spyPercentChange + diaPercentChange) / 3;
-
-threshold = highestPrice * thresholdValue / 100;
-sellThreshold = ( highestPrice - threshold )* ( thresholdValue + sellPriceOffsetValue ) / 100;
-def safetyNet = if enableSafetyNet then (if highestPrice * avgPercentChange / 100 < 0 then highestPrice * avgPercentChange / 100 else 0) else 0;
-# Conditions for Sell
-allConditionsMet = highestPrice - low + safetyNet > threshold and conditionForTopWickOnly[1] and conditionForTopWickOnly and isInMarketHours;
 
 # Sell Tracking
 def sellPriceTracker;
@@ -122,6 +154,7 @@ then {
 } else {
     buySellTriggerStatus = 0;
 }
+
 plot buySellTrigger = buySellTriggerStatus;
 
 plot highPricePlot = if allConditionsMet then highestPrice else Double.NaN;
@@ -160,7 +193,6 @@ buyArrowPlot.SetLineWeight(5);
 buyArrowPlot.SetDefaultColor(Color.GREEN);
 
 # Time Tracking and Metrics
-def isNewDay = GetYYYYMMDD() != GetYYYYMMDD()[1];
 def totalDays = CompoundValue(1, totalDays[1] + isNewDay, 1);
 def lastBuyDay;
 def buyDaysCount;
@@ -172,13 +204,13 @@ if sellPriceTracker {
 }
 if lastBuyDay[1] != GetYYYYMMDD() and sellPriceTracker {
     buyDaysCount = buyDaysCount[1] + 1;
-} else { 
+} else {
     buyDaysCount = buyDaysCount[1];
 }
 
 # Labels for Metrics
 def buyProfit = ( thresholdValue + sellPriceOffsetValue ) * sellCount;
-def triggerProfit = thresholdValue * (buyCount + Floor((triggerCount - buyCount) / 2));
+def triggerProfit = (thresholdValue + sellPriceOffsetValue) * (buyCount + Floor((triggerCount - buyCount) / 2));
 
 AddLabel(yes, "Buys: " + buyCount + 
     if buyCount < 10 then "        "
@@ -196,7 +228,7 @@ def productivityScore = Round(
         (buyCount / Ceil((triggerCount + 1 - buyCount) / 2)) *
         (buyProfit / 100) *
         (profit252 / 100) *
-        (log(triggerCount - buyCount +1) + 1) / 10
+        (Log(triggerCount - buyCount + 1) + 1) / 10
     ) * 100, 2
 );
 
@@ -229,16 +261,21 @@ AddLabel(yes, "Triggers: " + triggerCount +
     else if triggerCount < 100000 then "    "
     else " " , Color.CYAN);
 
-AddLabel(!IsNaN(sellPriceTracker), "Orders Still Open      ", Color.Yellow);
+AddLabel(percentChange >= 0, GetSymbol() + ": " + Round(percentChange, 2) + "%      ", Color.LIGHT_GREEN);
+AddLabel(percentChange < 0, GetSymbol() + ": " + Round(percentChange, 2) + "%      ", Color.LIGHT_RED);
 
-AddLabel(qqqPercentChange >= 0, "QQQ: " + Round(qqqPercentChange, 2) + "%    ", Color.GREEN);
-AddLabel(qqqPercentChange < 0, "QQQ: " + Round(qqqPercentChange, 2) + "%    ", Color.RED);
+AddLabel(marketPercentChange >= 0 and marketIndex == 1, "$DWJC: " + Round(dwcfPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
+AddLabel(marketPercentChange < 0 and marketIndex == 1, "$DWCJ: " + Round(dwcfPercentChange, 2) + "%      ", Color.LIGHT_RED);
 
-AddLabel(spyPercentChange >= 0, "SPY: " + Round(spyPercentChange, 2) + "%    ", Color.GREEN);
-AddLabel(spyPercentChange < 0, "SPY: " + Round(spyPercentChange, 2) + "%    ", Color.RED);
+AddLabel(marketPercentChange >= 0 and marketIndex == 2, "SPY: " + Round(spyPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
+AddLabel(marketPercentChange < 0 and marketIndex == 2, "SPY: " + Round(spyPercentChange, 2) + "%      ", Color.LIGHT_RED);
 
-AddLabel(diaPercentChange >= 0, "DIA: " + Round(diaPercentChange, 2) + "%    ", Color.GREEN);
-AddLabel(diaPercentChange < 0, "DIA: " + Round(diaPercentChange, 2) + "%    ", Color.RED);
+AddLabel(marketPercentChange >= 0 and marketIndex == 3, "$COMP: " + Round(compPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
+AddLabel(marketPercentChange < 0 and marketIndex == 3, "$COMP: " + Round(compPercentChange, 2) + "%      ", Color.LIGHT_RED);
 
-AddLabel(avgPercentChange >= 0, "Avg: " + Round(avgPercentChange, 2) + "%, Safety Net: $" + safetyNet + "    ", Color.LIGHT_GREEN);
-AddLabel(avgPercentChange < 0, "Avg: " + Round(avgPercentChange, 2) + "%, Safety Net: $" + safetyNet + "    ", Color.LIGHT_RED);
+AddLabel(marketPercentChange >= 0 and marketIndex == 4, "$DJI: " + Round(djiPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
+AddLabel(marketPercentChange < 0 and marketIndex == 4, "$DJI: " + Round(djiPercentChange, 2) + "%      ", Color.LIGHT_RED);
+
+AddLabel(!enableSafetyNet, "No Safety Net    ", Color.YELLOW);
+AddLabel(safetyNet < 0 and percentChange < 0, "Threshold Safety Net: $" + Round(safetyNet, 2) + "      ", Color.LIGHT_RED);
+AddLabel(enableSafetyNet and percentChange < 0 and safetyNet >= 0, "3 Bar Safety Net      ", Color.YELLOW);

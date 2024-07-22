@@ -8,6 +8,9 @@ import argparse
 import json
 from datetime import time, datetime, timedelta
 import pytz
+import warnings
+import _schwab_api
+warnings.filterwarnings("ignore")
 
 def get_serializable_attributes(ticker):
     serializable_attrs = {}
@@ -92,19 +95,26 @@ def calculate_heikin_ashi(data):
 
     data['ConditionForTopWickOnly'] = data['ConditionForTopWickOnly'].astype(bool)
 
-    for i in range(len(data)):
-        if i < 2:
-            data.loc[data.index[i], 'HA_Close'] = (data.loc[data.index[i], 'Open'] + data.loc[data.index[i], 'High'] + 
-                    data.loc[data.index[i], 'Low'] + data.loc[data.index[i], 'Close']) / 4
-            data.loc[data.index[i], 'HA_Open'] = data.loc[data.index[i], 'Close']
-        else:
-            data.loc[data.index[i], 'HA_Close'] = (data.loc[data.index[i-1], 'Open'] + data.loc[data.index[i-1], 'High'] + 
-                                                   data.loc[data.index[i-1], 'Low'] + data.loc[data.index[i-1], 'Close']) / 4
-            data.loc[data.index[i], 'HA_Open'] = (data.loc[data.index[i-2], 'HA_Open'] + 
-                                                  data.loc[data.index[i-2], 'HA_Close']) / 2
+    # ToS code for referance
+    #def HA_Close = (open[0] + high[0] + low[0] + close[0]) / 4;
+    #def HA_Open = CompoundValue(1, (HA_Open[1] + HA_Close[1]) / 2, (open[1] + close[1]) / 2);
+    #def conditionForTopWickOnly = HA_Close >= HA_Open
+    #and Max(Max(high[0], HA_Open), HA_Close) > HA_Close 
+    #and Min(Min(low[0], HA_Open), HA_Close) == Min(HA_Open, HA_Close);
 
-        data.loc[data.index[i], 'HA_High'] = max(data.loc[data.index[i-1], 'High'], data.loc[data.index[i], 'HA_Open'], data.loc[data.index[i], 'HA_Close'])
-        data.loc[data.index[i], 'HA_Low'] = min(data.loc[data.index[i-1], 'Low'], data.loc[data.index[i], 'HA_Open'], data.loc[data.index[i], 'HA_Close'])
+
+    for i in range(len(data)):
+        data.loc[data.index[i], 'HA_Close'] = (data.loc[data.index[i], 'Open'] + data.loc[data.index[i], 'High'] + 
+            data.loc[data.index[i], 'Low'] + data.loc[data.index[i], 'Close']) / 4
+        if i == 0:
+            data.loc[data.index[i], 'HA_Open'] = (data.loc[data.index[i], 'Open'] + 
+                                                  data.loc[data.index[i], 'Close']) / 2
+        else:
+            data.loc[data.index[i], 'HA_Open'] = (data.loc[data.index[i-1], 'HA_Open'] + 
+                                                  data.loc[data.index[i-1], 'HA_Close']) / 2
+
+        data.loc[data.index[i], 'HA_High'] = max(data.loc[data.index[i], 'High'], data.loc[data.index[i], 'HA_Open'], data.loc[data.index[i], 'HA_Close'])
+        data.loc[data.index[i], 'HA_Low'] = min(data.loc[data.index[i], 'Low'], data.loc[data.index[i], 'HA_Open'], data.loc[data.index[i], 'HA_Close'])
 
         data.loc[data.index[i], 'ConditionForTopWickOnly'] = (data.loc[data.index[i], 'HA_Close'] >= data.loc[data.index[i], 'HA_Open']) & \
                                                               (data.loc[data.index[i], 'HA_High'] > data.loc[data.index[i], 'HA_Close']) & \
@@ -129,21 +139,18 @@ def identify_triggers(data, Threshold=2, trading_hours=True):
         if highest_price < 0:
             highest_price = 0
         else:
-            if data['ConditionForTopWickOnly'].iloc[i-2] and data['ConditionForTopWickOnly'].iloc[i-1] and not data['ConditionForTopWickOnly'].iloc[i]:
-                if is_trading_hours(data.index[i]) and data['High'].iloc[i] > highest_price:
-                    highest_price = data['High'].iloc[i]
-                    highest_timestamp = data.index[i]
-                #Yahoo charts has bad data sometimes after hours, set to Close instead of High to filter it
-                if not is_trading_hours(data.index[i]) and data['High'].iloc[i] > highest_price:
-                    highest_price = data['High'].iloc[i]
-                    highest_timestamp = data.index[i]
+            #if data['ConditionForTopWickOnly'].iloc[i-3] and data['ConditionForTopWickOnly'].iloc[i-2] \
+            #    and not data['ConditionForTopWickOnly'].iloc[i-1]: If below should be tabbed
+            if data['Low'].iloc[i] > highest_price:
+                highest_price = data['Low'].iloc[i]
+                highest_timestamp = data.index[i]
 
         threshold = highest_price * Threshold / 100
 
         # Sell logic
         if last_buy_price > 0:
             sell_threshold = last_buy_price + (Threshold / 100 * last_buy_price)
-            if (is_trading_hours(data.index[i]) and data['High'].iloc[i] > sell_threshold) or data['High'].iloc[i] > sell_threshold: #Set to close like above to
+            if (is_trading_hours(data.index[i]) and data['High'].iloc[i] > sell_threshold):
                 sell_trade = {
                     "buy_timestamp": trades[-1]['buy_timestamp'],
                     "buy_price": trades[-1]['buy_price'],
@@ -155,7 +162,13 @@ def identify_triggers(data, Threshold=2, trading_hours=True):
                 last_buy_price = 0
                 last_buy_timestamp = None
 
-        if highest_price - data['Low'].iloc[i] > threshold and data['ConditionForTopWickOnly'].iloc[i-1] and data['ConditionForTopWickOnly'].iloc[i] and (is_trading_hours(data.index[i]) or not trading_hours):
+        # ToS code for referance to trigger
+        # allConditionsMet = highestPrice - low + safetyNet > threshold and 
+        #   conditionForTopWickOnly[2] and conditionForTopWickOnly[1] and isInMarketHours;
+
+
+        if highest_price - data['Low'].iloc[i] > threshold and data['ConditionForTopWickOnly'].iloc[i-2] \
+            and data['ConditionForTopWickOnly'].iloc[i-1] and (is_trading_hours(data.index[i]) or not trading_hours):
             trigger = {
                 "high_timestamp": str(highest_timestamp),
                 "high_price": round(highest_price, 2),
@@ -175,9 +188,9 @@ def identify_triggers(data, Threshold=2, trading_hours=True):
                 }
                 last_buy_timestamp = data.index[i]
                 trades.append(buy_trade)
-                last_buy_price = data['Low'].iloc[i] #Put this in to deail with bad data: max(max(max(data['Low'].iloc[i], data['High'].iloc[i]), data['Open'].iloc[i]), data['Close'].iloc[i])
-            highest_price = -1
+                last_buy_price = data['Low'].iloc[i]
             highest_timestamp = None
+            highest_price = 0
 
     return triggers, trades
 
@@ -333,12 +346,17 @@ def convert_to_yahoo_format(custom_format, format_type):
     return mapping.get(custom_format, custom_format)
     
 # Analyze stock data for different periods and resolutions
-def analyze_yahoo_chart(ticker,period,interval,age, yf_ticker_obj):
+def analyze_chart(ticker,period,interval,age, yf_ticker_obj = False):
     if get_file_age_in_minutes(f"{ticker}_Chart_{period}_{interval}") > age:
         try:  
-            data = fetch_yahoo_chart(yf_ticker_obj, convert_to_yahoo_format(period,'period'), 
-                                     convert_to_yahoo_format(interval, 'interval'))            
-        except:      
+            if not yf_ticker_obj:
+                bearer_key = _schwab_api.get_bearer_key()
+                candles = _schwab_api.collect_30_days_of_data(ticker, bearer_key)
+                data = _schwab_api.candles_to_dataframe(candles)   
+            else:
+                data = fetch_yahoo_chart(yf_ticker_obj, convert_to_yahoo_format(period,'period'), 
+                    convert_to_yahoo_format(interval, 'interval'))        
+        except:  
             data = None 
     else:
         data = None
@@ -371,7 +389,6 @@ def analyze_yahoo_chart(ticker,period,interval,age, yf_ticker_obj):
                     "Score": Score,
                     "Updated": now
                 }
-                print(ticker,best_totals)
 
         save_to_json(ticker, best_triggers, best_trades, best_totals, f"{ticker}_Chart_{period}_{interval}.json")
 
@@ -406,9 +423,9 @@ def analyze_stock(ticker):
     print(f"Scraping data for: {ticker}")
     yf_ticker_obj = yf.Ticker(ticker)
 
-    analyze_yahoo_chart(ticker, '1Mo', '5Mi', 60, yf_ticker_obj)
-    analyze_yahoo_chart(ticker, '6Mo', '1Hr', 60 * 4, yf_ticker_obj)
-    analyze_yahoo_chart(ticker, '2Yr', '1Hr', 60 * 24 * 7, yf_ticker_obj)
+    analyze_chart(ticker, '1Mo', '5Mi', 60, yf_ticker_obj)
+    analyze_chart(ticker, '6Mo', '1Hr', 60 * 4, yf_ticker_obj)
+    analyze_chart(ticker, '2Yr', '1Hr', 60 * 24 * 7, yf_ticker_obj)
 
     # Analyze max monthly data
     if get_file_age_in_minutes(f"{ticker}_Overall_Trend") > 1440:

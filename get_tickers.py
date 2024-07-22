@@ -1,3 +1,6 @@
+#!python3
+import warnings
+warnings.filterwarnings("ignore")
 from requests_html import HTMLSession
 import random
 import subprocess
@@ -23,6 +26,7 @@ try:
     print(f"Found {len(most_active_tickers)} tickers in most Yahoo active stocks.")
 except:
     print("Failed to get Yahoo most active.")
+    most_active_tickers = []
 
 try:
     url = "https://api.stocktwits.com/api/2/trending/symbols.json"
