@@ -1,5 +1,5 @@
 # Auto Trader  
-# Version 1.0.3
+# Version 1.0.4
 # Track to find high, then follows to
 # find dip below threshold.
 
@@ -261,19 +261,19 @@ AddLabel(yes, "Triggers: " + triggerCount +
     else if triggerCount < 100000 then "    "
     else " " , Color.CYAN);
 
-AddLabel(percentChange >= 0, GetSymbol() + ": " + Round(percentChange, 2) + "%      ", Color.LIGHT_GREEN);
+AddLabel(percentChange > 0, GetSymbol() + ": " + Round(percentChange, 2) + "%      ", Color.LIGHT_GREEN);
 AddLabel(percentChange < 0, GetSymbol() + ": " + Round(percentChange, 2) + "%      ", Color.LIGHT_RED);
 
-AddLabel(marketPercentChange >= 0 and marketIndex == 1, "$DWJC: " + Round(dwcfPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
+AddLabel(marketPercentChange > 0 and marketIndex == 1, "$DWJC: " + Round(dwcfPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
 AddLabel(marketPercentChange < 0 and marketIndex == 1, "$DWCJ: " + Round(dwcfPercentChange, 2) + "%      ", Color.LIGHT_RED);
 
-AddLabel(marketPercentChange >= 0 and marketIndex == 2, "SPY: " + Round(spyPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
+AddLabel(marketPercentChange > 0 and marketIndex == 2, "SPY: " + Round(spyPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
 AddLabel(marketPercentChange < 0 and marketIndex == 2, "SPY: " + Round(spyPercentChange, 2) + "%      ", Color.LIGHT_RED);
 
-AddLabel(marketPercentChange >= 0 and marketIndex == 3, "$COMP: " + Round(compPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
+AddLabel(marketPercentChange > 0 and marketIndex == 3, "$COMP: " + Round(compPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
 AddLabel(marketPercentChange < 0 and marketIndex == 3, "$COMP: " + Round(compPercentChange, 2) + "%      ", Color.LIGHT_RED);
 
-AddLabel(marketPercentChange >= 0 and marketIndex == 4, "$DJI: " + Round(djiPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
+AddLabel(marketPercentChange > 0 and marketIndex == 4, "$DJI: " + Round(djiPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
 AddLabel(marketPercentChange < 0 and marketIndex == 4, "$DJI: " + Round(djiPercentChange, 2) + "%      ", Color.LIGHT_RED);
 
 AddLabel(!enableSafetyNet, "No Safety Net    ", Color.YELLOW);
