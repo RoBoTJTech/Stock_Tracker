@@ -12,7 +12,7 @@ from yahooquery import Ticker
 import subprocess
 
 
-VERSION = "1.0.2"
+VERSION = "1.0.4"
 
 # Configuration
 HISTORY_FILE = "history.json"  # File to store historical data
