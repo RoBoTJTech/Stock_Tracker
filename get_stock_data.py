@@ -95,14 +95,6 @@ def calculate_heikin_ashi(data):
 
     data['ConditionForTopWickOnly'] = data['ConditionForTopWickOnly'].astype(bool)
 
-    # ToS code for referance
-    #def HA_Close = (open[0] + high[0] + low[0] + close[0]) / 4;
-    #def HA_Open = CompoundValue(1, (HA_Open[1] + HA_Close[1]) / 2, (open[1] + close[1]) / 2);
-    #def conditionForTopWickOnly = HA_Close >= HA_Open
-    #and Max(Max(high[0], HA_Open), HA_Close) > HA_Close 
-    #and Min(Min(low[0], HA_Open), HA_Close) == Min(HA_Open, HA_Close);
-
-
     for i in range(len(data)):
         data.loc[data.index[i], 'HA_Close'] = (data.loc[data.index[i], 'Open'] + data.loc[data.index[i], 'High'] + 
             data.loc[data.index[i], 'Low'] + data.loc[data.index[i], 'Close']) / 4
@@ -139,8 +131,6 @@ def identify_triggers(data, Threshold=2, trading_hours=True):
         if highest_price < 0:
             highest_price = 0
         else:
-            #if data['ConditionForTopWickOnly'].iloc[i-3] and data['ConditionForTopWickOnly'].iloc[i-2] \
-            #    and not data['ConditionForTopWickOnly'].iloc[i-1]: If below should be tabbed
             if data['Low'].iloc[i] > highest_price:
                 highest_price = data['Low'].iloc[i]
                 highest_timestamp = data.index[i]
@@ -150,7 +140,7 @@ def identify_triggers(data, Threshold=2, trading_hours=True):
         # Sell logic
         if last_buy_price > 0:
             sell_threshold = last_buy_price + (Threshold / 100 * last_buy_price)
-            if (is_trading_hours(data.index[i]) and data['High'].iloc[i] > sell_threshold):
+            if (is_trading_hours(data.index[i]) and data['High'].iloc[i] >= sell_threshold):
                 sell_trade = {
                     "buy_timestamp": trades[-1]['buy_timestamp'],
                     "buy_price": trades[-1]['buy_price'],
@@ -161,11 +151,6 @@ def identify_triggers(data, Threshold=2, trading_hours=True):
                 trades[-1].update(sell_trade)
                 last_buy_price = 0
                 last_buy_timestamp = None
-
-        # ToS code for referance to trigger
-        # allConditionsMet = highestPrice - low + safetyNet > threshold and 
-        #   conditionForTopWickOnly[2] and conditionForTopWickOnly[1] and isInMarketHours;
-
 
         if highest_price - data['Low'].iloc[i] > threshold and data['ConditionForTopWickOnly'].iloc[i-2] \
             and data['ConditionForTopWickOnly'].iloc[i-1] and (is_trading_hours(data.index[i]) or not trading_hours):

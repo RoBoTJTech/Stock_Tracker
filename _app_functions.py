@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 import _app_constants
 
-def calculate_trade_duration(start, end):
+def calculate_trade_duration(start, end, min_time=0):
     # ENSURE START AND END ARE LOCALIZED TO EASTERN TIME (EST)
     eastern = pytz.timezone('US/Eastern')
     if start.tzinfo is None:
@@ -27,7 +27,7 @@ def calculate_trade_duration(start, end):
     if start.date() == end.date():
         duration = (min(end, end.replace(hour=_app_constants.MARKET_CLOSE.hour, minute=_app_constants.MARKET_CLOSE.minute)) - 
                     max(start, start.replace(hour=_app_constants.MARKET_OPEN.hour, minute=_app_constants.MARKET_OPEN.minute))).total_seconds()
-        return max(duration, 0)
+        return max(duration, min_time)
     
     # Calculate duration for the first day
     first_day_duration = (start.replace(hour=_app_constants.MARKET_CLOSE.hour, minute=_app_constants.MARKET_CLOSE.minute) - 
@@ -42,11 +42,11 @@ def calculate_trade_duration(start, end):
     
     # Calculate total duration
     total_duration = first_day_duration + last_day_duration + (business_days * (_app_constants.MARKET_CLOSE.hour - _app_constants.MARKET_OPEN.hour) * 3600)
-    return max(total_duration, 0)
+    return max(total_duration, min_time)
 
 def calculate_trade_metrics(ticker):
     # Load JSON data
-    file_path = os.path.join(_app_constants.DATA_PATH, f'{ticker}_Chart_1Mp_5Mi.json')
+    file_path = os.path.join(_app_constants.DATA_PATH, f'{ticker}_Chart_1Mo_5Mi.json')
     # Check if the file exists
     if not os.path.exists(file_path):
         return {
@@ -63,18 +63,12 @@ def calculate_trade_metrics(ticker):
         data = json.load(file)
 
     trades = data.get(ticker, {}).get("trades", [])
-
-    #file_path = os.path.join(_app_constants.DATA_PATH, f'{ticker}_Chart_2Yr_1Hr.json')
-    #if os.path.exists(file_path):
-    #    with open(file_path, 'r') as file:
-    #        data = json.load(file)
-    #    trades.extend(data)
     
-    #file_path = os.path.join(_app_constants.DATA_PATH, f'{ticker}_Chart_6Mo_1Hr.json')
-    #if os.path.exists(file_path):
-    #    with open(file_path, 'r') as file:
-    #        data = json.load(file)
-    #   trades.extend(data)
+    file_path = os.path.join(_app_constants.DATA_PATH, f'{ticker}_Chart_6Mo_1Hr.json')
+    if os.path.exists(file_path):
+        with open(file_path, 'r') as file:
+            data = json.load(file)
+        trades = data.get(ticker, {}).get("trades", [])
 
     # Convert trade timestamps to pandas DataFrame
     trades_df = pd.DataFrame(trades)
@@ -88,7 +82,7 @@ def calculate_trade_metrics(ticker):
     trades_df['sell_timestamp'].fillna(current_timestamp, inplace=True)  # MODIFIED THIS LINE
 
     # Calculate trade durations in market hours
-    trades_df['trade_duration'] = trades_df.apply(lambda row: calculate_trade_duration(row['buy_timestamp'], row['sell_timestamp']), axis=1)
+    trades_df['trade_duration'] = trades_df.apply(lambda row: calculate_trade_duration(row['buy_timestamp'], row['sell_timestamp'], 86400), axis=1)
 
     # Calculate intervals between trades
     if len(trades) > 1:
@@ -221,7 +215,7 @@ def calculate_estimated_completion_time(trade_metrics, listed_date):
     listed_date = pd.to_datetime(listed_date, unit='s').tz_localize('UTC')
     
     # Get the longest trade duration in seconds
-    longest_trade_duration = trade_metrics['longest_trade_duration']
+    longest_trade_duration = trade_metrics['average_trade_duration']
     
     # Convert the longest trade duration from seconds to business hours and round up to the nearest hour
     total_business_hours = longest_trade_duration / 3600
@@ -250,8 +244,10 @@ def calculate_estimated_completion_time(trade_metrics, listed_date):
     seconds = seconds % 60
     
     # Create the formatted string
-    estimated_completion_time_str = f"{days} d {hours} hr {minutes} min {seconds} sec"
-
+    if days >= 0:
+        estimated_completion_time_str = f"{days} d {hours} hr {minutes} min {seconds} sec"
+    else:
+        estimated_completion_time_str = "Overdue"
     return estimated_completion_time_str
 
 def save_history(history,history_file):
