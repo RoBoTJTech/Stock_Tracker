@@ -370,7 +370,7 @@ def index():
         return "No CSV files found matching the pattern."
 
     # Compare the timestamps and run the script if csv_file_path is newer
-    if os.path.getmtime(csv_file_path) > os.path.getmtime(HOT_PICKS_FILE):
+    if not os.path.exists(HOT_PICKS_FILE) or os.path.getmtime(csv_file_path) > os.path.getmtime(HOT_PICKS_FILE):
         subprocess.run(["python3", "hot_picks.py"])
 
     headers, Report, working_orders = parse_trade_data(csv_file_path)
