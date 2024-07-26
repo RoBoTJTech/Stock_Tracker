@@ -1,5 +1,5 @@
 # Auto Trader  
-# Version 1.0.5 ~ July 24, 2024
+# Version 1.1.0 ~ July 26, 2024
 # Track to find high, then follows to
 # find dip below threshold.
 #declare once_per_bar;
@@ -36,18 +36,18 @@ def highestPrice = if IsNaN(highestPrice[1]) or allConditionsMet[1] or allCondit
 def isNewDay = GetYYYYMMDD() != GetYYYYMMDD()[1];
 
 def dailyOpen = if IsNaN(dailyOpen[1]) then open(period = AggregationPeriod.DAY)
-                else if isNewDay then low
+                else if isNewDay then open
                 else dailyOpen[1];
 def dwcfDailyOpen = if isNewDay or IsNaN(dwcfDailyOpen[1]) then open(symbol = "$DWCF", period = AggregationPeriod.DAY) else dwcfDailyOpen[1];
 def spyDailyOpen = if isNewDay or IsNaN(spyDailyOpen[1]) then open(symbol = "SPY", period = AggregationPeriod.DAY) else spyDailyOpen[1];
 def compDailyOpen = if isNewDay or IsNaN(compDailyOpen[1]) then open(symbol = "$COMP", period = AggregationPeriod.DAY) else compDailyOpen[1];
 def djiDailyOpen = if isNewDay or IsNaN(djiDailyOpen[1]) then open(symbol = "$DJI", period = AggregationPeriod.DAY) else djiDailyOpen[1];
 
-def percentChange = if IsNaN(dailyOpen) or IsNaN(high) then 0 else 100 * (high - dailyOpen) / dailyOpen;
-def dwcfPercentChange = if IsNaN(dwcfDailyOpen) or IsNaN(high(symbol = "$DWCF")) then 0 else 100 * (high(symbol = "$DWCF") - dwcfDailyOpen) / dwcfDailyOpen;
-def spyPercentChange = if IsNaN(spyDailyOpen) or IsNaN(high(symbol = "SPY")) then 0 else 100 * (high(symbol = "SPY") - spyDailyOpen) / spyDailyOpen;
-def compPercentChange = if IsNaN(compDailyOpen) or IsNaN(high(symbol = "$COMP")) then 0 else 100 * (high(symbol = "$COMP") - compDailyOpen) / compDailyOpen;
-def djiPercentChange = if IsNaN(djiDailyOpen) or IsNaN(high(symbol = "$DJI")) then 0 else 100 * (high(symbol = "$DJI") - djiDailyOpen) / djiDailyOpen;
+def percentChange = if IsNaN(dailyOpen) or IsNaN(low) then 0 else 100 * (low - dailyOpen) / dailyOpen;
+def dwcfPercentChange = if IsNaN(dwcfDailyOpen) or IsNaN(low(symbol = "$DWCF")) then 0 else 100 * (low(symbol = "$DWCF") - dwcfDailyOpen) / dwcfDailyOpen;
+def spyPercentChange = if IsNaN(spyDailyOpen) or IsNaN(low(symbol = "SPY")) then 0 else 100 * (low(symbol = "SPY") - spyDailyOpen) / spyDailyOpen;
+def compPercentChange = if IsNaN(compDailyOpen) or IsNaN(low(symbol = "$COMP")) then 0 else 100 * (low(symbol = "$COMP") - compDailyOpen) / compDailyOpen;
+def djiPercentChange = if IsNaN(djiDailyOpen) or IsNaN(low(symbol = "$DJI")) then 0 else 100 * (low(symbol = "$DJI") - djiDailyOpen) / djiDailyOpen;
 
 def marketPercentChange = Min(Min(Min(dwcfPercentChange, spyPercentChange), Min(compPercentChange, djiPercentChange)), 0);
 

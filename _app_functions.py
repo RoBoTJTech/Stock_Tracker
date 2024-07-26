@@ -72,8 +72,8 @@ def calculate_trade_metrics(ticker):
 
     # Convert trade timestamps to pandas DataFrame
     trades_df = pd.DataFrame(trades)
-    trades_df['buy_timestamp'] = pd.to_datetime(trades_df['buy_timestamp'])
-    trades_df['sell_timestamp'] = pd.to_datetime(trades_df['sell_timestamp'])
+    trades_df['buy_timestamp'] = pd.to_datetime(trades_df['buy_timestamp'], utc=True).dt.tz_convert('US/Eastern')
+    trades_df['sell_timestamp'] = pd.to_datetime(trades_df['sell_timestamp'], utc=True).dt.tz_convert('US/Eastern')
 
     # GET THE CURRENT TIMESTAMP AND CONVERT IT TO THE CORRECT TIMEZONE
     current_timestamp = pd.Timestamp.now(tz='UTC').tz_convert('UTC-04:00')  # ADDED THIS LINE

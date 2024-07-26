@@ -415,6 +415,8 @@ def analyze_stock(ticker):
     # Analyze max monthly data
     if get_file_age_in_minutes(f"{ticker}_Overall_Trend") > 1440:
         data = fetch_yahoo_chart(yf_ticker_obj, 'max', '1mo')
+
+        #data = data[(data['Volume'] > (data['Volume'].iloc[-1]/1000))]
         try: 
             details = get_stock_details(ticker)
             save_to_json(ticker, [], [], details, f"{ticker}_Details.json")
@@ -443,12 +445,11 @@ def analyze_stock(ticker):
     else:
         data = None
     if data is not None:
+        # Calculate the start and end average prices
+        Start_Price = round((data['High'].iloc[0] + data['Low'].iloc[0] + data['Open'].iloc[0] + data['Close'].iloc[0]) /4, 2)
+        End_Price = round((data['High'].iloc[-1] + data['Low'].iloc[-1] + data['Open'].iloc[-1] + data['Close'].iloc[-1]) /4, 2)
         Start_Date = data.index.min().strftime('%Y-%m-%d')
-        Overall_Trend = "Upward" if data['High'].iloc[-1] > data['High'].iloc[0] else "Downward"
-
-        # Calculate the start and end prices
-        Start_Price = round(data['Close'].iloc[0], 2)
-        End_Price = round(data['Close'].iloc[-1], 2)
+        Overall_Trend = "Upward" if End_Price > Start_Price else "Downward"
 
         # Calculate monthly percentage changes
         monthly_changes = data['High'].pct_change().dropna() * 100
@@ -500,8 +501,8 @@ def analyze_stock(ticker):
         # Save the results to JSON (mock function)
         save_to_json(ticker, [], [], {
             "Start_Date": Start_Date,
-            "Start_Price": Start_Price,
-            "Current_Price": End_Price,
+            "First_Month_Average": Start_Price,
+            "Current_Month_Average": End_Price,
             "Overall_Trend": Overall_Trend,
             "Average_Monthly_Change": round(Average_Monthly_Change, 2),
             "Average_APR": Average_APR,
