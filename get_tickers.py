@@ -10,6 +10,8 @@ import time
 from yahoo_fin import stock_info as si
 import requests
 from bs4 import BeautifulSoup
+import _etfdb_api
+import _file_functions
 
 # Fetch top gainers
 try:
@@ -96,32 +98,44 @@ def scrape_all_tickers(base_url, pages=5):
     for page in range(1, pages + 1):
         url = f"{base_url}&page={page}"
         print(f"Scraping page {page}")
-        tickers = scrape_tickers_from_page(url)
+        tickers = _etfdb_api.scrape_tickers_from_page(url)
+        print(tickers)
         all_tickers.extend(tickers)
 
     return all_tickers
 
-# Base URL for the leveraged equity ETFs (without the page parameter)
-base_url = 'https://etfdb.com/etfs/leveraged/equity/#etfs&sort_name=ytd_percent_return&sort_order=desc'
-scraped_tickers = scrape_all_tickers(base_url)
-print(f"Found {len(scraped_tickers)} tickers in leveraged equity ETFs.")
+if _file_functions.get_file_age_in_minutes('etf_list', '') > 43200:
+    # Base URL for the leveraged equity ETFs (without the page parameter)
+    base_url = 'https://etfdb.com/etfs/leveraged/equity/#etfs&sort_name=ytd_percent_return&sort_order=desc'
+    try:
+        etf_tickers = scrape_all_tickers(base_url)
+        with open('etf_list.json', 'w') as json_file:
+            json.dump(etf_tickers, json_file)
+        print(f"Saved {len(etf_tickers)} tickers for leveraged equity ETFs.")
+    except:
+        print('Failed to download new list of leveraged ETFs')
+
+with open('etf_list.json', 'r') as file:
+    etf_tickers = json.load(file)
+print(f"Loaded {len(etf_tickers)} tickers in leveraged equity ETFs.")
 
 # Directory where the stock data JSON files are stored
 stock_data_dir = './stock_data'
 
-# Get tickers from files named *_Overall_Trend.json that are over 1 hour old
-old_tickers = []
+# Get tickers from files stoke_data path that are over 1 hour old
+old_tickers = set()
 for filename in os.listdir(stock_data_dir):
-    if filename.endswith("_Overall_Trend.json"):
+    if filename.endswith(".json"):
         filepath = os.path.join(stock_data_dir, filename)
         file_age = time.time() - os.path.getmtime(filepath)
         if file_age >= 3600:
             ticker = filename.split('_')[0]
-            old_tickers.append(ticker)
-print(f"Found {len(old_tickers)} tickers from old Overall_Trend.json files.")
+            old_tickers.add(ticker)
+old_tickers = list(old_tickers)
+print(f"Found {len(old_tickers)} tickers from stock_data files.")
 
 # Combine and deduplicate the tickers
-all_tickers = list(set(hot_pick_tickers + top_gainers_tickers + most_active_tickers + trending_tickers + unique_tickers + scraped_tickers + old_tickers))
+all_tickers = list(set(hot_pick_tickers + top_gainers_tickers + most_active_tickers + trending_tickers + unique_tickers + etf_tickers + old_tickers))
 filtered_tickers = [ticker for ticker in all_tickers if ticker.isalpha()]
 
 print(f"Total unique tickers found: {len(filtered_tickers)}")

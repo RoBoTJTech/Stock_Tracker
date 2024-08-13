@@ -2,7 +2,7 @@ import csv
 import os
 import time
 from collections import defaultdict
-from flask import Flask, render_template, jsonify, request
+from flask import Flask, render_template, jsonify, request, Response
 import yfinance as yf
 import json
 from datetime import datetime, timedelta
@@ -10,9 +10,10 @@ import _app_functions
 from openai import OpenAI
 from yahooquery import Ticker
 import subprocess
+from collections import OrderedDict
 
 
-VERSION = "1.1.0 ~ July 26, 2024"
+VERSION = "1.1.1 ~ August 12, 2024"
 
 # Configuration
 HISTORY_FILE = "history.json"  # File to store historical data
@@ -48,7 +49,6 @@ def fetch_stock_data(ticker):
     return data
 
 def review_and_analyze_stock(ticker, risk_tolerance, stock_data):
-
     prompt = (
         f"Based on current data downloaded using yahooquery, please provide a comprehensive report for stock ticker: {ticker} "
         f"including details on current performance, financials, valuation ratios, analyst ratings, and summarize all news clearly related to {ticker}. "
@@ -267,10 +267,9 @@ def parse_trade_data(file_path):
                         if not categorized_orders[symbol]['SELL'][last_digit]['profit']:
                             categorized_orders[symbol]['SELL'][last_digit]['profit'] = profit
                             total_order_profit[last_digit] += profit
-
+                    
                     categorized_orders[symbol]['SELL'][last_digit]['count'] += 1
                     categorized_orders[symbol]['SELL'][last_digit]['prices'].add(price)
-
             i += 1
 
     _app_functions.save_history(new_history,HISTORY_FILE)
@@ -284,10 +283,20 @@ def parse_trade_data(file_path):
         buy_orders_waiting = orders['BUY'].get(sorted_categories[0], {}).get('count', 0)
         index_code = f"{buy_orders_waiting:03d}-{symbol}-0"
  
-        buy_row = ["BUY", f'<span class="indicator" style="background-color: {cache_color};"></span> ' + symbol] + [f"Orders Waiting: {orders['BUY'][cat]['count']}<br>Order Price: ${orders['BUY'][cat]['price']:.2f}" if cat in orders['BUY'] else '' for cat in sorted_categories] + [index_code]
-        sell_row = ["SELL", f'<span class="indicator" style="background-color: {cache_color};"></span> ' + symbol] + [
-            f"Orders Waiting: {orders['SELL'][cat]['count']}<br>Sell Price: {'='.join(orders['SELL'][cat]['prices'])}<br>Order Profit: ${orders['SELL'][cat]['profit']:.2f}" if cat in orders['SELL'] else '' 
-            for cat in sorted_categories] + [index_code.replace('-0', '-1')]
+        buy_row = ["BUY", f'<span class="indicator" style="background-color: {cache_color};"></span> ' + symbol] + \
+            [f"Orders Waiting: {orders['BUY'][cat]['count']}<br>Order Price: ${orders['BUY'][cat]['price']:.2f}" \
+            if cat in orders['BUY'] else '' for cat in sorted_categories] + [index_code]
+        sell_row = ["SELL", f'<span class="indicator" style="background-color: {cache_color};"></span> ' + symbol] + \
+            [
+                f"Orders Waiting: {orders['SELL'][cat]['count']}<br>Sell Price: {'='.join([str(price) if price is not None else '0' for price in orders['SELL'][cat]['prices']])}<br>Order Profit: ${orders['SELL'][cat]['profit']:.2f}" if orders['SELL'][cat]['profit'] is not None else "Order Profit: $0.00" if profit in orders['SELL'][cat] else 'Order incorrectly set up' \
+                for cat in sorted_categories
+            ] + [index_code.replace('-0', '-1')]
+
+
+        #sell_row = ["SELL", f'<span class="indicator" style="background-color: {cache_color};"></span> ' + symbol] + \
+        #    [ f"Orders Waiting: {orders['SELL'][cat]['count']}<br>Sell Price: {'='.join(orders['SELL'][cat]['prices'])}<br>Order Profit: ${orders['SELL'][cat]['profit']:.2f}" if cat in orders['SELL'] else '' \
+        #    for cat in sorted_categories] + [index_code.replace('-0', '-1')]
+
 
         Report.append(buy_row)
         Report.append(sell_row)
@@ -311,6 +320,7 @@ def parse_trade_data(file_path):
         json.dump(list(unique_tickers), ticker_file)
     
     return headers, Report, working_orders
+
 @app.route('/stock_data/<path:filename>')
 def stock_data(filename):
     file_path = os.path.join('stock_data', f'{filename}.json')
@@ -318,9 +328,11 @@ def stock_data(filename):
         return jsonify({"error": "File not found"}), 404
 
     with open(file_path, 'r') as file:
-        data = json.load(file)
+        data = json.load(file, object_pairs_hook=OrderedDict)  # Preserve order
     
-    return jsonify(data)
+    # Using Response to ensure the JSON is dumped with OrderedDict
+    response = Response(json.dumps(data, indent=2), mimetype='application/json')
+    return response
 
 @app.route('/analyze_stock', methods=['GET'])
 def analyze_stock():

@@ -103,3 +103,23 @@ a {
   font-weight: bold;
   text-decoration: none;
 }
+.popup-content a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+.copy-input {
+  width: 6ch; /* Adjusts the width to fit 4 characters */
+  background-color: inherit; /* Matches the cell's background color */
+  border: none; /* Removes the border */
+  outline: none; /* Removes the outline */
+  color: inherit; /* Set this to the same color as the sell font color */
+  font-size: inherit; /* Adjust the font size as needed */
+  font-family: inherit; /* Matches the cell's font family */
+  text-align: right; /* Centers the text inside the input */
+}
+.arrow {
+  cursor: pointer;
+  user-select: none;
+  margin-right: 5px;
+}

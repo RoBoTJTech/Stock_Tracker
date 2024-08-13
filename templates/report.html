@@ -4,6 +4,53 @@
     <meta charset="UTF-8">
     <title>Trade Activity Report</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script>
+        function fetchAndRender(url, elementId) {
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    const symbol = Object.keys(data)[0]; // Extract the symbol
+                    const totals = data[symbol].totals;
+                    document.getElementById(elementId).innerHTML = renderNestedJson(totals, symbol);
+                })
+                .catch(error => console.error('Error fetching JSON data:', error));
+        }
+    
+        function renderNestedJson(data, parentKey = '') {
+            let html = '<ul>';
+            for (let key in data) {
+                const cleanKey = key.replace(/_/g, ' '); // Remove underscores from keys
+                const uniqueId = `${parentKey}-${key}`.replace(/\s+/g, '-'); // Create unique ID
+                if (typeof data[key] === 'object') {
+                    html += `
+                        <li>
+                            <span class="arrow" id="arrow-${uniqueId}" onclick="toggleVisibility('${uniqueId}')">▶</span>
+                            <strong>${cleanKey}:</strong>
+                            <div id="${uniqueId}" style="display:none; margin-left: 20px;">
+                                ${renderNestedJson(data[key], uniqueId)}
+                            </div>
+                        </li>`;
+                } else {
+                    html += `<li><strong>${cleanKey}:</strong> ${data[key]}</li>`;
+                }
+            }
+            html += '</ul>';
+            return html;
+        }
+    
+        function toggleVisibility(id) {
+            const element = document.getElementById(id);
+            const arrow = document.getElementById(`arrow-${id}`);
+            if (element.style.display === "none") {
+                element.style.display = "block";
+                arrow.textContent = "▼"; // Change arrow direction
+            } else {
+                element.style.display = "none";
+                arrow.textContent = "▶"; // Change arrow direction
+            }
+        }
+    </script>
+    
 </head>
 <body>
     <div class="tab-buttons">
@@ -86,21 +133,17 @@
                     {% for symbol in hot_picks.sell_symbols %}
                         <tr class="red">
                             <td>
-                                <a href="#" onclick="copyToClipboard('{{ symbol }}')" title="Copy to Clipboard">&#x2398;</a> <!-- ⎘ Copy icon -->
-                                <a href="#" class="ticker" data-symbol="{{ symbol }}">{{ symbol }}</a>
+                                <input type="text" class="copy-input" value="{{ symbol }}" readonly>
+                                <a href="#" class="ticker" data-symbol="{{ symbol }}">&#128200;</a>
                                 <a href="#" onclick="fetchStockAnalysis('{{ symbol }}')" title="AI Analyze Report">&#129504;</a>
-                                {{ sell_details[symbol].trade_status.status|safe }} <!-- 🧠 -->
+                                {{ sell_details[symbol].trade_status.status|safe }}
                             </td>
-                            <td>
-                                {% for key, value in sell_details[symbol]['1Mo_5Mi'].items() %}
-                                    <strong>{{ key }}:</strong> {{ value }}<br>
-                                {% endfor %}
-                            </td>
-                            <td>
-                                {% for key, value in sell_details[symbol]['Overall_Trend'].items() %}
-                                    <strong>{{ key }}:</strong> {{ value }}<br>
-                                {% endfor %}
-                            </td>
+                            <td id="{{ symbol }}_Chart_1Mo_5Mi"></td>
+                            <td id="{{ symbol }}_Overall_Trend"></td>
+                            <script>
+                                fetchAndRender(`/stock_data/{{ symbol }}_Chart_1Mo_5Mi`, `{{ symbol }}_Chart_1Mo_5Mi`);
+                                fetchAndRender(`/stock_data/{{ symbol }}_Overall_Trend`, `{{ symbol }}_Overall_Trend`);
+                            </script>
                             <td>
                                 {% for key, value in sell_details[symbol]['Rank'].items() %}
                                     <strong>{{ key }}:</strong> {{ value }}<br>
@@ -127,21 +170,17 @@
                     {% for symbol in hot_picks.buy_symbols %}
                         <tr class="green">
                             <td>
-                                <a href="#" onclick="copyToClipboard('{{ symbol }}')" title="Copy to Clipboard">&#x2398;</a> <!-- ⎘ Copy icon -->
-                                <a href="#" class="ticker" data-symbol="{{ symbol }}">{{ symbol }}</a>
+                                <input type="text" class="copy-input" value="{{ symbol }}" readonly>
+                                <a href="#" class="ticker" data-symbol="{{ symbol }}">&#128200;</a>
                                 <a href="#" onclick="fetchStockAnalysis('{{ symbol }}')" title="AI Analyze Report">&#129504;</a>
                                 {{ buy_details[symbol].trade_status.status|safe}}
-
-                            <td>
-                                {% for key, value in buy_details[symbol]['1Mo_5Mi'].items() %}
-                                    <strong>{{ key }}:</strong> {{ value }}<br>
-                                {% endfor %}
                             </td>
-                            <td>
-                                {% for key, value in buy_details[symbol]['Overall_Trend'].items() %}
-                                    <strong>{{ key }}:</strong> {{ value }}<br>
-                                {% endfor %}
-                            </td>
+                            <td id="{{ symbol }}_Chart_1Mo_5Mi"></td>
+                            <td id="{{ symbol }}_Overall_Trend"></td>
+                            <script>
+                                fetchAndRender(`/stock_data/{{ symbol }}_Chart_1Mo_5Mi`, `{{ symbol }}_Chart_1Mo_5Mi`);
+                                fetchAndRender(`/stock_data/{{ symbol }}_Overall_Trend`, `{{ symbol }}_Overall_Trend`);
+                            </script>
                             <td>
                                 {% for key, value in buy_details[symbol]['Rank'].items() %}
                                     <strong>{{ key }}:</strong> {{ value }}<br>
@@ -168,21 +207,17 @@
                     {% for symbol in hot_picks.hold_symbols %}
                         <tr class="green">
                             <td>
-                                <a href="#" onclick="copyToClipboard('{{ symbol }}')" title="Copy to Clipboard">&#x2398;</a> <!-- ⎘ Copy icon -->
-                                <a href="#" class="ticker" data-symbol="{{ symbol }}">{{ symbol }}</a>
+                                <input type="text" class="copy-input" value="{{ symbol }}" readonly>
+                                <a href="#" class="ticker" data-symbol="{{ symbol }}">&#128200;</a>
                                 <a href="#" onclick="fetchStockAnalysis('{{ symbol }}')" title="AI Analyze Report">&#129504;</a>
-                                {{ hold_details[symbol].trade_status.status|safe }} <!-- 🧠 -->
+                                {{ hold_details[symbol].trade_status.status|safe }}
                             </td>
-                            <td>
-                                {% for key, value in hold_details[symbol]['1Mo_5Mi'].items() %}
-                                    <strong>{{ key }}:</strong> {{ value }}<br>
-                                {% endfor %}
-                            </td>
-                            <td>
-                                {% for key, value in hold_details[symbol]['Overall_Trend'].items() %}
-                                    <strong>{{ key }}:</strong> {{ value }}<br>
-                                {% endfor %}
-                            </td>
+                            <td id="{{ symbol }}_Chart_1Mo_5Mi"></td>
+                            <td id="{{ symbol }}_Overall_Trend"></td>
+                            <script>
+                                fetchAndRender(`/stock_data/{{ symbol }}_Chart_1Mo_5Mi`, `{{ symbol }}_Chart_1Mo_5Mi`);
+                                fetchAndRender(`/stock_data/{{ symbol }}_Overall_Trend`, `{{ symbol }}_Overall_Trend`);
+                            </script>
                             <td>
                                 {% for key, value in hold_details[symbol]['Rank'].items() %}
                                     <strong>{{ key }}:</strong> {{ value }}<br>
@@ -405,7 +440,7 @@
             popupContent.innerHTML = `<pre>Loading...</pre>`;
             document.getElementById('popup').style.display = 'block';
 
-            fetch(`http://127.0.0.1:5000/analyze_stock?ticker=${ticker}`)
+            fetch(`/analyze_stock?ticker=${ticker}`)
                 .then(response => response.json())
                 .then(data => {
                     popupContent.innerHTML = `<pre>Last Updated at: ${data.timestamp}\n\n${data.analysis}</pre>`;
@@ -416,25 +451,16 @@
                 });
         }
 
-        function copyToClipboard(text) {
-            // Create a temporary textarea element
-            const textarea = document.createElement('textarea');
-            textarea.value = text;
-            document.body.appendChild(textarea);
-
-            // Select the text in the textarea
-            textarea.select();
-            textarea.setSelectionRange(0, 99999); // For mobile devices
-
-            // Copy the text to the clipboard
+        function copyToClipboard(event) {
+            const input = event.target;
+            input.select();
             document.execCommand('copy');
-
-            // Remove the temporary textarea element
-            document.body.removeChild(textarea);
-
-            // Optional: Provide feedback to the user
-            alert('Ticker symbol copied to clipboard: ' + text);
         }
+
+        document.querySelectorAll('.copy-input').forEach((input) => {
+            input.addEventListener('click', copyToClipboard);
+        });
+
     </script>
 </body>
 </html>

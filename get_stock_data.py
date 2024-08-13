@@ -10,7 +10,15 @@ from datetime import time, datetime, timedelta
 import pytz
 import warnings
 import _schwab_api
+import _sec_api
+import _file_functions
+
 warnings.filterwarnings("ignore")
+
+if os.path.exists('etf_list.json'):
+    with open('etf_list.json', 'r') as file:
+        etf_list = json.load(file)
+
 
 def get_serializable_attributes(ticker):
     serializable_attrs = {}
@@ -53,7 +61,21 @@ def estimate_inflows_outflows(yf_ticker_obj):
     else:
         return 0, 0, 0
 
-def make_recommendation(yf_ticker_obj):
+def make_recommendation(yf_ticker_obj, short_period=10):
+    def calculate_slope(ma_series, start, end):
+        """
+        Calculate the slope of the moving average series between two points.
+        
+        :param ma_series: Pandas Series representing the moving average.
+        :param start: Integer, the start index for the slope calculation.
+        :param end: Integer, the end index for the slope calculation.
+        :return: The slope of the moving average between the two points.
+        """
+        diff = ma_series.iloc[end] - ma_series.iloc[start]
+        period = end - start
+        slope = diff / period
+        return slope
+
     total_inflows, total_outflows, net_inflows_outflows = estimate_inflows_outflows(yf_ticker_obj)
     try:
         # Fetch additional data for trend analysis
@@ -61,8 +83,44 @@ def make_recommendation(yf_ticker_obj):
         data['MA50'] = data['Close'].rolling(window=50).mean()
         data['MA200'] = data['Close'].rolling(window=200).mean()
         MA_Trend = data['MA50'].iloc[-1] - data['MA200'].iloc[-1]
-    except:
+
+        # Define the periods for slope calculation
+        last_period_start = -short_period
+        last_period_end = -1
+        prev_period_start = -2 * short_period
+        prev_period_end = -short_period
+
+        # Calculate the slopes
+        slope_50_last_period = calculate_slope(data['MA50'], last_period_start, last_period_end)
+        slope_50_prev_period = calculate_slope(data['MA50'], prev_period_start, prev_period_end)
+        slope_200_last_period = calculate_slope(data['MA200'], last_period_start, last_period_end)
+        slope_200_prev_period = calculate_slope(data['MA200'], prev_period_start, prev_period_end)
+
+        # Key Conditions
+        c1 = data['Close'].iloc[-1] > data['MA50'].iloc[-1] * 1.01  # Current price above 50-day MA by 1%
+        c2 = data['MA50'].iloc[-1] > data['MA200'].iloc[-1] * 1.01  # 50-day MA above 200-day MA by 1%
+        c3 = slope_50_last_period > slope_50_prev_period            # Slope of 50-day MA increasing
+        c4 = slope_200_last_period > slope_200_prev_period          # Slope of 200-day MA increasing
+        c5 = slope_50_last_period > slope_200_last_period * 1.0005  # Slope of 50-day MA is 0.05% greater than 200-day MA slope
+
+        # Overall assessment for swing trading
+        Trade_Status = "Trade" if all([c1, c2, c3, c4, c5]) else "Do Not Trade"
+    
+        # Prepare result as JSON
+        ma_result = {
+            "MA (Close > 50d)": "Met" if c1 else "Not Met",
+            "MA (50d > 200d)": "Met" if c2 else "Not Met",
+            "MA (50d slope increasing)": "Met" if c3 else "Not Met",
+            "MA (200d slope increasing)": "Met" if c4 else "Not Met",
+            "MA (50d slope > 200d slope by 0.05%)": "Met" if c5 else "Not Met",
+            "Trade_Status": Trade_Status
+        }
+        print(ma_result)
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
         MA_Trend = 0
+        ma_result = {}
 
     # Numerical recommendationMean mapping
     if MA_Trend > 0 :
@@ -78,7 +136,7 @@ def make_recommendation(yf_ticker_obj):
     else:
         recommendation_mean = 3
 
-    return total_inflows, total_outflows, net_inflows_outflows, recommendation_mean, MA_Trend
+    return total_inflows, total_outflows, net_inflows_outflows, recommendation_mean, MA_Trend, ma_result
 
 # Heikin Ashi Calculations
 def calculate_heikin_ashi(data):
@@ -220,30 +278,31 @@ def calculate_totals(trades, total_triggers, Threshold):
 
     return total_days, Annual_Trade_Gain, buy_profit_percentage, total_sell_orders, len(trades), Score, now.astimezone(pytz.timezone('US/Eastern')).strftime("%Y-%m-%d %I:%M:%S %p %Z")
 
-def get_file_age_in_minutes(filename):
-    filename_with_extension = filename + '.json'
-    directory = os.path.join(os.path.dirname(__file__), 'stock_data')
-    file_path = os.path.join(directory, filename_with_extension)
-
-    if not os.path.exists(file_path):
-        return 9999999999
-
-    file_mod_time = os.path.getmtime(file_path)
-    file_mod_datetime = datetime.fromtimestamp(file_mod_time)
-    current_datetime = datetime.now()
-    age_timedelta = current_datetime - file_mod_datetime
-    age_in_minutes = age_timedelta.total_seconds() / 60
-
-    return age_in_minutes
-
 # Save results to JSON
-def save_to_json(ticker, triggers, trades, totals, filename):
+def json_file_query(ticker, triggers, trades, totals, filename):
+
+    # Ensure the stock_data directory exists
+    directory = os.path.join(os.path.dirname(__file__), 'stock_data')
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+    filepath = os.path.join(directory, filename)
+
+    previous_totals = {}
+    # Check if file exists and read previous totals if available
+    if os.path.exists(filepath):
+        with open(filepath, 'r') as file:
+            data = json.load(file)
+            if ticker in data and 'totals' in data[ticker]:
+                previous_totals = data[ticker]['totals']
+
     if not triggers and not trades and not totals:
-        print(f"No data to save for {filename}. The values are empty.")
-        return
+        print(f"Loading dataset from {filename}.")
+        return previous_totals
     
     if not isinstance(totals, dict):
-        raise ValueError(f"Expected a dictionary for totals: {totals}. Did not save: {filename}")
+        print(f"Loading dataset from  {totals}.")
+        return previous_totals
     # Remove keys with a value of 0
     totals = {k: v for k, v in totals.items() if v != 0}
 
@@ -255,16 +314,10 @@ def save_to_json(ticker, triggers, trades, totals, filename):
         }
     }
 
-    # Ensure the stock_data directory exists
-    directory = os.path.join(os.path.dirname(__file__), 'stock_data')
-    if not os.path.exists(directory):
-        os.makedirs(directory)
-
-    filepath = os.path.join(directory, filename)
-
     with open(filepath, 'w') as f:
         json.dump(result, f, indent=4)
-    print(f"Results saved to {filename}")
+    print(f"Saving dataset to {filename}")
+    return totals
 
 def recommendation_mean_to_key(mean):
     """
@@ -332,7 +385,7 @@ def convert_to_yahoo_format(custom_format, format_type):
     
 # Analyze stock data for different periods and resolutions
 def analyze_chart(ticker,period,interval,age, yf_ticker_obj = False):
-    if get_file_age_in_minutes(f"{ticker}_Chart_{period}_{interval}") > age:
+    if _file_functions.get_file_age_in_minutes(f"{ticker}_Chart_{period}_{interval}") > age:
         try:  
             if not yf_ticker_obj:
                 bearer_key = _schwab_api.get_bearer_key()
@@ -375,7 +428,7 @@ def analyze_chart(ticker,period,interval,age, yf_ticker_obj = False):
                     "Updated": now
                 }
 
-        save_to_json(ticker, best_triggers, best_trades, best_totals, f"{ticker}_Chart_{period}_{interval}.json")
+        json_file_query(ticker, best_triggers, best_trades, best_totals, f"{ticker}_Chart_{period}_{interval}.json")
 
 def high_to_highest_score(ratio):
     optimal_ratio = 0.5
@@ -396,11 +449,10 @@ def calculate_score(apr, total_months, curved_ratio, avg_monthly_change, pe_rati
     if combined_weighted_ratio == 0:
         combined_weighted_ratio = curved_ratio / 2
 
-    chart_score = apr * total_months * curved_ratio * (1 + avg_monthly_change / 100)
-    ratio_score = combined_weighted_ratio
+    chart_score = apr * total_months * (curved_ratio + 1) * (1 + avg_monthly_change / 100)
     risk = 10 - risk
     risk_weight = 0.2
-    score = max(chart_score * max(ratio_score, .01), 0) * (1 + risk_weight * risk)
+    score = max(chart_score * max(combined_weighted_ratio, .01), 0) * (1 + risk_weight * risk)
     return score
 
 # Analyze stock data for different periods and resolutions
@@ -413,13 +465,23 @@ def analyze_stock(ticker):
     analyze_chart(ticker, '2Yr', '1Hr', 60 * 24 * 7, yf_ticker_obj)
 
     # Analyze max monthly data
-    if get_file_age_in_minutes(f"{ticker}_Overall_Trend") > 1440:
-        data = fetch_yahoo_chart(yf_ticker_obj, 'max', '1mo')
+    if _file_functions.get_file_age_in_minutes(f"{ticker}_Overall_Trend") > 1440:
+        sec_info = {}
+        if _file_functions.get_file_age_in_minutes(f"{ticker}_SEC_Info") > 43200:
+            cik, start_date = _sec_api.get_company_info(ticker)
+            if cik:
+                sec_info = {'cik': cik, 'start_date': start_date}
+        if ticker in etf_list and not sec_info.get('cik', 'Delisted').isdigit():
+            sec_info = {'cik': 'ETF'}
+        sec_info = json_file_query(ticker, [], [], sec_info,  f"{ticker}_SEC_Info.json")
 
+        data = fetch_yahoo_chart(yf_ticker_obj, 'max', '1mo')
         #data = data[(data['Volume'] > (data['Volume'].iloc[-1]/1000))]
         try: 
-            details = get_stock_details(ticker)
-            save_to_json(ticker, [], [], details, f"{ticker}_Details.json")
+            details = {}
+            if _file_functions.get_file_age_in_minutes(f"{ticker}_Details") > 2880:
+                details = get_stock_details(ticker)
+            details = json_file_query(ticker, [], [], details, f"{ticker}_Details.json")
             # Extract financial recommendation mean and convert it
             recommendation_mean = details.get('financialData', {}).get('recommendationMean', None)
             if recommendation_mean:
@@ -446,10 +508,21 @@ def analyze_stock(ticker):
         data = None
     if data is not None:
         # Calculate the start and end average prices
-        Start_Price = round((data['High'].iloc[0] + data['Low'].iloc[0] + data['Open'].iloc[0] + data['Close'].iloc[0]) /4, 2)
-        End_Price = round((data['High'].iloc[-1] + data['Low'].iloc[-1] + data['Open'].iloc[-1] + data['Close'].iloc[-1]) /4, 2)
         Start_Date = data.index.min().strftime('%Y-%m-%d')
+        Last_Name_Change = sec_info.get('start_date', Start_Date)
+
+        # Filter the data from Last_Name_Change date onwards
+        filtered_data = data.loc[Last_Name_Change:]
+
+        # Calculate Start_Price using the filtered data
+        if not filtered_data.empty:
+            start_row = filtered_data.iloc[0]
+            Start_Price = round((start_row['High'] + start_row['Low'] + start_row['Open'] + start_row['Close']) / 4, 2)
+        else:
+            Start_Price = round((data['High'].iloc[0] + data['Low'].iloc[0] + data['Open'].iloc[0] + data['Close'].iloc[0]) /4, 2)
+        End_Price = round((data['High'].iloc[-1] + data['Low'].iloc[-1] + data['Open'].iloc[-1] + data['Close'].iloc[-1]) /4, 2)
         Overall_Trend = "Upward" if End_Price > Start_Price else "Downward"
+
 
         # Calculate monthly percentage changes
         monthly_changes = data['High'].pct_change().dropna() * 100
@@ -483,13 +556,13 @@ def analyze_stock(ticker):
         High_To_Highest_Ratio = Current_High / Highest_High if Highest_High != 0 else 0
 
           # Define the curved function for high_to_highest_ratio
-        def high_to_highest_curve(ratio, optimal_ratio=0.5):
+        def high_to_highest_curve(ratio, optimal_ratio=0.75):
             return 1 - ((ratio - optimal_ratio) ** 2) / (4 * optimal_ratio ** 2)
 
         # Apply the curved function to high_to_highest_ratio
         curved_ratio = high_to_highest_curve(High_To_Highest_Ratio)
 
-        inflow, outflow, netflow, recommendation_mean, MA_Trend = make_recommendation(yf_ticker_obj)
+        inflow, outflow, netflow, recommendation_mean, MA_Trend, ma_result = make_recommendation(yf_ticker_obj)
 
         # Calculate the score
         Score = calculate_score(Average_APR, total_months, curved_ratio, Average_Monthly_Change, 
@@ -499,8 +572,10 @@ def analyze_stock(ticker):
             Recommendation = recommendation_mean_to_key(recommendation_mean)
 
         # Save the results to JSON (mock function)
-        save_to_json(ticker, [], [], {
+        json_file_query(ticker, [], [], {
+            "CIK": sec_info.get('cik','Delisted'),
             "Start_Date": Start_Date,
+            "Last_Name_Change": Last_Name_Change,
             "First_Month_Average": Start_Price,
             "Current_Month_Average": End_Price,
             "Overall_Trend": Overall_Trend,
@@ -517,7 +592,8 @@ def analyze_stock(ticker):
             "Month_Inflow": inflow,
             "Month_Outflow": outflow,
             "Month_Net": netflow,
-            "50_200_MA_Trend": round(MA_Trend, 2),
+            "50_200_MA": round(MA_Trend, 2),
+            "MA_Analysis": ma_result,
             "Risk": risk,
             "Score": round(Score, 2),
             "Updated": datetime.now(pytz.timezone('US/Eastern')).strftime("%Y-%m-%d %I:%M:%S %p %Z")

@@ -1,5 +1,5 @@
 # Auto Trader  
-# Version 1.1.0 ~ July 26, 2024
+# Version 1.1.1 ~ July 26, 2024
 # Track to find high, then follows to
 # find dip below threshold.
 #declare once_per_bar;
@@ -14,23 +14,21 @@ input marketOpenValue = 0930;
 input marketCloseValue = 1600;
 input excludeFridayValue = no;
 
+input showDetails = yes;
+
 # Time and Price Definitions
 def isFourHoursOrGreaterChart = GetAggregationPeriod() >= AggregationPeriod.FOUR_HOURS;
 def isInMarketHours = if isFourHoursOrGreaterChart and !(excludeFridayValue and GetDayOfWeek(GetYYYYMMDD()) == 5) then yes
                       else SecondsFromTime(marketOpenValue) >= 0 and SecondsTillTime(marketCloseValue) > 0 and !(excludeFridayValue and GetDayOfWeek(GetYYYYMMDD()) == 5);
 
 # Heikin Ashi Calculations
-
-def HA_Close = (open + high + low + close) / 4;
-def HA_Open = CompoundValue(1, (HA_Open[1] + HA_Close[1]) / 2, (open[1] + close[1]) / 2);
-def conditionForTopWickOnly = HA_Close >= HA_Open
-    and Max(Max(high, HA_Open), HA_Close) > HA_Close 
-    and Min(Min(low, HA_Open), HA_Close) == Min(HA_Open, HA_Close);
-
 def allConditionsMet;
 
 def highestPrice = if IsNaN(highestPrice[1]) or allConditionsMet[1] or allConditionsMet[2] 
-    or (! isInMarketHours and resetHighOnOpenValue) then 0 else Max(low, highestPrice[1]);
+    or (! isInMarketHours and resetHighOnOpenValue) then 0 else Max(high[1], highestPrice[1]);
+#alert(highestPrice != highestPrice[1], "Highest Price Changed to " + highestPrice, alert.BAR, Sound.Bell);
+
+
 
 # Calculate percentage change from daily open to current close for QQQ, SPY, and DIA
 def isNewDay = GetYYYYMMDD() != GetYYYYMMDD()[1];
@@ -67,11 +65,12 @@ else {
 
 def threshold = highestPrice * thresholdValue / 100;
 def safetyNet = if enableSafetyNet then (if marketPercentChange < 0 and percentChange < 0 then highestPrice * marketPercentChange / 100 else 0) else 0;
-# Conditions for Sell
-allConditionsMet = highestPrice - low + safetyNet > threshold 
-    and conditionForTopWickOnly[1] and conditionForTopWickOnly[2] and isInMarketHours
-    and (!enableSafetyNet or percentChange >= 0 or (enableSafetyNet and percentChange 
-    < 0 and conditionForTopWickOnly[3]));
+#Conditions for Sell
+allConditionsMet = highestPrice - high[1] + safetyNet > threshold 
+    and high>high[1] and open[1] < open[2] and isInMarketHours
+    and (!enableSafetyNet or percentChange >= 0 or (enableSafetyNet     
+    and percentChange 
+    < 0 and open[2] < open[3]));
 
 AssignPriceColor(if isInMarketHours and enableSafetyNet and safetyNet >= 0 and percentChange < 0 then Color.YELLOW
         else 
@@ -81,9 +80,9 @@ AssignPriceColor(if isInMarketHours and enableSafetyNet and safetyNet >= 0 and p
         if isInMarketHours then 
             Color.CURRENT 
         else 
-        if HA_Close < HA_Open then 
+        if close < open then 
             Color.PINK 
-        else if HA_Close > HA_Open then 
+        else if close > open then 
             Color.LIGHT_GREEN 
         else 
             Color.DARK_GRAY);
@@ -99,7 +98,7 @@ if high >= sellPriceTracker[1] then {
     sellingHigh = no;
 }
 
-sellPriceTracker = if allConditionsMet and IsNaN(sellPriceTracker[1]) then low + ( low * ( thresholdValue + sellPriceOffsetValue ) / 100) else if sellingHigh[1] then Double.NaN else sellPriceTracker[1];
+sellPriceTracker = if allConditionsMet and IsNaN(sellPriceTracker[1]) then high[1] + ( high[1] * ( thresholdValue + sellPriceOffsetValue ) / 100) else if sellingHigh[1] then Double.NaN else sellPriceTracker[1];
 
 def sellCount = if (sellingHigh and !sellingHigh[1]) then sellCount[1] + 1 else sellCount[1];
 
@@ -108,7 +107,7 @@ def buyCount = if allConditionsMet and IsNaN(sellPriceTracker[1]) then buyCount[
 AddChartBubble(!sellingHigh[1] and sellingHigh and sellCount > 0, sellPriceTracker[1],  "#" + sellCount + ": " + Round(sellPriceTracker[1], 2), Color.LIGHT_GREEN, yes);
 
 # Buy Orders and Averages
-def triggerCount = CompoundValue(1, triggerCount[1] + allConditionsMet , 0);
+def triggerCount = CompoundValue(1, if allConditionsMet then triggerCount[1] + 1 else triggerCount[1], 0);
 
 # Sell Price Averages
 def sellPriceAvgcount = CompoundValue(1, sellPriceAvgcount[1] + 1, 0);
@@ -116,7 +115,7 @@ def sellPriceAvgcount = CompoundValue(1, sellPriceAvgcount[1] + 1, 0);
 # Plots and lines
 
 plot buySellTrigger = if (! triggerOffset or (triggerOffset and !IsNaN(sellPriceTracker[1] and !IsNaN(sellPriceTracker)))) 
-    and allConditionsMet then low else 0;
+    and allConditionsMet then high[1] else 0;
 
 plot highPricePlot = if allConditionsMet then highestPrice else Double.NaN;
 highPricePlot.SetPaintingStrategy(PaintingStrategy.POINTS);
@@ -133,7 +132,7 @@ thresholdPriceLine.SetDefaultColor(Color.CYAN);
 thresholdPriceLine.SetStyle(Curve.LONG_DASH);
 thresholdPriceLine.SetLineWeight(2);
 
-plot sellPricePlot = if allConditionsMet then low + ( low * ( thresholdValue + sellPriceOffsetValue ) / 100) else Double.NaN;
+plot sellPricePlot = if allConditionsMet then high[1] + ( high[1] * ( thresholdValue + sellPriceOffsetValue ) / 100) else Double.NaN;
 sellPricePlot.SetPaintingStrategy(PaintingStrategy.POINTS);
 sellPricePlot.SetLineWeight(3);
 sellPricePlot.SetDefaultColor(Color.RED);
@@ -143,12 +142,12 @@ sellPriceLine.SetDefaultColor(Color.RED);
 sellPriceLine.SetStyle(Curve.FIRM);
 sellPriceLine.SetLineWeight(2);
 
-plot buyPricePlot = if allConditionsMet then low else Double.Nan;
+plot buyPricePlot = if allConditionsMet then high[1] else Double.Nan;
 buyPricePlot.SetPaintingStrategy(PaintingStrategy.POINTS);
 buyPricePlot.SetLineWeight(3);
 buyPricePlot.SetDefaultColor(Color.GREEN);
 
-plot buyArrowPlot = if allConditionsMet then low - threshold else Double.NaN;
+plot buyArrowPlot = if allConditionsMet then high[1] else Double.NaN;
 buyArrowPlot.SetPaintingStrategy(PaintingStrategy.ARROW_UP);
 buyArrowPlot.SetLineWeight(5);
 buyArrowPlot.SetDefaultColor(Color.GREEN);
@@ -192,7 +191,7 @@ def productivityScore = Round(
     ) * 100, 2
 );
 
-AddLabel(yes, "Sells: " + sellCount + ", Gained: " + 
+AddLabel(showDetails, "Sells: " + sellCount + ", Gained: " + 
     buyProfit + "%" +
     if buyProfit < 10 then "          "
     else if buyProfit < 100 then "         "
@@ -201,7 +200,7 @@ AddLabel(yes, "Sells: " + sellCount + ", Gained: " +
     else if buyProfit < 100000 then "      "
     else " ", Color.LIGHT_RED);
 
-AddLabel(yes, "Working Days: " + buyDaysCount + ", " + 
+AddLabel(showDetails, "Working Days: " + buyDaysCount + ", " + 
     "Annual Trade Gain: " + profit252 +  "%, " +
     "Score: " + productivityScore +
     if profit252 < 10 then "             " 
@@ -211,7 +210,7 @@ AddLabel(yes, "Working Days: " + buyDaysCount + ", " +
     else if profit252 < 100000 then "         " 
     else " ", Color.WHITE);
 
-AddLabel(yes, "Triggers: " + triggerCount + 
+AddLabel(showDetails, "Triggers: " + triggerCount + 
     if triggerCount - buyCount >= 8 then ", Est. w/ Offset Gains: " + 
     triggerProfit + "%         "
     else if triggerCount < 10 then "      "
@@ -221,21 +220,21 @@ AddLabel(yes, "Triggers: " + triggerCount +
     else if triggerCount < 100000 then "    "
     else " " , Color.CYAN);
 
-AddLabel(percentChange > 0, GetSymbol() + ": " + Round(percentChange, 2) + "%      ", Color.LIGHT_GREEN);
-AddLabel(percentChange < 0, GetSymbol() + ": " + Round(percentChange, 2) + "%      ", Color.LIGHT_RED);
+AddLabel(showDetails and percentChange > 0, GetSymbol() + ": " + Round(percentChange, 2) + "%      ", Color.LIGHT_GREEN);
+AddLabel(showDetails and percentChange < 0, GetSymbol() + ": " + Round(percentChange, 2) + "%      ", Color.LIGHT_RED);
 
-AddLabel(marketPercentChange > 0 and marketIndex == 1, "$DWJC: " + Round(dwcfPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
-AddLabel(marketPercentChange < 0 and marketIndex == 1, "$DWCJ: " + Round(dwcfPercentChange, 2) + "%      ", Color.LIGHT_RED);
+AddLabel(showDetails and marketPercentChange > 0 and marketIndex == 1, "$DWJC: " + Round(dwcfPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
+AddLabel(showDetails and marketPercentChange < 0 and marketIndex == 1, "$DWCJ: " + Round(dwcfPercentChange, 2) + "%      ", Color.LIGHT_RED);
 
-AddLabel(marketPercentChange > 0 and marketIndex == 2, "SPY: " + Round(spyPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
-AddLabel(marketPercentChange < 0 and marketIndex == 2, "SPY: " + Round(spyPercentChange, 2) + "%      ", Color.LIGHT_RED);
+AddLabel(showDetails and marketPercentChange > 0 and marketIndex == 2, "SPY: " + Round(spyPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
+AddLabel(showDetails and marketPercentChange < 0 and marketIndex == 2, "SPY: " + Round(spyPercentChange, 2) + "%      ", Color.LIGHT_RED);
 
-AddLabel(marketPercentChange > 0 and marketIndex == 3, "$COMP: " + Round(compPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
-AddLabel(marketPercentChange < 0 and marketIndex == 3, "$COMP: " + Round(compPercentChange, 2) + "%      ", Color.LIGHT_RED);
+AddLabel(showDetails and marketPercentChange > 0 and marketIndex == 3, "$COMP: " + Round(compPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
+AddLabel(showDetails and marketPercentChange < 0 and marketIndex == 3, "$COMP: " + Round(compPercentChange, 2) + "%      ", Color.LIGHT_RED);
 
-AddLabel(marketPercentChange > 0 and marketIndex == 4, "$DJI: " + Round(djiPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
-AddLabel(marketPercentChange < 0 and marketIndex == 4, "$DJI: " + Round(djiPercentChange, 2) + "%      ", Color.LIGHT_RED);
+AddLabel(showDetails and marketPercentChange > 0 and marketIndex == 4, "$DJI: " + Round(djiPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
+AddLabel(showDetails and marketPercentChange < 0 and marketIndex == 4, "$DJI: " + Round(djiPercentChange, 2) + "%      ", Color.LIGHT_RED);
 
-AddLabel(!enableSafetyNet, "No Safety Net    ", Color.YELLOW);
-AddLabel(safetyNet < 0 and percentChange < 0, "Threshold Safety Net: $" + Round(safetyNet, 2) + "      ", Color.LIGHT_RED);
-AddLabel(enableSafetyNet and percentChange < 0 and safetyNet >= 0, "3 Bar Safety Net      ", Color.YELLOW);
+AddLabel(showDetails and !enableSafetyNet, "No Safety Net    ", Color.YELLOW);
+AddLabel(showDetails and safetyNet < 0 and percentChange < 0, "Threshold Safety Net: $" + Round(safetyNet, 2) + "      ", Color.LIGHT_RED);
+AddLabel(showDetails and enableSafetyNet and percentChange < 0 and safetyNet >= 0, "3 Bar Safety Net      ", Color.YELLOW);
