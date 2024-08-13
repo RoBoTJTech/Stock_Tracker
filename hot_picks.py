@@ -4,6 +4,7 @@ import json
 import math
 import _app_functions
 import _app_constants
+from datetime import datetime
 
 def worst_trading_rank(unique_tickers, scores):
     rank = 0
@@ -16,15 +17,12 @@ def worst_trading_rank(unique_tickers, scores):
 def get_Scores(directory):
     scores = {
         "Overall_Trend": {},
-        "2Yr_1Hr": {},
         "1Mo_5Mi": {}
     }
 
     for filename in os.listdir(directory):
         if filename.endswith("_Overall_Trend.json"):
             score_type = "Overall_Trend"
-        elif filename.endswith("Chart_2Yr_1Hr.json"):
-            score_type = "2Yr_1Hr"
         elif filename.endswith("Chart_1Mo_5Mi.json"):
             score_type = "1Mo_5Mi"
         else:
@@ -37,27 +35,25 @@ def get_Scores(directory):
                 data = json.load(f)
                 if "Score" in data[ticker]["totals"]:
                     scores[score_type][ticker] = data[ticker]["totals"]
+                    print(ticker,filename)
             except Exception as e:
                 print(f"Error processing file {filename}: {e}, skipping.")
                 continue
 
     # Create lists of tickers sorted by their score values
     Overall_Trend_Orders = sorted(scores["Overall_Trend"], key=lambda ticker: scores["Overall_Trend"][ticker]["Score"], reverse=True)
-    Yr_1Hr_Orders = sorted(scores["2Yr_1Hr"], key=lambda ticker: scores["2Yr_1Hr"][ticker]["Score"], reverse=True)
     Mo_5Mi_Orders = sorted(scores["1Mo_5Mi"], key=lambda ticker: scores["1Mo_5Mi"][ticker]["Score"], reverse=True)
     
     # Calculate the rank for each ticker in the Overall_Trend_Orders list
     ranks = {}
     for i, ticker in enumerate(Overall_Trend_Orders):
         overall_rank = i + 1
-        yr_1hr_rank = Yr_1Hr_Orders.index(ticker) + 1 if ticker in Yr_1Hr_Orders else len(Yr_1Hr_Orders) + 1
         mo_5mi_rank = Mo_5Mi_Orders.index(ticker) + 1 if ticker in Mo_5Mi_Orders else len(Mo_5Mi_Orders) + 1
-        total_rank = overall_rank + yr_1hr_rank + mo_5mi_rank
+        total_rank = overall_rank + mo_5mi_rank
         scores["Overall_Trend"][ticker]["Rank"] = total_rank
         ranks[ticker] = {
             "totals": {
                 "Overall_Trend_Rank": overall_rank,
-                "2Yr_1Hr_Rank": yr_1hr_rank,
                 "1Mo_5Mi_Rank": mo_5mi_rank,
                 "Total_Rank": total_rank
             }
@@ -98,8 +94,26 @@ def filter_scores(scores, unique_tickers, rank, trade_type='buy'):
         Recommendation = scores["Overall_Trend"].get(ticker, {}).get("Recommendation", "None")
         ai_trade_status = _app_functions.ai_trade_status(ticker)
         ma__trade_status = scores["Overall_Trend"].get(ticker, {}).get('MA_Analysis', {}).get('Trade_Status', 'Do Not Trade')
+        
+        earnings_date = scores["Overall_Trend"].get(ticker, {}).get('Earnings_Date', 'None')
+
+        earnings_soon = False
+        if earnings_date != 'None':
+            # Parse the date part only (ignoring the time)
+            try:
+                earnings_date = datetime.strptime(earnings_date.split(' ')[0], "%Y-%m-%d").date()
+
+
+                # Get the current date
+                current_date = datetime.now().date()
+
+                # Check if the earnings date is within 10 days
+                earnings_soon = (earnings_date - current_date).days <= 10
+            except:
+                pass
+
         cik = scores["Overall_Trend"].get(ticker, {}).get("CIK", None)
-        if ((cik.isdigit() or cik == 'ETF') and ai_trade_status and ma__trade_status == 'Trade' and "Buy" in Recommendation and Overall_Trend == "Upward" and Overall_Rank <= rank and 
+        if ((cik.isdigit() or cik == 'ETF') and ai_trade_status and ma__trade_status == 'Trade' and "Buy" in Recommendation and not earnings_soon and Overall_Trend == "Upward" and Overall_Rank <= rank and 
             (trade_type != 'buy' or (trade_type == 'buy' and Sell_Orders > 4))):
             symbols.append((ticker, scores["1Mo_5Mi"].get(ticker, {})))
 

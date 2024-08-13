@@ -115,8 +115,6 @@ def make_recommendation(yf_ticker_obj, short_period=10):
             "MA (50d slope > 200d slope by 0.05%)": "Met" if c5 else "Not Met",
             "Trade_Status": Trade_Status
         }
-        print(ma_result)
-
     except Exception as e:
         print(f"An error occurred: {e}")
         MA_Trend = 0
@@ -138,40 +136,6 @@ def make_recommendation(yf_ticker_obj, short_period=10):
 
     return total_inflows, total_outflows, net_inflows_outflows, recommendation_mean, MA_Trend, ma_result
 
-# Heikin Ashi Calculations
-def calculate_heikin_ashi(data):
-    if 'HA_Open' not in data.columns:
-        data['HA_Open'] = np.nan
-    if 'HA_Close' not in data.columns:
-        data['HA_Close'] = np.nan
-    if 'HA_High' not in data.columns:
-        data['HA_High'] = np.nan
-    if 'HA_Low' not in data.columns:
-        data['HA_Low'] = np.nan
-    if 'ConditionForTopWickOnly' not in data.columns:
-        data['ConditionForTopWickOnly'] = False
-
-    data['ConditionForTopWickOnly'] = data['ConditionForTopWickOnly'].astype(bool)
-
-    for i in range(len(data)):
-        data.loc[data.index[i], 'HA_Close'] = (data.loc[data.index[i], 'Open'] + data.loc[data.index[i], 'High'] + 
-            data.loc[data.index[i], 'Low'] + data.loc[data.index[i], 'Close']) / 4
-        if i == 0:
-            data.loc[data.index[i], 'HA_Open'] = (data.loc[data.index[i], 'Open'] + 
-                                                  data.loc[data.index[i], 'Close']) / 2
-        else:
-            data.loc[data.index[i], 'HA_Open'] = (data.loc[data.index[i-1], 'HA_Open'] + 
-                                                  data.loc[data.index[i-1], 'HA_Close']) / 2
-
-        data.loc[data.index[i], 'HA_High'] = max(data.loc[data.index[i], 'High'], data.loc[data.index[i], 'HA_Open'], data.loc[data.index[i], 'HA_Close'])
-        data.loc[data.index[i], 'HA_Low'] = min(data.loc[data.index[i], 'Low'], data.loc[data.index[i], 'HA_Open'], data.loc[data.index[i], 'HA_Close'])
-
-        data.loc[data.index[i], 'ConditionForTopWickOnly'] = (data.loc[data.index[i], 'HA_Close'] >= data.loc[data.index[i], 'HA_Open']) & \
-                                                              (data.loc[data.index[i], 'HA_High'] > data.loc[data.index[i], 'HA_Close']) & \
-                                                              (data.loc[data.index[i], 'HA_Low'] == min(data.loc[data.index[i], 'HA_Open'], data.loc[data.index[i], 'HA_Close']))
-
-    return data
-
 # Check if the timestamp is within trading hours (9:30 AM to 4:00 PM)
 def is_trading_hours(timestamp):
     return time(9, 30) <= timestamp.time() <= time(16, 0)
@@ -189,9 +153,9 @@ def identify_triggers(data, Threshold=2, trading_hours=True):
         if highest_price < 0:
             highest_price = 0
         else:
-            if data['Low'].iloc[i] > highest_price:
-                highest_price = data['Low'].iloc[i]
-                highest_timestamp = data.index[i]
+            if data['High'].iloc[i-1] > highest_price:
+                highest_price = data['High'].iloc[i-1]
+                highest_timestamp = data.index[i-1]
 
         threshold = highest_price * Threshold / 100
 
@@ -210,8 +174,8 @@ def identify_triggers(data, Threshold=2, trading_hours=True):
                 last_buy_price = 0
                 last_buy_timestamp = None
 
-        if highest_price - data['Low'].iloc[i] > threshold and data['ConditionForTopWickOnly'].iloc[i-2] \
-            and data['ConditionForTopWickOnly'].iloc[i-1] and (is_trading_hours(data.index[i]) or not trading_hours):
+        if highest_price - data['High'].iloc[i-1] > threshold and data['High'].iloc[i] > data['High'].iloc[i-1] \
+            and data['Open'].iloc[i-1] < data['Open'].iloc[i-2] and (is_trading_hours(data.index[i]) or not trading_hours):
             trigger = {
                 "high_timestamp": str(highest_timestamp),
                 "high_price": round(highest_price, 2),
@@ -399,7 +363,6 @@ def analyze_chart(ticker,period,interval,age, yf_ticker_obj = False):
     else:
         data = None
     if data is not None:
-        data = calculate_heikin_ashi(data)
         best_threshold = 0
         best_triggers = []
         best_trades = []
@@ -461,8 +424,6 @@ def analyze_stock(ticker):
     yf_ticker_obj = yf.Ticker(ticker)
 
     analyze_chart(ticker, '1Mo', '5Mi', 60, yf_ticker_obj)
-    analyze_chart(ticker, '6Mo', '1Hr', 60 * 4, yf_ticker_obj)
-    analyze_chart(ticker, '2Yr', '1Hr', 60 * 24 * 7, yf_ticker_obj)
 
     # Analyze max monthly data
     if _file_functions.get_file_age_in_minutes(f"{ticker}_Overall_Trend") > 1440:
@@ -496,6 +457,8 @@ def analyze_stock(ticker):
             peg_ratio = round(details.get('defaultKeyStatistics', {}).get('pegRatio', 0),2)
             ps_ratio = round(details.get('summaryDetail', {})
                              .get('priceToSalesTrailing12Months', 0),2)
+            earnings_date = details.get('calendarEvents', {}).get('earnings', {}).get('earningsDate', ['None'])[0]
+            
         except Exception as e:
             print(e) 
             Recommendation = 'None'
@@ -504,6 +467,7 @@ def analyze_stock(ticker):
             forward_pe_ratio = 0
             peg_ratio = 0
             ps_ratio = 0
+            earnings_date = 'None'
     else:
         data = None
     if data is not None:
@@ -565,6 +529,8 @@ def analyze_stock(ticker):
         inflow, outflow, netflow, recommendation_mean, MA_Trend, ma_result = make_recommendation(yf_ticker_obj)
 
         # Calculate the score
+        print(Average_APR, total_months, curved_ratio, Average_Monthly_Change, 
+                                pe_ratio, forward_pe_ratio, peg_ratio, ps_ratio, risk)
         Score = calculate_score(Average_APR, total_months, curved_ratio, Average_Monthly_Change, 
                                 pe_ratio, forward_pe_ratio, peg_ratio, ps_ratio, risk)
 
@@ -574,6 +540,7 @@ def analyze_stock(ticker):
         # Save the results to JSON (mock function)
         json_file_query(ticker, [], [], {
             "CIK": sec_info.get('cik','Delisted'),
+            'Earnings_Date': earnings_date,
             "Start_Date": Start_Date,
             "Last_Name_Change": Last_Name_Change,
             "First_Month_Average": Start_Price,

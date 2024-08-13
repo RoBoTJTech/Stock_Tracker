@@ -7,6 +7,7 @@ import yfinance as yf
 import json
 from datetime import datetime, timedelta
 import _app_functions
+import _app_constants
 from openai import OpenAI
 from yahooquery import Ticker
 import subprocess
@@ -377,7 +378,7 @@ def analyze_stock():
 
 @app.route('/')
 def index():
-    csv_file_path = _app_functions.find_newest_file("*TradeActivity.csv*")
+    csv_file_path = _app_functions.find_newest_file(f'{_app_constants.SCHWAB_CSV_PATH}*TradeActivity.csv*')
     if not csv_file_path:
         return "No CSV files found matching the pattern."
 
