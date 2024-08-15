@@ -1,0 +1,70 @@
+# Daily SMA settings (ensure these are consistent with your chart settings)
+input length1 = 50;
+input length2 = 200;
+
+# Define the periods for slope calculation
+input slopePeriodShort = 10;
+
+input showDetails = no;
+input conditionOnly = no;
+
+# Calculate SMAs
+def SMAShort;
+def SMALong;
+if ! conditionOnly then {
+SMAShort = SimpleMovingAvg(close(period = AggregationPeriod.DAY), length1);
+SMALong = SimpleMovingAvg(close(period = AggregationPeriod.DAY), length2);
+}
+else {
+SMAShort = SimpleMovingAvg(close, length1);
+SMALong = SimpleMovingAvg(close, length2);
+}
+
+# Calculate slopes for the last period and the previous period for 50-day SMA
+def slopeSMAShort_last_period = (SMAShort[0] - SMAShort[slopePeriodShort - 1]) / slopePeriodShort;
+def slopeSMAShort_prev_period = (SMAShort[slopePeriodShort] - SMAShort[2 * slopePeriodShort - 1]) / slopePeriodShort;
+
+# Calculate slopes for the last period and the previous period for 200-day SMA
+def slopeSMALong_last_period = (SMALong[0] - SMALong[slopePeriodShort - 1]) / slopePeriodShort;
+def slopeSMALong_prev_period = (SMALong[slopePeriodShort] - SMALong[2 * slopePeriodShort - 1]) / slopePeriodShort;
+
+# Plot SMAs
+plot DailySMAShort = SMAShort;
+DailySMAShort.SetDefaultColor(Color.CYAN);
+plot DailySMALong = SMALong;
+DailySMALong.SetDefaultColor(Color.MAGENTA);
+
+# Conditions for swing trading
+def c1 = close > SMAShort * 1.01; 
+def c2 = SMAShort > SMALong * 1.01;  
+def c3 = slopeSMAShort_last_period > slopeSMAShort_prev_period; 
+def c4 = slopeSMALong_last_period > slopeSMALong_prev_period;  
+def c5 = slopeSMAShort_last_period > slopeSMALong_last_period * 1.0005; 
+
+# Assign conditions to labels
+def tradeCondition = c1 and c2 and c3 and c4 and c5;
+
+plot Trade = tradeCondition;
+
+# Plot trade status label (optional)
+AddLabel(!conditionOnly, if tradeCondition then "Trade  " else "Do Not Trade  ", if tradeCondition then Color.GREEN else Color.RED);
+
+# Individual condition labels
+AddLabel(!conditionOnly and showDetails, "MA (Close > 50d): " + (if c1 then "Met    " else "Not Met    "), if c1 then Color.GREEN else Color.RED);
+
+AddLabel(!conditionOnly and showDetails, "MA (50d > 200d): " + (if c2 then "Met    " else "Not Met    "), if c2 then Color.GREEN else Color.RED);
+
+AddLabel(!conditionOnly and showDetails, "MA (50d slope increasing): " + (if c3 then "Met    " else "Not Met    "), if c3 then Color.GREEN else Color.RED);
+
+AddLabel(!conditionOnly and showDetails, "MA (200d slope increasing): " + (if c4 then "Met    " else "Not Met    "), if c5 then Color.GREEN else Color.RED);
+
+AddLabel(!conditionOnly and showDetails, "MA (50d slope > 200d slope by 0.05%): " + (if c5 then "Met    " else "Not Met    "), if c5 then Color.GREEN else Color.Red);
+
+AddLabel(!conditionOnly and showDetails, "Close: " + close, Color.WHITE);
+AddLabel(!conditionOnly and showDetails, "50d MA: " + SMAShort, Color.WHITE);
+AddLabel(!conditionOnly and showDetails, "200d MA: " + SMALong, Color.WHITE);
+AddLabel(!conditionOnly and showDetails, "50d last period slope: " + slopeSMAShort_last_period, Color.WHITE);
+AddLabel(!conditionOnly and showDetails, "50d prev period slope: " + slopeSMAShort_prev_period, Color.WHITE);
+AddLabel(!conditionOnly and showDetails, "200d last period slope: " + slopeSMALong_last_period, Color.WHITE);
+AddLabel(!conditionOnly and showDetails, "200d prev period slope: " + slopeSMALong_prev_period, Color.WHITE);
+

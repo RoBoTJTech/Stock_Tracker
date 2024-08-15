@@ -1,5 +1,5 @@
 # Auto Trader  
-# Version 1.1.1 ~ July 26, 2024
+# Version 1.1.0 ~ July 26, 2024
 # Track to find high, then follows to
 # find dip below threshold.
 #declare once_per_bar;
@@ -67,10 +67,11 @@ def threshold = highestPrice * thresholdValue / 100;
 def safetyNet = if enableSafetyNet then (if marketPercentChange < 0 and percentChange < 0 then highestPrice * marketPercentChange / 100 else 0) else 0;
 #Conditions for Sell
 allConditionsMet = highestPrice - high[1] + safetyNet > threshold 
-    and high>high[1] and open[1] < open[2] and isInMarketHours
-    and (!enableSafetyNet or percentChange >= 0 or (enableSafetyNet     
-    and percentChange 
-    < 0 and open[2] < open[3]));
+    and isInMarketHours and 
+    (
+        (high>high[1] and open[1] < open[2] and (!enableSafetyNet or percentChange >= 0)) or 
+        (enableSafetyNet and percentChange < 0 and high>high[1] and open[1] > close[2] and open[2] > close[3])
+    );
 
 AssignPriceColor(if isInMarketHours and enableSafetyNet and safetyNet >= 0 and percentChange < 0 then Color.YELLOW
         else 
@@ -104,7 +105,7 @@ def sellCount = if (sellingHigh and !sellingHigh[1]) then sellCount[1] + 1 else 
 
 def buyCount = if allConditionsMet and IsNaN(sellPriceTracker[1]) then buyCount[1] + 1 else buyCount[1];
 
-AddChartBubble(!sellingHigh[1] and sellingHigh and sellCount > 0, sellPriceTracker[1],  "#" + sellCount + ": " + Round(sellPriceTracker[1], 2), Color.LIGHT_GREEN, yes);
+AddChartBubble(showDetails and !sellingHigh[1] and sellingHigh and sellCount > 0, sellPriceTracker[1],  "#" + sellCount + ": " + Round(sellPriceTracker[1], 2), Color.LIGHT_GREEN, yes);
 
 # Buy Orders and Averages
 def triggerCount = CompoundValue(1, if allConditionsMet then triggerCount[1] + 1 else triggerCount[1], 0);

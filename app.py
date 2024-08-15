@@ -293,12 +293,6 @@ def parse_trade_data(file_path):
                 for cat in sorted_categories
             ] + [index_code.replace('-0', '-1')]
 
-
-        #sell_row = ["SELL", f'<span class="indicator" style="background-color: {cache_color};"></span> ' + symbol] + \
-        #    [ f"Orders Waiting: {orders['SELL'][cat]['count']}<br>Sell Price: {'='.join(orders['SELL'][cat]['prices'])}<br>Order Profit: ${orders['SELL'][cat]['profit']:.2f}" if cat in orders['SELL'] else '' \
-        #    for cat in sorted_categories] + [index_code.replace('-0', '-1')]
-
-
         Report.append(buy_row)
         Report.append(sell_row)
         unique_tickers.add(symbol)
