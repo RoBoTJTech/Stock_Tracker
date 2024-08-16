@@ -42,11 +42,11 @@ def spyDailyOpen = if isNewDay or IsNaN(spyDailyOpen[1]) then open(symbol = "SPY
 def compDailyOpen = if isNewDay or IsNaN(compDailyOpen[1]) then open(symbol = "$COMP", period = AggregationPeriod.DAY) else compDailyOpen[1];
 def djiDailyOpen = if isNewDay or IsNaN(djiDailyOpen[1]) then open(symbol = "$DJI", period = AggregationPeriod.DAY) else djiDailyOpen[1];
 
-def percentChange = if IsNaN(dailyOpen) or IsNaN(low) then 0 else 100 * (low - dailyOpen) / dailyOpen;
-def dwcfPercentChange = if IsNaN(dwcfDailyOpen) or IsNaN(low(symbol = "$DWCF")) then 0 else 100 * (low(symbol = "$DWCF") - dwcfDailyOpen) / dwcfDailyOpen;
-def spyPercentChange = if IsNaN(spyDailyOpen) or IsNaN(low(symbol = "SPY")) then 0 else 100 * (low(symbol = "SPY") - spyDailyOpen) / spyDailyOpen;
-def compPercentChange = if IsNaN(compDailyOpen) or IsNaN(low(symbol = "$COMP")) then 0 else 100 * (low(symbol = "$COMP") - compDailyOpen) / compDailyOpen;
-def djiPercentChange = if IsNaN(djiDailyOpen) or IsNaN(low(symbol = "$DJI")) then 0 else 100 * (low(symbol = "$DJI") - djiDailyOpen) / djiDailyOpen;
+def percentChange = if IsNaN(dailyOpen) or IsNaN(low[1]) then 0 else 100 * (low[1] - dailyOpen) / dailyOpen;
+def dwcfPercentChange = if IsNaN(dwcfDailyOpen) or IsNaN(low(symbol = "$DWCF")[1]) then 0 else 100 * (low(symbol = "$DWCF")[1] - dwcfDailyOpen) / dwcfDailyOpen;
+def spyPercentChange = if IsNaN(spyDailyOpen) or IsNaN(low(symbol = "SPY")[1]) then 0 else 100 * (low(symbol = "SPY")[1] - spyDailyOpen) / spyDailyOpen;
+def compPercentChange = if IsNaN(compDailyOpen) or IsNaN(low(symbol = "$COMP")[1]) then 0 else 100 * (low(symbol = "$COMP")[1] - compDailyOpen) / compDailyOpen;
+def djiPercentChange = if IsNaN(djiDailyOpen) or IsNaN(low(symbol = "$DJI")[1]) then 0 else 100 * (low(symbol = "$DJI")[1] - djiDailyOpen) / djiDailyOpen;
 
 def marketPercentChange = Min(Min(Min(dwcfPercentChange, spyPercentChange), Min(compPercentChange, djiPercentChange)), 0);
 
@@ -67,13 +67,25 @@ else {
 def threshold = highestPrice * thresholdValue / 100;
 def safetyNet = if enableSafetyNet then (if marketPercentChange < 0 and percentChange < 0 then highestPrice * marketPercentChange / 100 else 0) else 0;
 #Conditions for Sell
-allConditionsMet = highestPrice - close[1] + safetyNet > threshold 
+allConditionsMet = (highestPrice - close[1] + safetyNet > threshold 
     and isInMarketHours and 
     (
         (close[1]>open[1] and open[1] < open[2] and (!enableSafetyNet or percentChange >= 0)) or 
         (enableSafetyNet and percentChange < 0 and close[1]>open[1] and open[1] > open[2] and open[2] > close[3])
-    );
-
+    ));
+#
+# or
+#    (safetyNet >=0 and percentChange > 0 and 
+#    high[1] > high[2] and high[2] > high[3] and 
+#    low[1] > low[2] and low[2] > low[3] and 
+#    open[1] > open[2] and open[2] > open[3] and    
+#    close[1] > close[2] and close[2] > close[3] and
+#   !(high[4] > high[5] and high[5] > high[6] and 
+#    low[4] > low[5] and low[5] > low[6] and 
+#    open[4] > open[5] and open[5] > open[6] and    
+#    close[4] > close[5] and close[5] > close[6]) and
+#    isInMarketHours and isInMarketHours[3]);
+#
 AssignPriceColor(if isInMarketHours and enableSafetyNet and safetyNet >= 0 and percentChange < 0 then Color.YELLOW
         else 
         if isInMarketHours and enableSafetyNet and safetyNet < 0 
@@ -223,7 +235,7 @@ AddLabel(showDetails, "Triggers: " + triggerCount +
     else " " , Color.CYAN);
 
 AddLabel(showDetails and percentChange > 0, GetSymbol() + ": " + Round(percentChange, 2) + "%      ", Color.LIGHT_GREEN);
-AddLabel(showDetails and percentChange < 0, GetSymbol() + ": " + Round(percentChange, 2) + "%      ", Color.LIGHT_RED);
+AddLabel(showDetails and percentChange < 0, GetSymbol() + ": " + Round(percentChange, 2) + "%      ", Color.LIGHT_RED); 
 
 AddLabel(showDetails and marketPercentChange > 0 and marketIndex == 1, "$DWJC: " + Round(dwcfPercentChange, 2) + "%      ", Color.LIGHT_GREEN);
 AddLabel(showDetails and marketPercentChange < 0 and marketIndex == 1, "$DWCJ: " + Round(dwcfPercentChange, 2) + "%      ", Color.LIGHT_RED);
