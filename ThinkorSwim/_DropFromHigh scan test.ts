@@ -167,10 +167,10 @@ plot buySellTrigger =
 
 input bidPrice = {default Bid, Mark, Ask};
 input showDetails = yes;
-input showPlots = {Buy, default Sell, Trackers, Averages, Tables, All};
+input showPlots = {Buy, default Sell, Trackers, Averages, Volume, All};
 
 def plotLevel;
-if showPlots == showPlots.Tables
+if showPlots == showPlots.Volume
 then {
     plotLevel = -1;
 }
@@ -266,8 +266,10 @@ def activeBuyPrice =
     else if sold[1] then Double.NaN
     else activeBuyPrice[1];
 
+    # Chart-only dividend data: blank for Intraday mode.
 def nextDividend = if intraday then Double.NaN else GetDividend()[-1];
     
+# nextDividend is always NaN in Intraday mode, so no dividend adjustment is made.
 sellPriceTracker = if enteredTrade or enteredFromFailed then entryPrice + ( entryPrice * thresholdValue / 100) else if !IsNaN(nextDividend) and !IsNaN(sellPriceTracker[1]) then Ceil(activeBuyPrice[1]) else if sold[1] then Double.NaN else sellPriceTracker[1];
 
 #def sellCount = if (sellingHigh and !sellingHigh[1]) then sellCount[1] + 1 else sellCount[1];
@@ -282,6 +284,8 @@ def buyCount = if enteredTrade or enteredFromFailed then buyCount[1] + 1 else bu
 AddChartBubble(showDetails and !sold[1] and sold and sellCount > 0, sellPriceTracker[1],  "#" + sellCount + ": " + Round(sellPriceTracker[1], 2), Color.LIGHT_GREEN, yes);
 
 def triggerCount = if allConditionsMet then triggerCount[1] + 1 else triggerCount[1];
+
+def sellPriceAvgcount = CompoundValue(1, sellPriceAvgcount[1] + 1, 0);
 
 # Time Tracking and Metrics
 def lastBuyDay = CompoundValue(
@@ -330,8 +334,8 @@ def productivityScore = Round(
 
 # Plots and lines
 plot scanScorePlot =
-    if showPlots == showPlots.Tables or showPlots == showPlots.All then
-        if !intraday and chartState > 0
+    if plotLevel >= 4 then
+        if !intraday and chartState > 0 #and (GetDayOfWeek(latestDate) == 5 or GetDayOfWeek(latestDate) == 1)
         then sellCount * 1.5
         else sellCount
     else Double.NaN;
@@ -478,7 +482,7 @@ def mm    = Floor(chartStart % 10000 / 100);    # 11
 def dd    = chartStart % 100;                   # 06, 20, etc.
 
 plot mh =
-    if showPlots == showPlots.All and isInMarketHours
+    if isInMarketHours
     then (HighestAll(high) + LowestAll(low)) / 2
     else Double.NaN;
 
@@ -490,10 +494,10 @@ mh.AssignValueColor(Color.DARK_GREEN);
 def chartStartFloat = yy * 10000 + mm * 100 + dd;
 
 plot swingScoreDatePlot =
-    if showPlots == showPlots.Tables or showPlots == showPlots.All then chartStartFloat else Double.NaN;
+    if plotLevel >= 4 then chartStartFloat else Double.NaN;
 
 plot dividendDot =
-    if showPlots == showPlots.All and !IsNaN(nextDividend) then close else Double.NaN;
+    if !IsNaN(nextDividend) then close else Double.NaN;
 
 dividendDot.SetPaintingStrategy(PaintingStrategy.POINTS);
 
