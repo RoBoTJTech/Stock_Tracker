@@ -115,8 +115,8 @@ def chartState = if isInMarketHours and
     percentChange > 1 then 1
     else if isInMarketHours and
     percentChange < 0 then -1
-    else 0;#if isInMarketHours then 0
-    #else Double.NaN;
+    else if isInMarketHours then 0
+    else Double.NaN;
 
 if  chartState > 0 and
     close[1] > open[1] and high[1] - close[1] < close[1] - low[1] and (close[2] >= open[2] or EMALow > SMALow) and 
@@ -132,7 +132,7 @@ else if chartState < 0 and
 then {
     allConditionsMet = yes;
 }
-else if isInMarketHours and chartState == 0 and 
+else if chartState == 0 and 
     highestPrice - close[1] > threshold and 
     close[1] > open[1] and open[1] < open[2]
 then {
@@ -210,12 +210,12 @@ AssignPriceColor(
             Color.DARK_GRAY);
 
 # Sell PriceActionIndicator Tracking
-def sold;
+def sellingHigh;
 if high >= sellPriceTracker[1]
 then {
-    sold = yes;
+    sellingHigh = yes;
 } else {
-    sold = no;
+    sellingHigh = no;
 }
 
 def buyPrice = (
@@ -261,23 +261,13 @@ def enteredFromFailed =
 
 def entryPrice = if enteredFromFailed then failedBuyTracker[1] else buyPrice;
 
-def activeBuyPrice =
-    if enteredTrade or enteredFromFailed then entryPrice
-    else if sold[1] then Double.NaN
-    else activeBuyPrice[1];
+sellPriceTracker = if enteredTrade or enteredFromFailed then entryPrice + ( entryPrice * thresholdValue / 100) else if sellingHigh[1] then Double.NaN else sellPriceTracker[1];
 
-sellPriceTracker = if enteredTrade or enteredFromFailed then entryPrice + ( entryPrice * thresholdValue / 100) else if !IsNaN(GetDividend()[-1]) and !IsNaN(sellPriceTracker[1]) then Ceil(activeBuyPrice[1]) else if sold[1] then Double.NaN else sellPriceTracker[1];
-
-#def sellCount = if (sellingHigh and !sellingHigh[1]) then sellCount[1] + 1 else sellCount[1];
-def sellCount = CompoundValue(1,
-    if sold and !sold[1] then sellCount[1] + 1 else sellCount[1],
-    0
-);
-
+def sellCount = if (sellingHigh and !sellingHigh[1]) then sellCount[1] + 1 else sellCount[1];
 
 def buyCount = if enteredTrade or enteredFromFailed then buyCount[1] + 1 else buyCount[1];
 
-AddChartBubble(showDetails and !sold[1] and sold and sellCount > 0, sellPriceTracker[1],  "#" + sellCount + ": " + Round(sellPriceTracker[1], 2), Color.LIGHT_GREEN, yes);
+AddChartBubble(showDetails and !sellingHigh[1] and sellingHigh and sellCount > 0, sellPriceTracker[1],  "#" + sellCount + ": " + Round(sellPriceTracker[1], 2), Color.LIGHT_GREEN, yes);
 
 def triggerCount = if allConditionsMet then triggerCount[1] + 1 else triggerCount[1];
 
@@ -296,21 +286,22 @@ def buyDaysCount = CompoundValue(
     0
 );
 
-def buyProfit = CompoundValue(
+#def lastBuyDay;
+#if !isNaN(sellPriceTracker)
+#then {
+#    lastBuyDay = GetYYYYMMDD();
+#} else {
+#    lastBuyDay = lastBuyDay[1];
+#}
+#def buyDaysCount;
+#if lastBuyDay[1] != GetYYYYMMDD() and #!isNaN(sellPriceTracker)
+#then {
+#    buyDaysCount = buyDaysCount[1] + 1;
+#} else {
+#    buyDaysCount = buyDaysCount[1];
+#}
 
-    1,
-
-    if sold and !sold[1] then
-
-        buyProfit[1] + ((sellPriceTracker[1] - activeBuyPrice[1]) / activeBuyPrice[1] * 100)
-
-    else
-
-        buyProfit[1],
-
-    0
-
-);
+def buyProfit = thresholdValue * sellCount;
 
 def profit252 =
     if buyDaysCount > 0
@@ -322,6 +313,13 @@ def clearScore = if sellCount >= 4 then 1 else 0;
 def productivityScore = Round(
     (
         (buyCount / Ceil((triggerCount + 1 - buyCount) / 2)) *
+        (profit252 / 100) *
+        (Log(triggerCount - buyCount + 1) + 1) / 10
+    ) * 100 * clearScore, 2
+);
+def oldscore = Round(
+    (
+        (buyCount / Ceil((triggerCount + 1 - buyCount) / 2)) *
         (buyProfit / 100) *
         (profit252 / 100) *
         (Log(triggerCount - buyCount + 1) + 1) / 10
@@ -329,13 +327,14 @@ def productivityScore = Round(
 );
 
 # Plots and lines
+def cs = if IsNaN(chartState) then 0 else chartState;
+
 plot scanScorePlot =
     if plotLevel >= 4 then
-        if !intraday and chartState > 0 #and (GetDayOfWeek(latestDate) == 5 or GetDayOfWeek(latestDate) == 1)
+        if !intraday and cs > 0
         then sellCount * 1.5
         else sellCount
     else Double.NaN;
-
 
 plot SMALowPlot =  if plotLevel >= 3 then SMALow else Double.NaN;
 SMALowPlot.AssignValueColor(Color.ORANGE);
@@ -420,7 +419,7 @@ def b =
 AddLabel(
     showDetails, 
     thresholdValue + "% Score: " + 
-    productivityScore + ", " +
+    productivityScore + ", Old: " + oldscore + ", "+
     "Active Days: " + buyDaysCount + ", " + 
     "Active Return: " + profit252 + "%" +
     if profit252 < 10 then "           " 
@@ -453,16 +452,14 @@ AddLabel(yes, "Buys: " + buyCount +
     else " ", Color.LIGHT_GREEN);
 
 AddLabel(showDetails, "Sells: " + sellCount + " Gain: " +
-    (if buyProfit == Round(buyProfit, 0)
-    then buyProfit
-    else Round(buyProfit, 1)) + "%" +
+    buyProfit + "%" +
     if buyProfit < 10 then "        "
     else if buyProfit < 100 then "       "
     else if buyProfit < 1000 then "      "
     else if buyProfit < 10000 then "     "
     else if buyProfit < 100000 then "    "
     else " ",
-    if buyProfit >= 52 then 
+    if buyProfit >= 100 then 
         Color.YELLOW else Color.LIGHT_RED);
 
 Alert(showDetails and allConditionsMet and thresholdValue == 1, "threshold trigger point: $" + open, Alert.BAR, Sound.Bell);
@@ -487,16 +484,21 @@ mh.SetLineWeight(1);
 mh.SetStyle(Curve.MEDIUM_DASH);
 mh.AssignValueColor(Color.DARK_GREEN);
 
+#def dayBubbled = buyDaysCount != buyDaysCount[1];
+
+# block if any bubble fired in last 5 bars (including this bar)
+#def bubbleRecently = Highest(dayBubbled, 5);
+
+#AddChartBubble(
+#    showDetails and dayBubbled and bubbleRecently[1] == 0,
+#    sellPriceTracker,
+#    buyDaysCount,
+#    Color.WHITE,
+#    no
+#);
+
+# yymmdd  ->  251126 for 2025-11-26
 def chartStartFloat = yy * 10000 + mm * 100 + dd;
 
 plot swingScoreDatePlot =
     if plotLevel >= 4 then chartStartFloat else Double.NaN;
-
-plot dividendDot =
-    if !IsNaN(GetDividend()[-1])  then close else Double.NaN;
-
-dividendDot.SetPaintingStrategy(PaintingStrategy.POINTS);
-
-dividendDot.SetLineWeight(5);
-
-dividendDot.SetDefaultColor(Color.MAGENTA);
