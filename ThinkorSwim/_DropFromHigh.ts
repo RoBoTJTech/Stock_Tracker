@@ -166,48 +166,6 @@ plot buySellTrigger =
 ##################################################
 
 input bidPrice = {default Bid, Mark, Ask};
-input showDetails = yes;
-input showPlots = {Buy, default Sell, Trackers, Averages, Tables, All};
-
-def plotLevel;
-if showPlots == showPlots.Tables
-then {
-    plotLevel = -1;
-}
-else if showPlots == showPlots.Buy
-then {
-    plotLevel = 0;
-}
-else if showPlots == showPlots.Sell
-then {
-    plotLevel = 1;
-}
-else if showPlots == showPlots.Trackers
-then {
-    plotLevel = 2;
-}
-else if showPlots == showPlots.Averages
-then {
-    plotLevel = 3;
-}
-else {
-    plotLevel = 4;
-}
-
-AssignPriceColor(
-        if chartState > 0 then
-            Color.CYAN
-        else if chartState < 0 then
-            Color.YELLOW
-        else if isInMarketHours then 
-            Color.CURRENT 
-        else 
-        if close <= open then 
-            Color.PINK 
-        else if close > open then 
-            Color.LIGHT_GREEN 
-        else 
-            Color.DARK_GRAY);
 
 # Sell PriceActionIndicator Tracking
 def sold;
@@ -276,6 +234,67 @@ def sellCount = CompoundValue(1,
     0
 );
 
+# =================================================
+# TABLE / SCAN CORE
+# Copy from the top through the divider below for the
+# order logic plus the two table outputs.
+# =================================================
+plot scanScorePlot =
+    if !intraday and chartState > 0
+    then sellCount * 1.5
+    else sellCount;
+
+def chartStart =
+    if BarNumber() == 1 then GetYYYYMMDD() else chartStart[1];
+def year = Floor(chartStart / 10000);
+def yy = year - 2000;
+def mm = Floor(chartStart % 10000 / 100);
+def dd = chartStart % 100;
+def chartStartFloat = yy * 10000 + mm * 100 + dd;
+
+plot swingScoreDatePlot = chartStartFloat;
+
+# =================================================
+# FULL CHART DISPLAY STARTS HERE
+# Do not include below this line in table/scan copies.
+# =================================================
+input showDetails = yes;
+input showPlots = {Buy, default Sell, Trackers, Averages, All};
+
+def plotLevel;
+if showPlots == showPlots.Buy
+then {
+    plotLevel = 0;
+}
+else if showPlots == showPlots.Sell
+then {
+    plotLevel = 1;
+}
+else if showPlots == showPlots.Trackers
+then {
+    plotLevel = 2;
+}
+else if showPlots == showPlots.Averages
+then {
+    plotLevel = 3;
+}
+else {
+    plotLevel = 4;
+}
+
+AssignPriceColor(
+        if chartState > 0 then
+            Color.CYAN
+        else if chartState < 0 then
+            Color.YELLOW
+        else if isInMarketHours then
+            Color.CURRENT
+        else if close <= open then
+            Color.PINK
+        else if close > open then
+            Color.LIGHT_GREEN
+        else
+            Color.DARK_GRAY);
 
 def buyCount = if enteredTrade or enteredFromFailed then buyCount[1] + 1 else buyCount[1];
 
@@ -329,14 +348,6 @@ def productivityScore = Round(
 );
 
 # Plots and lines
-plot scanScorePlot =
-    if showPlots == showPlots.Tables or showPlots == showPlots.All then
-        if !intraday and chartState > 0
-        then sellCount * 1.5
-        else sellCount
-    else Double.NaN;
-
-
 plot SMALowPlot =  if plotLevel >= 3 then SMALow else Double.NaN;
 SMALowPlot.AssignValueColor(Color.ORANGE);
 plot EMALowPlot = if plotLevel >= 3 then EMALow else Double.NaN;
@@ -468,15 +479,6 @@ AddLabel(showDetails, "Sells: " + sellCount + " Gain: " +
 Alert(showDetails and allConditionsMet and thresholdValue == 1, "threshold trigger point: $" + open, Alert.BAR, Sound.Bell);
 
 
-# --- Compact Date for Swing Score (yymmdd) ---
-def chartStart =
-    if BarNumber() == 1 then GetYYYYMMDD() else chartStart[1];
-
-def year  = Floor(chartStart / 10000);          # 2025
-def yy    = year - 2000;                        # 25
-def mm    = Floor(chartStart % 10000 / 100);    # 11
-def dd    = chartStart % 100;                   # 06, 20, etc.
-
 plot mh =
     if showPlots == showPlots.All and isInMarketHours
     then (HighestAll(high) + LowestAll(low)) / 2
@@ -486,11 +488,6 @@ mh.SetPaintingStrategy(PaintingStrategy.LINE);
 mh.SetLineWeight(1);
 mh.SetStyle(Curve.MEDIUM_DASH);
 mh.AssignValueColor(Color.DARK_GREEN);
-
-def chartStartFloat = yy * 10000 + mm * 100 + dd;
-
-plot swingScoreDatePlot =
-    if showPlots == showPlots.Tables or showPlots == showPlots.All then chartStartFloat else Double.NaN;
 
 plot dividendDot =
     if showPlots == showPlots.All and !IsNaN(nextDividend) then close else Double.NaN;
