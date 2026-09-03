@@ -1,4 +1,8 @@
 # Stock_Tracker
+
+## AI project notes
+
+Project-specific AI context and handoffs live in [`ai_share/`](ai_share/README.md). Read its instructions and relevant notes before working on this project.
 For my personal use, to be used with my TOS Autotrader. Using my own stratagy. Finds stocks that meet criteria to be good eaners with my auto trader, and also reports on current trades being made in schwab account
 Every trade on auto pilot
 <img width="1150" alt="image" src="https://github.com/user-attachments/assets/dcfbf5bf-e522-4b49-8d24-7eca23cd6fea">

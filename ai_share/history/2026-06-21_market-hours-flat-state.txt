@@ -1,0 +1,23 @@
+Handoff: Open this file in Codex and say "Continue from this handoff."
+
+# Market-hours flat state
+Updated: 2026-06-21
+
+## Goal
+Continue or review the Codex chat topic: Market-hours flat state.
+
+## Decisions made
+- Preserve the conclusion or implementation recorded in the chat outcome below.
+
+## Files / repos touched
+- Stock_Tracker — workspace used by the chat
+
+## Current state
+Exactly. Outside market hours it now returns `0` instead of `Double.NaN`, but `isInMarketHours` blocks the only flat-state trigger. So it keeps table calculations clean without changing any triggers.
+
+## Next steps
+Review the referenced repo and verify the recorded state before continuing; the note was reconstructed from local Codex history.
+
+## Notes for Codex
+- Historical note reconstructed from local Codex session history.
+- Source chat ID(s): 019ee783-f225-70a3-97a0-c56c57560e32
